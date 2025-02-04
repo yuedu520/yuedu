@@ -1,0 +1,60 @@
+[
+  {
+    "bookSourceComment": "//2025.1.26 修复登录函数中与阅读内置变量冲突。◎夜泽川◎\n//2025.1.24 优化登录规则 ◎夜泽川◎\n//2024.7.26 ◎夜泽川◎\n//搜索和发现需要封面可复制规则到相应位置，因为封面是从详情取的，所以可能会导致加载变慢甚至超时，自行斟酌。↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓\na@href\n<js>\nul = source.key + result;\njava.ajax(ul);\n</js>\n[property$=image]@content",
+    "bookSourceGroup": "零,自制",
+    "bookSourceName": "爱丽丝书屋",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://alicesw.org",
+    "bookUrlPattern": "https?://alicesw.org/novel/\\d+.html",
+    "customOrder": 186,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"排行榜\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},{\"title\":\"人气榜\",\"url\":\"https://alicesw.org/all/id/62/order/hits+desc.html?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"字数榜\",\"url\":\"https://alicesw.org/all/id/62/order/word+desc.html?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"推荐榜\",\"url\":\"https://alicesw.org/all/id/62/order/recommend+desc.html?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"全部分类\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},{\"title\":\"校园春色\",\"url\":\"/lists/61.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"东方玄幻\",\"url\":\"/lists/62.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"乡村爱情\",\"url\":\"/lists/63.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市激情\",\"url\":\"/lists/64.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"家庭乱伦\",\"url\":\"/lists/65.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"娱乐明星\",\"url\":\"/lists/72.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史架空\",\"url\":\"/lists/67.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"经典武侠\",\"url\":\"/lists/68.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"系统异能\",\"url\":\"/lists/69.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"穿越重生\",\"url\":\"/lists/70.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科学幻想\",\"url\":\"/lists/71.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"同人改编\",\"url\":\"/lists/73.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"强奸轮奸\",\"url\":\"/lists/74.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"西方魔幻\",\"url\":\"/lists/75.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"贤者小说\",\"url\":\"/lists/76.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"堕落\",\"url\":\"/lists/18.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"反差\",\"url\":\"/lists/22.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"凌辱\",\"url\":\"/lists/46.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"纯爱\",\"url\":\"/lists/19.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"伪娘\",\"url\":\"/lists/52.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"性奴\",\"url\":\"/lists/45.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"萝莉\",\"url\":\"/lists/48.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"禁忌\",\"url\":\"/lists/51.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"熟女\",\"url\":\"/lists/56.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"NTR\",\"url\":\"/lists/54.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"媚黑\",\"url\":\"/lists/53.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"绿帽\",\"url\":\"/lists/55.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"调教\",\"url\":\"/lists/58.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"正太\",\"url\":\"/lists/50.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"女主\",\"url\":\"/lists/59.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"反转\",\"url\":\"/lists/23.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"下克上\",\"url\":\"/lists/43.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"羞耻\",\"url\":\"/lists/34.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"百合\",\"url\":\"/lists/47.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"重口\",\"url\":\"/lists/21.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"其他\",\"url\":\"/lists/57.html?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+    "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+    "lastUpdateTime": 1738486379645,
+    "loginUi": "[   \n   {\n        \"name\": \"输入信息后点击上方√，再点击登录按钮\",\n        \"type\": \"button\",\n        \"action\": \"\",\n        \"style\": {\n            \"layout_flexGrow\": 1,\n            \"layout_flexBasisPercent\": 0.25\n        }\n    },\n    {\n        \"name\": \"用户名/邮箱\",\n        \"type\": \"text\"\n    },\n    {\n        \"name\": \"密码\",\n        \"type\": \"password\"\n    },\n    {\n        \"name\": \"注册\",\n        \"type\": \"button\",\n        \"action\": \"reg()\",\n        \"style\": {\n            \"layout_flexGrow\": 1,\n            \"layout_flexBasisPercent\": 0.25\n        }\n    },\n    {\n        \"name\": \"登录\",\n        \"type\": \"button\",\n        \"action\": \"Login()\",\n        \"style\": {\n            \"layout_flexGrow\": 1,\n            \"layout_flexBasisPercent\": 0.25\n        }\n    },\n    {\n        \"name\": \"登出\",\n        \"type\": \"button\",\n        \"action\": \"out()\",\n        \"style\": {\n            \"layout_flexGrow\": 1,\n            \"layout_flexBasisPercent\": 0.25\n        }\n    },\n    {\n        \"name\": \"◀◎展示登录信息◎▶\",\n        \"type\": \"button\",\n        \"action\": \"show()\",\n        \"style\": {\n            \"layout_flexGrow\": 1,\n            \"layout_flexBasisPercent\": 1\n        }\n    }\n]",
+    "loginUrl": "ul = source.key;\nfunction reg() {\njava.startBrowser(\"https://alicesw.org/user/user/reg.html\",\"注册账号\");\n\t}\nfunction login() {}\nfunction Login() {\n\tcookie.removeCookie(ul);\n\tloginul = \"https://alicesw.org/user/user/login.html\"\n\tcodeul = \"https://alicesw.org/user/user/verify.html\"\n\t \n\tna = source.getLoginInfoMap()['用户名/邮箱'];\n\tpa = source.getLoginInfoMap()['密码']\n\tif (String(na&&pa)) {\n\tphpid = java.get(codeul,{}).header(\"set-cookies\");\n\tjava.log(phpid);\n\tcode = java.getVerificationCode(codeul);\n\tbody = `username=${na}&password=${pa}&code=${code}`\ncook = java.post(loginul,body,{\"x-requested-with\":\"XMLHttpRequest\",\"Cookie\": phpid });\nck = String(cook.cookies()).replace(/[{}]/g,\"\").replace(\",\",\";\");\n\tjava.log(String(ck))\n\theaders = JSON.stringify({\n\t\t       \"Cookie\": ck\n\t\t    });\n\t\tusercode = JSON.parse(cook.body()).msg\n\t\tjava.toast(usercode);\n\t\tif (ck) {\nsource.putLoginHeader(headers);\ncookie.replaceCookie(ul,ck);\n} else {\n\tsource.removeLoginHeader();\n\tcookie.removeCookie(ul)\n\t}\n\t    } else {\n\t\t\tjava.longToast(\"❌\\n未填入账号数据\\n请填入后点击上方√再点击登录按钮\");\n\t\t\t}\n}\nfunction out() {\n  source.removeLoginHeader();\n  cookie.removeCookie(ul);\njava.toast(\"已退出登录状态\");\n}\nfunction show() {\n\tjc = source.getLoginHeaderMap();\n\tif (jc) {\n\tinfo = jc.get(\"Cookie\").match(/%22%3A%22(\\d+?)%22%2C%22username%22%3A%22(.*?)%22%7D/)\n\tus = info[2];\n\tid = info[1];\n\tcodes = \"✔️已登录\";\n\t} else {\n\t\tus = \"无\";\n\tid = \"无\";\n\tcodes = \"❌未登录\";\n}\ntxt = `\\n◎用户：${us}◎\\n◎用户ID：${id}◎\\n◎登录状态：${codes}◎`\n\tjava.longToast(txt);\n}",
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "author": "@get:{a}",
+      "coverUrl": "@get:{i}",
+      "init": "@put:{n:\"[property$=book_name]@content\",\na:\"[property$=author]@content\",\nt:\"class.fix@p.2:3:4@text##.*[：:]\",\nk:\"class.tg@span@text##\\n##,\",\ni:\"[property$=image]@content\",\nl:\"[property$=latest_chapter_name]@content\",\nm:\"text.查看全部章节@href\",\no:\"[property$=description]@content\"}",
+      "intro": "&nbsp;&nbsp;标签🏷️：@get:{k}\n📜简介：@get:{o}",
+      "kind": "@get:{t}",
+      "lastChapter": "@get:{l}",
+      "name": "@get:{n}",
+      "tocUrl": "@get:{m}"
+    },
+    "ruleContent": {
+      "content": "#chapterContent@html",
+      "replaceRegex": "##{{chapter.title}}"
+    },
+    "ruleExplore": {
+      "author": "span.-1@text",
+      "bookList": "class.txt-list@li",
+      "bookUrl": "a@href",
+      "coverUrl": "",
+      "kind": "span.0@a@span@text##\\[|\\]",
+      "lastChapter": "",
+      "name": "span.0@a@textNodes"
+    },
+    "ruleSearch": {
+      "author": ".s4@text",
+      "bookList": "class.txt-list@li!0",
+      "bookUrl": "a@href",
+      "coverUrl": "",
+      "kind": ".s1@text##\\[|\\]",
+      "lastChapter": "",
+      "name": ".s2@text",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "class.section-list@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/search.html?keyword={{key}}&page={{page}}",
+    "weight": 0
+  }
+]
