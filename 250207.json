@@ -1,0 +1,200 @@
+[
+  {
+    "bookSourceGroup": "🎖禁",
+    "bookSourceName": "色情小说〖𝕄𝕦〗",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.seqingxiaoshuo.net/",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "@js:\nsort=[]\npush=((s,a,i,u)=>sort.push({title:s,url:a,style:{layout_flexGrow:i,layout_flexBasisPercent:u}}))\n\narList=[[\"> 人-气 <\",\"2\"],[\"> 最-新 <\",\"2/order/addtime\"],[\"> 连-载 <\",\"1\"]]\narList.map(([a,s])=>{url=`<js>source.setVariable('${s}');java.longToast('已选择 ${a}');</js>`,push(a,url,1,.2)});\npush(\"——•——\",\"\",1,1)\narList=[[\"全部\"],[\"都市\"],[\"古典\"],[\"武侠\"],[\"历史\"],[\"乡土\"],[\"言情\"],[\"耽美\"],[\"校园\"],[\"玄幻\"],[\"官场\"],[\"女尊\"],[\"穿越\"],[\"惊悚\"],[\"同人\"],[\"网游\"],[\"异能\"],[\"仙侠\"],[\"单篇\"]]\narList.map(([s,a],i)=>{url=`/book/category/finish/`+source.getVariable()+`/tags/${i}/page/{{page}}`,push(s,url,1,.2)}),push(\"\",\"\",1,.2)\n\nJSON.stringify(sort);",
+    "lastUpdateTime": 1738477771391,
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "author": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "#content@all"
+    },
+    "ruleExplore": {
+      "bookList": ""
+    },
+    "ruleSearch": {
+      "author": ".author@text",
+      "bookList": ".library li",
+      "bookUrl": "a.0@href",
+      "checkKeyWord": "",
+      "coverUrl": "img@src",
+      "intro": ".intro@text",
+      "kind": "p.0@text&&span@text##作者.+?\\|",
+      "lastChapter": ".chapter@text",
+      "name": ".bookname@text"
+    },
+    "ruleToc": {
+      "chapterList": ".list a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/book/search?key={{key}}",
+    "weight": 0
+  },
+  {
+    "bookSourceGroup": "🎖禁",
+    "bookSourceName": "搜书吧〖𝕄𝕦〗",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://ssb81.com/",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "首页::/\n玄幻::/list/xuanhuanxiaoshuo_{{page}}.html\n修真::/list/xiuzhenxiaoshuo_{{page}}.html\n都市::/list/dushixiaoshuo_{{page}}.html\n穿越::/list/chuanyuexiaoshuo_{{page}}.html\n网游::/list/wangyouxiaoshuo_{{page}}.html\n历史::/list/lishixiaoshuo_{{page}}.html\n短篇::/list/duanpianheji_{{page}}.html\n其他::/list/qitaxiaoshuo_{{page}}.html",
+    "lastUpdateTime": 1737777705932,
+    "respondTime": 5577,
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "init": "meta",
+      "intro": "[property=\"og:novel:update_time\"]@content&&\n[property=\"og:description\"]@content##^##更新时间：",
+      "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content||[property=\"og:novel:lastest_chapter_name\"]@content",
+      "name": "[property=\"og:novel:book_name\"]@content"
+    },
+    "ruleContent": {
+      "content": "#article@p@text"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "span@text",
+      "bookList": ".category-div||.outdiv",
+      "bookUrl": "a@href",
+      "coverUrl": "img@data-original",
+      "intro": "div@textNodes",
+      "name": "h3@text"
+    },
+    "ruleToc": {
+      "chapterList": ".info-chapters.-1@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/search/,{\"method\":\"post\",\"body\":\"searchkey={{key}}\"}",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "https://wap.sou78.com/",
+    "bookSourceGroup": "🎖禁",
+    "bookSourceName": "搜小说〖𝕄𝕦〗",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.sou78.com/",
+    "customOrder": 105,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "全本::/modules/article/articlelist.php?fullflag=1&page={{page}}\n全部::/books/{{page}}.html\n都市::/sort_3/{{page}}.html\n耽美::/sort_6/{{page}}.html\n玄幻::/sort_1/{{page}}.html\n穿越::/sort_7/{{page}}.html\n悬疑::/sort_5/{{page}}.html\n高辣::/sort_8/{{page}}.html\n精品::/sort_10/{{page}}.html\n百合::/sort_9/{{page}}.html\n科幻::/sort_4/{{page}}.html\n武侠::/sort_2/{{page}}.html",
+    "lastUpdateTime": 1737777893548,
+    "respondTime": 3153,
+    "ruleBookInfo": {
+      "author": ".writer@text",
+      "canReName": "",
+      "coverUrl": "img@src",
+      "init": ".ny_jj&&.mulu",
+      "intro": ".intro@text",
+      "kind": ".blue@text",
+      "lastChapter": ".mulu@a.0@text",
+      "name": "h1@text",
+      "tocUrl": ".mubtn@a@href##/(\\d+)##https://wap.sou78.com/info.php?aid=$1###",
+      "wordCount": "p.2@text"
+    },
+    "ruleContent": {
+      "content": "#novelcontent@all"
+    },
+    "ruleExplore": {
+      "author": ".fl.0@text",
+      "bookList": ".list_main li",
+      "bookUrl": "a@href",
+      "coverUrl": "img@src",
+      "intro": ".intro@text",
+      "kind": ".fl.1@text",
+      "name": ".t@text"
+    },
+    "ruleSearch": {
+      "author": ".zz@text##^\\w+：",
+      "bookList": ".other_s li",
+      "bookUrl": "a@href",
+      "coverUrl": "img@src",
+      "intro": ".jj@text",
+      "name": ".bq@text"
+    },
+    "ruleToc": {
+      "chapterList": ".info_chapters@ul.1@li",
+      "chapterName": "a@text",
+      "chapterUrl": "a@href",
+      "nextTocUrl": "option@value"
+    },
+    "searchUrl": "/modules/article/search.php?keywords=all&searchkey={{key}}&submit=搜索,{\"charset\":\"gbk\",\"headers\":{\"Referer\":\"https://www.sou78.com/modules/article/search.php\"}}",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎖禁",
+    "bookSourceName": "禁漫天堂〖𝕄𝕦〗",
+    "bookSourceType": 2,
+    "bookSourceUrl": "https://www.18mh.net",
+    "bookUrlPattern": "",
+    "concurrentRate": "",
+    "customOrder": 461,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "全部小说::/novel/all\n都市激情::/novel/all?theme=1&page={{page}}\n校园春色::/novel/all?theme=2&page={{page}}\n乡村爱情::/novel/all?theme=3&page={{page}}\n系统异能::/novel/all?theme=4&page={{page}}\n家庭乱伦::/novel/all?theme=5&page={{page}}\n穿越重生::/novel/all?theme=6&page={{page}}\n经典武侠::/novel/all?theme=7&page={{page}}\n同人改编::/novel/all?theme=8&page={{page}}\n科学幻想::/novel/all?theme=9&page={{page}}\n东方玄幻::/novel/all?theme=10&page={{page}}\n娱乐明星::/novel/all?theme=11&page={{page}}\n历史架空::/novel/all?theme=12&page={{page}}\n西方魔幻::/novel/all?theme=13&page={{page}}\n贤者小说::/novel/all?theme=14&page={{page}}",
+    "header": "",
+    "lastUpdateTime": 1738510263049,
+    "loginCheckJs": "",
+    "loginUi": "",
+    "loginUrl": "",
+    "respondTime": 154213,
+    "ruleBookInfo": {
+      "author": "a[href*=\"author\"]@text",
+      "coverUrl": "img@src",
+      "init": ".flex-1",
+      "intro": ".mb-2 a@text&&.flex-1 div@textNodes##目录: .*|全部评论.*|\\{\\{comment_content\\}\\}",
+      "kind": "a[href*=\"theme\"]@text",
+      "lastChapter": "",
+      "name": "h1@text"
+    },
+    "ruleContent": {
+      "content": "main@html",
+      "imageStyle": "FULL",
+      "nextContentUrl": ""
+    },
+    "ruleExplore": {
+      "bookList": "",
+      "bookUrl": "",
+      "name": ""
+    },
+    "ruleSearch": {
+      "author": ".underline.0@text",
+      "bookList": ".index-content li",
+      "bookUrl": "a@href",
+      "checkKeyWord": "",
+      "coverUrl": "img@src",
+      "intro": ".overflow-hidden@div@text##作者：.*",
+      "kind": "",
+      "lastChapter": ".items-center span.-1@text",
+      "name": ".dx-title@textNodes"
+    },
+    "ruleToc": {
+      "chapterList": ".cursor-pointer a||ul .text-base3",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/novel/all?key_word={{key}}",
+    "weight": 0
+  }
+]
