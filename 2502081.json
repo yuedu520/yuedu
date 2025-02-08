@@ -1,0 +1,99 @@
+[
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "常规",
+    "bookSourceName": "精华书阁",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.jhsssd.com/",
+    "customOrder": -3,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "exploreUrl": "[\n{\"title\":\"排行榜\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"总点击\",\"url\":\"/Ranking_allvisit/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"日点击\",\"url\":\"/Ranking_dayvisit/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"周点击\",\"url\":\"/Ranking_weekvisit/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"月点击\",\"url\":\"/Ranking_monthvisit/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"总推荐\",\"url\":\"/Ranking_allvote/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"周推荐\",\"url\":\"/Ranking_weekvote/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"月推荐\",\"url\":\"/Ranking_monthvote/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"收藏推荐\",\"url\":\"/Ranking_goodnum/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"字数排行\",\"url\":\"/Ranking_size/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"最新入库\",\"url\":\"/Ranking_postdate/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"最近更新\",\"url\":\"/Ranking_lastupdate/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"新书榜单\",\"url\":\"/Ranking_goodnew/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"分类\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻\",\"url\":\"/list/1_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"修真\",\"url\":\"/list/2_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市\",\"url\":\"/list/3_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"穿越\",\"url\":\"/list/4_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"网游\",\"url\":\"/list/5_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻\",\"url\":\"/list/6_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"灵异\",\"url\":\"/list/7_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"女生\",\"url\":\"/list/8_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"其他\",\"url\":\"/list/9_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"完本\",\"url\":\"/wanben_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n]",
+    "lastUpdateTime": 1735263080677,
+    "loginUrl": "",
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "author": "p.2@text##作者：",
+      "coverUrl": "",
+      "intro": ".intro_info@textNodes",
+      "kind": "p.3@text&&p.4@text##分类：|状态：|小说",
+      "lastChapter": "p.6@text##最新：",
+      "name": "h2@text"
+    },
+    "ruleContent": {
+      "content": "id.nr1@html",
+      "nextContentUrl": "id.pb_next@href",
+      "replaceRegex": "##阅读提示：为防止内容获取不全，请勿使用浏览器阅读模式。.*|本章未完，请点击下一页继续阅读》》.*|"
+    },
+    "ruleExplore": {
+      "author": ".xsm.0@textNodes##\\(|\\)",
+      "bookList": "ul@class.xbk",
+      "bookUrl": "li.0@a@href",
+      "coverUrl": "img@src",
+      "intro": "{{@@span.1@text}}{{@@span.-2@text}}##最新.*|简介：|作者：|\\.\\.\\.",
+      "kind": "",
+      "name": ".xsm.0@a@text"
+    },
+    "ruleSearch": {
+      "author": ".author@text##作者：",
+      "bookList": ".searchbook",
+      "bookUrl": "a@href",
+      "coverUrl": "img@src",
+      "kind": ".cat@text##分类：",
+      "lastChapter": ".update@text最新章节：",
+      "name": ".bookname@text"
+    },
+    "ruleToc": {
+      "chapterList": "ul.1@a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "/search.html?ie=utf-8&word={{key}}&page={{page}}",
+    "weight": 0
+  },
+  {
+    "bookSourceName": "得奇小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.deqixs.com",
+    "bookUrlPattern": "https://www.deqixs.com/xiaoshuo/\\d+/",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"最近更新\",\"url\":\"https://www.deqixs.com/xiaoshuo/1-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"热门小说\",\"url\":\"https://www.deqixs.com/xiaoshuo/2-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}}]",
+    "lastUpdateTime": 1733682977284,
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "author": ".itemtxt@p.1@text",
+      "coverUrl": ".item@img@src@js:result=\"https:\"+result",
+      "init": "",
+      "intro": "class.des bb.0@text",
+      "kind": ".itemtxt@p.0@span[0,1,2]@text&&.itemtxt@ul@li.0@i@text",
+      "lastChapter": ".itemtxt@ul@li.0@text",
+      "name": "h1@a@text",
+      "wordCount": "h1@i@text"
+    },
+    "ruleContent": {
+      "content": ".con@p@html",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleSearch": {
+      "author": "p.1@text",
+      "bookList": ".item",
+      "bookUrl": "h3@a@href",
+      "coverUrl": "img@src",
+      "kind": "p.0@span[0,1,2]@text&&ul@li.0@i@text",
+      "lastChapter": "ul@li.0@a@text",
+      "name": "h3@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "#list li a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/tag/?key={{key}}",
+    "weight": 0
+  }
+]
