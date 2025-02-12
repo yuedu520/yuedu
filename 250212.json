@@ -1,0 +1,48 @@
+[
+  {
+    "bookSourceComment": "搜索URL\n{{cookie.removeCookie(source.getKey())}}\n/search/?searchkey={{key}}",
+    "bookSourceGroup": "S_Lin",
+    "bookSourceName": "顶点小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.2dingdian.com/",
+    "customOrder": 4,
+    "enabled": false,
+    "enabledCookieJar": true,
+    "enabledExplore": false,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\"\n}",
+    "lastUpdateTime": 1739180255935,
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "author": "[property$=author]@content",
+      "coverUrl": "[property$=image]@content",
+      "init": "",
+      "intro": "[property$=description]@content",
+      "kind": "[property$=category]@content",
+      "lastChapter": "[property$=latest_chapter_name]@content",
+      "name": "[property$=book_name]@content"
+    },
+    "ruleContent": {
+      "content": "#content@html",
+      "nextContentUrl": "text.下一页@href",
+      "replaceRegex": "##.*求收藏.*|.*本章完.*|.*6.9.书.吧.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": ".btm@a@text",
+      "bookList": ".item",
+      "bookUrl": "dl@dt@a@href",
+      "checkKeyWord": "系统",
+      "coverUrl": ".image@img@data-original",
+      "intro": "dd@text",
+      "name": "dl@dt@a@text",
+      "wordCount": ".orange@text"
+    },
+    "ruleToc": {
+      "chapterList": "#list dt:nth-of-type(2)~a\n<js>\n// 使用css选择器获取第二个dt标签后的所有a标签\n//如果有问题用下面的试试，取href的值里包含有ddxs的a标签\n//#list dt:nth-of-type(2)~a[href~=ddxs]\n// 这是注释\nresult\n</js>",
+      "chapterName": "dd@text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "{{url=source.getKey();\ncookie.removeCookie(url)\njava.ajax(url).match(/search.*action=\"(.+?)\"/)[1]}}?searchkey={{key}}",
+    "weight": 0
+  }
+]
