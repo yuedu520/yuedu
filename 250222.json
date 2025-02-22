@@ -1,0 +1,44 @@
+[
+  {
+    "bookSourceComment": "备用网址: 1080zyk1.com 至 1080zyk5.com \nM3U8视频解析：\nhttps://vip.zykbf.com/?url=",
+    "bookSourceGroup": "白鹿",
+    "bookSourceName": "优质资源",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.hdzyk.com",
+    "customOrder": 448,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"❎电影\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"动作片\",\"url\":\"/inc/apijson.php?ac=detail&pg={{page}}&t=5\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"喜剧片\",\"url\":\"/inc/apijson.php?ac=detail&pg={{page}}&t=6\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"爱情片\",\"url\":\"/inc/apijson.php?ac=detail&pg={{page}}&t=7\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻片\",\"url\":\"/inc/apijson.php?ac=detail&pg={{page}}&t=8\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"恐怖片\",\"url\":\"/inc/apijson.php?ac=detail&pg={{page}}&t=9\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"剧情片\",\"url\":\"/inc/apijson.php?ac=detail&pg={{page}}&t=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"战争片\",\"url\":\"/inc/apijson.php?ac=detail&pg={{page}}&t=11\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"记录片\",\"url\":\"/inc/apijson.php?ac=detail&pg={{page}}&t=20\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"动画片\",\"url\":\"/inc/apijson.php?ac=detail&pg={{page}}&t=41\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"伦理片\",\"url\":\"/inc/apijson.php?ac=detail&pg={{page}}&t=61\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"❎电视剧\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"国产剧\",\"url\":\"/inc/apijson.php?ac=detail&pg={{page}}&t=12\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"台湾剧\",\"url\":\"/inc/apijson.php?ac=detail&pg={{page}}&t=13\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"韩国剧\",\"url\":\"/inc/apijson.php?ac=detail&pg={{page}}&t=14\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"欧美剧\",\"url\":\"/inc/apijson.php?ac=detail&pg={{page}}&t=15\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"香港剧\",\"url\":\"/inc/apijson.php?ac=detail&pg={{page}}&t=16\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"泰国剧\",\"url\":\"/inc/apijson.php?ac=detail&pg={{page}}&t=17\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"日本剧\",\"url\":\"/inc/apijson.php?ac=detail&pg={{page}}&t=18\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"海外剧\",\"url\":\"/inc/apijson.php?ac=detail&pg={{page}}&t=54\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"❎综艺\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"大陆综艺\",\"url\":\"/inc/apijson.php?ac=detail&pg={{page}}&t=62\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"港台综艺\",\"url\":\"/inc/apijson.php?ac=detail&pg={{page}}&t=63\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"日韩综艺\",\"url\":\"/inc/apijson.php?ac=detail&pg={{page}}&t=64\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"欧美综艺\",\"url\":\"/inc/apijson.php?ac=detail&pg={{page}}&t=65\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"❎动漫\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"国产动漫\",\"url\":\"/inc/apijson.php?ac=detail&pg={{page}}&t=66\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"日韩动漫\",\"url\":\"/inc/apijson.php?ac=detail&pg={{page}}&t=67\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"欧美动漫\",\"url\":\"/inc/apijson.php?ac=detail&pg={{page}}&t=68\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"港台动漫\",\"url\":\"/inc/apijson.php?ac=detail&pg={{page}}&t=69\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"❎福利\",\"url\":\"/inc/apijson.php?ac=detail&pg={{page}}&t=19\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}}\n]\n\n",
+    "header": "",
+    "lastUpdateTime": 1736826484095,
+    "respondTime": 4084,
+    "ruleBookInfo": {
+      "init": "",
+      "intro": "",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "@js:\nif(book.durChapterIndex==chapter.index){\n//baseUrl=\"https://vip.zykbf.com/?url=\"+baseUrl\njava.startBrowser(baseUrl,title)\n}\n'<p>【刷新正文】播放<br>或者【点击章节链接】跳转到浏览器播放</p>'"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "主演:{{$.vod_actor}}",
+      "bookList": "$..list[*]",
+      "bookUrl": "/inc/apijson.php?ac=detail&ids={{$.vod_id}}",
+      "coverUrl": "$.vod_pic",
+      "intro": "$.vod_content",
+      "kind": "导演:{{$.vod_director}}\n{{$.vod_year}}\n{{$.type_name}}\n{{$.vod_remarks}}",
+      "lastChapter": "",
+      "name": "$.vod_name",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "@js:\nvar s=eval(\"'\"+result.match(/vod_play_url\":\"(.*?)\"/)[1]+\"'\").split(\"#\")\nvar txt=[]\nfor(i in s){\n\ttxt.push({text:s[i].replace(/\\$.*/,''),href:s[i].replace(/.*\\$/,'')})\n\t}\ntxt",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/inc/apijson.php?ac=detail&wd={{key}}&pg={{page}}",
+    "weight": 0
+  }
+]
