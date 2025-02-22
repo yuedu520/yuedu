@@ -1,0 +1,127 @@
+[
+  {
+    "bookSourceComment": "// Error: 发现失效\n\n导航页 https://www.2xiuren.com/",
+    "bookSourceGroup": "0219,发现失效",
+    "bookSourceName": "秀人集",
+    "bookSourceType": 2,
+    "bookSourceUrl": "http://www.xiu01.top/",
+    "bookUrlPattern": "",
+    "concurrentRate": "",
+    "coverDecodeJs": "",
+    "customOrder": -99016,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreScreen": "",
+    "exploreUrl": "最近更新::http://www.xiu01.top/new.html\n站长推荐::http://www.xiu01.top/hot.html\n秀人网::http://www.xiu01.top/XiuRen/{{page - 1 == 0 ? \"\" : \"index\"+page+\".html\"}}\n模范学院::http://www.xiu01.top/MFStar/{{page - 1 == 0 ? \"\" : \"index\"+page+\".html\"}}\n魅妍社::http://www.xiu01.top/MiStar/{{page - 1 == 0 ? \"\" : \"index\"+page+\".html\"}}\n美媛馆::http://www.xiu01.top/MyGirl/{{page - 1 == 0 ? \"\" : \"index\"+page+\".html\"}}\nImiss爱蜜社::http://www.xiu01.top/IMiss/{{page - 1 == 0 ? \"\" : \"index\"+page+\".html\"}}\n兔几盟::http://www.xiu01.top/BoLoli/{{page - 1 == 0 ? \"\" : \"index\"+page+\".html\"}}\n尤物馆::http://www.xiu01.top/YouWu/{{page - 1 == 0 ? \"\" : \"index\"+page+\".html\"}}\n优星馆::http://www.xiu01.top/Uxing/{{page - 1 == 0 ? \"\" : \"index\"+page+\".html\"}}\n蜜桃社::http://www.xiu01.top/MiiTao/{{page - 1 == 0 ? \"\" : \"index\"+page+\".html\"}}\n嗲囡囡::http://www.xiu01.top/FeiLin/{{page - 1 == 0 ? \"\" : \"index\"+page+\".html\"}}\n影私荟::http://www.xiu01.top/WingS/{{page - 1 == 0 ? \"\" : \"index\"+page+\".html\"}}\n顽味生活::http://www.xiu01.top/Taste/{{page - 1 == 0 ? \"\" : \"index\"+page+\".html\"}}\n星乐园::http://www.xiu01.top/LeYuan/{{page - 1 == 0 ? \"\" : \"index\"+page+\".html\"}}\nHuaYan花の颜::http://www.xiu01.top/HuaYan/{{page - 1 == 0 ? \"\" : \"index\"+page+\".html\"}}\nDKGirl御女郎::http://www.xiu01.top/DKGirl/{{page - 1 == 0 ? \"\" : \"index\"+page+\".html\"}}\nMintYe薄荷叶::http://www.xiu01.top/MintYe/{{page - 1 == 0 ? \"\" : \"index\"+page+\".html\"}}\n尤蜜荟::http://www.xiu01.top/YouMi/{{page - 1 == 0 ? \"\" : \"index\"+page+\".html\"}}\n糖果画报::http://www.xiu01.top/Candy/{{page - 1 == 0 ? \"\" : \"index\"+page+\".html\"}}\nMTMeng模特联盟::http://www.xiu01.top/MTMeng/{{page - 1 == 0 ? \"\" : \"index\"+page+\".html\"}}\nMicat猫萌榜::http://www.xiu01.top/Micat/{{page - 1 == 0 ? \"\" : \"index\"+page+\".html\"}}\n花漾::http://www.xiu01.top/HuaYang/{{page - 1 == 0 ? \"\" : \"index\"+page+\".html\"}}\n星颜社::http://www.xiu01.top/XingYan/{{page - 1 == 0 ? \"\" : \"index\"+page+\".html\"}}\n画语界::http://www.xiu01.top/XiaoYu/{{page - 1 == 0 ? \"\" : \"index\"+page+\".html\"}}\n奶瓶土肥圆::http://www.xiu01.top/zhouyanxi.html\n女神杨晨晨::http://www.xiu01.top/yangchenchen.html\nEgg-尤妮丝::http://www.xiu01.top/younisi.html\n就是阿朱啊::http://www.xiu01.top/azhu.html\n妲己_Toxic::http://www.xiu01.top/daji.html\n女神王雨纯::http://www.xiu01.top/wangyuchun.html\n女神周于希::http://www.xiu01.top/zhouyuxi.html\n女神朱可儿::http://www.xiu01.top/zhukeer.html\n女神芝芝Booty::http://www.xiu01.top/zhizhi_Booty.html\n女神绯月樱::http://www.xiu01.top/feiyueying.html\n女神顾奈奈::http://www.xiu01.top/gunainaijiang.html\n女神娜露Selena::http://www.xiu01.top/nalu_Selena.html\n模特陆萱萱::http://www.xiu01.top/luxuanxuan.html\n女神王馨瑶yanni::http://www.xiu01.top/wangxinyao.html\n模特唐安琪::http://www.xiu01.top/tanganqi.html\n模特美桃酱::http://www.xiu01.top/meitaojiang.html\n模特鱼子酱::http://www.xiu01.top/yuzijiang.html\n模特熊小诺::http://www.xiu01.top/xiongxiaonuo.html\n模特婠婠么::http://www.xiu01.top/wanwanmo.html\n模特江真真::http://www.xiu01.top/jiangzhenzhen.html\n模特林珊珊::/linshanshan.html\n模特利世::/lishi.html\n模特媛媛酱::/yaunyuanjiang.html\n模特小海臀::/xiaohaitun.html",
+    "header": "",
+    "lastUpdateTime": 1738675106782,
+    "loginCheckJs": "",
+    "loginUi": "",
+    "loginUrl": "",
+    "respondTime": 244517,
+    "ruleBookInfo": {
+      "author": "",
+      "canReName": "",
+      "coverUrl": "a.1@href##.+\\D((\\d+)\\d{3})\\D##https://www.quanjixiu.com/uploadfile/pic/$1.webp###",
+      "init": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "class.title",
+      "tocUrl": "class.title",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "p@tag.img@html",
+      "imageStyle": "",
+      "nextContentUrl": "text.下页@href",
+      "replaceRegex": "",
+      "sourceRegex": "",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "author": "class.postlist-imagenum@span@text",
+      "bookList": "class.i_list list_n2",
+      "bookUrl": "@tag.a@href",
+      "coverUrl": "@tag.img@src",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "class.meta-title@text",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "",
+      "bookList": "class.sousuo||class",
+      "bookUrl": "a@href",
+      "coverUrl": "a.1@href##.+\\D((\\d+)\\d{3})\\D##https://www.quanjixiu.com/uploadfile/pic/$1.webp###",
+      "intro": "p@text",
+      "kind": "",
+      "lastChapter": "",
+      "name": "h2@text",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "tag.h1",
+      "chapterName": "@text",
+      "chapterUrl": "a@href",
+      "isVip": "",
+      "isVolume": "",
+      "nextTocUrl": "",
+      "updateTime": ""
+    },
+    "searchUrl": "http://www.xiu01.top/plus/search/index.asp?keyword={{key}}&searchtype=titlekeywords&p={{page}}",
+    "variableComment": "",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "// Error: org.mozilla.javascript.EcmaError: ReferenceError: “性感” 未定义。 (<Unknown source>#1) in <Unknown source> at line number 1",
+    "bookSourceGroup": "0219,js失效",
+    "bookSourceName": "🔥XIUREN",
+    "bookSourceType": 2,
+    "bookSourceUrl": "https://xiuren.biz/",
+    "customOrder": -98964,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[\n{'title':'☑️自定义搜索','url':'','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'幼幼','url':'/page/{{page}}?s=幼幼','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'☑️排行','url':'','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'月榜','url':'/popular-this-month/','style':{layout_flexGrow:1,layout_flexBasisPercent:0.24}},\n{'title':'最新','url':'/latest-post/','style':{layout_flexGrow:1,layout_flexBasisPercent:0.24}},\n{'title':'☑️分类-(按网站收录时间而非Vol排序)','url':'','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'XiuRen','url':'/category/xiuren/page/{{page}}/','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'Ugirls App','url':'/category/ugirls/page/{{page}}/','style':{layout_flexGrow:1,layout_flexBasisPercent:0.32}},\n{'title':'FeiLin','url':'/category/feilin/page/{{page}}/','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'MiStar','url':'/category/mistar/page/{{page}}/','style':{layout_flexGrow:1,layout_flexBasisPercent:0.24}},\n{'title':'MyGirl','url':'/category/mygirl/page/{{page}}/','style':{layout_flexGrow:1,layout_flexBasisPercent:0.24}},\n{'title':'HuaYang','url':'/category/huayang/page/{{page}}/','style':{layout_flexGrow:1,layout_flexBasisPercent:0.24}},\n{'title':'IMISS','url':'/category/imiss/page/{{page}}/','style':{layout_flexGrow:1,layout_flexBasisPercent:0.24}},\n{'title':'MFStar','url':'/category/mfstar/page/{{page}}/','style':{layout_flexGrow:1,layout_flexBasisPercent:0.24}},\n{'title':'MiiTao','url':'/category/miitao/page/{{page}}/','style':{layout_flexGrow:1,layout_flexBasisPercent:0.24}},\n{'title':'XiaoYu','url':'/category/xiaoyu/page/{{page}}/','style':{layout_flexGrow:1,layout_flexBasisPercent:0.24}},\n{'title':'YouMi','url':'/category/youmi/page/{{page}}/','style':{layout_flexGrow:1,layout_flexBasisPercent:0.24}},\n{'title':'DJAWA','url':'/category/djawa/page/{{page}}/','style':{layout_flexGrow:1,layout_flexBasisPercent:0.24}},\n{'title':'Hot Girl','url':'/category/hot-girl/page/{{page}}/','style':{layout_flexGrow:1,layout_flexBasisPercent:0.24}}\n]",
+    "lastUpdateTime": 1738708131660,
+    "respondTime": 180005,
+    "ruleBookInfo": {
+      "author": ".jeg_meta_author@a.-1@text",
+      "kind": ".entry-content@div.-1@a@text",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": ".content-inner@p@a!0@img@html",
+      "imageStyle": "full"
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "name": "",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "bookList": ".box_wrap",
+      "bookUrl": "a.0@href",
+      "checkKeyWord": "xiuren",
+      "coverUrl": "img@data-src",
+      "intro": "a.-3@text",
+      "kind": "span.0@text",
+      "name": "a.-3@text",
+      "wordCount": "{{@@a.-2@text##^##🕘}},{{@@a.-1@text##^##👁}}"
+    },
+    "ruleToc": {
+      "chapterList": "h1.jeg_post_title",
+      "chapterName": "text"
+    },
+    "searchUrl": "/page/{{page}}?s={{性感}}",
+    "weight": 0
+  }
+]
