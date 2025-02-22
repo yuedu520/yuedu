@@ -1,0 +1,707 @@
+[
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "搜索链接规则为空,兔兔兔",
+    "bookSourceName": "喜马拉雅",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.ximalaya.com#",
+    "customOrder": 1571,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 0,
+    "loginUrl": "｡◕‿◕｡",
+    "respondTime": 0,
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": ""
+    },
+    "ruleExplore": {},
+    "ruleSearch": {},
+    "ruleToc": {},
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "女频小说::https://www.ximalaya.com/channel/7-10881/p{{page}}/\nclass.albums _XJ@ul@li@class.T_G\na.-1@text\na.-1@href\n",
+    "bookSourceGroup": "音频",
+    "bookSourceName": "Ⓢ 喜马拉雅 ▪︎关耳",
+    "bookSourceType": 1,
+    "bookSourceUrl": "http://search.ximalaya.com#md-guaner",
+    "customOrder": 1743,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "exploreUrl": "✱　　　　　　✱  评    书  ✱　　　　　　✱::\n评书::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=评书&page={{page}}&rows=20&spellchecker=true\n粤语::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=粤语&page={{page}}&rows=20&spellchecker=true\n粤语评书::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=粤语评书&page={{page}}&rows=20&spellchecker=true\n讲古::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=讲古&page={{page}}&rows=20&spellchecker=true\n张悦楷::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=张悦楷&page={{page}}&rows=20&spellchecker=true\n脱口秀::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=脱口秀&page={{page}}&rows=20&spellchecker=true\n段子::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=段子&page={{page}}&rows=20&spellchecker=true\n笑话::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=笑话&page={{page}}&rows=20&spellchecker=true\n搞笑::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=搞笑&page={{page}}&rows=20&spellchecker=true\n糗事::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=糗事&page={{page}}&rows=20&spellchecker=true\n广播剧::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=广播剧&page={{page}}&rows=20&spellchecker=true\n多人::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=多人&page={{page}}&rows=20&spellchecker=true\n香港::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=香港&page={{page}}&rows=20&spellchecker=true\n明星::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=明星&page={{page}}&rows=20&spellchecker=true\n电台::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=电台&page={{page}}&rows=20&spellchecker=true\n动漫::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=动漫&page={{page}}&rows=20&spellchecker=true\n漫画::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=漫画&page={{page}}&rows=20&spellchecker=true\n✱　　　　　　✱  分    类  ✱　　　　　　✱::\n玄幻::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=玄幻&page={{page}}&rows=20&spellchecker=true\n大剧::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=大剧&page={{page}}&rows=20&spellchecker=true\n仙侠::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=仙侠&page={{page}}&rows=20&spellchecker=true\n都市::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=都市&page={{page}}&rows=20&spellchecker=true\n经典::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=经典&page={{page}}&rows=20&spellchecker=true\n幻想::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=幻想&page={{page}}&rows=20&spellchecker=true\n武侠::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=武侠&page={{page}}&rows=20&spellchecker=true\n历史::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=历史小说&page={{page}}&rows=20&spellchecker=true\n教材::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=教材&page={{page}}&rows=20&spellchecker=true\n英文::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=英文原版&page={{page}}&rows=20&spellchecker=true\n名著::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=名著&page={{page}}&rows=20&spellchecker=true\n乡村::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=乡村&page={{page}}&rows=20&spellchecker=true\n游戏::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=游戏&page={{page}}&rows=20&spellchecker=true\n无限::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=无限&page={{page}}&rows=20&spellchecker=true\n魔幻::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=魔法&page={{page}}&rows=20&spellchecker=true\n多人::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=多人剧&page={{page}}&rows=20&spellchecker=true\n相声::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=相声&page={{page}}&rows=20&spellchecker=true\n限免::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=限免&page={{page}}&rows=20&spellchecker=true\n言情::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=言情&page={{page}}&rows=20&spellchecker=true\n免费::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=免费&page={{page}}&rows=20&spellchecker=true\n✱　　　　　　✱  音    乐  ✱　　　　　　✱::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:2&kw=音乐&page={{page}}&rows=20&spellchecker=true\n乡村::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:2&kw=乡村&page={{page}}&rows=20&spellchecker=true\n流行::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:2&kw=流行Top&page={{page}}&rows=20&spellchecker=true\n老歌::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:2&kw=老歌&page={{page}}&rows=20&spellchecker=true\n榜单::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:2&kw=榜单&page={{page}}&rows=20&spellchecker=true\n巅峰::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:2&kw=巅峰榜&page={{page}}&rows=20&spellchecker=true\n粤语::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:2&kw=粤语&page={{page}}&rows=20&spellchecker=true\n日语::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:2&kw=日语&page={{page}}&rows=20&spellchecker=true\n日本::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:2&kw=日本&page={{page}}&rows=20&spellchecker=true\n英语::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:2&kw=英语&page={{page}}&rows=20&spellchecker=true\n英国::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:2&kw=英国&page={{page}}&rows=20&spellchecker=true\n欧美::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:2&kw=欧美&page={{page}}&rows=20&spellchecker=true\n韩语::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:2&kw=韩语&page={{page}}&rows=20&spellchecker=true\n韩国::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:2&kw=韩国&page={{page}}&rows=20&spellchecker=true\n动漫::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:2&kw=动漫&page={{page}}&rows=20&spellchecker=true\n钢琴::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:2&kw=钢琴&page={{page}}&rows=20&spellchecker=true\n小提琴::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:2&kw=小提琴&page={{page}}&rows=20&spellchecker=true\n轻音乐::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:2&kw=轻音乐&page={{page}}&rows=20&spellchecker=true\n治愈::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:2&kw=治愈&page={{page}}&rows=20&spellchecker=true\n民谣::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:2&kw=民谣&page={{page}}&rows=20&spellchecker=true\n摇滚::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:2&kw=摇滚&page={{page}}&rows=20&spellchecker=true\n民族::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:2&kw=民族&page={{page}}&rows=20&spellchecker=true\n爵士::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:2&kw=爵士&page={{page}}&rows=20&spellchecker=true\n古风::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:2&kw=古风&page={{page}}&rows=20&spellchecker=true\n古典::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:2&kw=古典&page={{page}}&rows=20&spellchecker=true\n抖音::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:2&kw=抖音&page={{page}}&rows=20&spellchecker=true",
+    "lastUpdateTime": 1670403754919,
+    "respondTime": 11513,
+    "ruleBookInfo": {
+      "tocUrl": "http://mobile.ximalaya.com/fmobile-album/album/track/ts-1576706285548?ac=4G&albumId=@get:{book}&device=android&isAsc=true&isQueryInvitationBrand=true&isVideoAsc=true&pageSize=200&source=3&supportWebp=true&pageId=1"
+    },
+    "ruleContent": {
+      "content": "",
+      "imageStyle": "0"
+    },
+    "ruleExplore": {
+      "bookList": "",
+      "bookUrl": "",
+      "name": ""
+    },
+    "ruleSearch": {
+      "author": "nickname",
+      "bookList": "$.response.docs",
+      "bookUrl": "http://mobile.ximalaya.com/fmobile-album/album/track/ts-1576706285548?ac=4G&albumId={$.id}&device=android&isAsc=true&isQueryInvitationBrand=true&isVideoAsc=true&pageSize=200&source=3&supportWebp=true&pageId=1",
+      "coverUrl": "cover_path",
+      "intro": "$..intro",
+      "kind": "category_title",
+      "name": "title@put:{book:id}"
+    },
+    "ruleToc": {
+      "chapterList": "$.data.list",
+      "chapterName": "title",
+      "chapterUrl": "playPathAacv224",
+      "nextTocUrl": "<js>\nvar a = 'http://mobile.ximalaya.com/fmobile-album/album/track/ts-1576706285548?ac=4G&albumId=@get:{book}&device=android&isAsc=true&isQueryInvitationBrand=true&isVideoAsc=true&pageSize=200&source=3&supportWebp=true&pageId=';\nvar r = [];\nfor(var i=1;i<40;i++){\n    r.push(a + parseInt(i*1));\n}\nr\n</js>"
+    },
+    "searchUrl": "http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw={{key}}&page={{page}}&rows=20&spellchecker=true",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "By暴风雪+乃星补加发现",
+    "bookSourceGroup": "有声",
+    "bookSourceName": "🎧喜马拉雅",
+    "bookSourceType": 1,
+    "bookSourceUrl": "https://www.ximalaya.com/#乃星",
+    "customOrder": 1756,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "❀                             广 播 剧                             ❀::https://www.ximalaya.com/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=\n 架 空 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=jiakong日韩::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=yinyue&subcategory=reci506\n 都 市 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=dushi\n 校 园 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=xiaoyuan\n 武 侠 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=wuxia\n 仙 侠 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=xianxia\n 奇 幻 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=qihuan\n 玄 幻 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=xuanhuan\n 科 幻 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=kehuan\n 悬 疑 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=xuanyi\n 推 理 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=tuili\n 历 史 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=lishi\n 职 场 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=zhichang\n 同 人 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=tongrenwen\n 游 戏 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=youxi\n 爆 笑 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=baoxiao\n 脑 洞 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=naodong\n 日 漫 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=riman\n 萌 系 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=mengxi\n 恋 爱 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=lianai\n 纯 爱 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=reci1367\n  玛 丽 苏  ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=malisu\n 霸道总裁 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=badaozongcai\n 虚拟偶像 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=xuniouxiang\n 现代言情 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=reci546\n 古风言情 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=reci52\n 画风清奇 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=huafengqingqi\n 民间故事 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=minjiangushi\n  全 年 龄  ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=reci54\n 有声漫画 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=reci1357\n 会员专区 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=reci1664\n 心动剧场 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=reci1660\n 国风剧场 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=reci1661\n 尖叫剧场 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=reci1662\n月上新周播剧::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=reci1198\n            ::\n\n❀                             有 声 书                             ❀::https://www.ximalaya.com/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=\n\n 文 学 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=wenxue\n 生 活 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=shenghuo\n 教 材 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=jiaocai\n 经 典 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=jingdian\n 童 书 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=tongshu\n 成 长 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=lizhi\n 社 科 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=sheke\n 商 业 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=shangye\n外文 • 原版::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=yingwenyuanban\n期刊::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=qikanzazhi\n历史::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci234\n传记::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1692\n\n 网络小说 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1173\n 言情女生 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci231\n 悬疑推理 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci232\n 都市重生 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci235\n 历史纵横 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1195\n 仙侠幻想 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1196\n 豪门恋情 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1530\n 古风言情 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1531\n 宫闱宅斗 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1532\n 王牌强档 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1264\n 有声漫画 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1351\n 出版小说 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1359\n 女生最爱 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci346\n 男生最爱 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci348\n 免费精选 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1533\n 新品限免 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1477\n 会员上新 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1518\n 爆更小说 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1069\n\n QQ  阅读 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci22\n 读客图书 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci23\n 果麦文化 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci24\n 中信书院 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci646\n 博集新媒 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci26\n 磨铁阅读 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci394\n  蓝 狮 子  ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci419\n 华章图书 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci650\n 文学名著 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1157\n 历史专区 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1158\n 国学经典 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1159\n 历史经典 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1370\n 三体科幻 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1697\n 重磅新品 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1698\n\n 听书指南 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1449\n大家都在听::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1521\n大家都在追::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1529\n大剧必听榜::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1051\n会员有声小说::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1055\n畅销书-限时免费::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1693\n\n❀                               音   乐                               ❀::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=yinyue\n\n 古 风 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=yinyue&subcategory=gufeng\n 流 行 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=yinyue&subcategory=liuxing\n 欧 美 ::https://www.ximalaya.com/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=yinyue&subcategory=reci507\n 古  典 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=yinyue&subcategory=mr8t41\n 动 漫 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=yinyue&subcategory=anime\n 老 歌 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=yinyue&subcategory=reci117\n 翻 唱 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=yinyue&subcategory=reci125\n轻音乐::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=yinyue&subcategory=qingyinyue\n 日 韩 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=yinyue&subcategory=reci506\n 催 眠 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=yinyue&subcategory=reci322\n影视原声::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=yinyue&subcategory=yingshiyuansheng\n       ::",
+    "lastUpdateTime": 1672819597423,
+    "respondTime": 7875,
+    "ruleBookInfo": {
+      "intro": "$.album.intro"
+    },
+    "ruleContent": {
+      "content": "@js:baseUrl"
+    },
+    "ruleExplore": {
+      "author": "anchorName",
+      "bookList": "$..albums.*",
+      "bookUrl": "link@js:\"http://mobile.ximalaya.com/mobile/others/ca/album/track/\" + result.split('/')[2]+'/true/1/200'",
+      "coverUrl": "coverPath",
+      "intro": "收听{$.playCount}  共{$.trackCount}章",
+      "lastChapter": "",
+      "name": "title",
+      "wordCount": "@js:if({{$.isFinished}}==1){if({{$.isPaid}}){'已完结💰'}else{'已完结'}}else{if({{$.isPaid}}){'连载💰'}else{'连载'}}"
+    },
+    "ruleSearch": {
+      "author": "$.nickname",
+      "bookList": "$..docs.*",
+      "bookUrl": "$.url@js:\"http://mobile.ximalaya.com/mobile/others/ca/album/track/\" + result.split('/')[2]+'/true/1/200'",
+      "coverUrl": "$.cover_path",
+      "intro": "$.intro",
+      "kind": "$.category_title&&$.tags",
+      "name": "$.title",
+      "wordCount": "播放数{$.play}  共{$.tracks}集"
+    },
+    "ruleToc": {
+      "chapterList": "$.tracks.list",
+      "chapterName": "title",
+      "chapterUrl": "playPathAacv224||playPathAacv164||playUrl64||playUrl32",
+      "nextTocUrl": "@js:\nbaseUrl = String(baseUrl).split('1/200')[0];\nlist = [];\npage=JSON.parse(String(result)).tracks.maxPageId\nfor(var i = 2; i < 10; ++i){\nlist.push(String(baseUrl +i+\"/200\"));\n}\nlist"
+    },
+    "searchUrl": "https://www.ximalaya.com/revision/search?core=album&spellchecker=true&rows=20&condition=relation&device=iPhone&fq=&paidFilter=false&kw={{key}}&page={{page}}",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "📻 有声,明月照大江",
+    "bookSourceName": "📻 喜马拉雅",
+    "bookSourceType": 1,
+    "bookSourceUrl": "https://www.ximalaya.com",
+    "customOrder": 1789,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[\n{'title':'广播剧','url':'https://www.ximalaya.com/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'架空','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=jiakong','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'日韩','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=yinyue&subcategory=reci506','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'都市','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=dushi','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'校园','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=xiaoyuan','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'武侠','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=wuxia','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'仙侠','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=xianxia','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'奇幻','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=qihuan','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'玄幻','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=xuanhuan','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'科幻','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=kehuan','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'悬疑','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=xuanyi','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'推理','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=tuili','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'历史','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=lishi','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'职场','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=zhichang','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'同人','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=tongrenwen','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'游戏','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=youxi','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'爆笑','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=baoxiao','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'脑洞','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=naodong','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'日漫','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=riman','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'萌系','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=mengxi','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'恋爱','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=lianai','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'纯爱','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=reci1367','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'玛丽苏','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=malisu','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'空的','url':'','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'空的','url':'','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'霸道总裁','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=badaozongcai','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'虚拟偶像','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=xuniouxiang','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'现代言情','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=reci546','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'古风言情','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=reci52','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'画风清奇','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=huafengqingqi','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'民间故事','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=minjiangushi','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':' 全  年  龄 ','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=reci54','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'有声漫画','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=reci1357','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'会员专区','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=reci1664','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'心动剧场','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=reci1660','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'国风剧场','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=reci1661','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'尖叫剧场','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=reci1662','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'月上新周播剧','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=reci1198','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'有声书','url':'https://www.ximalaya.com/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'文学','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=wenxue','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'生活','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=shenghuo','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'教材','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=jiaocai','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'经典','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=jingdian','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'童书','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=tongshu','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'成长','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=lizhi','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'社科','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=sheke','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'商业','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=shangye','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'外文','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=yingwenyuanban','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'期刊','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=qikanzazhi','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'历史','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci234','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'传记','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1692','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'网络小说','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1173','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'言情女生','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci231','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'悬疑推理','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci232','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'都市重生','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci235','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'历史纵横','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1195','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'仙侠幻想','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1196','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'豪门恋情','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1530','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'古风言情','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1531','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'宫闱宅斗','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1532','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'王牌强档','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1264','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'有声漫画','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1351','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'出版小说','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1359','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'女生最爱','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci346','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'男生最爱','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci348','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'免费精选','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1533','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'新品限免','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1477','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'会员上新','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1518','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'爆更小说','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1069','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'QQ阅读','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci22','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'读客图书','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci23','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'果麦文化','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci24','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'中信书院','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci646','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'博集新媒','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci26','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'磨铁阅读','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci394','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':' 蓝  狮  子 ','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci419','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'华章图书','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci650','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'文学名著','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1157','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'历史专区','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1158','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'国学经典','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1159','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'历史经典','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1370','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'三体科幻','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1697','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'重磅新品','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1698','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'听书指南','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1449','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'大家都在听','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1521','style':{layout_flexGrow:1,layout_flexBasisPercent:0.3}},\n{'title':'大家都在追','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1529','style':{layout_flexGrow:1,layout_flexBasisPercent:0.3}},\n{'title':'大剧必听榜','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1051','style':{layout_flexGrow:1,layout_flexBasisPercent:0.3}},\n{'title':'会员有声小说','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1055','style':{layout_flexGrow:1,layout_flexBasisPercent:0.3}},\n{'title':'畅销书-限时免费','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1693','style':{layout_flexGrow:1,layout_flexBasisPercent:0.3}},\n{'title':'这只是空的呀','url':'','style':{layout_flexGrow:1,layout_flexBasisPercent:0.3}},\n{'title':'音乐','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=yinyue','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'古风','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=yinyue&subcategory=gufeng','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'流行','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=yinyue&subcategory=liuxing','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'欧美','url':'https://www.ximalaya.com/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=yinyue&subcategory=reci507','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'古典','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=yinyue&subcategory=mr8t41','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'动漫','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=yinyue&subcategory=anime','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'老歌','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=yinyue&subcategory=reci117','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'翻唱','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=yinyue&subcategory=reci125','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'轻音乐','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=yinyue&subcategory=qingyinyue','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'日韩','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=yinyue&subcategory=reci506','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'催眠','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=yinyue&subcategory=reci322','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'影视原声','url':'/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=yinyue&subcategory=yingshiyuansheng','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}}]",
+    "lastUpdateTime": 1698044293085,
+    "respondTime": 8345,
+    "ruleBookInfo": {
+      "init": "",
+      "intro": "$.album.intro",
+      "lastChapter": "$.tracks.list[-1]title"
+    },
+    "ruleContent": {
+      "content": "@js:baseUrl"
+    },
+    "ruleExplore": {
+      "author": "anchorName",
+      "bookList": "$..albums.*",
+      "bookUrl": "link@js:\"http://mobile.ximalaya.com/mobile/others/ca/album/track/\" + result.split('/')[2]+'/true/1/200'",
+      "coverUrl": "coverPath",
+      "intro": "收听{$.playCount}  共{$.trackCount}章",
+      "lastChapter": "",
+      "name": "title",
+      "wordCount": "@js:if({{$.isFinished}}==1){if({{$.isPaid}}){'已完结💰'}else{'已完结'}}else{if({{$.isPaid}}){'连载💰'}else{'连载'}}"
+    },
+    "ruleSearch": {
+      "author": "$.nickname",
+      "bookList": "$..docs.*",
+      "bookUrl": "$.url@js:\"http://mobile.ximalaya.com/mobile/others/ca/album/track/\" + result.split('/')[2]+'/true/1/200'",
+      "coverUrl": "$.cover_path",
+      "intro": "$.intro",
+      "kind": "$.category_title&&$.tags",
+      "lastChapter": "",
+      "name": "$.title",
+      "wordCount": "播放数{$.play}  共{$.tracks}集"
+    },
+    "ruleToc": {
+      "chapterList": "$.tracks.list",
+      "chapterName": "title",
+      "chapterUrl": "playPathAacv224||playPathAacv164||playUrl64||playUrl32",
+      "nextTocUrl": "@js:\nbaseUrl = String(baseUrl).split('1/200')[0];\nlist = [];\npage=JSON.parse(String(result)).tracks.maxPageId\nfor(var i = 2; i < 10; ++i){\nlist.push(String(baseUrl +i+\"/200\"));\n}\nlist"
+    },
+    "searchUrl": "/revision/search?core=album&spellchecker=true&rows=20&condition=relation&device=iPhone&fq=&paidFilter=false&kw={{key}}&page={{page}}",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "📻 有声,明月照大江",
+    "bookSourceName": "📻 喜马拉雅",
+    "bookSourceType": 1,
+    "bookSourceUrl": "http://search.ximalaya.com",
+    "customOrder": 1812,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"玄幻\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=玄幻&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"大剧\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=大剧&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"仙侠\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=仙侠&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"都市\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=都市&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"经典\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=经典&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"幻想\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=幻想&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"武侠\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=武侠&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"历史\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=历史小说&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"教材\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=教材&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"多人\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=多人剧&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"相声\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=相声&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"英文\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=英文原版&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"名著\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=名著&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"乡村\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=乡村&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"广播\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=广播剧&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"游戏\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=游戏&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"无限\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=无限&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"魔幻\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=魔法&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"音                乐\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:2&kw=音乐&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"乡村\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:2&kw=乡村&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"流行\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:2&kw=流行Top&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"老歌\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:2&kw=老歌&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"榜单\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:2&kw=榜单&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"巅峰\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:2&kw=巅峰榜&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+    "lastUpdateTime": 1722216489013,
+    "loginUrl": "",
+    "respondTime": 11780,
+    "ruleBookInfo": {
+      "init": "",
+      "intro": "",
+      "lastChapter": "$.data.list[-1]title",
+      "tocUrl": "http://mobile.ximalaya.com/fmobile-album/album/track/ts-1576706285548?ac=4G&albumId=@get:{book}&device=android&isAsc=true&isQueryInvitationBrand=true&isVideoAsc=true&pageSize=200&source=3&supportWebp=true&pageId=1",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "<js>baseUrl</js>",
+      "imageStyle": "0"
+    },
+    "ruleExplore": {
+      "bookList": ""
+    },
+    "ruleSearch": {
+      "author": "nickname",
+      "bookList": "$.response.docs",
+      "bookUrl": "http://mobile.ximalaya.com/fmobile-album/album/track/ts-1576706285548?ac=4G&albumId={$.id}&device=android&isAsc=true&isQueryInvitationBrand=true&isVideoAsc=true&pageSize=200&source=3&supportWebp=true&pageId=1",
+      "coverUrl": "cover_path",
+      "intro": "$..intro",
+      "kind": "category_title",
+      "lastChapter": "$.last_uptrack_at",
+      "name": "title@put:{book:id}",
+      "wordCount": "$.last_uptrack_at"
+    },
+    "ruleToc": {
+      "chapterList": "$.data.list",
+      "chapterName": "title",
+      "chapterUrl": "playPathAacv224",
+      "nextTocUrl": "<js>\nvar a = 'http://mobile.ximalaya.com/fmobile-album/album/track/ts-1576706285548?ac=4G&albumId=@get:{book}&device=android&isAsc=true&isQueryInvitationBrand=true&isVideoAsc=true&pageSize=200&source=3&supportWebp=true&pageId=';\nvar r = [];\nfor(var i=1;i<40;i++){\n    r.push(a + parseInt(i*1));\n}\nr\n</js>"
+    },
+    "searchUrl": "http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw={{key}}&page={{page}}&rows=20&spellchecker=true",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "音频",
+    "bookSourceName": "📻 喜马拉雅",
+    "bookSourceType": 1,
+    "bookSourceUrl": "http://search.ximalaya.com#",
+    "customOrder": 1872,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "exploreUrl": "[{\"title\":\"玄幻\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=玄幻&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"大剧\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=大剧&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"仙侠\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=仙侠&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"都市\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=都市&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"经典\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=经典&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"幻想\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=幻想&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"武侠\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=武侠&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"历史\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=历史小说&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"教材\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=教材&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"多人\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=多人剧&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"相声\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=相声&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"英文\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=英文原版&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"名著\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=名著&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"乡村\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=乡村&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"广播\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=广播剧&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"游戏\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=游戏&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"无限\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=无限&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"魔幻\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=魔法&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"音                乐\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:2&kw=音乐&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"乡村\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:2&kw=乡村&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"流行\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:2&kw=流行Top&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"老歌\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:2&kw=老歌&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"榜单\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:2&kw=榜单&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"巅峰\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:2&kw=巅峰榜&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+    "lastUpdateTime": 1680484311418,
+    "loginUrl": "",
+    "respondTime": 11561,
+    "ruleBookInfo": {
+      "init": "",
+      "intro": "",
+      "lastChapter": "$.data.list[-1]title",
+      "tocUrl": "http://mobile.ximalaya.com/fmobile-album/album/track/ts-1576706285548?ac=4G&albumId=@get:{book}&device=android&isAsc=true&isQueryInvitationBrand=true&isVideoAsc=true&pageSize=200&source=3&supportWebp=true&pageId=1",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "",
+      "imageStyle": "0"
+    },
+    "ruleExplore": {
+      "bookList": ""
+    },
+    "ruleSearch": {
+      "author": "nickname",
+      "bookList": "$.response.docs",
+      "bookUrl": "http://mobile.ximalaya.com/fmobile-album/album/track/ts-1576706285548?ac=4G&albumId={$.id}&device=android&isAsc=true&isQueryInvitationBrand=true&isVideoAsc=true&pageSize=200&source=3&supportWebp=true&pageId=1",
+      "coverUrl": "cover_path",
+      "intro": "$..intro",
+      "kind": "category_title",
+      "lastChapter": "$.last_uptrack_at",
+      "name": "title@put:{book:id}",
+      "wordCount": "$.last_uptrack_at"
+    },
+    "ruleToc": {
+      "chapterList": "$.data.list",
+      "chapterName": "title",
+      "chapterUrl": "playPathAacv224",
+      "nextTocUrl": "<js>\nvar a = 'http://mobile.ximalaya.com/fmobile-album/album/track/ts-1576706285548?ac=4G&albumId=@get:{book}&device=android&isAsc=true&isQueryInvitationBrand=true&isVideoAsc=true&pageSize=200&source=3&supportWebp=true&pageId=';\nvar r = [];\nfor(var i=1;i<40;i++){\n    r.push(a + parseInt(i*1));\n}\nr\n</js>"
+    },
+    "searchUrl": "http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw={{key}}&page={{page}}&rows=20&spellchecker=true",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "🎧 喜马拉雅",
+    "bookSourceType": 1,
+    "bookSourceUrl": "http://search.ximalaya.com#一程",
+    "customOrder": 1963,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "exploreUrl": "【有声】::\n玄幻::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=玄幻&page={{page}}&rows=20&spellchecker=true\n幻想::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=幻想&page={{page}}&rows=20&spellchecker=true\n奇幻::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=奇幻&page={{page}}&rows=20&spellchecker=true\n魔幻::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=魔法&page={{page}}&rows=20&spellchecker=true\n修真::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=修真&page={{page}}&rows=20&spellchecker=true\n武侠::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=武侠&page={{page}}&rows=20&spellchecker=true\n仙侠::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=仙侠&page={{page}}&rows=20&spellchecker=true\n都市::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=都市&page={{page}}&rows=20&spellchecker=true\n言情::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=言情&page={{page}}&rows=20&spellchecker=true\n青春::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=青春&page={{page}}&rows=20&spellchecker=true\n校园::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=校园&page={{page}}&rows=20&spellchecker=true\n乡村::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=乡村&page={{page}}&rows=20&spellchecker=true\n经典::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=经典&page={{page}}&rows=20&spellchecker=true\n科幻::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=科幻&page={{page}}&rows=20&spellchecker=true\n灵异::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=灵异&page={{page}}&rows=20&spellchecker=true\n军事::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=军事&page={{page}}&rows=20&spellchecker=true\n历史::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=历史&page={{page}}&rows=20&spellchecker=true\n名著::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=名著&page={{page}}&rows=20&spellchecker=true\n游戏::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=游戏&page={{page}}&rows=20&spellchecker=true\n系统::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=系统&page={{page}}&rows=20&spellchecker=true\n无限::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=无限&page={{page}}&rows=20&spellchecker=true\n教材::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=教材&page={{page}}&rows=20&spellchecker=true\n相声::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=相声&page={{page}}&rows=20&spellchecker=true\n英文::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=英文&page={{page}}&rows=20&spellchecker=true\n大剧::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=大剧&page={{page}}&rows=20&spellchecker=true\n多人剧::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=多人剧&page={{page}}&rows=20&spellchecker=true\n广播剧::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=广播剧&page={{page}}&rows=20&spellchecker=true\n【音乐】::\n民谣::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:2&kw=民谣&page={{page}}&rows=20&spellchecker=true\n乡村::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:2&kw=乡村&page={{page}}&rows=20&spellchecker=true\n流行::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:2&kw=流行Top&page={{page}}&rows=20&spellchecker=true\n老歌::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:2&kw=老歌&page={{page}}&rows=20&spellchecker=true\n榜单::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:2&kw=榜单&page={{page}}&rows=20&spellchecker=true\n巅峰榜::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:2&kw=巅峰榜&page={{page}}&rows=20&spellchecker=true",
+    "lastUpdateTime": 1687402396169,
+    "loginUrl": "",
+    "respondTime": 11392,
+    "ruleBookInfo": {
+      "tocUrl": "http://mobile.ximalaya.com/fmobile-album/album/track/ts-1576706285548?ac=4G&albumId=@get:{book}&device=android&isAsc=true&isQueryInvitationBrand=true&isVideoAsc=true&pageSize=200&source=3&supportWebp=true&pageId=1"
+    },
+    "ruleContent": {
+      "content": ""
+    },
+    "ruleExplore": {
+      "bookList": ""
+    },
+    "ruleSearch": {
+      "author": "nickname",
+      "bookList": "$.response.docs",
+      "bookUrl": "http://mobile.ximalaya.com/fmobile-album/album/track/ts-1576706285548?ac=4G&albumId={$.id}&device=android&isAsc=true&isQueryInvitationBrand=true&isVideoAsc=true&pageSize=200&source=3&supportWebp=true&pageId=1",
+      "coverUrl": "cover_path",
+      "intro": "$..intro##\\s",
+      "kind": "category_title",
+      "name": "title@put:{book:id}"
+    },
+    "ruleToc": {
+      "chapterList": "$.data.list",
+      "chapterName": "title",
+      "chapterUrl": "playPathAacv224",
+      "nextTocUrl": "<js>\nvar a = 'http://mobile.ximalaya.com/fmobile-album/album/track/ts-1576706285548?ac=4G&albumId=@get:{book}&device=android&isAsc=true&isQueryInvitationBrand=true&isVideoAsc=true&pageSize=200&source=3&supportWebp=true&pageId=';\nvar r = [];\nfor(var i=1;i<40;i++){\n    r.push(a + parseInt(i*1));\n}\nr\n</js>"
+    },
+    "searchUrl": "http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw={{key}}&page={{page}}&rows=20&spellchecker=true",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "音频",
+    "bookSourceName": "🎧喜马拉雅",
+    "bookSourceType": 1,
+    "bookSourceUrl": "http://search.ximalaya.com#关耳",
+    "customOrder": 1964,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1670421266891,
+    "respondTime": 6810,
+    "ruleBookInfo": {
+      "tocUrl": "http://mobile.ximalaya.com/fmobile-album/album/track/ts-1576706285548?ac=4G&albumId=@get:{book}&device=android&isAsc=true&isQueryInvitationBrand=true&isVideoAsc=true&pageSize=200&source=3&supportWebp=true&pageId=1"
+    },
+    "ruleContent": {
+      "content": "",
+      "imageStyle": "0"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "nickname",
+      "bookList": "$.response.docs",
+      "bookUrl": "http://mobile.ximalaya.com/fmobile-album/album/track/ts-1576706285548?ac=4G&albumId={$.id}&device=android&isAsc=true&isQueryInvitationBrand=true&isVideoAsc=true&pageSize=200&source=3&supportWebp=true&pageId=1",
+      "coverUrl": "cover_path",
+      "intro": "$..intro",
+      "kind": "category_title",
+      "name": "title@put:{book:id}"
+    },
+    "ruleToc": {
+      "chapterList": "$.data.list",
+      "chapterName": "title",
+      "chapterUrl": "playPathAacv224",
+      "nextTocUrl": "<js>\nvar a = 'http://mobile.ximalaya.com/fmobile-album/album/track/ts-1576706285548?ac=4G&albumId=@get:{book}&device=android&isAsc=true&isQueryInvitationBrand=true&isVideoAsc=true&pageSize=200&source=3&supportWebp=true&pageId=';\nvar r = [];\nfor(var i=1;i<40;i++){\n    r.push(a + parseInt(i*1));\n}\nr\n</js>"
+    },
+    "searchUrl": "http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw={{key}}&page={{page}}&rows=20&spellchecker=true",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "音频",
+    "bookSourceName": "🌸💎喜马拉雅",
+    "bookSourceType": 1,
+    "bookSourceUrl": "http://search.ximalaya.com#芜恙",
+    "customOrder": 1966,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1670421366620,
+    "loginUrl": "",
+    "respondTime": 7237,
+    "ruleBookInfo": {
+      "tocUrl": "http://mobile.ximalaya.com/fmobile-album/album/track/ts-1576706285548?ac=4G&albumId=@get:{book}&device=android&isAsc=true&isQueryInvitationBrand=true&isVideoAsc=true&pageSize=200&source=3&supportWebp=true&pageId=1"
+    },
+    "ruleContent": {
+      "content": ""
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "nickname",
+      "bookList": "$.response.docs",
+      "bookUrl": "http://mobile.ximalaya.com/fmobile-album/album/track/ts-1576706285548?ac=4G&albumId={$.id}&device=android&isAsc=true&isQueryInvitationBrand=true&isVideoAsc=true&pageSize=200&source=3&supportWebp=true&pageId=1",
+      "coverUrl": "cover_path",
+      "intro": "intro",
+      "kind": "category_title&&customTitle",
+      "lastChapter": "最后更新：{$.updated_at}",
+      "name": "title@put:{book:id}",
+      "wordCount": "共{$.trackCount}集"
+    },
+    "ruleToc": {
+      "chapterList": "data.list",
+      "chapterName": "title",
+      "chapterUrl": "playPathAacv224",
+      "nextTocUrl": "<js>\nvar a = 'http://mobile.ximalaya.com/fmobile-album/album/track/ts-1576706285548?ac=4G&albumId=@get:{book}&device=android&isAsc=true&isQueryInvitationBrand=true&isVideoAsc=true&pageSize=200&source=3&supportWebp=true&pageId=';\nvar r = [];\nfor(var i=1;i<40;i++){\n    r.push(a + parseInt(i*1));\n}\nr\n</js>"
+    },
+    "searchUrl": "http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw={{key}}&page={{page}}&rows=20&spellchecker=true",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "⑨🎬  影音",
+    "bookSourceName": "喜马拉雅",
+    "bookSourceType": 1,
+    "bookSourceUrl": "http://search.ximalaya.com#pb1025",
+    "customOrder": 1967,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=玄幻&page={{page}}&rows=20&spellchecker=true\n大剧::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=大剧&page={{page}}&rows=20&spellchecker=true\n仙侠::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=仙侠&page={{page}}&rows=20&spellchecker=true\n都市::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=都市&page={{page}}&rows=20&spellchecker=true\n经典::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=经典&page={{page}}&rows=20&spellchecker=true\n幻想::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=幻想&page={{page}}&rows=20&spellchecker=true\n武侠::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=武侠&page={{page}}&rows=20&spellchecker=true\n历史::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=历史小说&page={{page}}&rows=20&spellchecker=true\n教材::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=教材&page={{page}}&rows=20&spellchecker=true\n多人::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=多人剧&page={{page}}&rows=20&spellchecker=true\n相声::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=相声&page={{page}}&rows=20&spellchecker=true\n英文::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=英文原版&page={{page}}&rows=20&spellchecker=true\n名著::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=名著&page={{page}}&rows=20&spellchecker=true\n乡村::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=乡村&page={{page}}&rows=20&spellchecker=true\n广播::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=广播剧&page={{page}}&rows=20&spellchecker=true\n游戏::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=游戏&page={{page}}&rows=20&spellchecker=true\n无限::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=无限&page={{page}}&rows=20&spellchecker=true\n魔幻::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=魔法&page={{page}}&rows=20&spellchecker=true\n☆                  音 乐                  ☆::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:2&kw=音乐&page={{page}}&rows=20&spellchecker=true\n乡村::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:2&kw=乡村&page={{page}}&rows=20&spellchecker=true\n流行::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:2&kw=流行Top&page={{page}}&rows=20&spellchecker=true\n老歌::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:2&kw=老歌&page={{page}}&rows=20&spellchecker=true\n榜单::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:2&kw=榜单&page={{page}}&rows=20&spellchecker=true\n巅峰::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:2&kw=巅峰榜&page={{page}}&rows=20&spellchecker=true",
+    "lastUpdateTime": 1721097835758,
+    "loginUrl": "",
+    "respondTime": 11756,
+    "ruleBookInfo": {
+      "tocUrl": "http://mobile.ximalaya.com/fmobile-album/album/track/ts-1576706285548?ac=4G&albumId=@get:{book}&device=android&isAsc=true&isQueryInvitationBrand=true&isVideoAsc=true&pageSize=200&source=3&supportWebp=true&pageId=1"
+    },
+    "ruleContent": {
+      "content": "",
+      "imageStyle": "0"
+    },
+    "ruleExplore": {
+      "bookList": ""
+    },
+    "ruleSearch": {
+      "author": "nickname",
+      "bookList": "$.response.docs",
+      "bookUrl": "http://mobile.ximalaya.com/fmobile-album/album/track/ts-1576706285548?ac=4G&albumId={$.id}&device=android&isAsc=true&isQueryInvitationBrand=true&isVideoAsc=true&pageSize=200&source=3&supportWebp=true&pageId=1",
+      "coverUrl": "cover_path",
+      "intro": "$..intro",
+      "kind": "category_title",
+      "name": "title@put:{book:id}"
+    },
+    "ruleToc": {
+      "chapterList": "$.data.list",
+      "chapterName": "title",
+      "chapterUrl": "playPathAacv224",
+      "nextTocUrl": "<js>\nvar a = 'http://mobile.ximalaya.com/fmobile-album/album/track/ts-1576706285548?ac=4G&albumId=@get:{book}&device=android&isAsc=true&isQueryInvitationBrand=true&isVideoAsc=true&pageSize=200&source=3&supportWebp=true&pageId=';\nvar r = [];\nfor(var i=1;i<40;i++){\n    r.push(a + parseInt(i*1));\n}\nr\n</js>"
+    },
+    "searchUrl": "http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw={{key}}&page={{page}}&rows=20&spellchecker=true",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "⑨🎬  影音",
+    "bookSourceName": "喜马拉雅",
+    "bookSourceType": 1,
+    "bookSourceUrl": "http://search.ximalaya.com#guaner",
+    "customOrder": 1968,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1721097809904,
+    "respondTime": 7072,
+    "ruleBookInfo": {
+      "tocUrl": "http://mobile.ximalaya.com/fmobile-album/album/track/ts-1576706285548?ac=4G&albumId=@get:{book}&device=android&isAsc=true&isQueryInvitationBrand=true&isVideoAsc=true&pageSize=200&source=3&supportWebp=true&pageId=1"
+    },
+    "ruleContent": {
+      "content": "",
+      "imageStyle": "0"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "nickname",
+      "bookList": "$.response.docs",
+      "bookUrl": "http://mobile.ximalaya.com/fmobile-album/album/track/ts-1576706285548?ac=4G&albumId={$.id}&device=android&isAsc=true&isQueryInvitationBrand=true&isVideoAsc=true&pageSize=200&source=3&supportWebp=true&pageId=1",
+      "coverUrl": "cover_path",
+      "intro": "$..intro",
+      "kind": "category_title",
+      "name": "title@put:{book:id}"
+    },
+    "ruleToc": {
+      "chapterList": "$.data.list",
+      "chapterName": "title",
+      "chapterUrl": "playPathAacv224",
+      "nextTocUrl": "<js>\nvar a = 'http://mobile.ximalaya.com/fmobile-album/album/track/ts-1576706285548?ac=4G&albumId=@get:{book}&device=android&isAsc=true&isQueryInvitationBrand=true&isVideoAsc=true&pageSize=200&source=3&supportWebp=true&pageId=';\nvar r = [];\nfor(var i=1;i<40;i++){\n    r.push(a + parseInt(i*1));\n}\nr\n</js>"
+    },
+    "searchUrl": "http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw={{key}}&page={{page}}&rows=20&spellchecker=true",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "By暴风雪+乃星补加发现",
+    "bookSourceGroup": "④🔰  优质",
+    "bookSourceName": "喜马拉雅",
+    "bookSourceType": 1,
+    "bookSourceUrl": "https://www.ximalaya.com/",
+    "customOrder": 2013,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "❀                             广 播 剧                             ❀::https://www.ximalaya.com/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=\n 架 空 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=jiakong日韩::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=yinyue&subcategory=reci506\n 都 市 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=dushi\n 校 园 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=xiaoyuan\n 武 侠 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=wuxia\n 仙 侠 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=xianxia\n 奇 幻 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=qihuan\n 玄 幻 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=xuanhuan\n 科 幻 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=kehuan\n 悬 疑 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=xuanyi\n 推 理 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=tuili\n 历 史 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=lishi\n 职 场 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=zhichang\n 同 人 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=tongrenwen\n 游 戏 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=youxi\n 爆 笑 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=baoxiao\n 脑 洞 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=naodong\n 日 漫 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=riman\n 萌 系 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=mengxi\n 恋 爱 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=lianai\n 纯 爱 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=reci1367\n  玛 丽 苏  ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=malisu\n 霸道总裁 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=badaozongcai\n 虚拟偶像 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=xuniouxiang\n 现代言情 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=reci546\n 古风言情 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=reci52\n 画风清奇 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=huafengqingqi\n 民间故事 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=minjiangushi\n  全 年 龄  ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=reci54\n 有声漫画 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=reci1357\n 会员专区 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=reci1664\n 心动剧场 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=reci1660\n 国风剧场 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=reci1661\n 尖叫剧场 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=reci1662\n月上新周播剧::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=reci1198\n            ::\n\n❀                             有 声 书                             ❀::https://www.ximalaya.com/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=\n\n 文 学 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=wenxue\n 生 活 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=shenghuo\n 教 材 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=jiaocai\n 经 典 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=jingdian\n 童 书 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=tongshu\n 成 长 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=lizhi\n 社 科 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=sheke\n 商 业 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=shangye\n外文 • 原版::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=yingwenyuanban\n期刊::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=qikanzazhi\n历史::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci234\n传记::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1692\n\n 网络小说 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1173\n 言情女生 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci231\n 悬疑推理 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci232\n 都市重生 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci235\n 历史纵横 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1195\n 仙侠幻想 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1196\n 豪门恋情 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1530\n 古风言情 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1531\n 宫闱宅斗 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1532\n 王牌强档 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1264\n 有声漫画 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1351\n 出版小说 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1359\n 女生最爱 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci346\n 男生最爱 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci348\n 免费精选 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1533\n 新品限免 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1477\n 会员上新 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1518\n 爆更小说 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1069\n\n QQ  阅读 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci22\n 读客图书 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci23\n 果麦文化 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci24\n 中信书院 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci646\n 博集新媒 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci26\n 磨铁阅读 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci394\n  蓝 狮 子  ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci419\n 华章图书 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci650\n 文学名著 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1157\n 历史专区 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1158\n 国学经典 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1159\n 历史经典 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1370\n 三体科幻 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1697\n 重磅新品 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1698\n\n 听书指南 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1449\n大家都在听::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1521\n大家都在追::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1529\n大剧必听榜::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1051\n会员有声小说::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1055\n畅销书-限时免费::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1693\n\n❀                               音   乐                               ❀::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=yinyue\n\n 古 风 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=yinyue&subcategory=gufeng\n 流 行 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=yinyue&subcategory=liuxing\n 欧 美 ::https://www.ximalaya.com/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=yinyue&subcategory=reci507\n 古  典 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=yinyue&subcategory=mr8t41\n 动 漫 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=yinyue&subcategory=anime\n 老 歌 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=yinyue&subcategory=reci117\n 翻 唱 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=yinyue&subcategory=reci125\n轻音乐::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=yinyue&subcategory=qingyinyue\n 日 韩 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=yinyue&subcategory=reci506\n 催 眠 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=yinyue&subcategory=reci322\n影视原声::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=yinyue&subcategory=yingshiyuansheng\n       ::",
+    "lastUpdateTime": 1721097847068,
+    "respondTime": 7964,
+    "ruleBookInfo": {
+      "intro": "$.album.intro"
+    },
+    "ruleContent": {
+      "content": "@js:baseUrl"
+    },
+    "ruleExplore": {
+      "author": "anchorName",
+      "bookList": "$..albums.*",
+      "bookUrl": "link@js:\"http://mobile.ximalaya.com/mobile/others/ca/album/track/\" + result.split('/')[2]+'/true/1/200'",
+      "coverUrl": "coverPath",
+      "intro": "收听{$.playCount}  共{$.trackCount}章",
+      "lastChapter": "",
+      "name": "title",
+      "wordCount": "@js:if({{$.isFinished}}==1){if({{$.isPaid}}){'已完结💰'}else{'已完结'}}else{if({{$.isPaid}}){'连载💰'}else{'连载'}}"
+    },
+    "ruleSearch": {
+      "author": "$.nickname",
+      "bookList": "$..docs.*",
+      "bookUrl": "$.url@js:\"http://mobile.ximalaya.com/mobile/others/ca/album/track/\" + result.split('/')[2]+'/true/1/200'",
+      "coverUrl": "$.cover_path",
+      "intro": "$.intro",
+      "kind": "$.category_title&&$.tags",
+      "name": "$.title",
+      "wordCount": "播放数{$.play}  共{$.tracks}集"
+    },
+    "ruleToc": {
+      "chapterList": "$.tracks.list",
+      "chapterName": "title",
+      "chapterUrl": "playPathAacv224||playPathAacv164||playUrl64||playUrl32",
+      "nextTocUrl": "@js:\nbaseUrl = String(baseUrl).split('1/200')[0];\nlist = [];\npage=JSON.parse(String(result)).tracks.maxPageId\nfor(var i = 2; i < 10; ++i){\nlist.push(String(baseUrl +i+\"/200\"));\n}\nlist"
+    },
+    "searchUrl": "https://www.ximalaya.com/revision/search?core=album&spellchecker=true&rows=20&condition=relation&device=iPhone&fq=&paidFilter=false&kw={{key}}&page={{page}}",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "By暴风雪+乃星补加发现",
+    "bookSourceGroup": "⑨🎬  影音",
+    "bookSourceName": "喜马拉雅",
+    "bookSourceType": 1,
+    "bookSourceUrl": "https://www.ximalaya.com已校验",
+    "customOrder": 2337,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "❀                             广 播 剧                             ❀::https://www.ximalaya.com/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=\n 架 空 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=jiakong日韩::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=yinyue&subcategory=reci506\n 都 市 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=dushi\n 校 园 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=xiaoyuan\n 武 侠 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=wuxia\n 仙 侠 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=xianxia\n 奇 幻 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=qihuan\n 玄 幻 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=xuanhuan\n 科 幻 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=kehuan\n 悬 疑 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=xuanyi\n 推 理 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=tuili\n 历 史 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=lishi\n 职 场 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=zhichang\n 同 人 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=tongrenwen\n 游 戏 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=youxi\n 爆 笑 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=baoxiao\n 脑 洞 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=naodong\n 日 漫 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=riman\n 萌 系 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=mengxi\n 恋 爱 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=lianai\n 纯 爱 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=reci1367\n  玛 丽 苏  ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=malisu\n 霸道总裁 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=badaozongcai\n 虚拟偶像 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=xuniouxiang\n 现代言情 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=reci546\n 古风言情 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=reci52\n 画风清奇 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=huafengqingqi\n 民间故事 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=minjiangushi\n  全 年 龄  ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=reci54\n 有声漫画 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=reci1357\n 会员专区 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=reci1664\n 心动剧场 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=reci1660\n 国风剧场 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=reci1661\n 尖叫剧场 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=reci1662\n月上新周播剧::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=guangbojv&subcategory=reci1198\n\n❀                             有 声 书                             ❀::https://www.ximalaya.com/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=\n\n 文 学 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=wenxue\n 生 活 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=shenghuo\n 教 材 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=jiaocai\n 经 典 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=jingdian\n 童 书 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=tongshu\n 成 长 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=lizhi\n 社 科 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=sheke\n 商 业 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=shangye\n外文 • 原版::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=yingwenyuanban\n期刊::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=qikanzazhi\n历史::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci234\n传记::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1692\n\n 网络小说 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1173\n 言情女生 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci231\n 悬疑推理 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci232\n 都市重生 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci235\n 历史纵横 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1195\n 仙侠幻想 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1196\n 豪门恋情 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1530\n 古风言情 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1531\n 宫闱宅斗 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1532\n 王牌强档 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1264\n 有声漫画 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1351\n 出版小说 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1359\n 女生最爱 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci346\n 男生最爱 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci348\n 免费精选 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1533\n 新品限免 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1477\n 会员上新 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1518\n 爆更小说 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1069\n\n QQ  阅读 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci22\n 读客图书 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci23\n 果麦文化 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci24\n 中信书院 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci646\n 博集新媒 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci26\n 磨铁阅读 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci394\n  蓝 狮 子  ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci419\n 华章图书 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci650\n 文学名著 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1157\n 历史专区 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1158\n 国学经典 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1159\n 历史经典 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1370\n 三体科幻 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1697\n 重磅新品 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1698\n\n 听书指南 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1449\n大家都在听::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1521\n大家都在追::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1529\n大剧必听榜::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1051\n会员有声小说::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1055\n畅销书-限时免费::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=youshengshu&subcategory=reci1693\n\n❀                               音   乐                               ❀::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=yinyue\n\n 古 风 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=yinyue&subcategory=gufeng\n 流 行 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=yinyue&subcategory=liuxing\n 欧 美 ::https://www.ximalaya.com/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=yinyue&subcategory=reci507\n 古  典 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=yinyue&subcategory=mr8t41\n 动 漫 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=yinyue&subcategory=anime\n 老 歌 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=yinyue&subcategory=reci117\n 翻 唱 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=yinyue&subcategory=reci125\n轻音乐::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=yinyue&subcategory=qingyinyue\n 日 韩 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=yinyue&subcategory=reci506\n 催 眠 ::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=yinyue&subcategory=reci322\n影视原声::/revision/category/queryCategoryPageAlbums?meta=&sort=0&page={{page}}&perPage=30&category=yinyue&subcategory=yingshiyuansheng\n",
+    "lastUpdateTime": 1721097339845,
+    "respondTime": 7766,
+    "ruleBookInfo": {
+      "intro": "$.album.intro"
+    },
+    "ruleContent": {
+      "content": "@js:baseUrl"
+    },
+    "ruleExplore": {
+      "author": "anchorName",
+      "bookList": "$..albums.*",
+      "bookUrl": "link@js:\"http://mobile.ximalaya.com/mobile/others/ca/album/track/\" + result.split('/')[2]+'/true/1/200'",
+      "coverUrl": "coverPath",
+      "intro": "收听{$.playCount}  共{$.trackCount}章",
+      "lastChapter": "",
+      "name": "title",
+      "wordCount": "@js:if({{$.isFinished}}==1){if({{$.isPaid}}){'已完结💰'}else{'已完结'}}else{if({{$.isPaid}}){'连载💰'}else{'连载'}}"
+    },
+    "ruleSearch": {
+      "author": "$.nickname",
+      "bookList": "$..docs.*",
+      "bookUrl": "$.url@js:\"http://mobile.ximalaya.com/mobile/others/ca/album/track/\" + result.split('/')[2]+'/true/1/200'",
+      "coverUrl": "$.cover_path",
+      "intro": "$.intro",
+      "kind": "$.category_title&&$.tags",
+      "name": "$.title",
+      "wordCount": "播放数{$.play}  共{$.tracks}集"
+    },
+    "ruleToc": {
+      "chapterList": "$.tracks.list",
+      "chapterName": "title",
+      "chapterUrl": "playPathAacv224||playPathAacv164||playUrl64||playUrl32",
+      "nextTocUrl": "@js:\nbaseUrl = String(baseUrl).split('1/200')[0];\nlist = [];\npage=JSON.parse(String(result)).tracks.maxPageId\nfor(var i = 2; i < 10; ++i){\nlist.push(String(baseUrl +i+\"/200\"));\n}\nlist"
+    },
+    "searchUrl": "https://www.ximalaya.com/revision/search?core=album&spellchecker=true&rows=20&condition=relation&device=iPhone&fq=&paidFilter=false&kw={{key}}&page={{page}}",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "05.🍆🍆🍆",
+    "bookSourceName": "🎧喜马拉雅",
+    "bookSourceType": 1,
+    "bookSourceUrl": "http://search.ximalaya.com已校验",
+    "customOrder": 2351,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "lastUpdateTime": 1637426230701,
+    "respondTime": 7206,
+    "ruleBookInfo": {
+      "tocUrl": "http://mobile.ximalaya.com/fmobile-album/album/track/ts-1576706285548?ac=4G&albumId=@get:{book}&device=android&isAsc=true&isQueryInvitationBrand=true&isVideoAsc=true&pageSize=200&source=3&supportWebp=true&pageId=1"
+    },
+    "ruleContent": {
+      "content": "",
+      "imageStyle": "0"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "nickname",
+      "bookList": "$.response.docs",
+      "bookUrl": "http://mobile.ximalaya.com/fmobile-album/album/track/ts-1576706285548?ac=4G&albumId={$.id}&device=android&isAsc=true&isQueryInvitationBrand=true&isVideoAsc=true&pageSize=200&source=3&supportWebp=true&pageId=1",
+      "coverUrl": "cover_path",
+      "intro": "$..intro",
+      "kind": "category_title",
+      "name": "title@put:{book:id}"
+    },
+    "ruleToc": {
+      "chapterList": "$.data.list",
+      "chapterName": "title",
+      "chapterUrl": "playPathAacv224",
+      "nextTocUrl": "<js>\nvar a = 'http://mobile.ximalaya.com/fmobile-album/album/track/ts-1576706285548?ac=4G&albumId=@get:{book}&device=android&isAsc=true&isQueryInvitationBrand=true&isVideoAsc=true&pageSize=200&source=3&supportWebp=true&pageId=';\nvar r = [];\nfor(var i=1;i<40;i++){\n    r.push(a + parseInt(i*1));\n}\nr\n</js>"
+    },
+    "searchUrl": "http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw={{key}}&page={{page}}&rows=20&spellchecker=true",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "④🔰  优质",
+    "bookSourceName": "喜马拉雅",
+    "bookSourceType": 1,
+    "bookSourceUrl": "http://search.ximalaya.com#关��",
+    "bookUrlPattern": "",
+    "customOrder": 3025,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "header": "",
+    "lastUpdateTime": 1721098694241,
+    "respondTime": 7904,
+    "ruleBookInfo": {
+      "author": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "tocUrl": "http://mobile.ximalaya.com/fmobile-album/album/track/ts-1576706285548?ac=4G&albumId=@get:{book}&device=android&isAsc=true&isQueryInvitationBrand=true&isVideoAsc=true&pageSize=200&source=3&supportWebp=true&pageId=1",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "",
+      "nextContentUrl": "",
+      "replaceRegex": "",
+      "sourceRegex": "",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": ""
+    },
+    "ruleSearch": {
+      "author": "nickname",
+      "bookList": "$.response.docs",
+      "bookUrl": "http://mobile.ximalaya.com/fmobile-album/album/track/ts-1576706285548?ac=4G&albumId={$.id}&device=android&isAsc=true&isQueryInvitationBrand=true&isVideoAsc=true&pageSize=200&source=3&supportWebp=true&pageId=1",
+      "coverUrl": "cover_path",
+      "intro": "$..intro",
+      "kind": "category_title",
+      "lastChapter": "",
+      "name": "title@put:{book:id}",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "$.data.list",
+      "chapterName": "title",
+      "chapterUrl": "playPathAacv224",
+      "isVip": "",
+      "nextTocUrl": "<js>\nvar a = 'http://mobile.ximalaya.com/fmobile-album/album/track/ts-1576706285548?ac=4G&albumId=@get:{book}&device=android&isAsc=true&isQueryInvitationBrand=true&isVideoAsc=true&pageSize=200&source=3&supportWebp=true&pageId=';\nvar r = [];\nfor(var i=1;i<40;i++){\n    r.push(a + parseInt(i*1));\n}\nr\n</js>",
+      "updateTime": ""
+    },
+    "searchUrl": "http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw={{key}}&page={{page}}&rows=20&spellchecker=true",
+    "weight": 60
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "⑨🎬  影音",
+    "bookSourceName": "喜马拉雅",
+    "bookSourceType": 1,
+    "bookSourceUrl": "http://search.ximalaya.com/",
+    "customOrder": 3241,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"玄幻\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=玄幻&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"大剧\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=大剧&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"仙侠\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=仙侠&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"都市\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=都市&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"经典\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=经典&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"幻想\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=幻想&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"武侠\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=武侠&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"历史\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=历史小说&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"教材\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=教材&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"多人\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=多人剧&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"相声\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=相声&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"英文\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=英文原版&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"名著\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=名著&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"乡村\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=乡村&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"广播\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=广播剧&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"游戏\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=游戏&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"无限\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=无限&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"魔幻\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=魔法&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"音                乐\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:2&kw=音乐&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"乡村\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:2&kw=乡村&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"流行\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:2&kw=流行Top&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"老歌\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:2&kw=老歌&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"榜单\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:2&kw=榜单&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"巅峰\",\"url\":\"http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:2&kw=巅峰榜&page={{page}}&rows=20&spellchecker=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+    "lastUpdateTime": 1721097306255,
+    "loginUrl": "",
+    "respondTime": 11701,
+    "ruleBookInfo": {
+      "init": "",
+      "intro": "",
+      "lastChapter": "$.data.list[-1]title",
+      "tocUrl": "http://mobile.ximalaya.com/fmobile-album/album/track/ts-1576706285548?ac=4G&albumId=@get:{book}&device=android&isAsc=true&isQueryInvitationBrand=true&isVideoAsc=true&pageSize=200&source=3&supportWebp=true&pageId=1",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "",
+      "imageStyle": "0"
+    },
+    "ruleExplore": {
+      "bookList": ""
+    },
+    "ruleSearch": {
+      "author": "nickname",
+      "bookList": "$.response.docs",
+      "bookUrl": "http://mobile.ximalaya.com/fmobile-album/album/track/ts-1576706285548?ac=4G&albumId={$.id}&device=android&isAsc=true&isQueryInvitationBrand=true&isVideoAsc=true&pageSize=200&source=3&supportWebp=true&pageId=1",
+      "coverUrl": "cover_path",
+      "intro": "$..intro",
+      "kind": "category_title",
+      "lastChapter": "$.last_uptrack_at",
+      "name": "title@put:{book:id}",
+      "wordCount": "$.last_uptrack_at"
+    },
+    "ruleToc": {
+      "chapterList": "$.data.list",
+      "chapterName": "title",
+      "chapterUrl": "playPathAacv224",
+      "nextTocUrl": "<js>\nvar a = 'http://mobile.ximalaya.com/fmobile-album/album/track/ts-1576706285548?ac=4G&albumId=@get:{book}&device=android&isAsc=true&isQueryInvitationBrand=true&isVideoAsc=true&pageSize=200&source=3&supportWebp=true&pageId=';\nvar r = [];\nfor(var i=1;i<40;i++){\n    r.push(a + parseInt(i*1));\n}\nr\n</js>"
+    },
+    "searchUrl": "speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw={{key}}&page={{page}}&rows=20&spellchecker=true",
+    "weight": 0
+  }
+]
