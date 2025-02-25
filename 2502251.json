@@ -1,0 +1,50 @@
+[
+  {
+    "bookSourceComment": "// token生成代码by distance",
+    "bookSourceGroup": "🌙 ΑΡI",
+    "bookSourceName": "🌙 書库",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://book.mywebos.cn",
+    "customOrder": 2,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "exploreUrl": "@js:\nsort=[];\npush=(title,url,type1,type2)=>sort.push({\n\t\ttitle: title,\n\t\turl: url,\n\t\tstyle: {\n\t\t\t\tlayout_flexGrow: type1,\n\t\t\t\tlayout_flexBasisPercent: type2\n\t\t\t}\n\t});\n\t  \n\npush(\"随机\", \"/bk/getRandomBooks?c=20\", 1, 1);\n\n category = (path) =>{  \t\n    \tburl = source.getKey().match(/([^#]*)/)[1];\n\t\t c_url = burl + path;\t\t \n   return  JSON.parse(java.ajax(c_url)).data; \n\t\t}\t\t\n\t\t\n\t\tcategory(\"/bk/ch/getChannelList\").map($=>{\n\t\t\t  id = $.id;\n     \ttitle = $.name;\n     \tif(id!=-100){\n     \t\t push(\"📜\" + title + \"📜\", null, 1, 1);\n     \t\tf_url =\t `/bk/ch/getChannelBook?channelId=${id}`;\n     \t\t list = category(f_url);\n     \t\t list.map(($,index) =>{\n\t\t\t\t     \tid = $.tagPackage.id;\n        \t   title = $.tagPackage.name;\n        \t   url =\t `/bk/ch/getBookList?id=${id}&idCode=&tag=package&lastIdCode=&limit=1000`;\n          if(list.length > 3&&list.length!=4){\n\t\t         if(index+1 <= list.length - list.length%3){\t           \n\t\t       \t    push(title, url, 1, 0.25);}\n\t\t\t\t      else{ push(title, url, 0, 0.29);}\n\t\t\t     \t}\n\t\t\t\telse if(list.length == 4){ push(title, url, 1, 0.4);}\n\t\t\t\telse{ push(title, url, 1, 0.25);}\n\t\t\t\t\n\t\t\t\t});\t\t\t\n\t\t\t}\t\t\t\t\t\t\t\t\t\t        \n  });\n \t \n JSON.stringify(sort);",
+    "header": "@js:\n(()=>{\n    time = Date.now().toString();\n    token = get_token(time);\n\n    var headers = {\n        \"user-agent\": \"Dart/3.2 (dart:io)\",\n        \"app\": \"booklib\",\n        \"bizuuid\": \"477dcc9a87290565\",\n        \"flutterudid\": \"477dcc9a87290565\",\n        \"platform\": \"android\",\n        \"token\": token,\n        \"t\": time\n    }; \n    return JSON.stringify(headers);\n})()",
+    "jsLib": "function get_token(times){\n    const {java} = this;\n    let t = String(times);\n    let key = \"20211010-KlasdoufnrufGIjasdUXWpl7Kjs\";\n    let str = \"st20211010233045t\" + t;\n    let data = java.HMacHex(str,\"HmacSHA1\",key);\n    return data;\n}",
+    "lastUpdateTime": 1724004819465,
+    "respondTime": 855,
+    "ruleBookInfo": {
+      "author": "author.name",
+      "coverUrl": "",
+      "init": "data",
+      "intro": "book.bref##(^|[。！？]+[”」）】]?)##$1<br>",
+      "kind": "book.tag",
+      "name": "book.name"
+    },
+    "ruleContent": {
+      "content": "$.data.content.contentParagraphs",
+      "replaceRegex": ""
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "authorName",
+      "bookList": "data[*].dataJson||data",
+      "bookUrl": "/bk/getBookDetail?idCode={{$.idCode}}",
+      "checkKeyWord": "",
+      "coverUrl": "cover",
+      "intro": "bref",
+      "kind": "tag",
+      "name": "name",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "$.data.chapter",
+      "chapterName": "name",
+      "chapterUrl": "/bk/getChapterDetail?rows=true&idCode={{$.idCode}}",
+      "formatJs": ""
+    },
+    "searchUrl": "/bk/search?name={{key}}",
+    "weight": 0
+  }
+]
