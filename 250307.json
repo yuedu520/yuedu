@@ -1,0 +1,48 @@
+[
+  {
+    "bookSourceComment": "//情无羁25.03.05\n//首发论坛：ysqbbs.com,发布页面：taoba.cf",
+    "bookSourceName": "第一版主(公众号：优源汇）",
+    “bookSourceType”：0，
+    "bookSourceUrl": "http://www.diyibanzhu.online",
+    “customOrder”：0，
+    “已启用”：true，
+    “enabledCookieJar”：true，
+    “enabledExplore”：false，
+    "exploreUrl": "",
+    "header": "{\n \"User-Agent\": \"Mozilla/5.0 (Linux; Android 8.0.0; MI 5s Plus Build/OPR1.170623.032; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/132.0.3578.99 Mobile Safari/537.36\"\n}",
+    “上次更新时间”：1741280627189，
+    “响应时间”：180000，
+    “规则书信息”：{
+      “作者”： ””，
+      "coverUrl": ".left@img@src",
+      “介绍”：“.bd.2@html”，
+      "kind": ".info@text##[\\s\\S]*类型：|字数[\\s\\S]*",
+      "最后一章"："",
+      “姓名”： ””，
+      "tocUrl": ""
+    }，
+    “规则内容”：{
+      "content": "#nr1@html##.*配套未完成.*|.*配套完成.*",
+      "nextContentUrl": ".chapterPages@a.-1@href\n<js>\na=String(result);\nif (res = a.match(/fenye\\=(\\d+)/)) {\n data = [];\n for (i = 2; i <= res[1]; i++) {\n data.push(a.replace(/\\d$/g, i));\n }\n data;\n}\n</js>##\\[|\\]",
+      "replaceRegex": "##(?<=[\\u4e00-\\u9fa5]|[，、])[\\n]"
+    }，
+    "规则探索": {},
+    “规则搜索”：{
+      "author": "p.-1@ownText##作者：",
+      "bookList": "<js>\nif(result.match(/请稍候/)){\n\tjava.startBrowserAwait(baseUrl,\"验证\");\n\tresult=java.ajax(baseUrl);\n}result;\n</js>\n.column-2",
+      “bookUrl”：“a@href”，
+      “kind”：“span.0@text”，
+      "lastChapter": "a.1@text",
+      “名称”：“a.0@text”，
+      "wordCount": "span.1@text##字数："
+    }，
+    “规则Toc”：{
+      "chapterList": ".chapter-list.1@.list@li||.chapter-list.0@.list@li",
+      "chapterName": "a@text",
+      "chapterUrl": "a@href",
+      “nextTocUrl”：“选项！0@值”
+    }，
+    "searchUrl": "/wap.php?action=search,{\n \"body\": \"objectType=2&wd={{key}}\",\n \"method\": \"POST\",\n \"charset\": \"GBK\"\n}",
+    “重量”：0
+  }
+]
