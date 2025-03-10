@@ -1,0 +1,430 @@
+[
+  {
+    "bookSourceComment": "//搜书关键字最少10个字符，即5个汉字。",
+    "bookSourceGroup": "小说 书源",
+    "bookSourceName": "抖音小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.douyinxs.com",
+    "customOrder": 45,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄奇::/fenlei/1/{{page}}/\n高武::/fenlei/2/{{page}}/\n修仙::/fenlei/3/{{page}}/\n都市::/fenlei/4/{{page}}/\n军事::/fenlei/5/{{page}}/\n历史::/fenlei/6/{{page}}/\n游体::/fenlei/7/{{page}}/\n科幻::/fenlei/8/{{page}}/\n恐怖::/fenlei/9/{{page}}/\n次元::/fenlei/10/{{page}}/\n女生::/fenlei/11/{{page}}/",
+    "lastUpdateTime": 1734979551295,
+    "respondTime": 10577,
+    "ruleBookInfo": {
+      "author": "id.info@p.0@text",
+      "coverUrl": "id.fmimg@img@src",
+      "intro": "id.intro@p.1@text##(^|[。！？]+[”」）】]?)##$1<br>",
+      "kind": ".con_top@a.1@text&&id.info@p.2@text##.*：|\\s..:.*",
+      "lastChapter": "id.list@a.0@text##正文卷.|正文.|VIP卷.|默认卷.|卷_|VIP章节.|免费章节.|章节目录.|最新章节.|[\\(（【].*?[求更票谢乐发订合补加架字修Kk].*?[】）\\)]",
+      "name": "id.info@h1@text"
+    },
+    "ruleContent": {
+      "content": "id.content@html",
+      "nextContentUrl": "id.next@href"
+    },
+    "ruleExplore": {
+      "bookList": ""
+    },
+    "ruleSearch": {
+      "author": ".s4@text",
+      "bookList": ".novelslist2@li!0||.l@li",
+      "bookUrl": "a.0@href",
+      "checkKeyWord": "凡人修仙传",
+      "coverUrl": "a.0@href<js>java.ajax(\"https://www.douyinxs.com\"+result)</js>id.fmimg@img@src",
+      "kind": ".s1,.s7,.s6@text##\\[|\\]",
+      "lastChapter": "a.1@text##正文卷.|正文.|VIP卷.|默认卷.|卷_|VIP章节.|免费章节.|章节目录.|最新章节.|[\\(（【].*?[求更票谢乐发订合补加架字修Kk].*?[】）\\)]",
+      "name": "a.0@text",
+      "wordCount": ".s5@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@dd@a",
+      "chapterName": "text##正文卷.|正文.|VIP卷.|默认卷.|卷_|VIP章节.|免费章节.|章节目录.|最新章节.|[\\(（【].*?[求更票谢乐发订合补加架字修Kk].*?[】）\\)]",
+      "chapterUrl": "href",
+      "nextTocUrl": ".index-container@a.1@href"
+    },
+    "searchUrl": "{{cookie.removeCookie(source.getKey())}}\n/search/,{\n  \"method\": \"post\",\n  \"body\": \"searchkey={{key}}&Submit=\"\n}",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "https://m.douxsw.com\nhttps://m.douyinxs.com",
+    "bookSourceGroup": "小说 书源",
+    "bookSourceName": "抖音小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.douxsw.com/#xsw8093",
+    "bookUrlPattern": "",
+    "customOrder": 46,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "全部分类::/fenlei/<,{{page}}>\n玄奇::/fenlei/1/{{page}}/\n高武::/fenlei/2/{{page}}/\n修仙::/fenlei/3/{{page}}/\n都市::/fenlei/4/{{page}}/\n军事::/fenlei/5/{{page}}/\n历史::/fenlei/6/{{page}}/\n游体::/fenlei/7/{{page}}/\n科幻::/fenlei/8/{{page}}/\n恐怖::/fenlei/9/{{page}}/\n次元::/fenlei/10/{{page}}/\n女生::/fenlei/11/{{page}}/",
+    "header": "{\n    'User-Agent': 'Mozilla/5.0 (Linux; Android 11; Pixel 3 XL Build/RQ3A.211001.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/102.0.4988.0 Mobile Safari/537.36 SearchCraft/3.9.2 (Baidu; P1 11) '\n}",
+    "lastUpdateTime": 1734555436991,
+    "respondTime": 323269,
+    "ruleBookInfo": {
+      "author": "@get:{a}",
+      "coverUrl": "@get:{c}",
+      "init": "@put:{n:\"[property$=book_name]@content\",\n\ta:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nl:\"[property$=latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\"}",
+      "intro": "@get:{i}",
+      "kind": "@get:{k}",
+      "lastChapter": "@get:{l}",
+      "name": "@get:{n}"
+    },
+    "ruleContent": {
+      "content": "#chaptercontent@html",
+      "nextContentUrl": "text.下一页@href",
+      "replaceRegex": "##『加入书签，方便阅读』"
+    },
+    "ruleExplore": {
+      "author": "p.1@text##([^（.*）]+)##$1###",
+      "bookList": ".hot_sale",
+      "bookUrl": "a@href",
+      "coverUrl": "@js:\"https://m.douyinxs.com/static/ss_wap_bqg/nocover.jpg\"",
+      "intro": "p.2@text##简介：",
+      "kind": "p.1@text##（(.+)）##$1###",
+      "name": "p.0@text"
+    },
+    "ruleSearch": {
+      "author": ".author.0@text",
+      "bookList": ".bookbox",
+      "bookUrl": "a.1@href",
+      "checkKeyWord": "剑来",
+      "coverUrl": "img@src",
+      "intro": "",
+      "kind": ".author.1@text##类型：",
+      "lastChapter": "a.-1@text",
+      "name": "h4@text"
+    },
+    "ruleToc": {
+      "chapterList": ".directoryArea.1@p",
+      "chapterName": "a@text",
+      "chapterUrl": "a@href",
+      "nextTocUrl": "option@value||text.下一页@href"
+    },
+    "searchUrl": "{{\n\tvar su=source.getKey()\nvar htmlUrl=java.get(su,{}).headers('Location')\njava.log(`重定向：${htmlUrl[0]}`)\nvar posturl=htmlUrl[0]?htmlUrl[0]:(su.includes(\"#\")?su.match(/([^\\#]+)\\#/)[1]:su)\nposturl = posturl.slice(-1)=='/'?posturl.slice(0,-1):posturl\njava.log(`请求：${posturl}`)\ncookie.removeCookie(posturl);\nck=cookie.getCookie(posturl);\n\ncookie.setCookie(posturl,String(ck).replace(/ss_search_delay=.*/,\"\"));\nposturl\n}}/search/,{\n  \"body\": \"searchkey={{key}}\",\n  \"method\": \"POST\",\n  \"webView\": true\n}",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "// Error: 搜索失效\n\n23.9.26\n目录url代码by:尐哖\n发现代码by:Thomas喲",
+    "bookSourceGroup": "⭐️⭐️精选",
+    "bookSourceName": "抖音小说douyinxs",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.douyinxs.com/",
+    "bookUrlPattern": "https://www.douyinxs.com/bqg/\\d+/",
+    "customOrder": 47,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "@js:\nsort=[];\npush=(title,url,type)=> sort.push({\n\t\ttitle: title,\n\t\turl: url,\n\t\tstyle: {\n\t\t\t\tlayout_flexGrow: 1,\n\t\t\t\tlayout_flexBasisPercent: type\n\t\t\t}\n\t});\n$$=(a,b)=>`https://www.douyinxs.com/${a}/${b}/{{page}\\}/`;\n[[\"\\ud83d\\udd39分类\\ud83d\\udd39\",\"fenlei\"]].map([title,a]=>{\n\tpush(title,$$(a,''),1);\n\t[\"全部\",\"玄奇\",\"高武\",\"修仙\",\"都市\",\"军事\",\"历史\",\"游体\",\"科幻\",\"恐怖\",\"次元\",\"女生\"].map((title,b)=>{\n\t\tif(b) b+='';\n\t\telse b='';\n\t\tpush(title,$$(a,b),0.25);\n\t\t\t});\n\t});\nJSON.stringify(sort);",
+    "lastUpdateTime": 1720204659869,
+    "respondTime": 76911,
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "intro": "☁️  更新：\n{{@@[property$=update_time]@content##\\s.*}}\n👻  简介：\n{{@@[property$=description]@content}}##(^|[。！？……]+[”」）……】]?)##$1<br>",
+      "kind": "[property~=category|status|update_time]@content",
+      "lastChapter": "#list@dd.0@text",
+      "name": "[property=\"og:novel:book_name\"]@content",
+      "tocUrl": "{{baseUrl}}##//www##//m"
+    },
+    "ruleContent": {
+      "content": "#chaptercontent@p@html",
+      "nextContentUrl": "text.下一页@href",
+      "replaceRegex": "##\\(本章完\\)"
+    },
+    "ruleExplore": {
+      "author": ".s4@text",
+      "bookList": ".l@ul@li",
+      "bookUrl": "a.0@href",
+      "coverUrl": "",
+      "intro": "",
+      "kind": ".s1@text&&.s5@text##\\[|\\]",
+      "lastChapter": ".s3@text",
+      "name": ".s2@text"
+    },
+    "ruleSearch": {
+      "author": ".s4@text",
+      "bookList": ".novelslist2@ul@li!0",
+      "bookUrl": "a.0@href",
+      "checkKeyWord": "我的模拟长生路",
+      "kind": ".s1@text&&.s7@text##\\[|\\]",
+      "lastChapter": "{{@@.s3@text}}･{{@@.s6@text}}",
+      "name": ".s2@text",
+      "wordCount": ".s5@text"
+    },
+    "ruleToc": {
+      "chapterList": ".directoryArea.1@p@a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "option@value||text.下一页href"
+    },
+    "searchUrl": "search/,{\n  \"body\": \"searchkey={{key}}\",\n  \"method\": \"POST\"\n}",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "小说 书源",
+    "bookSourceName": "抖音小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.douyinxs.com",
+    "customOrder": 48,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "exploreUrl": "[\n  {\n    \"title\":\"❀书库❀\",\n    \"url\":\"\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":1\n    }\n  },\n  {\n    \"title\":\"全部\",\n    \"url\":\"/fenlei/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n  {\n    \"title\":\"玄奇\",\n    \"url\":\"/fenlei/1/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n    {\n    \"title\":\"高武\",\n    \"url\":\"/fenlei/2/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n      {\n    \"title\":\"修仙\",\n    \"url\":\"/fenlei/3/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n    {\n    \"title\":\"都市\",\n    \"url\":\"/fenlei/4/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n    {\n    \"title\":\"军事\",\n    \"url\":\"/fenlei/5/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n    {\n    \"title\":\"历史\",\n    \"url\":\"/fenlei/6/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n    {\n    \"title\":\"游体\",\n    \"url\":\"/fenlei/7/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n    {\n    \"title\":\"科幻\",\n    \"url\":\"/fenlei/8/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n    {\n    \"title\":\"恐怖\",\n    \"url\":\"/fenlei/9/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n    {\n    \"title\":\"次元\",\n    \"url\":\"/fenlei/10/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n    {\n    \"title\":\"女生\",\n    \"url\":\"/fenlei/11/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n  {\n    \"title\":\"❀全本❀\",\n    \"url\":\"\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":1\n    }\n  },\n  {\n    \"title\":\"全部\",\n    \"url\":\"/quanben/fenlei/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n  {\n    \"title\":\"玄奇\",\n    \"url\":\"/quanben/fenlei/1/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n    {\n    \"title\":\"高武\",\n    \"url\":\"/quanben/fenlei/2/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n      {\n    \"title\":\"修仙\",\n    \"url\":\"/quanben/fenlei/3/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n    {\n    \"title\":\"都市\",\n    \"url\":\"/quanben/fenlei/4/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n    {\n    \"title\":\"军事\",\n    \"url\":\"/quanben/fenlei/5/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n    {\n    \"title\":\"历史\",\n    \"url\":\"/quanben/fenlei/6/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n    {\n    \"title\":\"游体\",\n    \"url\":\"/quanben/fenlei/7/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n    {\n    \"title\":\"科幻\",\n    \"url\":\"/quanben/fenlei/8/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n    {\n    \"title\":\"恐怖\",\n    \"url\":\"/quanben/fenlei/9/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n    {\n    \"title\":\"次元\",\n    \"url\":\"/quanben/fenlei/10/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n    {\n    \"title\":\"女生\",\n    \"url\":\"/quanben/fenlei/11/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n]",
+    "lastUpdateTime": 1733283113229,
+    "respondTime": 18732,
+    "ruleBookInfo": {
+      "coverUrl": ".synopsisArea_detail@img@src",
+      "intro": ".review@html##简介：",
+      "kind": "@.synopsisArea_detail@.sort@text&&.synopsisArea_detail@p.-3@text&&.synopsisArea_detail@p.-1@text##类别：|更新：|状态："
+    },
+    "ruleContent": {
+      "content": "#chaptercontent@p@html",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {
+      "author": ".author@text##（.*）",
+      "bookList": "#main@.hot_sale",
+      "bookUrl": "a.0@href",
+      "coverUrl": "",
+      "intro": ".review@text##简介：",
+      "kind": ".author@text##.*\\（|\\）",
+      "name": ".title@text"
+    },
+    "ruleSearch": {
+      "author": ".author.0@text",
+      "bookList": ".bookbox",
+      "bookUrl": "h4@a@href",
+      "checkKeyWord": "大奉打更人",
+      "coverUrl": ".bookimg@img@src",
+      "kind": ".author.1@text##类型：",
+      "lastChapter": ".update@a@text",
+      "name": "h4@a@text"
+    },
+    "ruleToc": {
+      "chapterList": ".directoryArea@p@a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "option@value"
+    },
+    "searchUrl": "{{cookie.removeCookie(source.getKey())}}/search/,{\n  \"body\": \"searchkey={{key}}\",\n  \"method\": \"POST\"\n}",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "// Error: 搜索失效\n\n23.9.26\n目录url代码by:尐哖\n发现代码by:Thomas喲",
+    "bookSourceGroup": "胡军",
+    "bookSourceName": "抖音小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.douyinxs.com/##@鱼",
+    "bookUrlPattern": "https://www.douyinxs.com/bqg/\\d+/",
+    "customOrder": 49,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "@js:\nsort=[];\npush=(title,url,type)=> sort.push({\n\t\ttitle: title,\n\t\turl: url,\n\t\tstyle: {\n\t\t\t\tlayout_flexGrow: 1,\n\t\t\t\tlayout_flexBasisPercent: type\n\t\t\t}\n\t});\n$$=(a,b)=>`https://www.douyinxs.com/${a}/${b}/{{page}\\}/`;\n[[\"\\ud83d\\udd39分类\\ud83d\\udd39\",\"fenlei\"]].map([title,a]=>{\n\tpush(title,$$(a,''),1);\n\t[\"全部\",\"玄奇\",\"高武\",\"修仙\",\"都市\",\"军事\",\"历史\",\"游体\",\"科幻\",\"恐怖\",\"次元\",\"女生\"].map((title,b)=>{\n\t\tif(b) b+='';\n\t\telse b='';\n\t\tpush(title,$$(a,b),0.25);\n\t\t\t});\n\t});\nJSON.stringify(sort);",
+    "lastUpdateTime": 1720204659869,
+    "respondTime": 185029,
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "intro": "☁️  更新：\n{{@@[property$=update_time]@content##\\s.*}}\n👻  简介：\n{{@@[property$=description]@content}}##(^|[。！？……]+[”」）……】]?)##$1<br>",
+      "kind": "[property~=category|status|update_time]@content",
+      "lastChapter": "#list@dd.0@text",
+      "name": "[property=\"og:novel:book_name\"]@content",
+      "tocUrl": "{{baseUrl}}##//www##//m"
+    },
+    "ruleContent": {
+      "content": "#chaptercontent@p@html",
+      "nextContentUrl": "text.下一页@href",
+      "replaceRegex": "##\\(本章完\\)"
+    },
+    "ruleExplore": {
+      "author": ".s4@text",
+      "bookList": ".l@ul@li",
+      "bookUrl": "a.0@href",
+      "coverUrl": "",
+      "intro": "",
+      "kind": ".s1@text&&.s5@text##\\[|\\]",
+      "lastChapter": ".s3@text",
+      "name": ".s2@text"
+    },
+    "ruleSearch": {
+      "author": ".s4@text",
+      "bookList": ".novelslist2@ul@li!0",
+      "bookUrl": "a.0@href",
+      "checkKeyWord": "我的模拟长生路",
+      "kind": ".s1@text&&.s7@text##\\[|\\]",
+      "lastChapter": "{{@@.s3@text}}･{{@@.s6@text}}",
+      "name": ".s2@text",
+      "wordCount": ".s5@text"
+    },
+    "ruleToc": {
+      "chapterList": ".directoryArea.1@p@a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "option@value||text.下一页href"
+    },
+    "searchUrl": "search/,{\n  \"body\": \"searchkey={{key}}\",\n  \"method\": \"POST\"\n}",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "搜索间隔120秒",
+    "bookSourceGroup": "小说",
+    "bookSourceName": "抖音小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.douyinxs.com/",
+    "customOrder": 50,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "exploreUrl": "[\n  {\n    \"title\":\"❀书库❀\",\n    \"url\":\"\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":1\n    }\n  },\n  {\n    \"title\":\"全部\",\n    \"url\":\"/fenlei/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n  {\n    \"title\":\"玄奇\",\n    \"url\":\"/fenlei/1/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n    {\n    \"title\":\"高武\",\n    \"url\":\"/fenlei/2/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n      {\n    \"title\":\"修仙\",\n    \"url\":\"/fenlei/3/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n    {\n    \"title\":\"都市\",\n    \"url\":\"/fenlei/4/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n    {\n    \"title\":\"军事\",\n    \"url\":\"/fenlei/5/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n    {\n    \"title\":\"历史\",\n    \"url\":\"/fenlei/6/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n    {\n    \"title\":\"游体\",\n    \"url\":\"/fenlei/7/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n    {\n    \"title\":\"科幻\",\n    \"url\":\"/fenlei/8/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n    {\n    \"title\":\"恐怖\",\n    \"url\":\"/fenlei/9/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n    {\n    \"title\":\"次元\",\n    \"url\":\"/fenlei/10/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n    {\n    \"title\":\"女生\",\n    \"url\":\"/fenlei/11/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n  {\n    \"title\":\"❀全本❀\",\n    \"url\":\"\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":1\n    }\n  },\n  {\n    \"title\":\"全部\",\n    \"url\":\"/quanben/fenlei/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n  {\n    \"title\":\"玄奇\",\n    \"url\":\"/quanben/fenlei/1/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n    {\n    \"title\":\"高武\",\n    \"url\":\"/quanben/fenlei/2/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n      {\n    \"title\":\"修仙\",\n    \"url\":\"/quanben/fenlei/3/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n    {\n    \"title\":\"都市\",\n    \"url\":\"/quanben/fenlei/4/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n    {\n    \"title\":\"军事\",\n    \"url\":\"/quanben/fenlei/5/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n    {\n    \"title\":\"历史\",\n    \"url\":\"/quanben/fenlei/6/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n    {\n    \"title\":\"游体\",\n    \"url\":\"/quanben/fenlei/7/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n    {\n    \"title\":\"科幻\",\n    \"url\":\"/quanben/fenlei/8/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n    {\n    \"title\":\"恐怖\",\n    \"url\":\"/quanben/fenlei/9/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n    {\n    \"title\":\"次元\",\n    \"url\":\"/quanben/fenlei/10/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n    {\n    \"title\":\"女生\",\n    \"url\":\"/quanben/fenlei/11/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n]",
+    "lastUpdateTime": 1739463301312,
+    "respondTime": 2779,
+    "ruleBookInfo": {
+      "coverUrl": ".synopsisArea_detail@img@src",
+      "intro": ".review@html##简介：",
+      "kind": "@.synopsisArea_detail@.sort@text&&.synopsisArea_detail@p.-3@text&&.synopsisArea_detail@p.-1@text##类别：|更新：|状态："
+    },
+    "ruleContent": {
+      "content": "#chaptercontent@p@html",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {
+      "author": ".author@text##（.*）",
+      "bookList": "#main@.hot_sale",
+      "bookUrl": "a.0@href",
+      "coverUrl": "",
+      "intro": ".review@text##简介：",
+      "kind": ".author@text##.*\\（|\\）",
+      "name": ".title@text"
+    },
+    "ruleSearch": {
+      "author": ".author.0@text",
+      "bookList": ".bookbox",
+      "bookUrl": "h4@a@href",
+      "checkKeyWord": "大奉打更人",
+      "coverUrl": ".bookimg@img@src",
+      "kind": ".author.1@text##类型：",
+      "lastChapter": ".update@a@text",
+      "name": "h4@a@text"
+    },
+    "ruleToc": {
+      "chapterList": ".directoryArea@p@a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "option@value"
+    },
+    "searchUrl": "{{cookie.removeCookie(source.getKey())}}/search/,{\n  \"body\": \"searchkey={{key}}\",\n  \"method\": \"POST\"\n}",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "-------",
+    "bookSourceName": "抖音小说🎃",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.douyinxs.com#🎃",
+    "customOrder": 179,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "exploreUrl": "[\n  {\n    \"title\":\"❀书库❀\",\n    \"url\":\"\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":1\n    }\n  },\n  {\n    \"title\":\"全部\",\n    \"url\":\"/fenlei/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n  {\n    \"title\":\"玄奇\",\n    \"url\":\"/fenlei/1/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n    {\n    \"title\":\"高武\",\n    \"url\":\"/fenlei/2/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n      {\n    \"title\":\"修仙\",\n    \"url\":\"/fenlei/3/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n    {\n    \"title\":\"都市\",\n    \"url\":\"/fenlei/4/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n    {\n    \"title\":\"军事\",\n    \"url\":\"/fenlei/5/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n    {\n    \"title\":\"历史\",\n    \"url\":\"/fenlei/6/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n    {\n    \"title\":\"游体\",\n    \"url\":\"/fenlei/7/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n    {\n    \"title\":\"科幻\",\n    \"url\":\"/fenlei/8/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n    {\n    \"title\":\"恐怖\",\n    \"url\":\"/fenlei/9/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n    {\n    \"title\":\"次元\",\n    \"url\":\"/fenlei/10/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n    {\n    \"title\":\"女生\",\n    \"url\":\"/fenlei/11/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n  {\n    \"title\":\"❀全本❀\",\n    \"url\":\"\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":1\n    }\n  },\n  {\n    \"title\":\"全部\",\n    \"url\":\"/quanben/fenlei/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n  {\n    \"title\":\"玄奇\",\n    \"url\":\"/quanben/fenlei/1/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n    {\n    \"title\":\"高武\",\n    \"url\":\"/quanben/fenlei/2/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n      {\n    \"title\":\"修仙\",\n    \"url\":\"/quanben/fenlei/3/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n    {\n    \"title\":\"都市\",\n    \"url\":\"/quanben/fenlei/4/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n    {\n    \"title\":\"军事\",\n    \"url\":\"/quanben/fenlei/5/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n    {\n    \"title\":\"历史\",\n    \"url\":\"/quanben/fenlei/6/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n    {\n    \"title\":\"游体\",\n    \"url\":\"/quanben/fenlei/7/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n    {\n    \"title\":\"科幻\",\n    \"url\":\"/quanben/fenlei/8/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n    {\n    \"title\":\"恐怖\",\n    \"url\":\"/quanben/fenlei/9/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n    {\n    \"title\":\"次元\",\n    \"url\":\"/quanben/fenlei/10/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n    {\n    \"title\":\"女生\",\n    \"url\":\"/quanben/fenlei/11/{{page}}/\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n]",
+    "lastUpdateTime": 0,
+    "respondTime": 10717,
+    "ruleBookInfo": {
+      "coverUrl": ".synopsisArea_detail@img@src",
+      "intro": ".review@html##简介：",
+      "kind": "@.synopsisArea_detail@.sort@text&&.synopsisArea_detail@p.-3@text&&.synopsisArea_detail@p.-1@text##类别：|更新：|状态："
+    },
+    "ruleContent": {
+      "content": "#chaptercontent@p@html",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {
+      "author": ".author@text##（.*）",
+      "bookList": "#main@.hot_sale",
+      "bookUrl": "a.0@href",
+      "coverUrl": "",
+      "intro": ".review@text##简介：",
+      "kind": ".author@text##.*\\（|\\）",
+      "name": ".title@text"
+    },
+    "ruleSearch": {
+      "author": ".author.0@text",
+      "bookList": ".bookbox",
+      "bookUrl": "h4@a@href",
+      "checkKeyWord": "大奉打更人",
+      "coverUrl": ".bookimg@img@src",
+      "kind": ".author.1@text##类型：",
+      "lastChapter": ".update@a@text",
+      "name": "h4@a@text"
+    },
+    "ruleToc": {
+      "chapterList": ".directoryArea@p@a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "option@value"
+    },
+    "searchUrl": "{{cookie.removeCookie(source.getKey())}}/search/,{\n  \"body\": \"searchkey={{key}}\",\n  \"method\": \"POST\"\n}",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "\n//250301by= =",
+    "bookSourceGroup": "自制",
+    "bookSourceName": "抖音书院",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.douyintuiwen.com",
+    "customOrder": 563,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::/sort/1/{{page}}/\n仙侠::/sort/2/{{page}}\n都市::/sort/3/{{page}}\n历史::/sort/4/{{page}}\n网游::/sort/5/{{page}}\n科幻::/sort/6/{{page}}\n灵异::/sort/7/{{page}}\n言情::/sort/8/{{page}}\n其他::/sort/9/{{page}}\n全本::/quanben/sort/{{page}}",
+    "lastUpdateTime": 1740803442922,
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "author": "[property~=author]@content",
+      "coverUrl": "[property~=image]@content",
+      "intro": "[property~=descr]@content",
+      "kind": "[property~=category|status|update]@content##\\s.*",
+      "lastChapter": "[property~=chapter_name]@content",
+      "name": "[property=\"og:title\"]@content",
+      "tocUrl": "text.章节目录@href",
+      "wordCount": "text.万字.0@text"
+    },
+    "ruleContent": {
+      "content": "<js>\ni = result.match(/var c=\"([^\"]*)\"/)[1]\nii = java.base64Decode(i);\n  //java.log(ii)\nj=String(ii).replace(/^[^-]*-/,\"-\")\nif(/=/.test(j)){jj=j.replace(/=[^=]*$/,\"\");}else{jj=j.replace(/_[^_]*$/,\"\");}\nm=jj.replace(/-/g,\"PHA+\").replace(/_/g,\"8L3A+\");\nn=java.getString(\"#chaptercontent@p@text\");\nn+\tjava.base64Decode(m)\n</js>",
+      "imageStyle": "",
+      "nextContentUrl": "<js>\ntry{next = java.getElement(\"@@#next_url\")\n\t uData = next.attr(\"onclick\").match(/'(.*)'/)[1];\n\t uData\n}catch (e){}\n</js>",
+      "replaceRegex": "##本章未完.*|小说推荐：.*|.*提示您：.*收藏.*|更多内容加载中.*|本站只支持手机浏览器.*|抖音推文【.*"
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "a[href~=author]@text",
+      "bookList": ".content@dl",
+      "bookUrl": ".cover@href",
+      "checkKeyWord": "",
+      "coverUrl": ".lazy@data-src",
+      "intro": "dd.0@text",
+      "kind": "dd.1@span@text",
+      "lastChapter": ".text-muted.0@text",
+      "name": ".cover@title"
+    },
+    "ruleToc": {
+      "chapterList": ".all@ul@li@a",
+      "chapterName": "text",
+      "chapterUrl": "<js>\ntry{next = java.getElement(\"@css:a[href~=javascript]\")\n\t uData = next.attr(\"onclick\").match(/'(.*)'/)[1];\n\t uData\n}catch (e){}\n</js>",
+      "nextTocUrl": "<js>\ntry{\nnext = java.getElement(\"@@.onclick\")\n\t uData = next.attr(\"onclick\").match(/'(.*)'/)[1];\n\t uData\n}catch (e){}\n</js>"
+    },
+    "searchUrl": "/search/?searchkey={{key}}",
+    "weight": 0
+  }
+]
