@@ -1,0 +1,58 @@
+[
+  {
+    "bookSourceComment": "//by天天的鸟蛋蛋 修复目录下一页 2025/3/10\n//地址失效从发布页进入复制有效网址到url\n//地址发布页wn01.ru\n//按章节目录加载正文",
+    "bookSourceGroup": "⌨自制,📱漫画",
+    "bookSourceName": "⌨绅士漫画(htmanga9)🔞",
+    "bookSourceType": 2,
+    "bookSourceUrl": "https://www.wn03.cc/##旅途",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\" ♋️ 同人志 ♋️ \",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"全部\",\"url\":\"/albums-index-page-{{page}}-cate-5.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"漢化\",\"url\":\"/albums-index-page-{{page}}-cate-1.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"日語\",\"url\":\"/albums-index-page-{{page}}-cate-12.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"English\",\"url\":\"/albums-index-page-{{page}}-cate-16.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"CG畫集\",\"url\":\"/albums-index-page-{{page}}-cate-2.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"Cosplay\",\"url\":\"/albums-index-page-{{page}}-cate-3.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\" ♋️ 單行本 ♋️ \",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"全部\",\"url\":\"/albums-index-page-{{page}}-cate-6.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},\n{\"title\":\"漢化\",\"url\":\"/albums-index-page-{{page}}-cate-9.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},\n{\"title\":\"日語\",\"url\":\"/albums-index-page-{{page}}cate-13.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},\n{\"title\":\"English\",\"url\":\"/albums-index-page-{{page}}-cate-17.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},\n{\"title\":\" ♋️ 雜誌 ♋️ \",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"全部\",\"url\":\"/albums-index-page-{{page}}-cate-7.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},\n{\"title\":\"漢化\",\"url\":\"/albums-index-page-{{page}}-cate-10.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},\n{\"title\":\"日語\",\"url\":\"/albums-index-page-{{page}}-cate-14.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},\n{\"title\":\"English\",\"url\":\"/albums-index-page-{{page}}-cate-18.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},\n{\"title\":\" ♋️ 韓漫 ♋️ \",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"全部\",\"url\":\"/albums-index-page-{{page}}-cate-19.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"漢化\",\"url\":\"/albums-index-page-{{page}}-cate-20.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"生肉\",\"url\":\"/albums-index-page-{{page}}-cate-21.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+    "lastUpdateTime": 1741605528952,
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "author": ".uwuinfo@p.0@text",
+      "coverUrl": ".pic@img@src",
+      "downloadUrls": "",
+      "intro": "",
+      "kind": "label@text##分類：|頁數：<js>result</js>##／##,",
+      "lastChapter": "",
+      "name": "h2@text",
+      "tocUrl": "",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "img.1@html",
+      "imageStyle": "FULL",
+      "replaceRegex": ""
+    },
+    "ruleExplore": {
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "name": ""
+    },
+    "ruleSearch": {
+      "bookList": "ul@.col_2@li||.gallary_item",
+      "bookUrl": "a@.ImgA@href||a@href",
+      "checkKeyWord": "",
+      "coverUrl": ".ImgA@img@src||img@src",
+      "intro": "h2@text||a@text",
+      "kind": "",
+      "name": ".txtA@text||a@text",
+      "wordCount": ".info_col@text||span@.info@text##(照|圖)片， 創建於##,"
+    },
+    "ruleToc": {
+      "chapterList": ".gallary_item",
+      "chapterName": ".title@text",
+      "chapterUrl": "a@href",
+      "isVolume": "",
+      "nextTocUrl": "class.f_left paginator@a.-2@href\n<js>\nmatch=String(result).match(/photos\\-index\\-page\\-(\\d+)\\-aid\\-(\\d+)\\.html/);\nn=match[1]\nid=match[2]\nlist=[]\nfor(var i=1; i<=n; i++){\n\t    list.push(\"photos-index-page-\"+i+\"-aid-\"+id+\".html\")\n }\nlist;\n</js>"
+    },
+    "searchUrl": "/q/?q={{key}}&m=&f=_all&s=create_time_DESC&p={{page}}",
+    "weight": 0
+  }
+]
