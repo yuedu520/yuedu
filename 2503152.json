@@ -1,0 +1,281 @@
+[
+  {
+    "bookSourceGroup": "漫画",
+    "bookSourceName": "第一动漫网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.1dm5.cc/",
+    "customOrder": 5,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[\n{\"title\":\"全部\",\"url\":\"https://www.1dm5.cc/{{PING()}}--------{{page}}---{{NIAN()}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"动作\",\"url\":\"https://www.1dm5.cc/{{PING()}}---%E5%8A%A8%E4%BD%9C-----{{page}}---{{NIAN()}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.24}},\n{\"title\":\"喜剧\",\"url\":\"https://www.1dm5.cc/{{PING()}}---%E5%96%9C%E5%89%A7-----{{page}}---{{NIAN()}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.24}},\n{\"title\":\"爱情\",\"url\":\"https://www.1dm5.cc/{{PING()}}---%E7%88%B1%E6%83%85-----{{page}}---{{NIAN()}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.24}},\n{\"title\":\"悬疑\",\"url\":\"https://www.1dm5.cc/{{PING()}}---%E6%82%AC%E7%96%91-----{{page}}---{{NIAN()}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.24}},\n{\"title\":\"古装\",\"url\":\"https://www.1dm5.cc/{{PING()}}---%E5%8F%A4%E8%A3%85-----{{page}}---{{NIAN()}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.24}},\n{\"title\":\"武侠\",\"url\":\"https://www.1dm5.cc/{{PING()}}---%E6%AD%A6%E4%BE%A0-----{{page}}---{{NIAN()}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.24}},\n{\"title\":\"科幻\",\"url\":\"https://www.1dm5.cc/{{PING()}}---%E7%A7%91%E5%B9%BB-----{{page}}---{{NIAN()}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.24}},\n{\"title\":\"恐怖\",\"url\":\"https://www.1dm5.cc/{{PING()}}---%E6%81%90%E6%80%96-----{{page}}---{{NIAN()}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.24}},\n{\"title\":\"历史\",\"url\":\"https://www.1dm5.cc/{{PING()}}---%E5%8E%86%E5%8F%B2-----{{page}}---{{NIAN()}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.24}},\n{\"title\":\"战争\",\"url\":\"https://www.1dm5.cc/{{PING()}}---%E6%88%98%E4%BA%89-----{{page}}---{{NIAN()}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.24}},\n{\"title\":\"冒险\",\"url\":\"https://www.1dm5.cc/{{PING()}}---%E5%86%92%E9%99%A9-----{{page}}---{{NIAN()}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.24}},\n{\"title\":\"奇幻\",\"url\":\"https://www.1dm5.cc/{{PING()}}---%E5%A5%87%E5%B9%BB-----{{page}}---{{NIAN()}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.24}},\n{\"title\":\"惊悚\",\"url\":\"https://www.1dm5.cc/{{PING()}}---%E6%83%8A%E6%82%9A-----{{page}}---{{NIAN()}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.24}},\n{\"title\":\"运动\",\"url\":\"https://www.1dm5.cc/{{PING()}}---%E8%BF%90%E5%8A%A8-----{{page}}---{{NIAN()}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.24}},\n{\"title\":\"儿童\",\"url\":\"https://www.1dm5.cc/{{PING()}}---%E5%84%BF%E7%AB%A5-----{{page}}---{{NIAN()}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.24}},\n{\"title\":\"家庭\",\"url\":\"https://www.1dm5.cc/{{PING()}}---%E5%AE%B6%E5%BA%AD-----{{page}}---{{NIAN()}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.24}},\n{\"title\":\"剧情\",\"url\":\"https://www.1dm5.cc/{{PING()}}---%E5%89%A7%E6%83%85-----{{page}}---{{NIAN()}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.24}},\n{\"title\":\"动画\",\"url\":\"https://www.1dm5.cc/{{PING()}}---%E5%8A%A8%E7%94%BB-----{{page}}---{{NIAN()}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.24}}\n]",
+    "header": "Mozilla/5.0 (Linux; Android 14; PGEM10 Build/UKQ1.231108.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/121.0.6167.71 COVC/047658 Mobile Safari/537.36",
+    "jsLib": "var pingdao = [\n  \"type/1\",\n  \"type/2\",\n  \"type/3\",\n  \"type/4\",\n  \"type/5\",\n  \"type/6\"\n]\n\nvar nianfen = [\n  \"\",\n  \"2025\",\n  \"2024\",\n  \"2023\",\n  \"2022\",\n  \"2021\",\n  \"2020\",\n  \"2010%2C2019\",\n  \"2000%2C2009\",\n  \"1990%2C1999\",\n  \"1980%2C1989\",\n  \"1970%2C1979\",\n  \"1960%2C1969\",\n  \"1800%2C1959\"\n]\n   \nfunction PING() {\t\n\tv = String(this.source.getVariable()).split(\",\");\n x =String(v[0]);\n return pingdao[x]\n}\n\nfunction NIAN() {\t\n\tv = String(this.source.getVariable()).split(\",\");\n x =String(v[1]);\n return nianfen[x]\n}",
+    "lastUpdateTime": 1741786247592,
+    "loginUi": "[ { \"name\":\"频道\",\n     \"type\":\"button\",\n     \"action\":\"A()\",\n     \"style\":{\n            \"layout_flexGrow\": 1,\n            \"layout_flexBasisPercent\": 1\n     }\n  \t},\n  { \"name\":\"国产动漫\",\n     \"type\":\"button\",\n     \"action\":\"B(0)\",\n     \"style\":{\n            \"layout_flexGrow\": 1,\n            \"layout_flexBasisPercent\": 0.24\n     }\n  \t},\n  \t{ \"name\":\"日韩动漫\",\n     \"type\":\"button\",\n     \"action\":\"B(1)\",\n     \"style\":{\n            \"layout_flexGrow\": 1,\n            \"layout_flexBasisPercent\": 0.24\n     }\n  \t},\n  \t{ \"name\":\"港台动漫\",\n     \"type\":\"button\",\n     \"action\":\"B(2)\",\n     \"style\":{\n            \"layout_flexGrow\": 1,\n            \"layout_flexBasisPercent\": 0.24\n     }\n  \t},\n  { \"name\":\"欧美动漫\",\n     \"type\":\"button\",\n     \"action\":\"B(3)\",\n     \"style\":{\n            \"layout_flexGrow\": 1,\n            \"layout_flexBasisPercent\": 0.24\n     }\n  \t},\n  \t{ \"name\":\"动漫电影\",\n     \"type\":\"button\",\n     \"action\":\"B(4)\",\n     \"style\":{\n            \"layout_flexGrow\": 1,\n            \"layout_flexBasisPercent\": 0.24\n     }\n  \t},\n  \t{ \"name\":\"里番动漫\",\n     \"type\":\"button\",\n     \"action\":\"B(5)\",\n     \"style\":{\n            \"layout_flexGrow\": 1,\n            \"layout_flexBasisPercent\": 0.24\n     }\n  \t},\n  \t{ \"name\":\"年份\",\n     \"type\":\"button\",\n     \"action\":\"C()\",\n     \"style\":{\n            \"layout_flexGrow\": 1,\n            \"layout_flexBasisPercent\": 1\n     }\n  \t},\n  { \"name\":\"全部\",\n     \"type\":\"button\",\n     \"action\":\"D(0)\",\n     \"style\":{\n            \"layout_flexGrow\": 1,\n            \"layout_flexBasisPercent\": 1\n     }\n  \t},\n  \t{ \"name\":\"2025\",\n     \"type\":\"button\",\n     \"action\":\"D(1)\",\n     \"style\":{\n            \"layout_flexGrow\": 1,\n            \"layout_flexBasisPercent\": 0.24\n     }\n  \t},\n  \t{ \"name\":\"2024\",\n     \"type\":\"button\",\n     \"action\":\"D(2)\",\n     \"style\":{\n            \"layout_flexGrow\": 1,\n            \"layout_flexBasisPercent\": 0.24\n     }\n  \t},\n  \t{ \"name\":\"2023\",\n     \"type\":\"button\",\n     \"action\":\"D(3)\",\n     \"style\":{\n            \"layout_flexGrow\": 1,\n            \"layout_flexBasisPercent\": 0.24\n     }\n  \t},\n  \t{ \"name\":\"2022\",\n     \"type\":\"button\",\n     \"action\":\"D(4)\",\n     \"style\":{\n            \"layout_flexGrow\": 1,\n            \"layout_flexBasisPercent\": 0.24\n     }\n  \t},\n  \t{ \"name\":\"2021\",\n     \"type\":\"button\",\n     \"action\":\"D(5)\",\n     \"style\":{\n            \"layout_flexGrow\": 1,\n            \"layout_flexBasisPercent\": 0.24\n     }\n  \t},\n  \t{ \"name\":\"2020\",\n     \"type\":\"button\",\n     \"action\":\"D(6)\",\n     \"style\":{\n            \"layout_flexGrow\": 1,\n            \"layout_flexBasisPercent\": 0.24\n     }\n  \t},\n  \t{ \"name\":\"2010年代\",\n     \"type\":\"button\",\n     \"action\":\"D(7)\",\n     \"style\":{\n            \"layout_flexGrow\": 1,\n            \"layout_flexBasisPercent\": 0.24\n     }\n  \t},\n  \t{ \"name\":\"2000年代\",\n     \"type\":\"button\",\n     \"action\":\"D(8)\",\n     \"style\":{\n            \"layout_flexGrow\": 1,\n            \"layout_flexBasisPercent\": 0.24\n     }\n  \t},\n  \t{ \"name\":\"90年代\",\n     \"type\":\"button\",\n     \"action\":\"D(9)\",\n     \"style\":{\n            \"layout_flexGrow\": 1,\n            \"layout_flexBasisPercent\": 0.24\n     }\n  \t},\n  \t{ \"name\":\"80年代\",\n     \"type\":\"button\",\n     \"action\":\"D(10)\",\n     \"style\":{\n            \"layout_flexGrow\": 1,\n            \"layout_flexBasisPercent\": 0.24\n     }\n  \t},\n  \t{ \"name\":\"70年代\",\n     \"type\":\"button\",\n     \"action\":\"D(11)\",\n     \"style\":{\n            \"layout_flexGrow\": 1,\n            \"layout_flexBasisPercent\": 0.24\n     }\n  \t},\n  \t{ \"name\":\"60年代\",\n     \"type\":\"button\",\n     \"action\":\"D(12)\",\n     \"style\":{\n            \"layout_flexGrow\": 1,\n            \"layout_flexBasisPercent\": 0.24\n     }\n  \t},\n  \t{ \"name\":\"1800-1959\",\n     \"type\":\"button\",\n     \"action\":\"D(13)\",\n     \"style\":{\n            \"layout_flexGrow\": 1,\n            \"layout_flexBasisPercent\": 1\n     }\n  \t}\n]",
+    "loginUrl": "A = () =>{\n\t  v = String(source.getVariable()).split(\",\");\n   \tx=v[0];\n\t  if(x == 0) {\n\t  \t  java.toast('国产动漫')\n\t  \t}\n\t  \tif(x == 1) {\n\t  \t  java.toast('日韩动漫')\n\t  \t}\n\t  \tif(x == 2) {\n\t  \t  java.toast('港台动漫')\n\t  \t}\n\t  \tif(x == 3) {\n\t  \t  java.toast('欧美动漫')\n\t  \t}\n\t  \tif(x == 4) {\n\t  \t  java.toast('动漫电影')\n\t  \t}\n\t  \tif(x == 5) {\n\t  \t  java.toast('里番动漫')\n\t  \t}\n}\n\nC = () =>{\n\t  v = String(source.getVariable()).split(\",\");\n   \tx=v[1];\n\t  if(x == 0) {\n\t  \t  java.toast('全部')\n\t  \t}\n\t  \tif(x == 1) {\n\t  \t  java.toast('2025')\n\t  \t}\n\t  \tif(x == 2) {\n\t  \t  java.toast('2024')\n\t  \t}\n\t  \tif(x == 3) {\n\t  \t  java.toast('2023')\n\t  \t}\n\t  \tif(x == 4) {\n\t  \t  java.toast('2022')\n\t  \t}\n\t  \tif(x == 5) {\n\t  \t  java.toast('2021')\n\t  \t}\n\t  \tif(x == 6) {\n\t  \t  java.toast('2020')\n\t  \t}\n\t  \tif(x == 7) {\n\t  \t  java.toast('2010年代')\n\t  \t}\n\t  \tif(x == 8) {\n\t  \t  java.toast('2000年代')\n\t  \t}\n\t  \tif(x == 9) {\n\t  \t  java.toast('90年代')\n\t  \t}\n\t  \tif(x == 10) {\n\t  \t  java.toast('80年代')\n\t  \t}\n\t  \tif(x == 11) {\n\t  \t  java.toast('70年代')\n\t  \t}\n\t  \tif(x == 12) {\n\t  \t  java.toast('60年代')\n\t  \t}\n\t  \tif(x == 13) {\n\t  \t  java.toast('1800-1959')\n\t  \t}\n}\n\nB = (x) =>{\n\tv = String(source.getVariable()).split(\",\");\n\tv[0]=x;\n\tsource.setVariable(v.join(\",\"));\n\t  if(x === 0){\n\t   \tjava.toast('成功设置'+' '+'国产动漫');\n\t  \t}\n\t  if(x === 1){\n\t   \tjava.toast('成功设置'+' '+'日韩动漫');\n\t  \t}\n\t  if(x === 2){\n\t   \tjava.toast('成功设置'+' '+'港台动漫');\n\t  \t}\n\t  if(x === 3){\n\t   \tjava.toast('成功设置'+' '+'欧美动漫');\n\t  \t}\n\t  \tif(x === 4){\n\t   \tjava.toast('成功设置'+' '+'动漫电影');\n\t  \t}\n\t  if(x === 5){\n\t   \tjava.toast('成功设置'+' '+'里番动漫');\n\t  \t}\n}\n\nD = (x) =>{\n\tv = String(source.getVariable()).split(\",\");\n\tv[1]=x;\n\tsource.setVariable(v.join(\",\"));\n\t  if(x === 0){\n\t   \tjava.toast('成功设置'+' '+'全部');\n\t  \t}\n\t  if(x === 1){\n\t   \tjava.toast('成功设置'+' '+'2025');\n\t  \t}\n\t  if(x === 2){\n\t   \tjava.toast('成功设置'+' '+'2024');\n\t  \t}\n\t  if(x === 3){\n\t   \tjava.toast('成功设置'+' '+'2023');\n\t  \t}\n\t  \tif(x === 4){\n\t   \tjava.toast('成功设置'+' '+'2022');\n\t  \t}\n\t  if(x === 5){\n\t   \tjava.toast('成功设置'+' '+'2021');\n\t  \t}\n\t  \tif(x === 6){\n\t   \tjava.toast('成功设置'+' '+'2020');\n\t  \t}\n\t  if(x === 7){\n\t   \tjava.toast('成功设置'+' '+'2010年代');\n\t  \t}\n\t  if(x === 8){\n\t   \tjava.toast('成功设置'+' '+'2000年代');\n\t  \t}\n\t  if(x === 9){\n\t   \tjava.toast('成功设置'+' '+'90年代');\n\t  \t}\n\t  \tif(x === 10){\n\t   \tjava.toast('成功设置'+' '+'80年代');\n\t  \t}\n\t  if(x === 11){\n\t   \tjava.toast('成功设置'+' '+'70年代');\n\t  \t}\n\t  \tif(x === 12){\n\t   \tjava.toast('成功设置'+' '+'60年代');\n\t  \t}\n\t  if(x === 13){\n\t   \tjava.toast('成功设置'+' '+'1800-1959');\n\t  \t}\n}",
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "author": "class.mb-2 line-1.1@text&&class.mb-2 line-1.2@text",
+      "coverUrl": "class.media-content mb-1@img@src",
+      "kind": "class.mb-2 line-1.0@a.0@text",
+      "lastChapter": "class.my-2 line-1 text-warning-emphasis@ownText##更新至",
+      "name": "class.w-obj flex-grow-1 ps-3 overflow-hidden@h1@text",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "class.video-iframe ratio ratio-21x9 z-1 get-hits@data-play\n<js>\njava.startBrowser(result,title)\njava.toast('正在加载视频\\n请耐心等待')\n  '【刷新正文】播放\\n直链:\\n' + result\n</js>",
+      "imageStyle": "",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "bookList": "class.list-item",
+      "bookUrl": "class.media mb-2@a@href",
+      "coverUrl": "class.media mb-2@a@img@data-src",
+      "kind": "class.fs-8 mb-1 text-body-secondary line-1@text",
+      "lastChapter": "class.position-absolute bottom-0 end-0 px-2 py-1 text-bg-dark bg-opacity-75 rounded m-1 fs-9@text",
+      "name": "class.fs-6 my-1 line-2@a@text"
+    },
+    "ruleSearch": {
+      "bookList": "class.list-item",
+      "bookUrl": "class.w-pic flex-grow-0 media@a.0@href",
+      "coverUrl": "class.w-pic flex-grow-0 media@a.0@img@data-src",
+      "kind": "class.mb-2 line-1.0@text##标签：",
+      "lastChapter": "class.w-pic flex-grow-0 media@span.0@text##更新至",
+      "name": "class.mt-2 mb-3 line-2 fs-5@a.0@text",
+      "wordCount": "class.mb-2 line-1.1@text&&class.mb-2 line-1.2@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.row row-cols-3 row-cols-md-4 row-cols-xl-6 g-3@li",
+      "chapterName": "a@text",
+      "chapterUrl": "a@href"
+    },
+    "searchUrl": "https://www.1dm5.cc/search/{{key}}----------{{page}}---.html",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "加载很慢很慢",
+    "bookSourceGroup": "影视",
+    "bookSourceName": "奇米动漫",
+    "bookSourceType": 2,
+    "bookSourceUrl": "http://www.qimiqimi.net",
+    "bookUrlPattern": "",
+    "concurrentRate": "",
+    "coverDecodeJs": "",
+    "customOrder": 2253,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "exploreUrl": "[\n{\"title\":\"Ⓜ️日漫\",\n\"url\":\"\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":1\n\t}},\n{\"title\":\"时间\",\n\"url\":\"/type/riman/page/{{page}}.html\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.25\n\t}},\n\t{\"title\":\"人气\",\n\"url\":\"/show/riman/by/hits/page/{{page}}.html\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.25\n\t}},\n\t{\"title\":\"评分\",\n\"url\":\"/show/riman/by/score/page/{{page}}.html\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.25\n\t}},\n\t{\"title\":\"Ⓜ️国漫\",\n\"url\":\"\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":1\n\t}},\n{\"title\":\"时间\",\n\"url\":\"/type/guoman/page/{{page}}.html\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.25\n\t}},\n\t{\"title\":\"人气\",\n\"url\":\"/show/guoman/by/hits/page/{{page}}.html\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.25\n\t}},\n\t{\"title\":\"评分\",\n\"url\":\"/show/guoman/by/score/page/{{page}}.html\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.25\n\t}},\n\t{\"title\":\"Ⓜ️剧场&OVA\",\n\"url\":\"\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":1\n\t}},\n{\"title\":\"时间\",\n\"url\":\"/type/jcdm/page/{{page}}.html\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.25\n\t}},\n\t{\"title\":\"人气\",\n\"url\":\"/show/jcdm/by/hits/page/{{page}}.html\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.25\n\t}},\n\t{\"title\":\"评分\",\n\"url\":\"/show/jcdm/by/score/page/{{page}}.html\",\n\"style\":{\n\t\"layout_flexGrow\":1,\n\t\"layout_flexBasisPercent\":0.25\n\t}}\n\t]",
+    "header": "{\n\t\"Referer\":\"http://www.qimiqimi.net/\"\n}",
+    "lastUpdateTime": 1735063172195,
+    "loginCheckJs": "",
+    "loginUi": "",
+    "loginUrl": "",
+    "respondTime": 6228,
+    "ruleBookInfo": {
+      "author": "",
+      "canReName": "",
+      "coverUrl": "",
+      "init": "",
+      "intro": "",
+      "kind": "class.info@dl.-3@dd@text## ##,",
+      "lastChapter": "",
+      "name": "",
+      "tocUrl": "",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "id.bofang_box@script.0@all##.*url\":\"(.*)\",\"url_next\":.*##$1\n@js:\nresult=unescape(java.base64Decode(result))\nresult=\"http://www.qimiqimi.net/jiexi/?url=\"+result\nif(book.durChapterIndex==chapter.index){\n\t\tjava.startBrowser(result,title)\n\t\tjava.toast('正在加载视频\\n视频加载较慢，请耐心等待')\n\t}\n'【刷新正文】播放\\n✅直链:\\n'+result",
+      "imageStyle": "",
+      "nextContentUrl": "",
+      "replaceRegex": "",
+      "sourceRegex": "",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "author": "p@text",
+      "bookList": "class.img-list@li",
+      "bookUrl": "a.0@href",
+      "coverUrl": "img@src",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "i@text",
+      "name": "h2@text"
+    },
+    "ruleSearch": {
+      "author": "dl.0@dd@text",
+      "bookList": "class.show-list@li",
+      "bookUrl": "a.0@href",
+      "coverUrl": "img@src",
+      "intro": "{{\"Ⓜ️奇奇动漫\"}}",
+      "kind": "dl.3@dd@text",
+      "lastChapter": "dl.1@dd@text",
+      "name": "h2@text",
+      "wordCount": "class.play-txt@em@text"
+    },
+    "ruleToc": {
+      "chapterList": "<js>\nall=\"\"\n\n//线路个数\nlen=java.getElements('class.down-title@h2').length\n\nfor(i=1;i<=len;i++){\n\t\n\t//获取线路名称\nfrom=java.getElements('class.down-title@h2')[i-1].text()\n\n//获取线路的播放列表\nres=java.getElements('class.video_list')[i-1]\n\n//把线路名称插入列表里，在更新时间那里显示\nres=JSON.stringify(res).replace(/<\\/a>/g,'<p>'+'🎬'+from+'</p></a>')\n\nall+=JSON.parse(res)\n}\nall\n</js>\nclass.video_list@a",
+      "chapterName": "ownText",
+      "chapterUrl": "href",
+      "isVip": "",
+      "isVolume": "",
+      "nextTocUrl": "",
+      "updateTime": "p@text"
+    },
+    "searchUrl": "/vod/search.html?wd={{key}}",
+    "variableComment": "",
+    "weight": 54
+  },
+  {
+    "bookSourceComment": "www.mxdm.tv",
+    "bookSourceGroup": "影视",
+    "bookSourceName": "萌新动漫",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.mxdm.fans",
+    "customOrder": 2255,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"Ⓜ️分类\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"日(时间)\",\"url\":\"/show/riman--------{{page}}---.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"日(人气)\",\"url\":\"/show/riman--hits------{{page}}---.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"日(评分)\",\"url\":\"/show/riman--score------{{page}}---.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"中(时间)\",\"url\":\"/show/guoman--------{{page}}---.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"中(人气)\",\"url\":\"/show/guoman--hits------{{page}}---.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"中(评分)\",\"url\":\"/show/guoman--score------{{page}}---.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+    "header": "{\n\"User-Agent\":\"Mozilla/5.0 (Linux; Android 10; MI 8 Build/QKQ1.190828.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/100.0.4896.127 Mobile Safari/537.36\",\n\t\"Referer\":\"http://www.mxdm9.com/\"\n}",
+    "lastUpdateTime": 1732304658165,
+    "respondTime": 6081,
+    "ruleBookInfo": {
+      "intro": "class.sqjj_a@ownText",
+      "name": ""
+    },
+    "ruleContent": {
+      "content": "class.player-wrapper@script.0@all##.*url\":\"(.*)\",\"url_next\":.*##$1\n@js:\nresult=\"https://danmu.yhdmjx.com/m3u8.php?url=\"+result\nif(book.durChapterIndex==chapter.index){\n\t\tjava.startBrowser(result,title)\n\t\tjava.toast('正在加载视频\\n视频加载较慢，请耐心等待')\n\t}\n'【刷新正文】播放\\n✅直链:\\n'+result"
+    },
+    "ruleExplore": {
+      "bookList": "class.module-item",
+      "bookUrl": "a.0@href",
+      "coverUrl": "img@data-src",
+      "intro": "class.video-text@text",
+      "kind": "class.module-item-caption@span.0@text&&class.video-tag@a@text",
+      "lastChapter": "class.module-item-text@text",
+      "name": "a.0@title"
+    },
+    "ruleSearch": {
+      "bookList": "class.module-search-item",
+      "bookUrl": "a.0@href",
+      "checkKeyWord": "回复术士",
+      "coverUrl": "img@data-src",
+      "intro": "{{\"Ⓜ️MX动漫\"}}",
+      "kind": "class.tag-link@text",
+      "lastChapter": "class.video-serial@text",
+      "name": "class.video-info-header@h3@text"
+    },
+    "ruleToc": {
+      "chapterList": "<js>\nall=\"\"\n\n//线路个数\nlen=java.getElements('class.module-tab-item@span').length\n\nfor(i=1;i<=len;i++){\n\t\n\t//获取线路名称\nfrom=java.getElements('class.module-tab-item@span')[i-1].text()\n//获取线路的播放列表\nres=java.getElements('class.module-list')[i-1]\n\n//把线路名称插入列表里，在更新时间那里显示\nres=JSON.stringify(res).replace(/<\\/a>/g,'<p>'+'🎬'+from+'</p></a>')\n\nall+=JSON.parse(res)\n}\nall\n</js>\nclass.scroll-content@a",
+      "chapterName": "span@text",
+      "chapterUrl": "href",
+      "updateTime": "p@text"
+    },
+    "searchUrl": "/search/{{key}}----------{{page}}---.html",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "最新地址：https://rentry.la/agefans",
+    "bookSourceGroup": "影视",
+    "bookSourceName": "哎测动漫",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.agedm.org",
+    "customOrder": 2256,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"𓆟地ོ区ོ​​𓆜\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n\n{\"title\":\"全部地区\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\n\"layout_flexBasisPercent\":0.4}},\n\n{\"title\":\"中国\",\"url\":\"https://api.agedm.org/v2/catalog?region=中国&genre=all&letter=all&year=all&season=all&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},\n\n{\"title\":\"日本\",\"url\":\"https://api.agedm.org/v2/catalog?region=日本&genre=all&letter=all&year=all&season=all&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},\n\n{\"title\":\"欧美\",\"url\":\"https://api.agedm.org/v2/catalog?region=欧美&genre=all&letter=all&year=all&season=all&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},\n\n{\"title\":\"𓆟版ོ本ོ​​𓆜\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n\n{\"title\":\"TV\",\n\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=TV&letter=all&year=all&season=all&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"剧场版\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=剧场版&letter=all&year=all&season=all&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.3}},\n\n{\"title\":\"OVA\",\n\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=OVA&letter=all&year=all&season=all&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"𓆟季ོ度ོ​​𓆜\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n\n{\"title\":\"1月\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=1&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},\n\n{\"title\":\"4月\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=4&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},\n\n{\"title\":\"7月\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=7&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},\n\n{\"title\":\"10月\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=10&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},\n\n{\"title\":\"𓆟状ོ态ོ𓆜\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n\n{\"title\":\"连载\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=连载&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"完结\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=完结&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"未播\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=未播放&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"𓆟资ོ源ོ𓆜\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n\n{\"title\":\"BDRIP\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=all&resource=BDRIP&order=time&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},\n\n{\"title\":\"AGERIP\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=all&resource=AGERIP&order=time&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},\n\n{\"title\":\"𓆟排ོ序ོ𓆜\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n\n{\"title\":\"更新\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=all&resource=all&order=time&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"名称\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=all&resource=all&order=name&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"点击\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=all&resource=all&order=hits&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"𓆟年ོ份ོ𓆜\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n\n{\"title\":\"2025\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=2025&season=all&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"2024\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=2024&season=all&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"2023\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=2023&season=all&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"2022\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=2022&season=all&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"2021\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=2021&season=all&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"2020\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=2020&season=all&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"2019\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=2019&season=all&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"2018\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=2018&season=all&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"2017\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=2017&season=all&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"2016\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=2016&season=all&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"2015\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=2015&season=all&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"2014\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=2014&season=all&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"2013\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=2013&season=all&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"2012\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=2012&season=all&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"2011\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=2011&season=all&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"2010\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=2010&season=all&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"2009\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=2009&season=all&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"2008\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=2008&season=all&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"2007\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=2007&season=all&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"2006\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=2006&season=all&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"2005\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=2005&season=all&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"2004\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=2004&season=all&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"2003\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=2003&season=all&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"2002\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=2002&season=all&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"2001\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=2001&season=all&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"2000\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=2000&season=all&status=all&label=all&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"———\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"———\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"𓆟喜ོ好ོ𓆜\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n\n{\"title\":\"搞笑\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=搞笑&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"励志\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=励志&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"热血\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=热血&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"战斗\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=战斗&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"竞技\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=竞技&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"校园\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=校园&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"青春\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=青春&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"爱情\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=爱情&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"恋爱\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=恋爱&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"冒险\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=冒险&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"冒险\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=冒险&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"后宫\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=后宫&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"百合\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=百合&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"治愈\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=治愈&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"萝莉\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=萝莉&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"魔法\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=魔法&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"悬疑\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=悬疑&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"推理\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=推理&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"奇幻\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=奇幻&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"科幻\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=科幻&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"游戏\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=游戏&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"神魔\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=神魔&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"恐怖\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=恐怖&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"血腥\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=血腥&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"机战\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=机战&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"战争\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=战争&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"犯罪\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=犯罪&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"历史\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=历史&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"社会\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=社会&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"职场\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=职场&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"剧情\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=剧情&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"伪娘\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=伪娘&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"耽美\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=耽美&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"童年\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=童年&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"教育\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=教育&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"亲子\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=亲子&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"真人\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=真人&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"歌舞\",\"url\":\"https://api.agedm.org/v2/catalog?region=all&genre=all&letter=all&year=all&season=all&status=all&label=歌舞&resource=all&order=all&page={{page}}&size=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n\n{\"title\":\"——\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"——\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}}]",
+    "header": "",
+    "lastUpdateTime": 1732304150292,
+    "loginUi": "",
+    "loginUrl": "https://rentry.la/agefans",
+    "respondTime": 8447,
+    "ruleBookInfo": {
+      "init": "",
+      "intro": ".video_detail_desc@text\n@js:\nvar sz0=source.getVariable();\nif(sz0==null||sz0==\"\"){\n\tsz0=1\n}\nlet list = java.getStringList('.nav-pills .nav-item .nav-link@text')\nlet idList=java.getStringList('.nav-pills .nav-item .nav-link@data-bs-target')\nlet str=`     可以修改【源变量】查看不同线路\\n 当前源：线路名称--${list[sz0-1]?list[sz0-1]:\"未知\"}，源变量--${sz0}\\n`\nfor(let x=0;x<list.length;x++){\nlet txtArray0=java.getStringList(\"id.\"+idList[x].replace(\"#\",\"\")+\"@tag.ul@tag.li@tag.a@text\");\nstr =str+`线路${x+1}：线路名称--${list[x]}，源变量--${x+1}，剧集--${txtArray0.length}集\\n`\n}\nstr+result",
+      "name": "",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "@js:\nvar playIurl=java.getString(\"id.iframeForVideo@src\")\nvar sz1=source.getVariable();\nif(sz1==null||sz1==\"\"){\n\tsz1=1\n}\nvar nametitle=title\nif(playIurl){\n\tif(book.durChapterIndex==chapter.index){\n       java.toast(`播放地址：${String(playIurl)}`)\n\t      java.startBrowser(playIurl,title)\r\t\t\n\t      java.toast(title+\":视频加载中，请等待…\")\r\r\n\t}\n}\nresult=`\\n<br>集数:【${nametitle}】\\n<br>温馨提示：\\n<br>【刷新正文】播放\\n<br>或者【点击章节链接】跳转到浏览器播放\\n<br>修改了源变量需要刷新正文\\n<br>当前播放线路：${java.getString('.nav-pills .nav-item .active@text')}\\n<br>当前播放源变量：${sz1}\\n<br>${java.getString(\".card-body@html\")}\\n<br>集数:【${nametitle}】\\n<br>温馨提示：\\n<br>【刷新正文】播放\\n<br>或者【点击章节链接】跳转到浏览器播放\\n<br>修改了源变量需要刷新正文\\n<br>当前播放线路：${java.getString('.nav-pills .nav-item .active@text')}\\n<br>当前播放源变量：${sz1}\\n<br>${java.getString(\".card-body@html\")}\\n<br>集数:【${nametitle}】\\n<br>温馨提示：\\n<br>【刷新正文】播放\\n<br>或者【点击章节链接】跳转到浏览器播放\\n<br>修改了源变量需要刷新正文\\n<br>当前播放线路：${java.getString('.nav-pills .nav-item .active@text')}\\n<br>当前播放源变量：${sz1}\\n<br>${java.getString(\".card-body@html\")}`\nresult;",
+      "sourceRegex": ""
+    },
+    "ruleExplore": {
+      "author": "$.writer",
+      "bookList": "$.videos",
+      "bookUrl": "$.id\n@js:\nvar ajaxUrl=java.get(\"ajaxUrl\")\nif(ajaxUrl==\"\"){\najaxUrl=\"https://www.agedm.org\"\t\n}\n\najaxUrl+\"/detail/\"+result",
+      "coverUrl": "$.cover",
+      "intro": "$.intro",
+      "kind": "$.tags",
+      "lastChapter": "$.uptodate",
+      "name": "$.name"
+    },
+    "ruleSearch": {
+      "author": ".card-body .video_detail_info.7@textNodes",
+      "bookList": ".cata_video_item",
+      "bookUrl": ".card-body .card-title a@href",
+      "checkKeyWord": "猫和老鼠",
+      "coverUrl": ".video_cover .video_cover_wrapper a img@data-original",
+      "intro": ".card-body .desc@text",
+      "kind": ".video_cover .text-truncate@text&&.card-body .video_detail_info.4@textNodes&&.card-body .video_detail_info.6@textNodes",
+      "lastChapter": "",
+      "name": ".card-body .card-title a@text",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "@js:\nvar sz=source.getVariable();\nif(sz==null||sz==\"\"){\n\tsz=1\n}\nvar idName= java.getString('.nav-pills .nav-item:nth-child('+sz+') .nav-link@data-bs-target').replace(\"#\",\"\")\n\nlet array = []\nlet txtArray=java.getStringList(\"id.\"+idName+\"@tag.ul@tag.li@tag.a@text\");\n\tlet hrefTxt = java.getStringList(\"id.\"+idName+\"@tag.ul@tag.li@tag.a@href\");\n\t  for(let y=0;y<txtArray.length;y++){\r\n\t\tarray.push({\r\n\t\t name:txtArray[y],\r\n\t\t url:hrefTxt[y]\r\n\t\t})\r\n\t}\narray",
+      "chapterName": "name",
+      "chapterUrl": "url",
+      "isVip": "",
+      "isVolume": ""
+    },
+    "searchUrl": "@js:\nvar html = java.ajax(\"https://rentry.la/agefans\");\n\n/*获取最新地址*/\nvar soUrl = org.jsoup.Jsoup.parse(html).select('#nice').select('#nice').select(\"blockquote\")[0].select(\"p a\")[0].html()\n\nvar re = /^(?:http(s)?:\\/\\/)?[\\w.-]+(?:\\.[\\w\\.-]+)+[\\w\\-\\._~:/?#[\\]@!\\$&'\\(\\)\\*\\+,;=.]+$/\n\t\nvar su=source.getKey()\n\n/*判断请求地址*/\nvar postUrl= soUrl && soUrl!=\"\" && re.test(soUrl)?`${soUrl}/search`:su\n\n// 获取最新的地址\nvar ajaxUrl = soUrl && soUrl!=\"\" && re.test(soUrl)?soUrl:\"https://www.agedm.org\"\n\njava.put(\"ajaxUrl\",ajaxUrl)\n\npostUrl+\"?query={{key}}&page={{page}},\"+JSON.stringify({\n\"webview\":true\n})",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "影视",
+    "bookSourceName": "盗随动漫",
+    "bookSourceType": 2,
+    "bookSourceUrl": "https://myself-bbs.com",
+    "customOrder": 2257,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "动画连载列表::https://myself-bbs.com/forum-133-{{page}}.html\n完结动画全集::https://myself-bbs.com/forum-113-{{page}}.html\n深夜寂寞（R18+）::https://myself-bbs.com/forum-137-{{page}}.html",
+    "lastUpdateTime": 1731488592897,
+    "respondTime": 2600,
+    "ruleBookInfo": {
+      "author": "@css: div[class=\"info_info\"] ul li:nth-child(4)@text",
+      "coverUrl": "@css: div[class=\"info_img_box fl\"] img@src",
+      "intro": "@css: div[id=\"info_introduction_text\"]@text",
+      "kind": "@css:.info_info>ul>li:eq(0)@text##作品類型: ##",
+      "lastChapter": "",
+      "tocUrl": "",
+      "wordCount": "@css:.info_info>ul>li:eq(2)@textNodes##: ##"
+    },
+    "ruleContent": {},
+    "ruleExplore": {
+      "bookList": "@css: ul[class=\"ml mlt mtw cl\"]>li",
+      "bookUrl": "@css: .ptn>a@href",
+      "coverUrl": "@css: div[class=\"c cl\"]>a>img@src",
+      "name": "@css: .ptn>a@text"
+    },
+    "ruleSearch": {
+      "author": "",
+      "bookList": "@css: li[class=\"pbw\"]",
+      "bookUrl": "@css: h3[class=\"xs3\"] a@href",
+      "lastChapter": "",
+      "name": "@css: h3[class=\"xs3\"]@text"
+    },
+    "ruleToc": {
+      "chapterList": "@css: .main_list>li",
+      "chapterName": "@css:a@text##(先鋒|站內)",
+      "chapterUrl": "@css:.display_none>li>a@data-href##.*?https://v.myself-bbs.com/player/play\\/(\\d+)\\/(\\d+)##https://vpx.myself-bbs.com/$1/$2/720p.m3u8##"
+    },
+    "searchUrl": "http://myself-bbs.com/search.php?mod=forum& formhash=94d459ba&srchtxt={{key}}&searchsubmit=yes",
+    "weight": 36
+  }
+]
