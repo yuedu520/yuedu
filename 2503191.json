@@ -1,0 +1,356 @@
+[
+  {
+    "bookSourceComment": "by天天的鸟蛋蛋\n阅读云（sososhu）搜索系列\n2025/3/5",
+    "bookSourceName": "二次元小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.erciyan.com/",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "exploreUrl": "书库::/fenlei/<,{{page}}/>\n完本::/quanben/fenlei/<,{{page}}/>",
+    "lastUpdateTime": 1741157591884,
+    "respondTime": 16656,
+    "ruleBookInfo": {
+      "author": "[property$=author]@content",
+      "coverUrl": "[property$=image]@content",
+      "intro": "[property$=description]@content",
+      "kind": "[property~=category|status|update_time]@content",
+      "lastChapter": "[property$=lastest_chapter_name]@content",
+      "name": "[property$=book_name]@content"
+    },
+    "ruleContent": {
+      "content": "#content@html||.content@html",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {
+      "author": ".s4@text",
+      "bookList": ".txt-list@ul@li",
+      "bookUrl": "a@href",
+      "kind": ".s5@text&&.s1@text##\\[|\\]",
+      "lastChapter": ".s3@a@text",
+      "name": ".s2@a@text"
+    },
+    "ruleSearch": {
+      "author": "span@text",
+      "bookList": "<js>\nif (result.match(/阅读云/)) {\n   u = baseUrl.split(',')[0]\n   cookie.removeCookie(u)\n   // java.startBrowserAwait(u, \"验证\")\n   java.webView(null, u, \"document.cookie\")\n   ck = cookie.getCookie(u)\n   head = JSON.stringify({ headers: { 'Cookie': ck } })\n   url = u + \",\" + head\n   result = java.ajax(url)\n}\nresult\n</js>\n.block > div > div:nth-child(n+1)",
+      "bookUrl": "a@href",
+      "coverUrl": "img@src",
+      "intro": "dd@text",
+      "name": "a@text"
+    },
+    "ruleToc": {
+      "chapterList": ".section-list@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "option@value"
+    },
+    "searchUrl": "https://www.sososhu.com/?site=2cyxswnet&q={{key}},{\n  headers: { \"User-Agent\": \"Mozilla/5.0 (Linux; Android 10; PACM00 Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.79 Mobile Safari/537.36\" }}",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "by天天的鸟蛋蛋\n阅读云（sososhu）搜索系列\n2025/3/15",
+    "bookSourceGroup": "",
+    "bookSourceName": "精武小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.jwxs.org/",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": false,
+    "exploreUrl": "玄幻::/fenlei/{{page}}/1/\n奇幻::/fenlei/2/{{page}}/\n武侠::/fenlei/3/{{page}}/\n仙侠::/fenlei/4/{{page}}/\n都市::/fenlei/5/{{page}}/\n军事::/fenlei/6/{{page}}/\n历史::/fenlei/7/{{page}}/\n游戏::/fenlei/8/{{page}}/\n竞技::/fenlei/9/{{page}}/\n科幻::/fenlei/10/{{page}}/\n悬疑::/fenlei/11/{{page}}/\n灵异::/fenlei/12/{{page}}/\n其他::/fenlei/13/{{page}}/\n古代::/fenlei/14/{{page}}/\n仙侠::/fenlei/15/{{page}}/\n现代::/fenlei/16/{{page}}/\n浪漫::/fenlei/17/{{page}}/\n玄幻::/fenlei/18/{{page}}/\n悬疑::/fenlei/19/{{page}}/\n科幻::/fenlei/20/{{page}}/\n游戏::/fenlei/21/{{page}}/\nBL::/fenlei/22/{{page}}/\nGL::/fenlei/23/{{page}}/\n二次::/fenlei/24/{{page}}/\n热门::/rank/allvisit/",
+    "lastUpdateTime": 1742303058180,
+    "respondTime": 6156,
+    "ruleBookInfo": {
+      "author": "[property$=author]@content",
+      "coverUrl": "[property$=image]@content",
+      "intro": "[property$=description]@content",
+      "kind": "[property~=category|status|update_time]@content",
+      "lastChapter": "[property$=lastest_chapter_name]@content",
+      "name": "[property$=book_name]@content",
+      "tocUrl": "text.章节目录@href"
+    },
+    "ruleContent": {
+      "content": "#booktxt@html",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {
+      "author": "span@text##著",
+      "bookList": ".item",
+      "bookUrl": "dl>dt>a@href",
+      "coverUrl": "dl>dt>a@href\n<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\nsource.key +'/images/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+      "intro": "dd@text",
+      "name": "dl>dt>a@text"
+    },
+    "ruleSearch": {
+      "author": "span@text",
+      "bookList": "<js>\nif (result.match(/阅读云/)) {\n   u = baseUrl.split(',')[0]\n   cookie.removeCookie(u)\n   // java.startBrowserAwait(u, \"验证\")\n   java.webView(null, u, \"document.cookie\")\n   ck = cookie.getCookie(u)\n   head = JSON.stringify({ headers: { 'Cookie': ck } })\n   url = u + \",\" + head\n   result = java.ajax(url)\n}\nresult\n</js>\n.block > div > div:nth-child(n+1)",
+      "bookUrl": "a@href",
+      "coverUrl": "img@src",
+      "intro": "dd@text",
+      "name": "a@text"
+    },
+    "ruleToc": {
+      "chapterList": "#content_1@a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "option@value"
+    },
+    "searchUrl": "https://www.sososhu.com/?site=1&q={{key}},{\n  headers: { \"User-Agent\": \"Mozilla/5.0 (Linux; Android 10; PACM00 Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.79 Mobile Safari/537.36\" }}",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "\nby天天的鸟蛋蛋\n//2025/1/8 创建 \n原创 \n源仓库找过了没有\n阅读云（sososhu）搜索系列",
+    "bookSourceGroup": "顶点小说",
+    "bookSourceName": "顶点小说wanglisong",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.wanglisong.com",
+    "customOrder": 58,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "exploreUrl": "书库::/sort/<,{{page}}/>\n完本::/quanben/sort/<,{{page}}/>",
+    "lastUpdateTime": 1738837234717,
+    "respondTime": 6338,
+    "ruleBookInfo": {
+      "author": "[property$=author]@content",
+      "coverUrl": "[property$=image]@content",
+      "intro": "{{@@[property$=description]@content}}",
+      "kind": "[property~=category|status|update_time]@content",
+      "lastChapter": "[property$=lastest_chapter_name]@content",
+      "name": "[property$=book_name]@content"
+    },
+    "ruleContent": {
+      "content": "#content@html||.content@html",
+      "nextContentUrl": "text.下一页@href||text.下一@href"
+    },
+    "ruleExplore": {
+      "author": ".s4@text",
+      "bookList": ".txt-list@ul@li",
+      "bookUrl": "a@href",
+      "kind": ".s5@text&&.s1@text##\\[|\\]",
+      "lastChapter": ".s3@a@text",
+      "name": ".s2@a@text"
+    },
+    "ruleSearch": {
+      "author": "span@text",
+      "bookList": "<js>\nif (result.match(/阅读云/)) {\n   u = baseUrl.split(',')[0]\n   cookie.removeCookie(u)\n   // java.startBrowserAwait(u, \"验证\")\n   java.webView(null, u, \"document.cookie\")\n   ck = cookie.getCookie(u)\n   head = JSON.stringify({ headers: { 'Cookie': ck } })\n   url = u + \",\" + head\n   result = java.ajax(url)\n}\nresult\n</js>\n.block > div > div:nth-child(n+1)",
+      "bookUrl": "a@href",
+      "coverUrl": "img@src",
+      "intro": "dd@text",
+      "name": "a@text"
+    },
+    "ruleToc": {
+      "chapterList": ".section-box:nth-child(4) li:nth-child(n+1) > a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "option@value||text.下一页@href||text.下一@href"
+    },
+    "searchUrl": "https://www.sososhu.com/?site=wanglisong&q={{key}},{\n  headers: { \"User-Agent\": \"Mozilla/5.0 (Linux; Android 10; PACM00 Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.79 Mobile Safari/537.36\" }}",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "\n\nby天天的鸟蛋蛋\n阅读云（sososhu）搜索",
+    "bookSourceGroup": "",
+    "bookSourceName": "新天禧小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.tianxibook.com/",
+    "customOrder": 68,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1738837182462,
+    "respondTime": 3253,
+    "ruleBookInfo": {
+      "author": "[property$=author]@content",
+      "coverUrl": "[property$=image]@content",
+      "intro": "[property$=description]@content",
+      "kind": "[property~=status|category|update_time]@content",
+      "lastChapter": "[property$=latest_chapter_name]@content",
+      "name": "[property$=book_name]@content",
+      "tocUrl": "text.章节目录@href",
+      "wordCount": "p.3@text##.*："
+    },
+    "ruleContent": {
+      "content": "#booktxt@html",
+      "nextContentUrl": "text.下一页@href",
+      "title": ""
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "span@text",
+      "bookList": "<js>\nif (result.match(/阅读云/)) {\n   u = baseUrl.split(',')[0]\n   cookie.removeCookie(u)\n   // java.startBrowserAwait(u, \"验证\")\n   java.webView(null, u, \"document.cookie\")\n   ck = cookie.getCookie(u)\n   head = JSON.stringify({ headers: { 'Cookie': ck } })\n   url = u + \",\" + head\n   result = java.ajax(url)\n}\nresult\n</js>\n.block > div > div:nth-child(n+1)",
+      "bookUrl": "a@href",
+      "coverUrl": "img@src",
+      "intro": "dd@text",
+      "name": "a@text"
+    },
+    "ruleToc": {
+      "chapterList": "#content_1 > a:nth-child(n+1)",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "option@value"
+    },
+    "searchUrl": "https://www.sososhu.com/?site=xtxxs&q={{key}},{\n  headers: { \"User-Agent\": \"Mozilla/5.0 (Linux; Android 10; PACM00 Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.79 Mobile Safari/537.36\" }}",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "\nby天天的鸟蛋蛋\n阅读云搜索\nljy911028：原请求头无法直搜\n# 遇到阅读云\n![Screenshot_2024-12-13-01-53-36-69_df198e732186825c8df26e3c5a10d7cd.jpg](http://img.wuaze.com/2024/12/13/675b24e82d244.jpg)\n方法一@柚屿. \n搜索js\nsite=实际网站情况\n比如m54kanshu\nm43kanshu\n```js\nhttps://www.sososhu.com/?site=youpin&q={{key}},{\n  headers: { \"User-Agent\": \"Mozilla/5.0 (Linux; Android 10; PACM00 Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.79 Mobile Safari/537.36\" }}\n```\n列表规则js\n```js\n<js>\nif (result.match(/阅读云/)) {\n   u = baseUrl.split(',')[0]\n   cookie.removeCookie(u)\n   // java.startBrowserAwait(u, \"验证\")\n   java.webView(null, u, \"document.cookie\")\n   ck = cookie.getCookie(u)\n   head = JSON.stringify({ headers: { 'Cookie': ck } })\n   url = u + \",\" + head\n   result = java.ajax(url)\n}\nresult\n</js>\n.block > div > div:nth-child(n+1)\n```\n方法二@ljy911028\n登录认证js\n```js\nvar src = result.body();\nif(key && /ge_ua/.test(src)){\n\turl = java.ruleUrl;\n\tresult = java.startBrowserAwait(url, \"验证\");\n\t}\nresult\n```\n请求头js\n```js\n@js:  \nJSON.stringify({\"Referer\": baseUrl,  \n\"X-Requested-With\": \"mark.via\",  \n\"Accept-Language\": \"zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7\",  \n\"User-Agent\": \"Mozilla/5.0 (Linux; Android 10; PACM00 Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.79 Mobile Safari/537.36\"})\n```\n 天天的鸟蛋蛋已修复\n \nsousou搜索，都自带24个分类，不写没人看，写了没人看  ——鲁迅\n \n可用地址：\n搜搜小说1 (一程)\nhttp://www.soeo.net\n搜索地址：\n@js:\nlet url = 'https://www.sososhu.com/?site=soeonet&q={{java.encodeURI(key)}}' \nlet ck = cookie.getCookie(url);\nlet head = JSON.stringify({\n  headers: { 'Cookie': ck }\n})\nurl + \",\" + head\n搜搜小说2\nhttps://www.sokanshu.com\n搜索地址：\n@js:\nlet url = 'https://www.sososhu.com/?site=soeonet&q={{java.encodeURI(key)}}' \nlet ck = cookie.getCookie(url);\nlet head = JSON.stringify({\n  headers: { 'Cookie': ck }\n})\nurl + \",\" + head\n",
+    "bookSourceGroup": "",
+    "bookSourceName": "优品小说(天天)",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.youpinbook.com",
+    "concurrentRate": "",
+    "customOrder": 1484,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"玄幻\",\"url\":\"/fenlei/1/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"奇幻\",\"url\":\"/fenlei/2/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"武侠\",\"url\":\"/fenlei/3/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"仙侠\",\"url\":\"/fenlei/4/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"都市\",\"url\":\"/fenlei/5/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"军事\",\"url\":\"/fenlei/6/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"历史\",\"url\":\"/fenlei/7/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"游戏\",\"url\":\"/fenlei/8/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"竞技\",\"url\":\"/fenlei/9/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"科幻\",\"url\":\"/fenlei/10/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"悬疑\",\"url\":\"/fenlei/11/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"灵异\",\"url\":\"/fenlei/12/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"其他\",\"url\":\"/fenlei/13/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"古代言情\",\"url\":\"/fenlei/14/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"仙侠奇缘\",\"url\":\"/fenlei/15/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"现代言情\",\"url\":\"/fenlei/16/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"浪漫青春\",\"url\":\"/fenlei/17/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"玄幻言情\",\"url\":\"/fenlei/18/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"悬疑灵异\",\"url\":\"/fenlei/19/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"科幻空间\",\"url\":\"/fenlei/20/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"游戏竞技\",\"url\":\"/fenlei/21/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"BL文\",\"url\":\"/fenlei/22/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"GL文\",\"url\":\"/fenlei/23/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"二次元\",\"url\":\"/fenlei/24/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}]",
+    "header": "",
+    "lastUpdateTime": 1741688865004,
+    "loginCheckJs": "",
+    "respondTime": 26306,
+    "ruleBookInfo": {
+      "author": "id.info@a.0@text",
+      "coverUrl": "id.fmimg@img@data-original",
+      "intro": "id.intro@text",
+      "kind": ".con_top@a.1@text&&id.info@p.3:6@text##.*：|小说|\\s..:.*",
+      "lastChapter": "id.info@a.1@text",
+      "name": "id.info@h1@text",
+      "tocUrl": ".readbtn@a.1@href",
+      "wordCount": "id.info@p.2@text##.*："
+    },
+    "ruleContent": {
+      "content": "id.booktxt@p!0@text",
+      "nextContentUrl": ".bottem1@a.2@href",
+      "replaceRegex": "##\\(本章完\\)"
+    },
+    "ruleExplore": {
+      "author": "a.2@text",
+      "bookList": ".l[-1]@.item",
+      "bookUrl": "a.1@href",
+      "coverUrl": "img@data-original",
+      "intro": "dd@text",
+      "kind": "em.1@text",
+      "name": "a.1@text",
+      "wordCount": "em.0@text"
+    },
+    "ruleSearch": {
+      "author": "span@text",
+      "bookList": "<js>\nif (result.match(/阅读云/)) {\n   u = baseUrl.split(',')[0]\n   cookie.removeCookie(u)\n   // java.startBrowserAwait(u, \"验证\")\n   java.webView(null, u, \"document.cookie\")\n   ck = cookie.getCookie(u)\n   head = JSON.stringify({ headers: { 'Cookie': ck } })\n   url = u + \",\" + head\n   result = java.ajax(url)\n}\nresult\n</js>\n.block > div > div:nth-child(n+1)",
+      "bookUrl": "a@href",
+      "checkKeyWord": "万族之劫",
+      "coverUrl": "img@src",
+      "intro": "dd@text",
+      "name": "a@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.content_1@a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "option@value"
+    },
+    "searchUrl": "https://www.sososhu.com/?site=youpin&q={{key}},{\n  headers: { \"User-Agent\": \"Mozilla/5.0 (Linux; Android 10; PACM00 Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.79 Mobile Safari/537.36\" }}",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "\n创作：by天天的鸟蛋蛋\n20240726_修复搜索\n24/12/13阅读云搜索修复。\n25/3/16 更新阅读云搜索系列 更改搜索",
+    "bookSourceGroup": "笔趣阁",
+    "bookSourceName": "54看书-笔趣阁（天天书源）",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.54kanshu.com",
+    "customOrder": 1801,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"首页\",\"url\":\"/\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},{\"title\":\"分类\",\"url\":\"/fenlei/{{page}}\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},{\"title\":\"玄幻\",\"url\":\"/fenlei/1/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"奇幻\",\"url\":\"/fenlei/2/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"武侠\",\"url\":\"/fenlei/3/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"仙侠\",\"url\":\"/fenlei/4/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"都市\",\"url\":\"/fenlei/5/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"军事\",\"url\":\"/fenlei/6/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"历史\",\"url\":\"/fenlei/7/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"游戏\",\"url\":\"/fenlei/8/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"竞技\",\"url\":\"/fenlei/9/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"科幻\",\"url\":\"/fenlei/10/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"悬疑\",\"url\":\"/fenlei/11/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"灵异\",\"url\":\"/fenlei/12/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"其他\",\"url\":\"/fenlei/13/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"古代言情\",\"url\":\"/fenlei/14/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"仙侠奇缘\",\"url\":\"/fenlei/15/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"现代言情\",\"url\":\"/fenlei/16/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"浪漫青春\",\"url\":\"/fenlei/17/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"玄幻言情\",\"url\":\"/fenlei/18/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"悬疑灵异\",\"url\":\"/fenlei/19/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"科幻空间\",\"url\":\"/fenlei/20/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"游戏竞技\",\"url\":\"/fenlei/21/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"BL文\",\"url\":\"/fenlei/22/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"GL文\",\"url\":\"/fenlei/23/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"二次元\",\"url\":\"/fenlei/24/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"排行\",\"url\":\"/rank/\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},{\"title\":\"总排行榜\",\"url\":\"/rank/allvisit/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"月排行榜\",\"url\":\"/rank/monthvisit/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"周排行榜\",\"url\":\"/rank/weekvisit/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"收 藏 榜\",\"url\":\"/rank/goodnum/{{page}}\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},{\"title\":\"完本\",\"url\":\"/quanben/fenlei/{{page}}\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},{\"title\":\"玄幻\",\"url\":\"/quanben/fenlei/1/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"奇幻\",\"url\":\"/quanben/fenlei/2/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"武侠\",\"url\":\"/quanben/fenlei/3/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"仙侠\",\"url\":\"/quanben/fenlei/4/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"都市\",\"url\":\"/quanben/fenlei/5/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"军事\",\"url\":\"/quanben/fenlei/6/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"历史\",\"url\":\"/quanben/fenlei/7/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"游戏\",\"url\":\"/quanben/fenlei/8/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"竞技\",\"url\":\"/quanben/fenlei/9/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"科幻\",\"url\":\"/quanben/fenlei/10/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"悬疑\",\"url\":\"/quanben/fenlei/11/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"灵异\",\"url\":\"/quanben/fenlei/12/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"其他\",\"url\":\"/quanben/fenlei/13/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"古代言情\",\"url\":\"/quanben/fenlei/14/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"仙侠奇缘\",\"url\":\"/quanben/fenlei/15/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"现代言情\",\"url\":\"/quanben/fenlei/16/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"浪漫青春\",\"url\":\"/quanben/fenlei/17/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"玄幻言情\",\"url\":\"/quanben/fenlei/18/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"悬疑灵异\",\"url\":\"/quanben/fenlei/19/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"科幻空间\",\"url\":\"/quanben/fenlei/20/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"游戏竞技\",\"url\":\"/quanben/fenlei/21/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"BL文\",\"url\":\"/quanben/fenlei/22/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"GL文\",\"url\":\"/quanben/fenlei/23/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"二次元\",\"url\":\"/quanben/fenlei/24/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}}]",
+    "header": "",
+    "lastUpdateTime": 1742108451734,
+    "loginCheckJs": "",
+    "loginUrl": "",
+    "respondTime": 5635,
+    "ruleBookInfo": {
+      "author": ".block_txt2@p.2@text",
+      "coverUrl": ".block_img2@img@src",
+      "intro": ".intro_info@textNodes##推荐地址：",
+      "kind": "p.3@a@text&&p.4@text##.*：",
+      "lastChapter": "p.6@a@text&&p.-2@text##更新：",
+      "name": "h2@text"
+    },
+    "ruleContent": {
+      "content": "id.nr@html",
+      "nextContentUrl": "text.下一@href"
+    },
+    "ruleExplore": {
+      "author": "span.1@text",
+      "bookList": ".fk@.xbk!0",
+      "bookUrl": "a@href",
+      "coverUrl": "img@src",
+      "intro": "span.2@text",
+      "kind": "span.3@text",
+      "name": "a@text"
+    },
+    "ruleSearch": {
+      "author": "span@text",
+      "bookList": "<js>\nif (result.match(/阅读云/)) {\n   u = baseUrl.split(',')[0]\n   cookie.removeCookie(u)\n   // java.startBrowserAwait(u, \"验证\")\n   java.webView(null, u, \"document.cookie\")\n   ck = cookie.getCookie(u)\n   head = JSON.stringify({ headers: { 'Cookie': ck } })\n   url = u + \",\" + head\n   result = java.ajax(url)\n}\nresult\n</js>\n.block > div > div:nth-child(n+1)",
+      "bookUrl": "a@href",
+      "checkKeyWord": "",
+      "coverUrl": "img@src",
+      "intro": "dd@text",
+      "name": "a@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.ul_all_chapters@li",
+      "chapterName": "a@text",
+      "chapterUrl": "a@href",
+      "nextTocUrl": ".index-container@option@value"
+    },
+    "searchUrl": "https://www.sososhu.com/?site=m54kanshu&q={{key}},{\n  headers: { \"User-Agent\": \"Mozilla/5.0 (Linux; Android 10; PACM00 Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.79 Mobile Safari/537.36\" }}",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "阅读云（sososhu）搜索系列又增加一个\nby天天的鸟蛋蛋：矫正测试\n我不是这书源 原作\n只是修复搜索和目录页,正文页",
+    "bookSourceGroup": "A级",
+    "bookSourceName": "三叶屋",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.sanyewu.com",
+    "bookUrlPattern": "",
+    "customOrder": 8030,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1734258842649,
+    "loginUrl": "",
+    "respondTime": 5843,
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "intro": "[property=\"og:description\"]@content",
+      "kind": "[property=\"og:novel:category\"]@content",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+      "name": "[property=\"og:novel:book_name\"]@content"
+    },
+    "ruleContent": {
+      "content": "#nr@html",
+      "nextContentUrl": "text.下一页@href||text.下一@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "span@text",
+      "bookList": "<js>\nif (result.match(/阅读云/)) {\nu = baseUrl.split(',')[0]\ncookie.removeCookie(u)\n// java.startBrowserAwait(u, \"验证\")\njava.webView(null, u, \"document.cookie\")\nck = cookie.getCookie(u)\nhead = JSON.stringify({ headers: { 'Cookie': ck } })\nurl = u + \",\" + head\nresult = java.ajax(url)\n}\nresult\n</js>\n.block > div > div:nth-child(n+1)",
+      "bookUrl": "a@href",
+      "checkKeyWord": "",
+      "coverUrl": "img@src",
+      "intro": "dd@text",
+      "name": "a@text"
+    },
+    "ruleToc": {
+      "chapterList": "#ul_all_chapters > li:nth-child(n+1) > a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "option@value||text.下一页@href||text.下一@href"
+    },
+    "searchUrl": "https://www.sososhu.com/?site=wapsywbook&q={{key}},{headers:{ \"User-Agent\": \"Mozilla/5.0 (Linux; Android 10; PACM00 Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.79 Mobile Safari/537.36\" }}",
+    "weight": 0
+  }
+]
