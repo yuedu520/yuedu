@@ -1,0 +1,59 @@
+[
+  {
+    "bookSourceComment": "",
+    "bookSourceName": "八一中文网-幕惜",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.bayizww.com",
+    "customOrder": -92821,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"连载\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"玄幻\",\"url\":\"/yd/xclass/1/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"修真\",\"url\":\"/yd/xclass/2/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市\",\"url\":\"/yd/xclass/3/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"穿越\",\"url\":\"/yd/xclass/4/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"网游\",\"url\":\"/yd/xclass/5/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻\",\"url\":\"/yd/xclass/6/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"其他\",\"url\":\"/yd/xclass/7/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"完本\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"玄幻\",\"url\":\"/quanben/yd/xclass/1/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"修真\",\"url\":\"/quanben/yd/xclass/2/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市\",\"url\":\"/quanben/yd/xclass/3/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"穿越\",\"url\":\"/quanben/yd/xclass/4/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"网游\",\"url\":\"/quanben/yd/xclass/5/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻\",\"url\":\"/quanben/yd/xclass/6/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"其他\",\"url\":\"/quanben/yd/xclass/7/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+    "header": "",
+    "lastUpdateTime": 1742291917435,
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "coverUrl": ".novel_info_main@img@src",
+      "intro": "[property=\"og:description\"]@content",
+      "kind": "[property~=category|status|update_time]@content",
+      "lastChapter": "[property~=las?test_chapter_name]@content",
+      "name": "[property=\"og:novel:book_name\"]@content",
+      "tocUrl": ""
+    },
+    "ruleContent": {
+      "content": "#article@p@html",
+      "nextContentUrl": "text.下一页@href",
+      "replaceRegex": "##.*com"
+    },
+    "ruleExplore": {
+      "author": ".li_bottom@a@text",
+      "bookList": ".flex@li",
+      "bookUrl": "a.0@href",
+      "coverUrl": "img@data-original",
+      "intro": ".indent@textNodes",
+      "kind": "span.0@text## / ##,",
+      "lastChapter": "em.1@text",
+      "name": "h2@text",
+      "wordCount": "em.0@text"
+    },
+    "ruleSearch": {
+      "author": "p.0@ownText",
+      "bookList": ".searchresult",
+      "bookUrl": "a.0@href",
+      "coverUrl": "img@data-original",
+      "intro": "p.1@textNodes",
+      "kind": "span.0@text## / ##,",
+      "lastChapter": "p.2@text",
+      "name": "h3@text",
+      "wordCount": "p@span.0@ownText##字.*##字"
+    },
+    "ruleToc": {
+      "chapterList": "#ul_all_chapters@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "{{cookie.removeCookie(source.getKey())}}/search/?searchkey={{key}}&searchtype=all",
+    "weight": 0
+  }
+]
