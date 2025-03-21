@@ -1,0 +1,64 @@
+[
+  {
+    "bookSourceComment": "//2025.3.20 by.辞晨\n//防倒卖，请在登录UI界面输入作者名：\n辞晨",
+    "bookSourceGroup": "写源",
+    "bookSourceName": "66成人小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "🧾网站不知道🧾",
+    "bookUrlPattern": "https:\\/\\/66story\\.comy/index\\.php\\/book\\/info\\/\\w+",
+    "customOrder": -99904,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "exploreUrl": "<js>\nsort = [];\nnowCode = \"{{Math.floor(Date.now()/1000)}\\}\"\npush = (title, url, type1, type2) => sort.push({\n\ttitle: title,\n\turl: url,\n\tstyle: {\n\t\tlayout_flexGrow: type1,\n\t\tlayout_flexBasisPercent: type2\n\t}\n});\npush(\"全部🌊分类\", null, 1, 1)\narList = [\"校园春色\", \"东方玄幻\", \"乡村爱情\", \"都市激情\", \"家庭乱伦\", \"娱乐明星\", \"历史架空\", \"经典武侠\", \"系统异能\", \"穿越重生\", \"科学幻想\", \"同人改编\", \"强奸轮奸\", \"西方魔幻\", \"贤者小说\", \"堕落\", \"反差\", \"凌辱\", \"纯爱\", \"百合\", \"重口\", \"伪娘\", \"性奴\", \"萝莉\", \"禁忌\", \"熟女\", \"NTR\", \"媚黑\", \"绿帽\", \"调教\", \"正太\", \"女主\", \"反转\", \"下克上\", \"羞耻\", \"其他\", \"校园\", \"玄幻\", \"乡村\", \"乱伦\", \"都市\", \"历史\", \"武侠\", \"系统\", \"穿越\", \"科幻\", \"同人\", \"强奸\", \"奇幻\", \"贤者\", \"明星\"]\narList.map((tag, index) => {\n\turl = `{{getUrl()}}index.php/api/data/book?callback=&list=${index+3}&order=addtime&pay=0&finish=0&tags=0&size=0&page={{page}}&cid=${index+3}&_=${nowCode}`;\n\tpush(tag, url, 1, 0.25);\n});\nnrList = [\"🔖全部🔖\", \"🔖玄幻🔖\", \"🔖奇幻🔖\", \"武侠\", \"🔖仙侠🔖\", \"🔖都市🔖\", \"🔖言情🔖\", \"🔖历史🔖\", \"🔖军事🔖\", \"🔖游戏🔖\", \"🔖悬疑🔖\", \"🔖科幻🔖\", \"灵异🔖\", \"二次元🔖\", \"🔖短篇🔖\"]\nmrList = [\"全部\", \"连载中\", \"完结\"]\nprList = ['全部', '30万字', '30-50万', '50-100万', '100-200万', '200万']\norList = [\"全部\", \"免费\", \"付费\", \"VIP\"]\nnrList.map((tag, index) => {\n\turl = `{{getUrl()}}index.php/api/data/book?callback=&list=${index+3}&order=hits&pay=0&finish=0&tags=0&size=0&page={{page}}&cid=${index+3}&_=${nowCode}`;\n\tpush(tag, url, 1, 1);\n\tmrList.map((teg, uei) => {\n\t\turl = `{{getUrl()}}index.php/api/data/book?callback=&list=${index+3}&order=hits&pay=0&finish=${uei}&tags=0&size=0&page={{page}}&cid=${index+3}&_=${nowCode}`;\n\t\tpush(teg, url, 1, 0.25);\n\t});\n\tprList.map((tog, uri) => {\n\t\tmrList.map((teg, uei) => {\n\t\t\turl = `{{getUrl()}}index.php/api/data/book?callback=&list=${index+3}&order=hits&pay=0&finish=${uei}&tags=0&size=${uri}&page={{page}}&cid=${index+3}&_=${nowCode}`;\n\t\t\tpush(tog, url, 1, 0.25);\n\t\t});\n\t});\n\torList.map((trg, ure) => {\n\t\tmrList.map((teg, uei) => {\n\t\t\turl = `{{getUrl()}}index.php/api/data/book?callback=&list=${index+3}&order=hits&pay=${ure}&finish=${uei}&tags=0&size=0&page={{page}}&cid=${index+3}&_=${nowCode}`;\n\t\t\tpush(trg, url, 1, 0.25);\n\t\t});\n\t});\n});\n//java.log(JSON.stringify(sort))\nJSON.stringify(sort)\n</js>",
+    "header": "@js:\nJSON.stringify({\n  'User-Agent': \"Mozilla/5.0 (Linux; Android 15; V2304A Build/AP3A.240905.015.A2; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/132.0.6834.163 Mobile Safari/537.36\",\n  'sec-ch-ua-platform': \"\\\"Android\\\"\",\n  'origin': getUrl(),\n  'x-requested-with': \"cn.mujiankeji.mbrowser\",\n  'Referer': getUrl(),\n  'Accept-language': \"zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7\"\n})",
+    "jsLib": "ua = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 Edg/132.0.2957.129';\n\nfunction getInfo(name, source) {\n\treturn source.getLoginInfoMap() && source.getLoginInfoMap().get(name);\n}\n\nfunction getUrl(_) {\n   return eval(String(this.java.base64Decode(tg)))\n    \t\t\t}\n    \t\t\t\nvar api = [\n\t\"https://66story.com/\"\n]\nfb='bGV0IHVybCA9ICdodHRwczovL3d3dy5jb29sYXBrLmNvbS9saW5rP3VybD1sZWdhZG86Ly9pbXBvcnQvU291cmNlP3NyYz1odHRwczovL2doLmxsa2suY2MvaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0dFZDUyMC9wcy9yZWZzL2hlYWRzL21haW4vNjblsI/or7QuanNvbic7CmphdmEuc3RhcnRCcm93c2VyKHVybCwgJ+abtOaWsCcpOwo='\n\ntg='Y29uc3QgeyBqYXZhLCBzb3VyY2UgfSA9IF8gfHwgdGhpcwoJbGV0IGF1dGhvciA9IGdldEluZm8oJ+a6kOS9nOiAhe+8micsIHNvdXJjZSk7CglpZiAoYXV0aG9yID09ICfovp7mmagnKSB7CgkJbGV0IHYgPSBTdHJpbmcoc291cmNlLmdldFZhcmlhYmxlKCkpLnNwbGl0KCIsIik7CiAgaWYodi5sZW5ndGggPCAyKXsKICBzb3VyY2Uuc2V0VmFyaWFibGUoIjAsMCIpOwogICAgdj1TdHJpbmcoc291cmNlLmdldFZhcmlhYmxlKCkpLnNwbGl0KCIsIik7Cn0KCQlhID0gdlsxXS5tYXRjaCgvXlxkKyQvKSA/IHZbMV0gOiAwOwoJCS8vamF2YS5sb2codikKCQkvL2phdmEubG9nKGFwaVt2XSkKCQlhcGlbYV0KCX0gZWxzZSB7CgkJdGlwID0gIuagoemqjOWksei0pe+8gVxu6K+35LqO55m75b2VdWnovpPlhaXmupDkvZzogIXlkI1cbuS5pua6kOWujOWFqOWFjei0uVxu6K+35Yu/55u45L+h5Lu75L2V56ys5LiJ5pa55LuY6LS55pyN5YqhXG7mupDkvZzogIXvvJrovp7mmagiCgkJamF2YS5sb25nVG9hc3QodGlwKTsKCQl0aHJvdyBuZXcgRXJyb3IodGlwKQoJfQ=='\njk='diA9IFN0cmluZyhzb3VyY2UuZ2V0VmFyaWFibGUoKSkuc3BsaXQoIiwiKTsKIHZbMV0gPSB4Owogc291cmNlLnNldFZhcmlhYmxlKHYuam9pbigiLCIpKTsKCWdldFVybCgpOwoJamF2YS50b2FzdCgn5oiQ5Yqf6K6+572u5o6l5Y+j44CQJyArIHggKyAn44CRJyArICcgXG4nICsgZ2V0VXJsKCkpOwoJbGV0IGRhdGUxID0gbmV3IERhdGUoKS5nZXRUaW1lKCk7CglsZXQgaHRtbCA9IGphdmEuYWpheChnZXRVcmwoKSk7CglsZXQgZGF0ZTIgPSBuZXcgRGF0ZSgpLmdldFRpbWUoKTsKCWxldCB0ID0gZGF0ZTIgLSBkYXRlMTsKCWxldCB0aW1lID0gdCAvIDEwMDAgKyAncyc7CglsZXQgYyA9IFN0cmluZyhodG1sKS5pbmRleE9mKCflj5HluIPpobUnKTsKCWxldCBsb2dUaW1lID0gJ+OAkCcgKyBnZXRVcmwoKSArICfjgJFcbuKUi+KUi1xuJyArICfop6PmnpDml7bpl7TvvJonICsgdGltZTsKICAgIGlmIChjID09IC0xIHx8IHQgPiA1MDAwKSB7CiAgICAgICAgamF2YS5sb25nVG9hc3QoJ+OAkOiuv+mXruWksei0peaPkOekuuOAkVxuJyArICfilI/ilIXilIHilIXilIHilIXilIHilIXilIHilIXilIXilIHilIXilIHilIXilJNcbuKUi+KUi1xuJyArIGxvZ1RpbWUgKyAnXG7ilIvilItcbuKZo++4j+a6kOermeW3suWkseaViCjlj6/og73ooqvlopkp4pmj77iPXG7ilIvilItcbuivt+abtOaWsOe9keWdgC/liIfmjaLmupDnq5kv5YiH5o2i572R57uc546v5aKDXG7ilIvilIsnICsgJ1xu4pSX4pSF4pSB4pSF4pSB4pSF4pSB4pSF4pSB4pSF4pSF4pSB4pSF4pSB4pSF4pSbJyk7CiAgICB9IGVsc2UgaWYgKHQgPCAxMDAwKSB7CiAgICAgICAgamF2YS5sb25nVG9hc3QoJ+OAkOe9kee7nOeOr+Wig+S8mOiJr+OAkVxuJyArICfilI/ilIXilIHilIXilIHilIXilIHilIXilIHilIXilIXilIHilIXilIHilIXilJNcbuKUi+KUi1xuJyArIGxvZ1RpbWUgKyAnXG7ilIvilItcbuKdpO+4j+W7tui/n+S9ju+8jOaOqOiNkOS9v+eUqOatpOermeKdpO+4j1xu4pSL4pSLXG7nvZHnu5znjq/looPkvJjoia/vvIzor7fnu6fnu63kv53mjIHnirbmgIFcbuKUi+KUiycgKyAnXG7ilJfilIXilIHilIXilIHilIXilIHilIXilIHilIXilIXilIHilIXilIHilIXilJsnKTsKICAgIH0gZWxzZSBpZiAodCA+PSAxMDAwICYmIHQgPCAyMDAwKSB7CiAgICAgICAgamF2YS5sb25nVG9hc3QoJ+OAkOe9kee7nOeOr+Wig+S4gOiIrOOAkVxuJyArICfilI/ilIXilIHilIXilIHilIXilIHilIXilIHilIXilIXilIHilIXilIHilIXilJNcbuKUi+KUi1xuJyArIGxvZ1RpbWUgKyAnXG7ilIvilItcbuKZpu+4j+W7tui/n+S4gOiIrO+8jOWLieW8uuWPr+S9v+eUqOKZpu+4j1xu4pSL4pSLXG7or7fliIfmjaLlhbbku5bmupDnq5nmiJbliIfmjaLnvZHnu5znjq/looNcbuKUi+KUiycgKyAnXG7ilJfilIXilIHilIXilIHilIXilIHilIXilIHilIXilIXilIHilIXilIHilIXilJsnKTsKICAgIH0gZWxzZSBpZiAodCA+PSAyMDAwICYmIHQgPCA1MDAwKSB7CiAgICAgICAgamF2YS5sb25nVG9hc3QoJ+OAkOe9kee7nOeOr+Wig+WgquW/p+OAkVxuJyArICfilI/ilIXilIHilIXilIHilIXilIHilIXilIHilIXilIXilIHilIXilIHilIXilJNcbuKUi+KUi1xuJyArIGxvZ1RpbWUgKyAnXG7ilIvilItcbuKZoOW7tui/n+i/h+mrmO+8jOS4jeW7uuiuruS9v+eUqOKZoFxu4pSL4pSLXG7or7fliIfmjaLlhbbku5bmupDnq5nmiJbliIfmjaLnvZHnu5znjq/looNcbuKUi+KUiycgKyAnXG7ilJfilIXilIHilIXilIHilIXilIHilIXilIHilIXilIXilIHilIXilIHilIXilJsnKTsKICAgIH0K'\nfunction encodeToTemplate(base64String) {\n    return `tg='${base64String}'`;\n}",
+    "lastUpdateTime": 1742492572030,
+    "loginUi": "[   { \"name\": \"源作者：\",\n      \"type\": \"text\" \n    },\n    {\n        \"name\": \"  ⚙️发布页⚙️  \",\n        \"type\": \"button\",\n        \"action\": \"M()\",\n        \"style\": {\n            \"layout_flexGrow\": 1,\n            \"layout_flexBasisPercent\": 0.25\n        }\n\n    },\n       {\n        \"name\": \"⚙️ 更  新 ⚙️ \",\n        \"type\": \"button\",\n        \"action\": \"H()\",\n        \"style\": {\n            \"layout_flexGrow\": 1,\n            \"layout_flexBasisPercent\": 0.25\n        }\n\n    },\n        {\n        \"name\": \"    🔖点击试试🔖    \",\n        \"type\": \"button\",\n        \"action\": \"O()\",\n        \"style\": {\n            \"layout_flexGrow\": 1,\n            \"layout_flexBasisPercent\": 0.39\n        }\n\n    },\n    {\n        \"name\": \"    🔖    当 前    接 口    🔖    \",\n        \"type\": \"button\",\n        \"action\": \"F()\",\n        \"style\": {\n            \"layout_flexGrow\": 1,\n            \"layout_flexBasisPercent\": 1\n        }\n\n    }  \n ]\n",
+    "loginUrl": "function login() {}\n\nH=()=>{\n\teval(String(java.base64Decode(fb)));\n\t}\nO = () => {\n  java.toast(\"这个按钮是用来看的\\n(((o(*ﾟ▽ﾟ*)o)))\")\n}\nM = () =>{\tjava.startBrowser('https://ged520-github-io.pages.dev/','发布页')\n\t    }\r\nF = () =>{\n\tv = String(source.getVariable()).split(\",\");\n\tx = v[1]\n\tsource.setVariable(v.join(\",\"));\n\tjava.toast('当前接口:' + '【' + v[1] + '】' + '\\n' + getUrl())\n}",
+    "respondTime": 9559,
+    "ruleBookInfo": {
+      "author": ".author@text",
+      "canReName": "{{getUrl()}}",
+      "coverUrl": "img@data-src",
+      "init": "",
+      "intro": "&nbsp;\n📖 书名：{{@@.title.0@text}}\n👤 作者：{{@@.author@text}}\n🔖 标签：{{@@.multi@text##\\s\\· .* · ##,}},{{@@.hot@text}}\n🕰 最新：{{@@#j-catalog-datalist@li.-1@.title-text@text}}\n🏷 简介：{{@@.j-desc-text@text}}",
+      "kind": "{{@@.multi@text##\\s\\· .* · ##,}},{{@@.hot@text}}",
+      "lastChapter": "#j-catalog-datalist@li.-1@.title-text@text",
+      "name": ".title.0@text",
+      "wordCount": "{{book.wordCount}}"
+    },
+    "ruleContent": {
+      "content": ".chapter-preview@html"
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "name": ""
+    },
+    "ruleSearch": {
+      "author": "$.author",
+      "bookList": "$.data[*]",
+      "bookUrl": "$.url",
+      "checkKeyWord": "",
+      "coverUrl": "$.pic",
+      "intro": "$.content",
+      "kind": "$.serialize&&$.addtime##\\s.*",
+      "lastChapter": "",
+      "name": "$.name",
+      "wordCount": "$.text_num"
+    },
+    "ruleToc": {
+      "chapterList": "#j-catalog-datalist@li",
+      "chapterName": ".title-text@text",
+      "chapterUrl": "a@href",
+      "updateTime": ".date@text"
+    },
+    "searchUrl": "<js>\n'{{getUrl()}}'+'index.php/api/data/book?&key={{key}}&page={{page}}&_='+Math.floor(Date.now() / 1000);\n</js>",
+    "weight": 0
+  }
+]
