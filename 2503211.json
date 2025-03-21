@@ -1,0 +1,68 @@
+[
+  {
+    "bookSourceComment": "//2025.3.21 by.◎辞晨◎\n//借用夜泽川大佬正文\n//防倒卖，请在登录UI界面输入作者名：\n辞晨",
+    "bookSourceGroup": "写源,🔞精品",
+    "bookSourceName": "🌸 爱丽丝🔞◎辞晨◎",
+    "bookSourceType": 0,
+    "bookSourceUrl": "❗❗你猜👻",
+    "customOrder": -99906,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "exploreUrl": "@js:\nsort=[];\npush=(title,url,type1,type2)=>sort.push({\n\t\ttitle: title,\n\t\turl: url,\n\t\tstyle: {\n\t\t\t\tlayout_flexGrow: type1,\n\t\t\t\tlayout_flexBasisPercent: type2\n\t\t\t}\n\t});\npush(\"全部🌊分类\",null,1,1)\n\tarList=[[\"校园\",\"61\"],[\"贤者小说\",\"79\"],[\"玄幻\",\"62\"],[\"奇幻\",\"75\"],[\"强奸\",\"74\"],[\"同人\",\"73\"],[\"科幻\",\"71\"],[\"乡村\",\"63\"],[\"都市\",\"64\"],[\"系统\",\"69\"],[\"武侠\",\"68\"],[\"历史\",\"67\"],[\"明星\",\"72\"],[\"乱伦\",\"65\"],[\"穿越\",\"70\"],[\"凌辱\",\"46\"],[\"反差\",\"22\"],[\"堕落\",\"18\"],[\"纯爱\",\"19\"],[\"伪娘\",\"52\"],[\"性奴\",\"45\"],[\"萝莉\",\"48\"],[\"熟女\",\"56\"],[\"禁忌\",\"51\"],[\"NTR\",\"54\"],[\"媚黑\",\"53\"],[\"绿帽\",\"55\"],[\"调教\",\"58\"],[\"女主\",\"59\"],[\"正太\",\"50\"],[\"下克上\",\"43\"],[\"反转\",\"23\"],[\"羞耻\",\"34\"],[\"百合\",\"47\"],[\"重口\",\"21\"],[\"其他\",\"57\"]]\n\tarList.map([title,uri]=>{\n\t\turl=`{{getUrl()}}lists/${uri}.html<,?page={{page+1}}>`;\n\t\tpush(title, url, 1, 0.25);\n\t\t});\n\t\tpush(\"最近🌊更新\",`{{getUrl()}}all/order/update_time+desc.html<,?page={{page+1}}>`,1,1);\n\t\t\tpush(\"🌊排行🌊\",null,1,1)\n\txrList=[[\"总排行\",\"hits\"],[\"本日排行\",\"hits_day\"],[\"本周排行\",\"hits_week\"],[\"本月排行\",\"hits_month\"]]\n\txrList.map([title,uri]=>{\n\t\turl=`{{getUrl()}}other/rank_hits/order/${uri}.html`;\n\t\tpush(title, url, 1, 0.25);\n\t\t});\n\n//java.log(JSON.stringify(sort))\nJSON.stringify(sort)",
+    "header": "<js>\nJSON.stringify({\n  'User-Agent': \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36\",\n  'sec-ch-ua-platform': \"\\\"Android\\\"\",\n  'origin': getUrl(),\n  'x-requested-with': \"cn.mujiankeji.mbrowser\",\n  'Referer': getUrl(),\n  'Accept-Language': \"zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7\"\n})\n</js>",
+    "jsLib": "function getInfo(name, source) {\n\treturn source.getLoginInfoMap() && source.getLoginInfoMap().get(name);\n}\n\nfunction getUrl(_) {\n   return eval(String(this.java.base64Decode(tg)))\n    \t\t\t}\nvar api = [\n\t\"https://alicesw.org/\",\n\t\"https://xn--vcsx64d.alicesw12.xyz/\",\n\t\"https://xn--vcsx64d.alicesw11.xyz/\"\n]\nfb='bGV0IHVybCA9ICdodHRwczovL3d3dy5jb29sYXBrLmNvbS9saW5rP3VybD1sZWdhZG86Ly9pbXBvcnQvU291cmNlP3NyYz1odHRwczovL2docHJveHkubmV0L2h0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9HRWQ1MjAvcHMvcmVmcy9oZWFkcy9tYWluL+eIseS4veS4nS5qc29uJzsKamF2YS5zdGFydEJyb3dzZXIodXJsLCAn5pu05pawJyk7Cg=='\n\ntg='Y29uc3QgeyBqYXZhLCBzb3VyY2UgfSA9IF8gfHwgdGhpcwoJbGV0IGF1dGhvciA9IGdldEluZm8oJ+a6kOS9nOiAhe+8micsIHNvdXJjZSk7CglpZiAoYXV0aG9yID09ICfovp7mmagnKSB7CgkJCQlsZXQgdiA9IFN0cmluZyhzb3VyY2UuZ2V0VmFyaWFibGUoKSkuc3BsaXQoIiwiKTsKCQlpZih2Lmxlbmd0aCA8IDIpewogIHNvdXJjZS5zZXRWYXJpYWJsZSgiMCwwIik7CiAgICB2PVN0cmluZyhzb3VyY2UuZ2V0VmFyaWFibGUoKSkuc3BsaXQoIiwiKTsKfQoJCWEgPSB2WzBdLm1hdGNoKC9eXGQrJC8pID8gdlswXSA6IDA7CgkgYXBpW2FdCgl9IGVsc2UgewoJCXRpcCA9ICLmoKHpqozlpLHotKXvvIFcbuivt+S6jueZu+W9lXVp6L6T5YWl5rqQ5L2c6ICF5ZCNXG7kuabmupDlrozlhajlhY3otLlcbuivt+WLv+ebuOS/oeS7u+S9leesrOS4ieaWueS7mOi0ueacjeWKoVxu5rqQ5L2c6ICF77ya6L6e5pmoIgoJCWphdmEubG9uZ1RvYXN0KHRpcCk7CgkJdGhyb3cgbmV3IEVycm9yKHRpcCkKCX0K'\nfunction encodeToTemplate(base64String) {\n    return `tg='${base64String}'`;\n}\n\n//计算最终value值\nfunction getval(kk) {\n\t   const { java } = this\n    var val = \"\";\n    for (var i = 0; i <= kk.length - 1; i++) {\n        var str = kk.charAt(i);\n        var code = str.charCodeAt();\n        val += parseInt(code) + 1;\n    }\n    valu = java.md5Encode(val);\n    return valu;\n}\n\n",
+    "lastUpdateTime": 1742494704100,
+    "loginCheckJs": "",
+    "loginUi": "[    { \"name\": \"源作者：\",\n          \"type\": \"text\" \n     },\n     {\n        \"name\": \"用户名\",\n        \"type\": \"text\"\n    },\n    {\n        \"name\": \"密码\",\n        \"type\": \"password\"\n    },\n    {\n        \"name\": \" 💍注册 \",\n        \"type\": \"button\",\n        \"action\": \"login(false)\",\n        \"style\": {\n            \"layout_flexGrow\": 1,\n            \"layout_flexBasisPercent\": 0.25\n        }\n    },\n    {\n        \"name\": \"🔺 登　 录 🔺\",\n        \"type\": \"button\",\n        \"action\": \"login(true)\",\n        \"style\": {\n            \"layout_flexGrow\": 1,\n            \"layout_flexBasisPercent\": 0.37\n        }\n    },\n    {\n        \"name\": \" ♤登出 \",\n        \"type\": \"button\",\n        \"action\": \"D()\",\n        \"style\": {\n            \"layout_flexGrow\": 1,\n            \"layout_flexBasisPercent\": 0.25\n        }\n    },\n    {\n        \"name\": \" ⚙️   发布页   ⚙️ \",\n        \"type\": \"button\",\n        \"action\": \"M()\",\n        \"style\": {\n            \"layout_flexGrow\": 1,\n            \"layout_flexBasisPercent\": 0.39\n        }\n\n    },\n       {\n        \"name\": \" ⚙️   书源更新   ⚙️  \",\n        \"type\": \"button\",\n        \"action\": \"H()\",\n        \"style\": {\n            \"layout_flexGrow\": 1,\n            \"layout_flexBasisPercent\": 0.39\n        }\n\n    },\n    {\n        \"name\": \"❗ 当前 接口 ❗\",\n        \"type\": \"button\",\n        \"action\": \"K()\",\n        \"style\": {\n            \"layout_flexGrow\": 1,\n            \"layout_flexBasisPercent\": 1\n        }\n    },\n    {\n        \"name\": \"  0⃣️  \",\n        \"type\": \"button\",\n        \"action\": \"A(0)\",\n        \"style\": {\n            \"layout_flexGrow\": 1,\n            \"layout_flexBasisPercent\": 0.39\n        }\n    },\n    {\n        \"name\": \"  1⃣️  \",\n        \"type\": \"button\",\n        \"action\": \"A(1)\",\n        \"style\": {\n            \"layout_flexGrow\": 1,\n            \"layout_flexBasisPercent\": 0.39\n        }\n    }\n]\n",
+    "loginUrl": "function login(b) {\n    if (b == undefined) return true;\n    info = result;\n    so = getUrl();\n    pwd = info.密码;\n    imgurl = so + '/user/user/verify.html?' + Math.random();\n        if (b) {\n        url = so + '/user/user/login.html,';\n        body = `username=${info.用户名}&password=${pwd}&code=${java.getVerificationCode(imgurl)}`;\n    } else {\n    \tcode=String(info.邮箱验证码)||java.getVerificationCode(sentEmail(info.邮箱))\n        url = so + '/qs_register_go.php,';\n        body = `name=${info.用户名}&email=${info.邮箱}&invite_code=${info.邀请码}&password=${pwd}&repassword=${pwd}&email_code=${code}`;\n    }\n    post = JSON.stringify({\n        \"body\": String(body),\n        \"method\": \"POST\"\n    });\n    url += post;\n    result = java.ajax(url);\n    java.log(result);\n    msg=result.match(/msg\\s*=\\s*\"([^\"]+)\"/)\n    java.toast(msg?msg[1]:\"未知信息，请查看日志\");\n    c = cookie.getCookie(getUrl());\n    source.putLoginHeader(c)\n    v = String(source.getVariable()).split(\",\");\n  v[1] = c;\n  source.setVariable(v.join(\",\"));\n}\n\nfunction D(){\ncookie.removeCookie(getUrl());\nsource.removeLoginHeader();\nsource.setVariable('');\njava.toast('登出成功')\n\t}\nT=()=>{\njava.toast('密码：'+result.密码)\n}\n\nA = (x) => {\n\tv = String(source.getVariable()).split(\",\");\n v[0] = x;\n source.setVariable(v.join(\",\"));\n\tgetUrl();\n\tjava.toast('成功设置接口【' + x + '】' + ' \\n' + getUrl());\n\tlet date1 = new Date().getTime();\n\tlet html = java.ajax(getUrl());\n\tlet date2 = new Date().getTime();\n\tlet t = date2 - date1;\n let c = String(html).indexOf('爱丽丝');\n\tlet time = t / 1000 + 's';\n\tlet logTime = '【' + getUrl() + '】\\n┋┋\\n' + '解析时间：' + time;\n    if ( c == -1 || t > 5000) {\n        java.longToast('【访问失败提示】\\n' + '┏┅━┅━┅━┅━┅┅━┅━┅┓\\n┋┋\\n' + logTime + '\\n┋┋\\n♣️源站已失效(可能被墙)♣️\\n┋┋\\n请更新网址/切换源站/切换网络环境\\n┋┋' + '\\n┗┅━┅━┅━┅━┅┅━┅━┅┛');\n    } else if (t < 1000) {\n        java.longToast('【网络环境优良】\\n' + '┏┅━┅━┅━┅━┅┅━┅━┅┓\\n┋┋\\n' + logTime + '\\n┋┋\\n❤️延迟低，推荐使用此站❤️\\n┋┋\\n网络环境优良，请继续保持状态\\n┋┋' + '\\n┗┅━┅━┅━┅━┅┅━┅━┅┛');\n    } else if (t >= 1000 && t < 2000) {\n        java.longToast('【网络环境一般】\\n' + '┏┅━┅━┅━┅━┅┅━┅━┅┓\\n┋┋\\n' + logTime + '\\n┋┋\\n♦️延迟一般，勉强可使用♦️\\n┋┋\\n请切换其他源站或切换网络环境\\n┋┋' + '\\n┗┅━┅━┅━┅━┅┅━┅━┅┛');\n    } else if (t >= 2000 && t < 5000) {\n        java.longToast('【网络环境堪忧】\\n' + '┏┅━┅━┅━┅━┅┅━┅━┅┓\\n┋┋\\n' + logTime + '\\n┋┋\\n♠延迟过高，不建议使用♠\\n┋┋\\n请切换其他源站或切换网络环境\\n┋┋' + '\\n┗┅━┅━┅━┅━┅┅━┅━┅┛');\n    }\n}\nH=()=>{\n\teval(String(java.base64Decode(fb)));\n\t}\nM = () =>{\tjava.startBrowser('https://ged520-github-io.pages.dev/','发布页')\n\t    }\r\n\nK = () => {\n\tv = String(source.getVariable()).split(\",\");\n x = v[0];\n\tjava.toast('当前接口:' + '【' + x + '】' + '\\n' + getUrl())\n}\n",
+    "respondTime": 26750,
+    "ruleBookInfo": {
+      "author": "p.0@a.0@text",
+      "canReName": "1",
+      "coverUrl": ".pic@img@data-src",
+      "intro": "&nbsp;\n📖 书名：{{@@h1@text}}\n👤 作者：{{@@p.0@a.0@text}}\n🔖 标签：{{@@p.3@a[href~=tag]@text##\\s##,}}\n🕰 最新：{{@@p.0@a.1@text}}\n{{@@.tLJ@text}}\n🏷 简介：{{@@class.intro@text##htt.+l}}",
+      "kind": "{{book.kind}},{{@@.tLJ.-1@text##.*\\：}}",
+      "lastChapter": "p.0@a.1@text",
+      "name": "h1.0@text",
+      "tocUrl": "text.查看所有章节@href",
+      "wordCount": ".tLJ.5@text##小说字数："
+    },
+    "ruleContent": {
+      "content": "<js>\nvar url = getUrl().replace(/\\/$/,'')\n//java.log(url)\n//处理强制登录\nvar nn = String(cookie.getCookie(url));\nvar coks = nn.split('; '); \nckk = coks.filter(item => !item \n.startsWith(\"lf_reader_num\")).join('; ');\ncookie.setCookie(url,ckk);\n\n//自动处理验证\nlet html = src;\n\nfunction txt(sr) {\n    let text;\n    if (src.includes(\"滑动验证\")) {\n        let headers = {\n             'User-Agent': \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36\",\n            \"Referer\": baseUrl\n        };\n        try {\n            let s = src.match(/src=\\\"(\\/huadong[^\"]+)/)[1];\n            let sr = java.get(url + s, headers).body()\n            eval(sr.match(/(key=\\\".+?,value=\\\"[^;]+?\\;)/)[1]);\n            let va = getval(value);\n            let codeul = url + sr.match(/([^\"]+yanzheng_huadong\\.php[^\"]+)/)[1] + `${key}&value=${va}`;\n            let ck = java.get(codeul, headers);\n            java.log(\"验证Cookie：\" + JSON.stringify(ck.cookies()));\n            java.toast(\"检测到验证,尝试自动处理……\");\n            let tx = java.ajax(baseUrl);\n            html = tx;\n            text = java.getString('.read-content@html', tx);\n        } catch (error) {\n            java.log(error);\n            text = \"自动验证失败，请重试!\";\n        }\n    } else {\n        text = java.getString('.read-content@html', src);\n    }\n    return text;\n}\n\nlet text = txt(html);\n\n//处理重新获取文本时可能会出现的错误。\nlet retryCount = 0;\nconst maxRetries = 3;\nlet result;\nwhile (retryCount < maxRetries) {\n    if (text != false && text !== \"\") {\n        result = text;\n        break;\n    } else {\n        retryCount++;\n        text = txt(html);\n        Packages.java.lang.Thread.sleep(400);\n        java.toast(`未获取到文本，正在重试...（当前第${retryCount}次重试）`);\n    }\n}\n\nif (retryCount === maxRetries) {\n    result = \"重试三次仍然未获取到文本，请检查网络状况。\"\n}\nresult;\n</js>",
+      "replaceRegex": "##第(.*?)章.*",
+      "title": ""
+    },
+    "ruleExplore": {
+      "author": ".four@text",
+      "bookList": ".clearfix@ul!0",
+      "bookUrl": ".two@a@href",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "{{@@.sev@text}},{{@@.six@text##\\s.*}}",
+      "lastChapter": ".three@text",
+      "name": ".two@text##全文.*|\\(.+\\)|\\【\\】",
+      "wordCount": ".five@text"
+    },
+    "ruleSearch": {
+      "author": ".four@text",
+      "bookList": "#jieguo@ul",
+      "bookUrl": "a.1@href",
+      "checkKeyWord": "我的",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "{{@@.sev@text}},{{@@.six@text}}",
+      "lastChapter": "",
+      "name": ".twosss@a.0@text",
+      "wordCount": ".five@text"
+    },
+    "ruleToc": {
+      "chapterList": ".mulu_list@li",
+      "chapterName": "a@text",
+      "chapterUrl": "a@href"
+    },
+    "searchUrl": "{{getUrl()}}search.html?keyword={{key}}&page={{page}}",
+    "variableComment": "",
+    "weight": 0
+  }
+]
