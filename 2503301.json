@@ -1,0 +1,51 @@
+[
+  {
+    "bookSourceComment": "// Error: org.mozilla.javascript.EcmaError: ReferenceError: “性感” 未定义。 (<Unknown source>#1) in <Unknown source> at line number 1",
+    "bookSourceGroup": "0219,js失效",
+    "bookSourceName": "🔥XIUREN",
+    "bookSourceType": 2,
+    "bookSourceUrl": "https://xiuren.biz/",
+    "customOrder": -98964,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[\n{'title':'☑️自定义搜索','url':'','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'幼幼','url':'/page/{{page}}?s=幼幼','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'☑️排行','url':'','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'月榜','url':'/popular-this-month/','style':{layout_flexGrow:1,layout_flexBasisPercent:0.24}},\n{'title':'最新','url':'/latest-post/','style':{layout_flexGrow:1,layout_flexBasisPercent:0.24}},\n{'title':'☑️分类-(按网站收录时间而非Vol排序)','url':'','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'XiuRen','url':'/category/xiuren/page/{{page}}/','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'Ugirls App','url':'/category/ugirls/page/{{page}}/','style':{layout_flexGrow:1,layout_flexBasisPercent:0.32}},\n{'title':'FeiLin','url':'/category/feilin/page/{{page}}/','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'MiStar','url':'/category/mistar/page/{{page}}/','style':{layout_flexGrow:1,layout_flexBasisPercent:0.24}},\n{'title':'MyGirl','url':'/category/mygirl/page/{{page}}/','style':{layout_flexGrow:1,layout_flexBasisPercent:0.24}},\n{'title':'HuaYang','url':'/category/huayang/page/{{page}}/','style':{layout_flexGrow:1,layout_flexBasisPercent:0.24}},\n{'title':'IMISS','url':'/category/imiss/page/{{page}}/','style':{layout_flexGrow:1,layout_flexBasisPercent:0.24}},\n{'title':'MFStar','url':'/category/mfstar/page/{{page}}/','style':{layout_flexGrow:1,layout_flexBasisPercent:0.24}},\n{'title':'MiiTao','url':'/category/miitao/page/{{page}}/','style':{layout_flexGrow:1,layout_flexBasisPercent:0.24}},\n{'title':'XiaoYu','url':'/category/xiaoyu/page/{{page}}/','style':{layout_flexGrow:1,layout_flexBasisPercent:0.24}},\n{'title':'YouMi','url':'/category/youmi/page/{{page}}/','style':{layout_flexGrow:1,layout_flexBasisPercent:0.24}},\n{'title':'DJAWA','url':'/category/djawa/page/{{page}}/','style':{layout_flexGrow:1,layout_flexBasisPercent:0.24}},\n{'title':'Hot Girl','url':'/category/hot-girl/page/{{page}}/','style':{layout_flexGrow:1,layout_flexBasisPercent:0.24}}\n]",
+    "lastUpdateTime": 1738708131660,
+    "respondTime": 180005,
+    "ruleBookInfo": {
+      "author": ".jeg_meta_author@a.-1@text",
+      "kind": ".entry-content@div.-1@a@text",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": ".content-inner@p@a!0@img@html",
+      "imageStyle": "full"
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "name": "",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "bookList": ".box_wrap",
+      "bookUrl": "a.0@href",
+      "checkKeyWord": "xiuren",
+      "coverUrl": "img@data-src",
+      "intro": "a.-3@text",
+      "kind": "span.0@text",
+      "name": "a.-3@text",
+      "wordCount": "{{@@a.-2@text##^##🕘}},{{@@a.-1@text##^##👁}}"
+    },
+    "ruleToc": {
+      "chapterList": "h1.jeg_post_title",
+      "chapterName": "text"
+    },
+    "searchUrl": "/page/{{page}}?s={{性感}}",
+    "weight": 0
+  }
+]
