@@ -1,0 +1,43 @@
+[
+  {
+    "bookSourceComment": "//yooy-2025.4.6",
+    "bookSourceName": "网络小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.txtwl.com/",
+    "customOrder": 125,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "header": "{\"User-Agent\":\"Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36 EdgA/134.0.0.0\"}",
+    "lastUpdateTime": 1743927314432,
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "lastChapter": ".chapter-li-a.0@text",
+      "tocUrl": ".book-status@href"
+    },
+    "ruleContent": {
+      "content": ".chapter-content@html",
+      "replaceRegex": "##网络小说网www.txtwl.com，最快更新.*最新章节！||一秒记住，精彩小说无弹窗免费阅读！"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": ".book-author@text",
+      "bookList": ".book-layout",
+      "bookUrl": "href",
+      "checkKeyWord": "系统",
+      "coverUrl": "img@src",
+      "intro": ".book-desc@text",
+      "kind": ".yellow@text",
+      "name": "h4@text",
+      "wordCount": ".blue@text"
+    },
+    "ruleToc": {
+      "chapterList": ".chapter-li-a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "https://m.txtwl.com/list_f_f_f_f_f_1.html?title={{key}}",
+    "weight": 0
+  }
+]
