@@ -1,0 +1,67 @@
+[
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "69书吧",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.69shuba.com/",
+    "bookUrlPattern": "https://www.69shuba.com/book/[0-9]+\\.htm",
+    "concurrentRate": "",
+    "coverDecodeJs": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "exploreUrl": "",
+    "header": "@js:\nJSON.stringify({\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36\",\n  \"Referer\": baseUrl\n})",
+    "jsLib": "function getSearchOpt() {\n\t var { java, key } = this\n\t key = key ? java.put(\"key\", key) : java.get(\"key\")\n\t return  \",\" + JSON.stringify(\n\t \t  {\n\t \t  \t  \"charset\": \"GBK\",\n\t \t  \t  \"method\": \"POST\",\n\t \t  \t  \"body\": `searchkey=${key}&searchtype=all`\n\t \t  \t}\n\t \t)\n}",
+    "lastUpdateTime": 1744406074494,
+    "loginUrl": "",
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "author": "[property$=\"author\"]@content",
+      "coverUrl": "img@src",
+      "init": "",
+      "intro": "&nbsp;\n🏷️ 标签：{{\n  eval(String(java.getElement(\"script.0\").html()))\n  bookinfo.tags.slice(0,-1).replaceAll(\"|\",\", \")||\"无\"\n}}\n📖 详情：{{@@.navtxt p.0@text}}",
+      "kind": "[property$=\"category\"]@content&& \n[property$=\"status\"]@content&& \n[property$=\"update_time\"]@content",
+      "lastChapter": "[property$=\"latest_chapter_name\"]@content##\\d+\\.(?=第)",
+      "name": "[property$=\"book_name\"]@content",
+      "tocUrl": ".addbtn .btn@href",
+      "wordCount": ".infolist li.0@textNodes"
+    },
+    "ruleContent": {
+      "content": ".txtnav@textNodes",
+      "replaceRegex": "##\\s*({{ book.durChapterTitle }}|\\(本章完\\))\\s*",
+      "title": "h1@text##\\d+\\.(?=第)"
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "name": ""
+    },
+    "ruleSearch": {
+      "author": "label[0]@text",
+      "bookList": "<js>\nif (result.match(/onloadTurnstileCallback/)) {\n\t cookie.removeCookie(source.getKey())\n\t url = baseUrl + getSearchOpt()\n  java.startBrowserAwait(url, \"\").body()\n} else result\n</js>\n.newbox li",
+      "bookUrl": "h3 a@href\n@js:\nif (!result.startsWith(source.getKey())) {\n\t url = String(book.coverUrl)\n  url.replace(/^.*\\/(\\d+)s\\.jpg$/, \"/book/$1.htm\")\n} else result",
+      "checkKeyWord": "",
+      "coverUrl": "img@data-src",
+      "intro": "ol@text",
+      "kind": "label[1:-1]@text",
+      "lastChapter": ".zxzj p@textNodes##\\d+\\.(?=第)",
+      "name": "h3@text",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "-#catalog li a",
+      "chapterName": "text##\\d+\\.(?=第)",
+      "chapterUrl": "href",
+      "preUpdateJs": ""
+    },
+    "searchUrl": "/modules/article/search.php{{getSearchOpt()}}",
+    "variableComment": "",
+    "weight": 0
+  }
+]
