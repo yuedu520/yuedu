@@ -1,0 +1,83 @@
+[
+  {
+    "bookSourceComment": "2025.4.17@ffuu写\n原站截止更新时间2022.1，已有的书可以看发现，搜书要验证，无搜索",
+    "bookSourceGroup": "自写",
+    "bookSourceName": "🦄地缘bl小说网@ffuu（无搜索）",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.topwork.cc",
+    "bookUrlPattern": "https://www.topwork.cc/book-\\d+.html",
+    "customOrder": 26,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "首页::/\n近代现代::/sort/1-{{page}}.html\n古代架空::/sort/2-{{page}}.html\n穿越重生::/sort/3-{{page}}.html\n玄幻灵异::/sort/4-{{page}}.html\n网游竞技::/sort/5-{{page}}.html\n推理悬疑::/sort/6-{{page}}.html\nBL同人::/sort/7-{{page}}.html\nGL百合::/sort/8-{{page}}.html",
+    "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36\"}",
+    "lastUpdateTime": 1744858495141,
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "author": "class.writer@a@text",
+      "intro": "class.summary@p@text",
+      "kind": "class.entry-meta@span.0@text&&class.entry-meta@span.1@text&&class.entry-meta@span.2@text&&class.time@span@text",
+      "lastChapter": "class.news@a.0@text##.*_(\\d+)##第$1章",
+      "name": "class.entry-title@text",
+      "tocUrl": ""
+    },
+    "ruleContent": {
+      "content": "id.acontent@p@textNodes",
+      "nextContentUrl": "text.下一页@href",
+      "title": ""
+    },
+    "ruleExplore": {
+      "author": "class.author@a@text",
+      "bookList": "class.list0",
+      "bookUrl": "class.title@a@href",
+      "intro": "class.intro@text",
+      "kind": "class.other@span@text",
+      "name": "class.title@a@text"
+    },
+    "ruleSearch": {},
+    "ruleToc": {
+      "chapterList": "class.related-content mto clear.0@ul.0@li",
+      "chapterName": "a@text##.*_(\\d+)##第$1章",
+      "chapterUrl": "a@href"
+    },
+    "searchUrl": "",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "2025.4.17@ffuu写\n//原站只有首页，书的数量有限，质量还行，加载目录失败是因为原站该书已经失效",
+    "bookSourceGroup": "自写",
+    "bookSourceName": "🦄耽美小说520（无搜索仅首页）",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.dmxs520.com/",
+    "customOrder": 29,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "exploreUrl": "首页::https://www.dmxs520.com/",
+    "lastUpdateTime": 1744868366880,
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "coverUrl": "img@src",
+      "intro": "class.book-describe@p.-1@text##作品简介："
+    },
+    "ruleContent": {
+      "content": "class.m-post@textNodes"
+    },
+    "ruleExplore": {
+      "author": "span@text",
+      "bookList": "ul@li",
+      "bookUrl": "a@href",
+      "kind": "",
+      "lastChapter": "a.1@text",
+      "name": "a.0@text"
+    },
+    "ruleSearch": {},
+    "ruleToc": {
+      "chapterList": "class.xsbox clearfix@ul@li",
+      "chapterName": "a@text",
+      "chapterUrl": "a@href"
+    },
+    "weight": 0
+  }
+]
