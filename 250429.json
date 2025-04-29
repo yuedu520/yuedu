@@ -1,0 +1,35 @@
+{
+    "ruleSearch": {
+        "bookList": "class.txt-list txt-list-row5@li!0",
+        "name": "a.0@text",
+        "author": "class.s1@text",
+        "lastChapter": "a.1@text",
+        "bookUrl": "a.0@href"
+    },
+    "ruleBookInfo": {
+        "name": "class.top@tag.h1@text",
+        "author": "class.top@a.0@text",
+        "lastChapter": "class.top@a.2@text",
+        "coverUrl": "class.m-desc xs-show@tag.p.0@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.section-list fix.1@li",
+        "chapterName": "a.0@text",
+        "chapterUrl": "a.0@href",
+        "nextTocUrl": "class.listpage@class.right@tag.a@href"
+    },
+    "ruleContent": {
+        "content": ".content@p@text",
+        "title": "class.title@text",
+        "nextContentUrl": "id.next_url.0@href"
+    },
+    "ruleReview": {},
+    "ruleExplore": {},
+    "bookSourceType": 0,
+    "searchUrl": "{{url=source.getKey();\ncookie.removeCookie(url)}}\/search,{\n  \"body\": \"searchkey={{key}}\",\n  \"method\": \"POST\"\n}",
+    "bookSourceUrl": "https:\/\/www.xbiqu6.com\/",
+    "bookSourceName": "笔趣阁",
+    "header": "{\"User-Agent\": \"Mozilla\/5.0 (Linux; Android 9) Mobile Safari\/537.36\"}",
+    "enabled": true,
+    "lastUpdateTime": "1745738535317"
+}
