@@ -1,0 +1,54 @@
+[
+  {
+    "bookSourceComment": "正文请求限制,建议预下载调到2或者3使用,每15秒限制9章\n--清词",
+    "bookSourceGroup": "聚合书源",
+    "bookSourceName": "🌾聚合API – 速读谷/得奇/江南小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://novel.api.qingread.icu",
+    "concurrentRate": "",
+    "customOrder": 8,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": false,
+    "header": "{\"X-Novel-Token\": \"QING_READ_2025\"}",
+    "jsLib": "function getHost() {\n  return \"https://novel.api.qingread.icu\"\n}",
+    "lastUpdateTime": 1746373308465,
+    "loginUi": "[\n  {\n    \"name\": \"全部\",\n    \"type\": \"button\",\n    \"action\": \"All()\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\":1\n    }\n  },\n  {\n    \"name\": \"速读谷\",\n    \"type\": \"button\",\n    \"action\": \"Sudugu()\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n  {\n    \"name\": \"得奇\",\n    \"type\": \"button\",\n    \"action\": \"Deqi()\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n  {\n    \"name\": \"江南小说\",\n    \"type\": \"button\",\n    \"action\": \"Jiangnan()\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  }\n]",
+    "loginUrl": "function All() {\n    source.setVariable(null);\n    java.toast(\"已切换全部来源\");\n}\n\nfunction Sudugu() {\n    source.setVariable('sudugu');\n    java.toast(\"已切换速读谷来源\");\n}\n\nfunction Deqi() {\n    source.setVariable('deqi');\n    java.toast(\"已切换得奇来源\");\n}\n\nfunction Jiangnan() {\n    source.setVariable('jiangnan');\n    java.toast(\"已切换到江南小说来源\");\n}",
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "author": "author",
+      "coverUrl": "cover",
+      "init": "\ndata",
+      "intro": "description",
+      "kind": "{{$.category}},{{$.status}}",
+      "lastChapter": "{{$.latest_chapter.title}}",
+      "name": "title",
+      "tocUrl": "$..chapter_list_url",
+      "wordCount": "word_count"
+    },
+    "ruleContent": {
+      "content": "content"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "author",
+      "bookList": "data.sudugu&&data.deqi&&data",
+      "bookUrl": "url",
+      "checkKeyWord": "完美世界",
+      "coverUrl": "cover",
+      "intro": "desc",
+      "kind": "{{$.category}},{{$.status}}",
+      "lastChapter": "{{$.source}}·{{$.latest_chapter.title||latest_chapter}} {{$.latest_chapter.time}}",
+      "name": "title"
+    },
+    "ruleToc": {
+      "chapterList": "data.chapters",
+      "chapterName": "title",
+      "chapterUrl": "url",
+      "nextTocUrl": ""
+    },
+    "searchUrl": "@js:\n(function() {\n    var param = '';\n    try {\n        var sourceVal = source.getVariable();\n        if (sourceVal != null && String(sourceVal).length > 0) {\n            param = '&source=' + encodeURIComponent(String(sourceVal));\n        }\n    } catch(e){}\n    return getHost() +'/searchs?keyword={{key}}' + param;\n})()",
+    "weight": 0
+  }
+]
