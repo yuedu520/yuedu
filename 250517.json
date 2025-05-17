@@ -1,0 +1,310 @@
+[
+  {
+    "bookSourceComment": "YX源仓库：http://yx.ccute.xyz/",
+    "bookSourceGroup": "音乐",
+    "bookSourceName": "🎶 咪咕音乐",
+    "bookSourceType": 1,
+    "bookSourceUrl": "https://m.music.migu.cn",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "@js:\nsort = [];\npush = (title, url, type) => sort.push({\n    title: title,\n    url: url,\n    style: {\n        layout_flexGrow: 1,\n        layout_flexBasisPercent: type\n    }\n});\n$$ = tagId => `https://m.music.migu.cn/migumusic/h5/playlist/list?columnId=15127272&tagId=${tagId}&pageNum={{page}\\}&pageSize=20`;\n\n\n\n\npush(\"༺ 推荐 ༻\",null,1);\npush(\"最新\",$$(\"\"),0.25);\npush(\"推荐\",\"https://m.music.migu.cn/migumusic/h5/home/songlist\",0.25);\npush(\"热门\",\"https://m.music.migu.cn/migumusic/h5/playlist/list?columnId=38199588&pageNum={{page}\\}&pageSize=12\",0.25);\n\n\nJSON.parse(java.ajax(\"https://m.music.migu.cn/migumusic/h5/playlist/allTag\")).data.tags.map($=>{\n\tpush(\"༺ \"+$.tagName+\" ༻\",null,1);\n\t$.tags.map($=>push($.tagName,$$($.tagId),0.25));\n});\n\n\nJSON.stringify(sort);",
+    "header": "{\n\"By\": \"3c0effb5be907dd7fc209a9001a18713\",\r\n\"Cookie\": \"SESSION=ZTIwODkyMDQtOTE1NS00MDhlLThhMWEtMjQ0N2Y2Mzk2OTAz\",\n\"Referer\": \"https://m.music.migu.cn/v4/\",\r\n\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36\"\n}",
+    "lastUpdateTime": 1700053654074,
+    "loginCheckJs": "",
+    "respondTime": 14417,
+    "ruleBookInfo": {
+      "author": "createUserName",
+      "coverUrl": "image",
+      "init": "data",
+      "intro": "<br>发布：{{$.createTime}}\n<br>更新：{{$.updateTime}}\n<br>简介：{{$.summary}}",
+      "kind": ".tagName",
+      "lastChapter": "{$.contentCount}首歌",
+      "name": "playListName",
+      "tocUrl": "https://m.music.migu.cn/migumusic/h5/playlist/songsInfo?palylistId={{$.playListId}}&pageNo=1&pageSize={{$.contentCount}}",
+      "wordCount": "{$.playNum}播放"
+    },
+    "ruleContent": {
+      "content": "https:{{$.data.playUrl}}"
+    },
+    "ruleSearch": {
+      "author": "userName||createUserName",
+      "bookList": "data.items||data[0].items",
+      "bookUrl": "https://m.music.migu.cn/migumusic/h5/playlist/info?songListId={{$.id||$.playListId}}",
+      "checkKeyWord": "周杰伦",
+      "coverUrl": "img||image",
+      "intro": "intro",
+      "kind": "ts",
+      "lastChapter": "{$.musicNum}首歌",
+      "name": "name||title||playListName",
+      "wordCount": "{{$.playNum||$.playCount}}播放"
+    },
+    "ruleToc": {
+      "chapterList": "$.data.items[?(@.fullSong != null)]",
+      "chapterName": "$.name",
+      "chapterUrl": "https://m.music.migu.cn/migumusic/h5/play/auth/getSongPlayInfo?type=1&copyrightId={{$.copyrightId}}",
+      "formatJs": "",
+      "isVolume": "",
+      "updateTime": "📼 {{$.duration}}　🎻 {{$.singers..name##\\n##&}}　📀 {{$.album.albumName}}"
+    },
+    "searchUrl": "https://m.music.migu.cn/migumusic/h5/search/songList?text={{key}}&pageNo={{page}}&pageSize=20",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "YX源仓库：http://yx.ccute.xyz/",
+    "bookSourceGroup": "音乐",
+    "bookSourceName": "[MUSIC]音乐吧",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.1327.net",
+    "customOrder": 2,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1569690090362,
+    "loginUrl": "",
+    "respondTime": 180000,
+    "weight": 215
+  },
+  {
+    "bookSourceComment": "YX源仓库：http://yx.ccute.xyz/",
+    "bookSourceGroup": "音乐",
+    "bookSourceName": "[MUSIC]一听音乐™",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://so.1ting.com",
+    "customOrder": 3,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "respondTime": 180000,
+    "weight": 142
+  },
+  {
+    "bookSourceComment": "YX源仓库：http://yx.ccute.xyz/",
+    "bookSourceGroup": "音乐",
+    "bookSourceName": "[MUSIC]5nd音乐™",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://so.5nd.com",
+    "customOrder": 4,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "respondTime": 180000,
+    "weight": 189
+  },
+  {
+    "bookSourceComment": "YX源仓库：http://yx.ccute.xyz/",
+    "bookSourceGroup": "音乐",
+    "bookSourceName": "🎵HIFINI音乐",
+    "bookSourceType": 1,
+    "bookSourceUrl": "https://www.hifini.com/",
+    "customOrder": 10,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1742385611702,
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "coverUrl": "@@class.message break-all.0@id.player4.0@div.0@style##background-image: url|[(';)]*||script@pic",
+      "intro": "📜：{{@@class.message break-all@h5.0@text}}:\n{{@@class.message break-all@p@text}}##[https.].*",
+      "tocUrl": "@js:\nlet url = baseUrl;\nurl"
+    },
+    "ruleContent": {
+      "content": "<js>\nvar url = baseUrl;\nvar content = java.startBrowserAwait(url,\"HIFINI验证\");\ncontent\n</js>",
+      "nextContentUrl": "",
+      "sourceRegex": ".*\\.(mp3|m4a).* ",
+      "title": ""
+    },
+    "ruleSearch": {
+      "author": "@js:\nconst text = '{{@@class.subject break-all@a@text}}';\nconst regex = /^([^《]+)《([^》]+)》(.+)$/;\nconst match = text.match(regex);\nif (match) {\n    const author = match[1];\n    const name = match[2];\n    const kind = match[3];\n    java.toast('搜索成功');\n} else {\n    java.toast('没有搜索到相关的内容');\n}\nconst list = [];\n       list.push({\n            name: name,\n            author: author,\n            kind: kind\n      });\n\nauthor",
+      "bookList": "class.list-unstyled@li",
+      "bookUrl": "class.subject break-all@a@href",
+      "checkKeyWord": "坏女孩",
+      "kind": "@js:\nconst text = '{{@@class.subject break-all@a@text}}';\nconst regex = /^([^《]+)《([^》]+)》(.+)$/;\nconst match = text.match(regex);\nif (match) {\n    const author = match[1];\n    const name = match[2];\n    const kind = match[3];\n    java.toast('搜索成功');\n} else {\n    java.toast('没有搜索到相关的内容');\n}\nconst list = [];\n       list.push({\n            name: name,\n            author: author,\n            kind: kind\n      });\nkind",
+      "name": "@js:\nconst text = '{{@@class.subject break-all@a@text}}';\nconst regex = /^([^《]+)《([^》]+)》(.+)$/;\nconst match = text.match(regex);\nif (match) {\n    const author = match[1];\n    const name = match[2];\n    const kind = match[3];\n    java.toast('搜索成功');\n} else {\n    java.toast('没有搜索到相关的内容');\n}\nconst list = [];\n       list.push({\n            name: name,\n            author: author,\n            kind: kind\n      });\nname"
+    },
+    "ruleToc": {
+      "chapterList": "@js:\nvar list = [];\nvar url = baseUrl;\nvar title = \"{{@@class.aplayer-music@class.aplayer-title@text}}\";\nconst currentTitle = title;\nconst targetTitle = \"{{@@class.aplayer-music@class.aplayer-title@text}}\";\n\nif (currentTitle === targetTitle) {\n    java.toast('目录标题获取失败，正在尝试强制获取！');\n    // fetchTitleForcefully();\n} else {\n    java.toast('目录加载成功');\n    // displayTitle(currentTitle);\n}\n    list.push({\n    \t    url: url,\n    \t    title: title\n    \t})\nlist",
+      "chapterName": "title",
+      "chapterUrl": "url@js:result+',{\n\"user-agent\": \"Mozilla/5.0 (Linux; Android 15; V2338A; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/123.0.6312.118 Mobile Safari/537.36 VivoBrowser/23.1.0.1\",\n\"sec-ch-ua:\"Android WebView\";v=\"123\", \"Not:A-Brand\";v=\"8\", \"Chromium\";v=\"123\", \"accept-language\": \"zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7\"\n}'",
+      "formatJs": ""
+    },
+    "searchUrl": "https://www.hifini.com/search.htm?keyword={{key}}",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "YX源仓库：http://yx.ccute.xyz/\n支持搜索单曲；\n支持发现歌单；\n支持导入歌单(变量说明中填入网易云歌单分享链接，发现“我的”列表【第二个结果】)；\n播放歌单请先添加书架；\n公益api来自互联网，请勿滥用\nby_tlyanyu",
+    "bookSourceGroup": "音乐",
+    "bookSourceName": "🎶网易云音乐",
+    "bookSourceType": 1,
+    "bookSourceUrl": "https://music.163.com",
+    "bookUrlPattern": "",
+    "customOrder": 1023,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"✿                  外 部 歌 单                  ✿\",\"url\":\"/discover/playlist/?order=hot&cat=华语&limit=1&offset=0\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"✿                    语   种                    ✿\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"华语\",\"url\":\"/discover/playlist/?order=hot&cat=华语&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"欧美\",\"url\":\"/discover/playlist/?order=hot&cat=欧美&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"日语\",\"url\":\"/discover/playlist/?order=hot&cat=日语&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"韩语\",\"url\":\"/discover/playlist/?order=hot&cat=韩语&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"粤语\",\"url\":\"/discover/playlist/?order=hot&cat=粤语&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"小语种\",\"url\":\"/discover/playlist/?order=hot&cat=小语种&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"✿                    风   格                    ✿\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"流行\",\"url\":\"/discover/playlist/?order=hot&cat=流行&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"摇滚\",\"url\":\"/discover/playlist/?order=hot&cat=摇滚&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"民谣\",\"url\":\"/discover/playlist/?order=hot&cat=民谣&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"电子\",\"url\":\"/discover/playlist/?order=hot&cat=电子&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"舞曲\",\"url\":\"/discover/playlist/?order=hot&cat=舞曲&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"说唱\",\"url\":\"/discover/playlist/?order=hot&cat=说唱&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"轻音乐\",\"url\":\"/discover/playlist/?order=hot&cat=轻音乐&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"爵士\",\"url\":\"/discover/playlist/?order=hot&cat=爵士&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"乡村\",\"url\":\"/discover/playlist/?order=hot&cat=乡村&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"R&B/Soul\",\"url\":\"/discover/playlist/?order=hot&cat=R%26B%2FSoul&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"古典\",\"url\":\"/discover/playlist/?order=hot&cat=古典&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"民族\",\"url\":\"/discover/playlist/?order=hot&cat=民族&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"英伦\",\"url\":\"/discover/playlist/?order=hot&cat=英伦&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"金属\",\"url\":\"/discover/playlist/?order=hot&cat=金属&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"朋克\",\"url\":\"/discover/playlist/?order=hot&cat=朋克&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"蓝调\",\"url\":\"/discover/playlist/?order=hot&cat=蓝调&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"雷鬼\",\"url\":\"/discover/playlist/?order=hot&cat=雷鬼&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"世界音乐\",\"url\":\"/discover/playlist/?order=hot&cat=世界音乐&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"拉丁\",\"url\":\"/discover/playlist/?order=hot&cat=拉丁&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"另类/独立\",\"url\":\"/discover/playlist/?order=hot&cat=另类%2F独立&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"New Age\",\"url\":\"/discover/playlist/?order=hot&cat=New Age&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"古风\",\"url\":\"/discover/playlist/?order=hot&cat=古风&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"后摇\",\"url\":\"/discover/playlist/?order=hot&cat=后摇&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"Bossa Nova\",\"url\":\"/discover/playlist/?order=hot&cat=Bossa Nova&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"✿                    场   景                    ✿\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"清晨\",\"url\":\"/discover/playlist/?order=hot&cat=清晨&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"夜晚\",\"url\":\"/discover/playlist/?order=hot&cat=夜晚&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"学习\",\"url\":\"/discover/playlist/?order=hot&cat=学习&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"工作\",\"url\":\"/discover/playlist/?order=hot&cat=工作&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"午休\",\"url\":\"/discover/playlist/?order=hot&cat=午休&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"下午茶\",\"url\":\"/discover/playlist/?order=hot&cat=下午茶&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"地铁\",\"url\":\"/discover/playlist/?order=hot&cat=地铁&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"驾车\",\"url\":\"/discover/playlist/?order=hot&cat=驾车&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"运动\",\"url\":\"/discover/playlist/?order=hot&cat=运动&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"旅行\",\"url\":\"/discover/playlist/?order=hot&cat=旅行&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"散步\",\"url\":\"/discover/playlist/?order=hot&cat=散步&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"酒吧\",\"url\":\"/discover/playlist/?order=hot&cat=酒吧&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"✿                    情    感                    ✿\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"怀旧\",\"url\":\"/discover/playlist/?order=hot&cat=怀旧&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"清新\",\"url\":\"/discover/playlist/?order=hot&cat=清新&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"浪漫\",\"url\":\"/discover/playlist/?order=hot&cat=浪漫&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"性感\",\"url\":\"/discover/playlist/?order=hot&cat=性感&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"伤感\",\"url\":\"/discover/playlist/?order=hot&cat=伤感&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"治愈\",\"url\":\"/discover/playlist/?order=hot&cat=治愈&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"放松\",\"url\":\"/discover/playlist/?order=hot&cat=放松&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"孤独\",\"url\":\"/discover/playlist/?order=hot&cat=孤独&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"感动\",\"url\":\"/discover/playlist/?order=hot&cat=感动&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"兴奋\",\"url\":\"/discover/playlist/?order=hot&cat=兴奋&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"快乐\",\"url\":\"/discover/playlist/?order=hot&cat=快乐&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"安静\",\"url\":\"/discover/playlist/?order=hot&cat=安静&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"思念\",\"url\":\"/discover/playlist/?order=hot&cat=思念&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"✿                    主   题                    ✿\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"综艺\",\"url\":\"/discover/playlist/?order=hot&cat=综艺&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"影视原声\",\"url\":\"/discover/playlist/?order=hot&cat=影视原声&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"ACG\",\"url\":\"/discover/playlist/?order=hot&cat=ACG&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"儿童\",\"url\":\"/discover/playlist/?order=hot&cat=儿童&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"校园\",\"url\":\"/discover/playlist/?order=hot&cat=校园&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"游戏\",\"url\":\"/discover/playlist/?order=hot&cat=游戏&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"70后\",\"url\":\"/discover/playlist/?order=hot&cat=70后&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"80后\",\"url\":\"/discover/playlist/?order=hot&cat=80后&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"90后\",\"url\":\"/discover/playlist/?order=hot&cat=90后&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"网络歌曲\",\"url\":\"/discover/playlist/?order=hot&cat=网络歌曲&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"KTV\",\"url\":\"/discover/playlist/?order=hot&cat=KTV&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"经典\",\"url\":\"/discover/playlist/?order=hot&cat=经典&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"翻唱\",\"url\":\"/discover/playlist/?order=hot&cat=翻唱&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"吉他\",\"url\":\"/discover/playlist/?order=hot&cat=吉他&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"钢琴\",\"url\":\"/discover/playlist/?order=hot&cat=钢琴&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"器乐\",\"url\":\"/discover/playlist/?order=hot&cat=器乐&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"榜单\",\"url\":\"/discover/playlist/?order=hot&cat=榜单&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"00后\",\"url\":\"/discover/playlist/?order=hot&cat=00后&limit=35&offset={{(page-1)*35}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+    "header": "{\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0\"}",
+    "lastUpdateTime": 1730201287922,
+    "loginUrl": "",
+    "respondTime": 23768,
+    "ruleBookInfo": {
+      "author": "",
+      "coverUrl": "",
+      "intro": "&nbsp;\n📖 歌单：{{@@class.tit@text}}\n👤 作者：{{@@span.name@tag.a@text}}\n📜 列表：{{@@span.sub.s-fc3@text}}\n🕰 时间：{{@@span.time.s-fc4@text}}\n👁 播放：{{@@strong.s-fc6@text}}\n❤️ 收藏：{{@@a.u-btni.u-btni-fav@text##[()]}}\n🏷 分享：{{@@a.u-btni.u-btni-share @text##[()]}}\n📋 简介：{{@@p#album-desc-more@text##介绍： }}",
+      "kind": "",
+      "name": "",
+      "tocUrl": "@js:\nmatch = baseUrl.match(/song\\?id=(\\d+)/);\nif(match){\n'https://v.iarc.top/?type=song&id='+match[1]\n}else{\n'https://v.iarc.top/?type=playlist&id='+baseUrl.match(/playlist\\?id=(\\d+)/)[1]\n}"
+    },
+    "ruleContent": {
+      "content": ""
+    },
+    "ruleExplore": {
+      "author": "author",
+      "bookList": "@js:\nvar list = java.getElements('#m-pl-container li');\nvar data = [];\nfor (i = 0; i < list.length; i++) {\n\tname = list[i].select('p.dec a').text();\n\tauthor = list[i].select('a.s-fc3').text();\n\tkind = list[i].select('span.nb').text();\t\n\tcover = String(list[i].select('img.j-flag').attr('src')).split(\"?\")[0];\n\tintro = list[i].select('p.dec a').text();\n\turl = list[i].select('p.dec a').attr('href');\n\tdata.push({\n\t\t'name': name,\n\t\t'author': author,\n\t\t'kind': kind,\n\t\t'intro': intro,\n\t\t'cover': cover,\n\t\t'url': url\n\t});\n}\nvar match = String(source.variableComment).match(/playlist\\?id=(\\d+)/);\nif(match && !baseUrl.includes(\"limit=35\")){\n        var playlistUrl = 'https://music.163.com/playlist?id='+match[1];\n\tvar html = java.ajax(playlistUrl);\n\tvar doc = org.jsoup.Jsoup.parse(html);\n\tvar list = doc.select('#m-playlist');\n\tname = list.select('.tit').text();\n\tauthor = list.select('span.name a').text();\n\tkind = list.select('strong.s-fc6').text();\t\n\tcover = String(list.select('img.j-img').attr('data-src')).split(\"?\")[0];\n\tintro = list.select('p#album-desc-more').text();\n\turl = playlistUrl;\n\tdata.push({\n\t\t'name': name,\n\t\t'author': author,\n\t\t'kind': [kind,\"外部歌单\"],\n\t\t'intro': intro,\n\t\t'cover': cover,\n\t\t'url': url\n\t});\n        //data.shift();\n}\ndata",
+      "bookUrl": "url",
+      "coverUrl": "cover",
+      "intro": "intro##介绍： ",
+      "kind": "kind",
+      "name": "name",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "$.artists[*].name",
+      "bookList": "$.result.songs",
+      "bookUrl": "/song?id={{$.id}}",
+      "checkKeyWord": "爱你",
+      "coverUrl": "https://music.163.com/song?id={{$.id}}\n@js:\nresp = org.jsoup.Jsoup.parse(java.ajax(result));\nresp.select(\".j-img\").attr(\"data-src\")",
+      "kind": "$.album.name",
+      "lastChapter": "@js:\njava.timeFormat(result.album.publishTime)",
+      "name": "$.name"
+    },
+    "ruleToc": {
+      "chapterList": "$",
+      "chapterName": "name",
+      "chapterUrl": "url"
+    },
+    "searchUrl": "/api/search/get/web?csrf_token=&lpretag=&hlposttag=&s={{key}}&type=1&offset={{(page-1)*20}}&total=true&limit=20",
+    "variableComment": "分享歌单: 经典老歌 | 90后青春回忆杀 岁月留声 诗藏旧梦深 https://music.163.com/m/playlist?id=9699117352&creatorId=290894929",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "YX源仓库：http://yx.ccute.xyz/\n//正文sign解密 by: 游客\n//注释及以下代码勿动！\n\nfunction sign(args) {\n\ta = \"\\x6d\\x75\\x73\\x69\\x63\\x41\\x50\\x49\\x5f\\x30\\x33\\x32\\x34\\x64\\x66\\x32\\x66\\x34\\x39\\x33\\x30\\x31\\x38\\x30\\x33\\x35\\x33\\x61\\x64\\x38\\x38\\x33\\x32\\x66\\x34\\x64\\x63\\x63\\x38\\x37\\x36\"\n  return sign_sha1(a + sign_sha1(args));\n}\n\nfunction sign_url(url) {\n    return url + '&sign=' + sign(String(url).slice(4).replace(/\\s/g, \"\"));\n}",
+    "bookSourceGroup": "音乐",
+    "bookSourceName": "音乐-全网音乐搜索",
+    "bookSourceType": 1,
+    "bookSourceUrl": "https://suapi.net/",
+    "customOrder": 3202,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "header": "{\n\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\"\n}",
+    "jsLib": "function sign_sha1(a) {\n    function b(a, b) {\n        return a << b | a >>> 32 - b\n    }\n    function c(a, b) {\n        var c, d, e, f, g;\n        return e = 2147483648 & a,\n        f = 2147483648 & b,\n        c = 1073741824 & a,\n        d = 1073741824 & b,\n        g = (1073741823 & a) + (1073741823 & b),\n        c & d ? 2147483648 ^ g ^ e ^ f : c | d ? 1073741824 & g ? 3221225472 ^ g ^ e ^ f : 1073741824 ^ g ^ e ^ f : g ^ e ^ f\n    }\n    function d(a, b, c) {\n        return a & b | ~a & c\n    }\n    function e(a, b, c) {\n        return a & c | b & ~c\n    }\n    function f(a, b, c) {\n        return a ^ b ^ c\n    }\n    function g(a, b, c) {\n        return b ^ (a | ~c)\n    }\n    function h(a, e, f, g, h, i, j) {\n        return a = c(a, c(c(d(e, f, g), h), j)),\n        c(b(a, i), e)\n    }\n    function i(a, d, f, g, h, i, j) {\n        return a = c(a, c(c(e(d, f, g), h), j)),\n        c(b(a, i), d)\n    }\n    function j(a, d, e, g, h, i, j) {\n        return a = c(a, c(c(f(d, e, g), h), j)),\n        c(b(a, i), d)\n    }\n    function k(a, d, e, f, h, i, j) {\n        return a = c(a, c(c(g(d, e, f), h), j)),\n        c(b(a, i), d)\n    }\n    function l(a) {\n        for (var b, c = a.length, d = c + 8, e = (d - d % 64) / 64, f = 16 * (e + 1), g = new Array(f - 1), h = 0, i = 0; c > i; )\n            b = (i - i % 4) / 4,\n            h = i % 4 * 8,\n            g[b] = g[b] | a.charCodeAt(i) << h,\n            i++;\n        return b = (i - i % 4) / 4,\n        h = i % 4 * 8,\n        g[b] = g[b] | 128 << h,\n        g[f - 2] = c << 3,\n        g[f - 1] = c >>> 29,\n        g\n    }\n    function m(a) {\n        var b, c, d = \"\", e = \"\";\n        for (c = 0; 3 >= c; c++)\n            b = a >>> 8 * c & 255,\n            e = \"0\" + b.toString(16),\n            d += e.substr(e.length - 2, 2);\n        return d\n    }\n    function n(a) {\n        a = a.replace(/\\r\\n/g, \"\\n\");\n        for (var b = \"\", c = 0; c < a.length; c++) {\n            var d = a.charCodeAt(c);\n            128 > d ? b += String.fromCharCode(d) : d > 127 && 2048 > d ? (b += String.fromCharCode(d >> 6 | 192),\n            b += String.fromCharCode(63 & d | 128)) : (b += String.fromCharCode(d >> 12 | 224),\n            b += String.fromCharCode(d >> 6 & 63 | 128),\n            b += String.fromCharCode(63 & d | 128))\n        }\n        return b\n    }\n    var o, p, q, r, s, t, u, v, w, x = [], y = 7, z = 12, A = 17, B = 22, C = 5, D = 9, E = 14, F = 20, G = 4, H = 11, I = 16, J = 23, K = 6, L = 10, M = 15, N = 21;\n    for (a = n(a),\n    x = l(a),\n    t = 1732584193,\n    u = 4023233417,\n    v = 2562383102,\n    w = 271733878,\n    o = 0; o < x.length; o += 16)\n        p = t,\n        q = u,\n        r = v,\n        s = w,\n        t = h(t, u, v, w, x[o + 0], y, 3614090360),\n        w = h(w, t, u, v, x[o + 1], z, 3905402710),\n        v = h(v, w, t, u, x[o + 2], A, 606105819),\n        u = h(u, v, w, t, x[o + 3], B, 3250441966),\n        t = h(t, u, v, w, x[o + 4], y, 4118548399),\n        w = h(w, t, u, v, x[o + 5], z, 1200080426),\n        v = h(v, w, t, u, x[o + 6], A, 2821735955),\n        u = h(u, v, w, t, x[o + 7], B, 4249261313),\n        t = h(t, u, v, w, x[o + 8], y, 1770035416),\n        w = h(w, t, u, v, x[o + 9], z, 2336552879),\n        v = h(v, w, t, u, x[o + 10], A, 4294925233),\n        u = h(u, v, w, t, x[o + 11], B, 2304563134),\n        t = h(t, u, v, w, x[o + 12], y, 1804603682),\n        w = h(w, t, u, v, x[o + 13], z, 4254626195),\n        v = h(v, w, t, u, x[o + 14], A, 2792965006),\n        u = h(u, v, w, t, x[o + 15], B, 1236535329),\n        t = i(t, u, v, w, x[o + 1], C, 4129170786),\n        w = i(w, t, u, v, x[o + 6], D, 3225465664),\n        v = i(v, w, t, u, x[o + 11], E, 643717713),\n        u = i(u, v, w, t, x[o + 0], F, 3921069994),\n        t = i(t, u, v, w, x[o + 5], C, 3593408605),\n        w = i(w, t, u, v, x[o + 10], D, 38016083),\n        v = i(v, w, t, u, x[o + 15], E, 3634488961),\n        u = i(u, v, w, t, x[o + 4], F, 3889429448),\n        t = i(t, u, v, w, x[o + 9], C, 568446438),\n        w = i(w, t, u, v, x[o + 14], D, 3275163606),\n        v = i(v, w, t, u, x[o + 3], E, 4107603335),\n        u = i(u, v, w, t, x[o + 8], F, 1163531501),\n        t = i(t, u, v, w, x[o + 13], C, 2850285829),\n        w = i(w, t, u, v, x[o + 2], D, 4243563512),\n        v = i(v, w, t, u, x[o + 7], E, 1735328473),\n        u = i(u, v, w, t, x[o + 12], F, 2368359562),\n        t = j(t, u, v, w, x[o + 5], G, 4294588738),\n        w = j(w, t, u, v, x[o + 8], H, 2272392833),\n        v = j(v, w, t, u, x[o + 11], I, 1839030562),\n        u = j(u, v, w, t, x[o + 14], J, 4259657740),\n        t = j(t, u, v, w, x[o + 1], G, 2763975236),\n        w = j(w, t, u, v, x[o + 4], H, 1272893353),\n        v = j(v, w, t, u, x[o + 7], I, 4139469664),\n        u = j(u, v, w, t, x[o + 10], J, 3200236656),\n        t = j(t, u, v, w, x[o + 13], G, 681279174),\n        w = j(w, t, u, v, x[o + 0], H, 3936430074),\n        v = j(v, w, t, u, x[o + 3], I, 3572445317),\n        u = j(u, v, w, t, x[o + 6], J, 76029189),\n        t = j(t, u, v, w, x[o + 9], G, 3654602809),\n        w = j(w, t, u, v, x[o + 12], H, 3873151461),\n        v = j(v, w, t, u, x[o + 15], I, 530742520),\n        u = j(u, v, w, t, x[o + 2], J, 3299628645),\n        t = k(t, u, v, w, x[o + 0], K, 4096336452),\n        w = k(w, t, u, v, x[o + 7], L, 1126891415),\n        v = k(v, w, t, u, x[o + 14], M, 2878612391),\n        u = k(u, v, w, t, x[o + 5], N, 4237533241),\n        t = k(t, u, v, w, x[o + 12], K, 1700485571),\n        w = k(w, t, u, v, x[o + 3], L, 2399980690),\n        v = k(v, w, t, u, x[o + 10], M, 4293915773),\n        u = k(u, v, w, t, x[o + 1], N, 2240044497),\n        t = k(t, u, v, w, x[o + 8], K, 1873313359),\n        w = k(w, t, u, v, x[o + 15], L, 4264355552),\n        v = k(v, w, t, u, x[o + 6], M, 2734768916),\n        u = k(u, v, w, t, x[o + 13], N, 1309151649),\n        t = k(t, u, v, w, x[o + 4], K, 4149444226),\n        w = k(w, t, u, v, x[o + 11], L, 3174756917),\n        v = k(v, w, t, u, x[o + 2], M, 718787259),\n        u = k(u, v, w, t, x[o + 9], N, 3951481745),\n        t = c(t, p),\n        u = c(u, q),\n        v = c(v, r),\n        w = c(w, s);\n    var O = m(t) + m(u) + m(v) + m(w);\n    return O.toLowerCase().slice(24) + O.toLowerCase();\n}",
+    "lastUpdateTime": 1729871774199,
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "author": "",
+      "coverUrl": "",
+      "init": "",
+      "intro": "<js>\nvar str=\"\"\nif(java.get(\"mid\")){\n   let mid = java.get(\"mid\")\n   let param = `api?type=lrc&mid=${mid}`;\n \n\n    var postUrl =  java.webView(null,\"https://suapi.net/tool/music\",`sign_url(\"${param}&token=\"+document.getElementById(\"music-so\").getAttribute(\"token\"))`)\n\n/*\n   let html = java.ajax(\"https://suapi.net/tool/music\");\nlet token = org.jsoup.Jsoup.parse(html).select(\"#music-so\").attr(\"token\");\n\neval(String(source.bookSourceComment));\nvar postUrl =  sign_url(param+`&token=${token }`)\n*/\n\t\nstr =java.ajax(\"https://suapi.net/tool/\"+postUrl )\n}\nstr\n</js>",
+      "name": "",
+      "tocUrl": ""
+    },
+    "ruleContent": {
+      "content": "<js>\nlet mid = java.hexDecodeToString(result);\nlet param = `api?type=url&mid=${mid}`;\n\n\nvar postUrl =  java.webView(null,\"https://suapi.net/tool/music\",`sign_url(\"${param}&token=\"+document.getElementById(\"music-so\").getAttribute(\"token\"))`)\n\n/*\nlet html = java.ajax(\"https://suapi.net/tool/music\");\nlet token = org.jsoup.Jsoup.parse(html).select(\"#music-so\").attr(\"token\");\n\neval(String(source.bookSourceComment));\nvar postUrl =  sign_url(param+`&token=${token }`)\n*/\n\nlet result = java.get(\"https://suapi.net/tool/\"+postUrl , {});\n\nlet url = result.header(\"Location\");\njava.log(url )\nurl\n</js>"
+    },
+    "ruleSearch": {
+      "author": "$.author",
+      "bookList": "$.data.list.*",
+      "bookUrl": "<js>\njava.put(\"mid\",result.mid)\nresult\n</js>\n{{\n `data:;base64,${java.base64Encode(JSON.stringify((result)))},{\"type\":\"text\"}`\n }}",
+      "checkKeyWord": "童话镇",
+      "coverUrl": "$.pic",
+      "name": "$.title"
+    },
+    "ruleToc": {
+      "chapterList": "<js>\nlet arr = [];\ntry {\n let obj = JSON.parse(java.hexDecodeToString(result));\n arr.push({\n  title: obj.title,\n  url: `data:;base64,${java.base64Encode(obj.mid)},{\"type\":\"text\"}`\n })\n} catch (error) {\n java.log(error)\n}\narr\n</js>",
+      "chapterName": "title",
+      "chapterUrl": "url"
+    },
+    "searchUrl": "@js:\nlet param=`api?type=so&id=&word=${key}&page=${page}&per_page=10&topid=&period=`\n\n\nvar postUrl =  java.webView(null,\"https://suapi.net/tool/music\",`sign_url(\"${param}&token=\"+document.getElementById(\"music-so\").getAttribute(\"token\"))`)\n\n/*\nlet html = java.ajax(\"https://suapi.net/tool/music\");\nlet token = org.jsoup.Jsoup.parse(html).select(\"#music-so\").attr(\"token\");\n\neval(String(source.bookSourceComment));\nvar postUrl =  sign_url(param+`&token=${token }`)\n*/\n\t\n\"https://suapi.net/tool/\"+postUrl",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "YX源仓库：http://yx.ccute.xyz/",
+    "bookSourceGroup": "音乐",
+    "bookSourceName": "音乐-九酷音乐",
+    "bookSourceType": 1,
+    "bookSourceUrl": "http://m.9ku.com",
+    "bookUrlPattern": "",
+    "customOrder": 3204,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "exploreUrl": "榜单排行::/music/\n网络歌曲::/wangluo/\n儿童歌曲::/erge/\n经典老歌::/laoge/\n抖音歌曲::/douyin/\n英文歌曲::/yingwen/\n九酷分类::https://m.9ku.com/zhuanji/taste.htm\n全部歌手::/geshou/all-all-all.htm&&内地男::/geshou/dalunan-all-all.htm&&内地女::/geshou/dalunv-all-all.htm&&内地组合::/geshou/daluzuhe-all-all.htm&&港台男::/geshou/gangtainan-all-all.htm&&港台女::/geshou/gangtainv-all-all.htm&&港台组合::/geshou/gangtaizuhe-all-all.htm&&欧美男::/geshou/oumeinan-all-all.htm&&欧美女::/geshou/oumeinv-all-all.htm&&欧美组合::/geshou/oumeizuhe-all-all.htm&&日韩男::/geshou/rhnan-all-all.htm&&日韩女::/geshou/rhnv-all-all.htm&&日韩组合::/geshou/rhzuhe-all-all.htm&&流行歌手::/geshou/gangtainan-all-liuxing.htm&&发烧音乐::/geshou/gangtainan-all-fashaoyinle.htm&&网络::/geshou/gangtainan-all-wangluo.htm&&非主流::/geshou/gangtainan-all-feizhuliu.htm&&儿童::/geshou/gangtainan-all-ertong.htm&&基督教::/geshou/gangtainan-all-jidujiao.htm&&纯音乐::/geshou/gangtainan-all-chunyinle.htm&&其它::/geshou/gangtainan-all-qita.htm&&A::/geshou/gangtainan-a-all.htm&&B::/geshou/gangtainan-b-all.htm&&C::/geshou/gangtainan-c-all.htm&&D::/geshou/gangtainan-d-all.htm&&E::/geshou/gangtainan-e-all.htm&&F::/geshou/gangtainan-f-all.htm&&G::/geshou/gangtainan-g-all.htm&&H::/geshou/gangtainan-h-all.htm&&I::/geshou/gangtainan-i-all.htm&&J::/geshou/gangtainan-j-all.htm&&K::/geshou/gangtainan-k-all.htm&&L::/geshou/gangtainan-l-all.htm&&M::/geshou/gangtainan-m-all.htm&&N::/geshou/gangtainan-n-all.htm&&O::/geshou/gangtainan-o-all.htm&&P::/geshou/gangtainan-p-all.htm&&Q::/geshou/gangtainan-q-all.htm&&R::/geshou/gangtainan-r-all.htm&&S::/geshou/gangtainan-s-all.htm&&T::/geshou/gangtainan-t-all.htm&&U::/geshou/gangtainan-u-all.htm&&V::/geshou/gangtainan-v-all.htm&&W::/geshou/gangtainan-w-all.htm&&X::/geshou/gangtainan-x-all.htm&&Y::/geshou/gangtainan-y-all.htm&&Z::/geshou/gangtainan-z-all.htm&&other::/geshou/gangtainan-other-all.htm&&",
+    "lastUpdateTime": 1723479179595,
+    "loginUrl": "",
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "intro": "",
+      "kind": "",
+      "lastChapter": "class.t-t@tag.p@text"
+    },
+    "ruleContent": {
+      "content": "##mp3:\\\"([^\"]+)\\\"\\}##$1###"
+    },
+    "ruleExplore": {
+      "bookList": "ul.singerList li a||.banglist@tag.li||.bangCate@tag.li||a[href$=htm]",
+      "bookUrl": "a:not([href*=all])@href",
+      "coverUrl": "tag.img@src",
+      "intro": "",
+      "name": "tag.a@title||tag.a@text##收起|更多|歌手|分类|最新歌曲"
+    },
+    "ruleSearch": {
+      "author": "tag.a.2@text",
+      "bookList": "class.musicList@tag.li",
+      "bookUrl": "tag.a@href",
+      "checkKeyWord": "折纸戏",
+      "coverUrl": "tag.img@src",
+      "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+      "chapterList": ".musicList li",
+      "chapterName": ".t-t-a@text",
+      "chapterUrl": "tag.a.0@href"
+    },
+    "searchUrl": "/search/?key={{key}}",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "YX源仓库：http://yx.ccute.xyz/",
+    "bookSourceGroup": "音乐",
+    "bookSourceName": "音乐-百度",
+    "bookSourceType": 1,
+    "bookSourceUrl": "https://music.liuzhijin.cn-baidu",
+    "customOrder": 3250,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "header": "",
+    "lastUpdateTime": 1723954674497,
+    "respondTime": 8356,
+    "ruleSearch": {
+      "author": "$.author",
+      "bookList": "$.data[*]",
+      "bookUrl": "$.url",
+      "coverUrl": "$.pic",
+      "intro": "$.lrc",
+      "name": "$.title@put:{title:$.title,url:$.url}"
+    },
+    "ruleToc": {
+      "chapterList": "@js:\nresult=[{text:java.get('title'),href:java.get('url')}]",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://music.liuzhijin.cn,{\n\"method\": \"POST\",\n\"body\": \"input={{key}}&filter=name&type=baidu&page={{page}}\",\n\"headers\": {\"x-requested-with\": \"XMLHttpRequest\"}\n}",
+    "weight": 0
+  }
+]
