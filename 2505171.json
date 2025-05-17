@@ -1,0 +1,52 @@
+[
+  {
+    "bookSourceComment": "YX源仓库：http://yx.ccute.xyz/",
+    "bookSourceGroup": "🎧 音频",
+    "bookSourceName": "asmr",
+    "bookSourceType": 1,
+    "bookSourceUrl": "https://api.asmr-200.com",
+    "customOrder": 68,
+    "enabled": false,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "exploreUrl": "@js:\nsort = [];\npush = (title, url, type) => sort.push({\n  title: title,\n  url: url,\n  style: {\n    layout_flexGrow: 1,\n    layout_flexBasisPercent: type\n  }\n});\npush(\"• 首页 •\", \"/api/works?order=create_date&sort=desc&page={{page}}&subtitle=0\", 1);\npush(\"• 标签 •\", \"\", 1);\nc = JSON.parse(java.ajax(\"https://api.asmr-200.com/api/tags/\"));\nfor (i = 0; i < c.length; i++) {\n    push(\n      c[i].name+\"(\"+c[i].count+\")\", \"https://api.asmr-200.com/api/search/%24tag%3A\"+encodeURIComponent(c[i].name)+\"%24?order=price&sort=desc&page=1&subtitle=0&includeTranslationWorks=true\",\n      null\n    );\n  };\nJSON.stringify(sort);",
+    "lastUpdateTime": 1736852153118,
+    "respondTime": 2695,
+    "ruleBookInfo": {
+      "coverUrl": "",
+      "downloadUrls": "",
+      "intro": "",
+      "name": "title",
+      "tocUrl": ""
+    },
+    "ruleContent": {
+      "content": ""
+    },
+    "ruleExplore": {
+      "author": "name",
+      "bookList": "$..works[*]",
+      "bookUrl": "/api/tracks/{{$.id}}",
+      "coverUrl": "mainCoverUrl",
+      "intro": "",
+      "name": "title"
+    },
+    "ruleSearch": {
+      "author": "name",
+      "bookList": "$..works[*]",
+      "bookUrl": "/api/tracks/{{$.id}}",
+      "checkKeyWord": "我的",
+      "coverUrl": "mainCoverUrl",
+      "intro": "",
+      "name": "title"
+    },
+    "ruleToc": {
+      "chapterList": "$..[?(@.type==\"audio\")]",
+      "chapterName": "title",
+      "chapterUrl": "mediaStreamUrl",
+      "nextTocUrl": "",
+      "preUpdateJs": ""
+    },
+    "searchUrl": "/api/search/{{key}}?order=create_date&sort=desc&page={{page}}&subtitle=0&includeTranslationWorks=true",
+    "weight": 0
+  }
+]
