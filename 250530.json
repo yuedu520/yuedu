@@ -1,0 +1,44 @@
+[
+  {
+    "bookSourceComment": "//2025.5.24 by.◎辞晨◎\n//AES解密",
+    "bookSourceGroup": "写源",
+    "bookSourceName": "网飞猫",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.ncat1.app/",
+    "customOrder": 11,
+    "enabled": false,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "@js:\nsort=[];\npush=(title,url,type1,type2)=>sort.push({\n\t\ttitle: title,\n\t\turl: url,\n\t\tstyle: {\n\t\t\t\tlayout_flexGrow: type1,\n\t\t\t\tlayout_flexBasisPercent: type2\n\t\t\t}\n\t});\n\tpush(\"电视剧\",`/show/2-----3-{{page}}.html`,1,1)\npush(\"电影\",`/show/1-----3-{{page}}.html`,1,1)\n\t//java.log(JSON.stringify(sort))\nJSON.stringify(sort)",
+    "header": "@js:\nJSON.stringify({\n  'User-Agent': \"Mozilla/5.0 (Linux; Android 15; V2304A Build/AP3A.240905.015.A2; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/132.0.6834.163 Mobile Safari/537.36\",\n  'Accept-Encoding': \"identity\"})",
+    "lastUpdateTime": 1748107547739,
+    "respondTime": 180000,
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "<js>\n//java.log(src)\ngo=src.match(/function gogogo\\(\\)\\s*\\{\\s*[\\S\\s]*?function onPlayerLoadStartHandler/)[0]\ngo=go.replace(/\\\\u([\\da-fA-F]{4})/g,(m,p1)=>String.fromCharCode(parseInt(p1,16)))\nurl=go.match(/'?url'?:[^,]+/)[0]\nif (url.match(/playSource\\.src/)){\n\tresult=go.match(/src:\\s*\"([^\"]+)\"/)[1]\n\t}else{\n\t\tkey=go.match(/\\['url'\\]\\(\"([^\"]+)\"\\)/)[1]\n\t\tdata=src.match(/whatTMDwhatTMDPPPP\\s*=\\s*'([^']+)'/)[1]\nresult=java.createSymmetricCrypto(\"AES/ECB/Pkcs7Padding\",key).decryptStr(data)\n}\nb64 = java['base64Encode'](`\n    <html>\n    <head>\n        <meta name=\"viewport\" content=\"width=device-width\">\n        <script src=\"https://cdn.jsdelivr.net/npm/hls.js@latest\"></script>\n        <style>\n            body {\n                margin: 0;\n                font-family: Arial, sans-serif;\n                background: linear-gradient(135deg, #ece9e6, #ffffff);\n                display: flex;\n                flex-direction: column;\n                align-items: center;\n                justify-content: flex-start;\n                padding: 20px;\n            }\n            .container {\n                width: 100%;\n                max-width: 800px;\n                background: #fff;\n                border-radius: 10px;\n                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);\n                overflow: hidden;\n                margin-bottom: 20px;\n            }\n            h3 {\n                margin: 0;\n                padding: 10px 20px;\n                font-size: 0.9em;\n                background: #333;\n                color: #fff;\n                border-radius: 10px 10px 0 0;\n            }\n            .video-container {\n                width: 100%;\n                background: #000;\n                position: relative;\n            }\n            video {\n                width: 100%;\n                height: auto;\n                display: block;\n            }\n            .info-container {\n                padding: 20px;\n            }\n            .info-container p {\n                margin: 10px 0;\n                color: #555;\n            }\n            .info-container p span {\n                font-weight: bold;\n                color: #000;\n            }\n        </style>\n    </head>\n    <body>\n        <div class=\"container\">\n            <h3>{{book.name}} ${title}</h3>\n            <div class=\"video-container\">\n                <video id=\"video\" src=\"${result}\" poster=\"{{book.coverUrl}}\" controls></video>\n            </div>\n        </div>\n        <div class=\"info-container\">\n            <p>🕵 片商：<span>{{book.author}}</span></p>\n            <p>🔖 标签：<span>{{book.kind}}</span></p>\n            <p>🏷 简介：<span>{{book.intro}}</span></p>\n        </div>\n        <script>\n            // 获取视频元素\n            const video = document.getElementById('video');\n            let touchStartX = 0;\n            let touchStartY = 0;\n            let touchStartTime = 0;\n            let isLongPress = false;\n\n            // 滑动快进\n            video.addEventListener('touchstart', (e) => {\n                touchStartX = e.touches[0].clientX;\n                touchStartY = e.touches[0].clientY;\n                touchStartTime = Date.now();\n                isLongPress = false;\n            });\n\n            video.addEventListener('touchmove', (e) => {\n                const deltaX = e.touches[0].clientX - touchStartX;\n                const deltaY = e.touches[0].clientY - touchStartY;\n\n                // 如果是水平滑动，且未进入长按状态\n                if (Math.abs(deltaX) > Math.abs(deltaY) && !isLongPress) {\n                    const duration = video.duration;\n                    const seekTime = video.currentTime + (deltaX / 50); // 每滑动50px快进1秒\n                    video.currentTime = Math.min(Math.max(seekTime, 0), duration);\n                }\n                e.preventDefault(); // 防止默认行为（如页面滚动）\n            });\n\n            // 长按快进\n            video.addEventListener('touchend', (e) => {\n                const touchEndTime = Date.now();\n                const touchDuration = touchEndTime - touchStartTime;\n\n                // 如果长按时间超过500ms，进入长按快进状态\n                if (touchDuration > 500) {\n                    isLongPress = true;\n\n                    // 在长按状态下，根据滑动距离快进\n                    const deltaX = e.changedTouches[0].clientX - touchStartX;\n                    const duration = video.duration;\n                    const seekTime = video.currentTime + (deltaX / 100); // 每滑动100px快进1秒\n                    video.currentTime = Math.min(Math.max(seekTime, 0), duration);\n                } else {\n                    isLongPress = false;\n                }\n            });\n              const hlsUrl = '${result}';\n              if (Hls.isSupported()) {\n                   const hls = new Hls();\n                   hls.loadSource(hlsUrl);\n                   hls.attachMedia(video);\n              } else if (video.canPlayType('application/vnd.apple.mpegurl')) {\n                 video.src = hlsUrl;\n               }\n        </script>\n    </body>\n    </html>\n`);\ndataUrl = 'data:text/html;base64,' + b64;\nif(chapter.index === book.durChapterIndex){\n      java['startBrowser'](dataUrl, title);\n      java['toast']('正在加载视频\\n视频加载较慢，请耐心等待');\n      }\n    '【刷新正文】播放\\n✅直链:\\n' + `${result}`;\n\n//java.log(result)\n</js>"
+    },
+    "ruleExplore": {
+      "bookList": ".module-box-inner@.module-item@a",
+      "bookUrl": "a@href",
+      "coverUrl": "<js>\nimg=java.getString('img.1@data-original')\nresult=`https://vres1.ipvav.cn${img}`\n</js>",
+      "kind": "span@text",
+      "name": ".v-item-title.1@text"
+    },
+    "ruleSearch": {
+      "author": ".actors@text",
+      "bookList": ".search-result-list@a",
+      "bookUrl": "a@href",
+      "coverUrl": "<js>\nimg=java.getString('img.0@data-original')\nresult=`https://vres.xsefdv.com${img}`\n</js>",
+      "intro": ".desc@text",
+      "kind": "{{@@.search-result-item-header@text}},{{@@.tags@text##\\/##,}}",
+      "name": ".title@text"
+    },
+    "ruleToc": {
+      "chapterList": ".episode-list@a",
+      "chapterName": "a@text",
+      "chapterUrl": "a@href"
+    },
+    "searchUrl": "<js>\nuro=source.key+`search?k=${key}&page={{page}}`\nuri=java.ajax(uro);\nlet t =\norg.jsoup.Jsoup.parse(uri).select('input[name=t]').attr('value');\nurl=source.key+`search?k=${key}&page={{page}}&t=${t}`\n</js>",
+    "weight": 0
+  }
+]
