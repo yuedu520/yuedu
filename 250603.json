@@ -1,0 +1,65 @@
+[
+  {
+    "bookSourceGroup": "- 🐲 🚣 番茄联盟(端午节特别版)",
+    "bookSourceName": "🍙番茄短剧联盟🌾[节后版]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "书壳原始源:https://dns.jingluo.love/2025/6835aa6f60807.json\n(源作者:情无羁)\n\n\n\n发布原因:说真的番茄短剧这冷门书源，论坛居然还有志同道合的人，真是难得可贵，本来这书源我早就找到了，看到今天悬赏区(https://ysqbbs.com/thread-54274-1-1.html)有人求一份书源，所以也发一份吧！\n\n登入页移植:小寒\n发现页移植:情无羁(大佬的抖音短剧书源)\n发现页接口:笒鬼鬼(只用来发现页)\n\n接口0来源:Naiy～\n接口1来源:Naiy～\n接口2来源:Naiy～\n接口3来源:Naiy～\n\n\n书源特色:接口虽然支持四合一，但是书源限制，本源仅限看短剧,想要其他功能请换源！\n书源版本:番茄短剧(铁打的番茄，流水的短剧)\n大佬语录:移植的很好,建议以后不要移植了👻\n整理时间:2025年6月3日06:54",
+    "bookUrlPattern": "https?://.*(fqnovel|snssdk|fanqienovel|changdunovel)\\.com/.*[0-9]{19}.*",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "exploreUrl": "@js:\nsort=[];\npush=(title,url,type1,type2)=>sort.push({\n\t\ttitle: title,\n\t\turl: url,\n\t\tstyle: {\n\t\t\t\tlayout_flexGrow: type1,\n\t\t\t\tlayout_flexBasisPercent: type2\n\t\t\t}\n\t});\npush(\"全部分类\",null,1,1);\narList=[\"新剧\",\"逆袭\",\"霸总\",\"现代言情\",\"打脸虐渣\",\"豪门恩怨\",\"神豪\",\"马甲\",\"都市日常\",\"战神归来\",\"小人物\",\"女性成长\",\"大女主\",\"穿越\",\"都市修仙\",\"强者回归\",\"亲情\",\"古装\",\"重生\",\"闪婚\",\"赘婿逆袭\",\"虐恋\",\"追妻\",\"天下无敌\",\"家庭伦理\",\"萌宝\",\"古风权谋\",\"职场\",\"奇幻脑洞\",\"异能\",\"无敌神医\",\"古风言情\",\"传承觉醒\",\"现言甜宠\",\"奇幻爱情\",\"乡村\",\"历史古代\",\"王妃\",\"高手下山\",\"娱乐圈\",\"强强联合\",\"破镜重圆\",\"暗恋成真\",\"民国\",\"欢喜冤家\",\"系统\",\"真假千金\",\"龙王\",\"校园\",\"穿书\",\"女帝\",\"团宠\",\"年代爱情\",\"玄幻仙侠\",\"青梅竹马\",\"悬疑推理\",\"皇后\",\"替身\",\"大叔\",\"喜剧\",\"剧情\"]\narList.map((uri)=>{\nurl=`https://api.cenguigui.cn/api/duanju/api.php?classname=${uri}$offset=20&showRawParams=ture`;\npush(uri,url,1,0.25);\n});\n//java.log(JSON.stringify(sort))\nJSON.stringify(sort)",
+    "jsLib": "function 正文(){var z=\"https://static.v2.sukimon.me:45598\",s=this.source;try{var u=(p=>p?Object.values(p[0])[0]:z)(s.getVariable()&&JSON.parse(s.getVariable()))||z;return(/^https?:/.test(u)?u:\"https://\"+u).replace(/\\/$/,\"\")}catch(e){return(/^https?:/.test(z)?z:\"https://\"+z).replace(/\\/$/,\"\")}}",
+    "lastUpdateTime": 1748905704145,
+    "loginUi": "\n[\n\n\n\n  {\n  \t\"name\":\"盲盒接口1\",\"type\":\"button\",\n  \t\"action\":\"sethost(1)\"\n  },\n  {\n  \t\"name\":\"盲盒接口2\",\"type\":\"button\",\n  \t\"action\":\"sethost(2)\"\n  },\n  {\n  \t\"name\":\"盲盒接口3\",\"type\":\"button\",\n  \t\"action\":\"sethost(3)\"\n  },\n  \n  \n  \n  {\n    name: \"            💡　　 网　　 站　　 登　　 录　　 💡            \",\n    type: \"button\",\n    action: \"登入()\"\n  }\n]",
+    "loginUrl": "\nvar hosts = [\n    \"https://api.v2.sukimon.me:45598\",\n    \"https://fq.v2.sukimon.me:45598\",\n    \"https://api.v3.sukimon.me:45598\"\n];\n\nfunction sethost(index) {\n    if (index >= 1 && index <= hosts.length) {\n        source.setVariable(JSON.stringify([{\"hosst\": hosts[index-1]}]));\n        java.longToast(\"设置成功，当前线路：\" + hosts[index-1]);\n    } else {\n        java.toast(\"❌ 无效的线路索引\");\n    }\n}\n\n\nfunction 登入() {\n    java.startBrowser('https://fanqienovel.com', '登录');\n}\n\n",
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "author": "author",
+      "coverUrl": "thumb_url",
+      "init": "data[0]",
+      "intro": "&nbsp;&nbsp;\n📕 源名：{{$.original_book_name}}\n📖 别名：{{$.book_flight_alias_name}}\n✏️ 开坑：{{$.create_time##T|\\+.*## }}\n🏷️ 标签：{{$.tags}}\n👤 主角：{{$.roles##\\[|\\\"|\\]}}\n👁️ 在线：{{$.read_count}}人在读\n🔗 书籍状态：__status__{{\"\\n\"+\"​\"}}\n📜 简介：{{$.abstract}}{{\"\\n\"+\"​\"}}\n\n\n\n📍 {{$.copyright_info##，.*##。}}{{\"\\n\"+\"​\"}}\n@js:result.replace(/.+：(人在读)?\\n/g,\"\").replace('__status__', (java.getString('$.book_search_visible') == 'true' ? '正常' : (java.getString('$.tomato_book_status') == '3' ? '下架' : '小黑屋')))",
+      "kind": "{{$.category}}\n{{$.score}}分\n连载{{$.creation_status}}完结\n{{$.sub_info}}\n@js:result.replace(/连载0完结/g,'完结').replace(/连载1完结/g,'连载').replace(/连载4完结/g,'已断更').replace(/连载-1完结/g,'完结')",
+      "lastChapter": "{{$.last_chapter_title}} • {{java.timeFormat(java.getString('last_chapter_update_time')*1000)}}",
+      "name": "book_name@put:{book_id:book_id}",
+      "tocUrl": "https://fanqienovel.com/api/reader/directory/detail?bookId=@get:{book_id}",
+      "wordCount": "word_number"
+    },
+    "ruleContent": {
+      "content": "<js>\nresult=java.base64Decode(result.match(/main_url\\\\\":\\\\\"(.*?)\\\\\"/)[1])\n \nif(book.durChapterIndex == chapter.index) {\n\t\tjava.startBrowser(`data:text/html;charset=utf-8,<html><title>${chapter.title}</title><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, orientation:portrait\"><meta name=\"referrer\" content=\"no-referrer\"><style>body {background-color: black;} video {position: fixed; top: 0; left: 0; width: 100%; height: 100%;}</style><body><video controls><source src=\"${result}\" type=\"video/mp4\"></video></body></html>`, chapter.title)\n  java.toast('正在加载视频\\n视频加载较慢，请耐心等待')\n}result = '【刷新正文】播放\\n直链:\\n'+result\n</js>",
+      "replaceRegex": "##<\\!DOCTYPE html.*>"
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "$..video_data[*]",
+      "bookUrl": "https://api5-normal-sinfonlineb.fqnovel.com/reading/bookapi/multi-detail/v/?aid=1967&iid=1&version_code=999&book_id={{$.book_id||$.series_id}}",
+      "coverUrl": "$.cover",
+      "intro": "$.video_desc",
+      "kind": "$.content",
+      "lastChapter": "$.sub_title",
+      "name": "$.title",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "author##</?em>",
+      "bookList": "<js>\nlet list = [];\nlet book_list = [];\nlet res = JSON.parse(result);\nlet key = String(java.get(\"key\"));\nlet page = Number(java.get(\"page\"));\n\ntry {\n  if (res.search_tabs) {\n    for (let i = 0; i < res.search_tabs.length; i++) {\n        let books = res[\"search_tabs\"][i][\"data\"];\n        if (books != null) list = list.concat(books);\n    }\n  }\n} catch (e) {}\n\nfor (let $ of list) {\n   book_list.push($.book_data ? $.book_data[0] : ($.video_data ? $.video_data[0] : $));\n}\n\nJSON.stringify(book_list)\n</js>$[*]",
+      "bookUrl": "https://api5-normal-sinfonlineb.fqnovel.com/reading/bookapi/multi-detail/v/?aid=1967&iid=1&version_code=999&book_id={{$.series_id}}",
+      "checkKeyWord": "我的26岁女房客",
+      "coverUrl": "thumb_url",
+      "intro": "abstract",
+      "kind": "score",
+      "lastChapter": "https://api5-normal-sinfonlineb.fqnovel.com/reading/bookapi/multi-detail/v/?aid=1967&book_id={{$.book_id}}\n<js>\nlet data=JSON.parse(java.ajax(result)).data[0];\ndata[\"last_chapter_title\"] + \" • \" + java.timeFormat(data[\"last_chapter_update_time\"]*1000);\n</js>",
+      "name": "book_name||$..series_title##（别名：.*?）",
+      "wordCount": "连载{{$.creation_status}}完结##连载0|1完结"
+    },
+    "ruleToc": {
+      "chapterList": "$.data.chapterListWithVolume[*].*",
+      "chapterName": "$.title",
+      "chapterUrl": "{{正文()}}/novel/player/video_model/v1/?video_id={{$.itemId}}",
+      "updateTime": "发布于 {{java.timeFormat(java.getString('$.firstPassTime')*1000)}}"
+    },
+    "searchUrl": "{{正文()}}/search?query={{key}}&offset={{(page - 1) * 10}}&tab_type=11",
+    "weight": 0
+  }
+]
