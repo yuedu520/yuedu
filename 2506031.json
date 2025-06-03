@@ -1,0 +1,49 @@
+[
+  {
+    "bookSourceGroup": "get",
+    "bookSourceName": "爱丽丝书屋_rm",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.alicesw.com",
+    "customOrder": -98464,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "本日排行::/other/rank_hits/order/hits_day.html\n本周排行::/other/rank_hits/order/hits_week.html\n本月排行::/other/rank_hits/order/hits_month.html\n总排行::/other/rank_hits/order/hits.html\n科幻::/lists/71.html?page={{page}}\n校园::/lists/61.html?page={{page}}\n玄幻::/lists/62.html?page={{page}}\n乡村::/lists/63.html?page={{page}}\n都市::/lists/64.html?page={{page}}\n乱伦::/lists/65.html?page={{page}}\n历史::/lists/67.html?page={{page}}\n武侠::/lists/68.html?page={{page}}\n系统::/lists/69.html?page={{page}}\n明星::/lists/72.html?page={{page}}\n同人::/lists/73.html?page={{page}}\n强奸::/lists/74.html?page={{page}}\n奇幻::/lists/75.html?page={{page}}\n经典::/lists/79.html?page={{page}}\n穿越::/lists/70.html?page={{page}}\n凌辱::/lists/46.html?page={{page}}\n反差::/lists/22.html?page={{page}}\n堕落::/lists/18.html?page={{page}}\n纯爱::/lists/19.html?page={{page}}\n伪娘::/lists/52.html?page={{page}}\n萝莉::/lists/48.html?page={{page}}\n熟女::/lists/56.html?page={{page}}\n禁忌::/lists/51.html?page={{page}}\nNTR::/lists/54.html?page={{page}}\n媚黑::/lists/53.html?page={{page}}\n绿帽::/lists/55.html?page={{page}}\n调教::/lists/58.html?page={{page}}\n女主::/lists/59.html?page={{page}}\n正太::/lists/50.html?page={{page}}\n下克上::/lists/43.html?page={{page}}\n百合::/lists/47.html?page={{page}}\n重口::/lists/21.html?page={{page}}\n其他::/lists/57.html?page={{page}}",
+    "lastUpdateTime": 1748854756653,
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "coverUrl": "class.pic@tag.img@data-src",
+      "intro": "tag.td@class.intro@text",
+      "lastChapter": "class.box_info@tag.table@tag.tr@tag.td@tag.div@tag.p@tag.a[1]@text",
+      "tocUrl": "class.now@tag.a@href"
+    },
+    "ruleContent": {
+      "content": "class.read-content@tag.p@text"
+    },
+    "ruleExplore": {
+      "author": "class.four@text",
+      "bookList": "class.clearfix rec_rullist@tag.ul",
+      "bookUrl": "class.two@tag.a@href",
+      "kind": "class.sev@tag.span@tag.a@text",
+      "lastChapter": "class.three@tag.a@text",
+      "name": "class.two@tag.a@text",
+      "wordCount": "class.five@text"
+    },
+    "ruleSearch": {
+      "author": "class.four@text",
+      "bookList": "id.jieguo@tag.ul",
+      "bookUrl": "class.twosss@tag.a@href",
+      "checkKeyWord": "我的",
+      "kind": "class.sev@tag.span@tag.a@text",
+      "name": "class.twosss@tag.a@text",
+      "wordCount": "class.five@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.mulu_list@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/search.html?keyword={{key}}&page={{page}}",
+    "weight": 0
+  }
+]
