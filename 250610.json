@@ -1,0 +1,45 @@
+[
+  {
+    "bookSourceComment": "源社区：@Mengteen 原创\n二传或者是其它问题请@我并告知我",
+    "bookSourceGroup": "🔞",
+    "bookSourceName": "📖第一版主",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.diyibanzhu.store/##@Mengteen",
+    "customOrder": 10,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "exploreUrl": "[\n{\"title\":\"新书\",\"url\":\"/wap.php?action=shuku&tid=&over=&order=3&uid=&totalresult=14286&pageno={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},\n{\"title\":\"全部\",\"url\":\"/wap.php?action=shuku&tid=&uid=&totalresult=14286&pageno={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.6}},\n{\"title\":\"人气\",\"url\":\"/wap.php?action=shuku&tid=&over=&order=1&uid=&totalresult=14286&pageno={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}}\n]",
+    "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 12; 22041211AC Build/SP1A.210812.016) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.104 Mobile Safari/537.36\"}",
+    "lastUpdateTime": 1749458999735,
+    "respondTime": 2577,
+    "ruleBookInfo": {
+      "coverUrl": "class.left@img@src",
+      "intro": "简介：{{@@class.mod book-intro@class.bd@text}}",
+      "name": "class.right@h1@text"
+    },
+    "ruleContent": {
+      "content": "#nr1@html\n<js>\nm=[];n=[];\nfunction x(a,b){m.push(a);n.push(b)}\n// 逐条添加：  自行补齐\n\nx(/<em class=\"n_163\"><\\/em>/gi,\"，\");\nx(/<em class=\"n_164\"><\\/em>/gi,\"。\");\n\n\nx(/<em class=\"n_50\"><\\/em>/gi,\"叫\");\nx(/<em class=\"n_133\"><\\/em>/gi,\"下\");\nx(/<em class=\"n_26\"><\\/em>/gi,\"反\");\n\n\nfor(i in n){result=result.replace(m[i],n[i])}\n</js>",
+      "nextContentUrl": "//*[@class=\"curr\"]/following-sibling::a[1]/@href@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": ".info@text##字数：.*",
+      "bookList": ".column-2",
+      "bookUrl": "a@href",
+      "checkKeyWord": "我的",
+      "kind": ".right@span.0@text",
+      "lastChapter": ".update@a@text",
+      "name": ".name@text",
+      "wordCount": ".words@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapter-list.1@class.list@tag.li||class.chapter-list.0@class.list@tag.li",
+      "chapterName": "a@text",
+      "chapterUrl": "a@href",
+      "nextTocUrl": "option@value"
+    },
+    "searchUrl": "/wap.php?action=search,{\n  \"body\": \"wd={{key}}&objectType=2\",\n  \"method\": \"post\",\n\"charset\":\"gbk\"\n}",
+    "weight": 0
+  }
+]
