@@ -1,0 +1,58 @@
+[
+  {
+    "bookSourceGroup": "龙珠API",
+    "bookSourceName": "🍅番茄听书🍅龙珠源",
+    "bookSourceType": 1,
+    "bookSourceUrl": "番茄听书在线听\n源更新地址\nhttp://novelsdk.hhlqilongzhu.cn//shuyuan/fanqietingshu.json\n交流群：827391224",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "exploreUrl": "@js:\nsort=[];\npush=(title,url,type1,type2)=>sort.push({\n\t\ttitle: title,\n\t\turl: url,\n\t\tstyle: {\n\t\t\t\tlayout_flexGrow: type1,\n\t\t\t\tlayout_flexBasisPercent: type2\n\t\t\t}\n\t});\npush(\"全部分类\",null,1,1);\narList = [\"都市\",\"穿越\",\"现代言情\",\"古代言情\",\"总裁\",\"玄幻\",\"重生\",\"悬疑\",\"灵异\",\"系统\",\"种田\",\"甜宠\",\"宠妻\",\"都市生活\",\"赘婿\",\"先婚后爱\",\"宫斗宅斗\",\"都市日常\",\"战神赘婿\",\"神医\",\"影视小说\",\"传统玄幻\",\"王妃\",\"奇幻仙侠\",\"萌宝\",\"都市脑洞\",\"职场\",\"嫡女\",\"都市修真\",\"幻想言情\",\"神豪\",\"空间\",\"其他\",\"玄幻言情\",\"玄幻脑洞\",\"历史古代\",\"科幻末世\",\"年代\",\"天才\",\"女强\",\"推理\",\"腹黑\",\"诸天万界\",\"医术\",\"星际\",\"鉴宝\",\"团宠\",\"扮猪吃虎\",\"武侠\",\"现言脑洞\",\"都市种田\",\"无敌\",\"盗墓\",\"马甲\",\"皇后\",\"特种兵\",\"大唐\",\"公主\",\"娱乐圈\",\"青梅竹马\",\"古言脑洞\",\"历史脑洞\",\"末世\",\"剑道\",\"现言甜宠\",\"游戏动漫\",\"洪荒\",\"快穿\",\"明朝\",\"外卖\",\"校花\",\"奶爸\",\"校园\",\"三国\",\"直播\",\"穿书\",\"海岛\",\"美食\",\"反派\",\"现言复仇\",\"西游衍生\",\"求生\",\"民国\",\"家庭\",\"学霸\",\"皇叔\",\"宠物\",\"无CP\",\"女扮男装\",\"网游\",\"病娇\",\"精灵\",\"虐文\",\"都市青春\",\"清穿\"];\narList.map((uri)=>{\nurl=`http://novelsdk.hhlqilongzhu.cn/fq/classname_tingshu.php?classname=${uri}&offset={{(page-1)*10}}`;\npush(uri,url,1,0.25);\n});\n//java.log(JSON.stringify(sort))\nJSON.stringify(sort)",
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "author": "author",
+      "coverUrl": "thumb_url",
+      "init": "data[0]",
+      "intro": "&nbsp;&nbsp;\n📕 源名：{{$.original_book_name}}\n📖 别名：{{$.book_flight_alias_name}}\n✏️ 开坑：{{$.create_time##T|\\+.*## }}\n🏷️ 标签：{{$.tags}}\n👤 主角：{{$.roles##\\[|\\\"|\\]}}\n👁️ 在线：{{$.read_count}}人在读\n🔗 书籍状态：__status__{{\"\\n\"+\"​\"}}\n📜 简介：{{$.abstract}}{{\"\\n\"+\"​\"}}\n\n\n\n📍 {{$.copyright_info##，.*##。}}{{\"\\n\"+\"​\"}}\n@js:result.replace(/.+：(人在读)?\\n/g,\"\").replace('__status__', (java.getString('$.book_search_visible') == 'true' ? '正常' : (java.getString('$.tomato_book_status') == '3' ? '下架' : '小黑屋')))",
+      "kind": "{{$.category}}\n{{$.score}}分\n连载{{$.creation_status}}完结\n{{$.sub_info}}\n@js:result.replace(/连载0完结/g,'完结').replace(/连载1完结/g,'连载').replace(/连载4完结/g,'已断更').replace(/连载-1完结/g,'完结')",
+      "lastChapter": "{{$.last_chapter_title}} • {{java.timeFormat(java.getString('last_chapter_update_time')*1000)}}",
+      "name": "book_name@put:{book_id:book_id}",
+      "tocUrl": "https://fanqienovel.com/api/reader/directory/detail?bookId=@get:{book_id}",
+      "wordCount": "word_number"
+    },
+    "ruleExplore": {
+      "author": "$.author",
+      "bookList": "$..book_info[*]",
+      "bookUrl": "https://api5-normal-sinfonlineb.fqnovel.com/reading/bookapi/multi-detail/v/?aid=1967&iid=1&version_code=999&book_id={{$.book_id||$.series_id}}",
+      "coverUrl": "$.thumb_url",
+      "intro": "$.abstract",
+      "kind": "$.content",
+      "lastChapter": "$.sub_title",
+      "name": "$.book_name",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "$.data.url"
+    },
+    "ruleSearch": {
+      "author": "author",
+      "bookList": "<js>\nlet list = [];\nlet book_list = [];\nlet res = JSON.parse(result);\nlet key = String(java.get(\"key\"));\nlet page = Number(java.get(\"page\"));\n\ntry {\n  if (res.search_tabs) {\n    for (let i = 0; i < res.search_tabs.length; i++) {\n        let books = res[\"search_tabs\"][i][\"data\"];\n        if (books != null) list = list.concat(books);\n    }\n  }\n} catch (e) {}\n\nfor (let $ of list) {\n   book_list.push($.book_data ? $.book_data[0] : ($.video_data ? $.video_data[0] : $));\n}\n\nJSON.stringify(book_list)\n</js>$[*]",
+      "bookUrl": "https://api5-normal-sinfonlineb.fqnovel.com/reading/bookapi/multi-detail/v/?aid=1967&iid=1&version_code=999&book_id={{$.book_id}}",
+      "checkKeyWord": "精神病院学斩神",
+      "coverUrl": "thumb_url",
+      "intro": "abstract",
+      "kind": "category&&score",
+      "name": "book_name||$..series_title##（别名：.*?）",
+      "wordCount": "连载{{$.creation_status}}完结##连载0|1完结"
+    },
+    "ruleToc": {
+      "chapterList": "$.data.chapterListWithVolume[*].*",
+      "chapterName": "$.title",
+      "chapterUrl": "http://novelsdk.hhlqilongzhu.cn/fq/audio.php?item_ids={{$.itemId}}&tone_id=0",
+      "updateTime": "发布于 {{java.timeFormat(java.getString('$.firstPassTime')*1000)}}"
+    },
+    "searchUrl": "http://novelsdk.hhlqilongzhu.cn/fq/search.php?name={{key}}&page={{page}}&tab_type=2",
+    "weight": 0
+  }
+]
