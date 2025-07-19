@@ -1,0 +1,46 @@
+[
+  {
+    "bookSourceComment": "理论上是可以下载的 但是建议还是低并发（接口随时会被关闭 使用的未被验证的token)",
+    "bookSourceGroup": "妍希",
+    "bookSourceName": "六九书吧(直连可下载)",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://111.170.33.6:49988",
+    "concurrentRate": "1000",
+    "customOrder": 3,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "header": "@js:\nJSON.stringify({\n\t\"x-sec-token\": \"8f79170487338570cdbb178e4653ed25943a6af05f3c29043782de49fc7a8fbd2446589412f746e396a05744cf546027bc63d7391b0e86ff3551c4d8e52ac1f97a2492bcc15dba6a9e2181084ed6e3f2a4d8a7e5aa419a705c5cffc8a93f5827fce376e3c3df14b8498405ba5f2630c0fa948894f4f7e5e26840f431f50396e9\"\n\t})",
+    "lastUpdateTime": 1752849813506,
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "author": "author",
+      "coverUrl": "cover",
+      "intro": "<br> 🕰 更新时间：{{$.update}}\n 📖 最新章节：{{$.last}}\n 🏷️ 标签：{{$.tags}}丨{{$.else}}章\n 📜 简介：{{$.info}}",
+      "kind": "tags##\\|##,",
+      "lastChapter": "{{$.last}} · {{$.update}}",
+      "name": "bookname",
+      "tocUrl": "http://111.170.33.6:49988/69shuba/chapters.php?bookId={{$.bookId}}",
+      "wordCount": "{{$.else}}章"
+    },
+    "ruleContent": {
+      "content": "content"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "author",
+      "bookList": "data[*]",
+      "bookUrl": "surl##.*\\/(\\d+).htm##http://111.170.33.6:49988/69shuba/detail.php?bookId=$1",
+      "coverUrl": "cover",
+      "intro": "description",
+      "name": "title"
+    },
+    "ruleToc": {
+      "chapterList": "-$.chapters[*]",
+      "chapterName": "name",
+      "chapterUrl": "{{baseUrl}}##.*=(\\d+)##http://111.170.33.6:49988/69shuba/content.php?bookId=$1&chapterId={{$.id}}"
+    },
+    "searchUrl": "http://111.170.33.6:49988/69shuba/search.php?key={{key}}&page={{page}}",
+    "weight": 0
+  }
+]
