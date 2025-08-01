@@ -1,0 +1,54 @@
+[
+  {
+    "bookSourceComment": "//2025.7.31 by.◎辞晨◎",
+    "bookSourceGroup": "写源",
+    "bookSourceName": "应该是",
+    "bookSourceType": 0,
+    "bookSourceUrl": "好像是融合的",
+    "concurrentRate": "3000",
+    "customOrder": -3,
+    "enabled": false,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "exploreUrl": "@js:\nsort=[];\npush=(title,url,type1,type2)=>sort.push({\n\t\ttitle: title,\n\t\turl: url,\n\t\tstyle: {\n\t\t\t\tlayout_flexGrow: type1,\n\t\t\t\tlayout_flexBasisPercent: type2\n\t\t\t}\n\t});\n\tvar r = {\n\t\"sourl\": \"https://m.qbmfxs.com/\",\n\t\"type\": \"全本小说\"\n};\nif (!String(source.getVariable())) {\n    source.setVariable(JSON.stringify(r, null, \"\\t\"));\n    java.toast('\\n已初始化，使用默认站源');\n}\npush(\"全部🌊分类\",null,1,1)\npush(\"男生\",null,1,1)\n\tarList=[\"玄幻\",\"奇幻\",\"武侠\",\"仙侠\",\"都市\",\"现实\",\"军事\",\"历史\",\"游戏\",\"体育\",\"科幻\",\"悬疑\",\"轻小说\",\"短篇\"]\n\tarList.map((tag,id)=>{\n\t\turl=`{{getUrl()}}category/0/${id+1}/1/{{page}}`;\n\t\tpush(tag, url, 1, 0.25);\n\t\t});\npush(\"女生\",null,1,1)\narList=[\"古代言情\",\"仙侠奇缘\",\"现代言情\",\"浪漫青春\",\"玄幻言情\",\"悬疑推理\",\"科幻空间\",\"游戏竞技\",\"轻小说\",\"短篇\",\"玄幻\",\"奇幻\",\"武侠\",\"仙侠\",\"都市\",\"现实\",\"军事\",\"历史\",\"游戏\",\"体育\",\"科幻\",\"悬疑\",\"轻小说\",\"短篇\"]\n\tarList.map((tag,id)=>{\n\t\turl=`{{getUrl()}}category/1/${id+15}/1/{{page}}`;\n\t\tpush(tag, url, 1, 0.25);\n\t\t});\n\n//java.log(JSON.stringify(sort))\nJSON.stringify(sort)",
+    "header": "@js:\nJSON.stringify({\n  'User-Agent': java.getWebViewUA(),\n  'sec-ch-ua-platform': \"\\\"Android\\\"\",\n  'origin': getUrl(),\n  'x-requested-with': \"cn.mujiankeji.mbrowser\",\n  'Referer': getUrl(),\n  'Accept-language': \"zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7\"\n})",
+    "jsLib": "function getUrl() {\n\tconst { source } = this\n\tlet sourceul = JSON.parse(source.getVariable()).sourl;\n\treturn sourceul;\n}\n",
+    "lastUpdateTime": 1753961846776,
+    "loginUi": "[\n{\n'action': \"yu()\",\n'name': '当前模式',\n'type': 'button',\n\"style\": {\n\"layout_flexGrow\": 1,\n\"layout_flexBasisPercent\": 1\n}\n},\n{\n'action': \"settype('全本小说')\",\n'name': '全本小说',\n'type': 'button',\n\"style\": {\n\"layout_flexGrow\": 1,\n\"layout_flexBasisPercent\": 0.39\n}\n},\n{\n'action': \"settype('一七小说')\",\n'name': '一七小说',\n'type': 'button',\n\"style\": {\n\"layout_flexGrow\": 1,\n\"layout_flexBasisPercent\": 0.39\n}\n}\n,\n{\n'action': \"settype('爱微小说')\",\n'name': '爱微小说',\n'type': 'button',\n\"style\": {\n\"layout_flexGrow\": 1,\n\"layout_flexBasisPercent\": 0.39\n}\n}\n,\n{\n'action': \"settype('零点小说')\",\n'name': '零点小说',\n'type': 'button',\n\"style\": {\n\"layout_flexGrow\": 1,\n\"layout_flexBasisPercent\": 0.39\n}\n}\n,\n{\n'action': \"settype('钢笔小说')\",\n'name': '钢笔小说',\n'type': 'button',\n\"style\": {\n\"layout_flexGrow\": 1,\n\"layout_flexBasisPercent\": 0.39\n}\n}\n\n]",
+    "loginUrl": "function login(){};\n\nvar r = {\n\t\"sourl\": \"https://m.qbmfxs.com/\",\n\t\"type\": \"全本小说\"\n};\n\nfunction settype(Type) {\n\tif (!String(source.getVariable())) {\n    source.setVariable(JSON.stringify(r, null, \"\\t\"));\n    java.toast('\\n已初始化，使用默认站源');\n}\n\tvar lists =\n\t\tJSON.parse(source.getVariable());\n\t    lists.type = Type;\n    if (Type == '全本小说') {\n      lists.sourl =\"https://m.qbmfxs.com/\";\n      lists.type=\"全本小说\";\n    }else if (Type == '一七小说') {\n      lists.sourl = \"https://m.1qxs.com/\";\n      lists.type=\"一七小说\";\n    }else if (Type == '爱微阅读') {\n      lists.sourl = \"https://m.2vdu.com/\";\n      lists.type=\"爱微阅读\";\n    }else if (Type == '零点小说') {\n      lists.sourl = \"https://m.0xs.net/\";\n      lists.type=\"零点小说\";\n    }else if (Type == '钢笔小说') {\n      lists.sourl = \"https://m.goboo.cc/\";\n      lists.type=\"钢笔小说\";\n    }    source.setVariable(JSON.stringify(lists, null, \"\\t\"));\n    java.toast('已将类型切换为:' + Type);\n}\nyu=()=>{\nu=JSON.parse(source.getVariable()).type;\njava.toast(`\\n${u}`)\n}\n",
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "intro": "&nbsp;\n📖 书名：{{@@[property=\"og:novel:book_name\"]@content}}\n👤 作者：{{@@[property=\"og:novel:author\"]@content}}\n🔖 标签：{{book.kind}}\n🕰 最新：{{@@[property~=las?test_chapter_name]@content}}\n🏷 简介：{{@@[property=\"og:description\"]@content}}",
+      "kind": "[property~=category|status|update_time]@content",
+      "lastChapter": "[property~=las?test_chapter_name]@content",
+      "name": "[property=\"og:novel:book_name\"]@content",
+      "tocUrl": "{{baseUrl}}##\\/(\\d+)$##{{getUrl()}}list/$1###"
+    },
+    "ruleContent": {
+      "content": "<js>\npage=result.match(/p\\_key\\=\\'(.*?)\\'/)?.[1];\nresult1=java.base64Decode(page);\nresult2=java.getString('.content@p@html')\nresult=result2 + result1\n</js>",
+      "nextContentUrl": "text.下一页@href",
+      "replaceRegex": "##.*\\.com.*|.*本章未完.*|本章已完结|.*\\.net.*|.*钢笔小说.*|.*一七小说.*|.*爱微小说.*|"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": ".author@text",
+      "bookList": "ul@a",
+      "bookUrl": "a@href",
+      "coverUrl": "img@data-original",
+      "intro": ".desc@text##\\s",
+      "kind": ".msg@span!1@text",
+      "name": ".name@text",
+      "wordCount": ".msg@span.1@text"
+    },
+    "ruleToc": {
+      "chapterList": ".catalog@ul@li@a",
+      "chapterName": "text\n<js>\nresult=String(result).replace(/\\d+第/g,'第')\n</js>",
+      "chapterUrl": "href",
+      "nextTocUrl": "<js>\npage=String(java.getString('.pagelist@option.-1@html')).match(/\\\"(\\d+)\\\"/)?.[1]||1;\npageSum=parseInt(page);\nburl=String(baseUrl);\nresult=Array.from({length:pageSum-1},\n(_,i)=>`${burl}/${i+2}`)\nresult;\n</js>"
+    },
+    "searchUrl": "<js>\nvar r = {\n\t\"sourl\": \"https://m.qbmfxs.com/\",\n\t\"type\": \"全本小说\"\n};\nif (!String(source.getVariable())) {\n    source.setVariable(JSON.stringify(r, null, \"\\t\"));\n    java.toast('\\n已初始化，使用默认站源');\n}\nresult=\"{{getUrl()}}search?kw={{encodeURI(key)}}&p={{page}}\";\n</js>",
+    "weight": 0
+  }
+]
