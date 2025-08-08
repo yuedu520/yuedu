@@ -1,0 +1,53 @@
+[
+  {
+    "bookSourceComment": "请先登录",
+    "bookSourceGroup": "精选r18",
+    "bookSourceName": "八叉书库（8xsk）",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://bachashuku.org",
+    "concurrentRate": "30",
+    "customOrder": 3,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"最新入库\",\"url\":\"/top/postdate/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.3,\"layout_flexGrow\":1}},\n{\"title\":\"完本作品\",\"url\":\"/modules/article/articlefilter.php?isfull=5&order=lastupdate&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.3,\"layout_flexGrow\":1}},\n{\"title\":\"编辑推荐\",\"url\":\"/top/toptime/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.3,\"layout_flexGrow\":1}},\n{\"title\":\"最近更新\",\"url\":\"/modules/article/articlefilter.php?order=lastupdate&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.3,\"layout_flexGrow\":1}},\n{\"title\":\"最多收藏\",\"url\":\"/top/goodnum/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.3,\"layout_flexGrow\":1}},\n{\"title\":\"字数排行\",\"url\":\"/top/words/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.3,\"layout_flexGrow\":1}},\n{\"title\":\"🏷️长篇分类\",\"url\":\"/sort/7/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":1}},\n{\"title\":\"都市激情\",\"url\":\"/modules/article/articlefilter.php?order=lastupdate&sortid=7&typeid=701&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.3}},\n{\"title\":\"扒灰乱伦\",\"url\":\"/modules/article/articlefilter.php?order=lastupdate&sortid=7&typeid=702&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.3}},\n{\"title\":\"情色武侠\",\"url\":\"/modules/article/articlefilter.php?order=lastupdate&sortid=7&typeid=703&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.3}},\n{\"title\":\"绿帽情怀\",\"url\":\"/modules/article/articlefilter.php?order=lastupdate&sortid=7&typeid=704&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.3}},\n{\"title\":\"混乱修仙\",\"url\":\"/modules/article/articlefilter.php?order=lastupdate&sortid=7&typeid=705&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.3}},\n{\"title\":\"调教养成\",\"url\":\"/modules/article/articlefilter.php?order=lastupdate&sortid=7&typeid=706&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.3}},\n{\"title\":\"🏷️点击榜\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1}},\n{\"title\":\"周点击\",\"url\":\"/top/weekvisit/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"月点击\",\"url\":\"/top/monthvisit/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"总点击\",\"url\":\"/top/allvisit/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"🏷️推荐榜\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1}},\n{\"title\":\"周推荐\",\"url\":\"/top/weekvote/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"月推荐\",\"url\":\"/top/monthvote/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"总推荐\",\"url\":\"/top/allvote/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}}]",
+    "lastUpdateTime": 1753935133126,
+    "loginUrl": "/login.php",
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "author": "//p[@class='gray fss']/text()[1]",
+      "coverUrl": "//img[@class=\"cover_l\"]/@src",
+      "intro": "&nbsp;\n📖 简介：\n{{//div[@id='introa']/text()}}\n---------------------------\n🤔 评论：\n{{//ul[@class='ullist']//p}}",
+      "kind": "//p[@class=\"gray fss\"]/a/text()",
+      "lastChapter": "//div[@class='c_row nw']/a/text()",
+      "name": "//div[@class=\"row_textl\"]/h4/text()##《|》",
+      "tocUrl": ".more@href",
+      "wordCount": "//p[@class='gray fss']/text()[6]##.*\\| ##"
+    },
+    "ruleContent": {
+      "content": "id.acontent@text##(请勿使用非浏览器访问本站，否则将对账号进行封禁，请珍惜账号。|本站发布页:https://8xsk.org)"
+    },
+    "ruleExplore": {
+      "author": "/span[@class=\"gray fss\"]/text()##/",
+      "bookList": "id.jieqi_page_contents@a.db.nw",
+      "bookUrl": "@href",
+      "name": "@text##/.*"
+    },
+    "ruleSearch": {
+      "author": "//div[@class=\"row_text\"]/p[1]/text()[1]##\\ \\|.*",
+      "bookList": "id.jieqi_page_contents@.c_row.cf",
+      "bookUrl": ".db.cf@href",
+      "coverUrl": ".cover_m@src",
+      "intro": "//div[@class=\"row_text\"]/p/text()##.*\\|",
+      "name": "//div[@class=\"row_text\"]/h4//text()##\\n"
+    },
+    "ruleToc": {
+      "chapterList": "#jieqi_page_contents@dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "/modules/article/search.php?searchtype=all&searchkey={{key}}&page={{page}}",
+    "weight": 0
+  }
+]
