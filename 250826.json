@@ -1,0 +1,59 @@
+[
+  {
+    "bookSourceComment": "//解析接口\n//  https://yy.69mzf.com/player/player/?url=\n//\t https://jx.nnsvip.cn/?url=\n//  https://api.nnsvip.sbs/?url=\n\n//阅读分组图标排行(高→低)\n⏹⏺🇨🇳➡️⬅️⬆️⬇️☢️☣️♥️⚜️⚠️⚪️⚫️⚽️⛳️✈️✨⭐️🌀🌁🌃🌆🌇🌉🌋🌐🌠🌰🌶🌸🍊🍇🍋🍉🍌🍎🍑🍓🍘🍙🍡🍤🍥🍬🍭🍯🍺🎀🎈🌌🎆🎇🎉🎊🎋🎐🎖🎥🎦🎨🎫🎬🎮🎯🎲🎴🎵🎼🏀🏅🏆🏐🏖🏜🏵🏷💊💎💠💡💮💯💰📀📁📃📌📎📄📑📒📓📔📕📖📗📘📙📚📜📝📡📤📥📦📷📺📻🔑🔔🔖🔗🔘🔞🔫🔮🔲🔳🔴🔵🕯🕹🖼🗂🗃🥇🥈🥉🥊🥩🦴🧊🧧🧩🧭🧲🧻🧼🧽🪄🪙🪧🚀🚨🚩🚫🚬🚭🛸🟠🟡🟢🟣㍘㍙㍚㍛㍜㍝㍞㍟㍠㍡㍢㍣㍤㍥㍦㍧㍨㍩㍪㍫㍬㍭㍮㍯㍰Ⓜ️\n\n<js>\nn=book.name\nurl=\"https://cn.bing.com/search?q=\"+n+\"site:movie.douban.com&FORM=QBDCRD\"\nr=String(java.ajax(url))\nr=r.match(/b_algoheader\\\"\\>\\<a href=\\\"(.*)/)[1]\nd_url=r.replace(/\" h=\".*/,'')\nd_r=java.ajax(d_url)\nd_r=org.jsoup.Jsoup.parse(d_r).select(\".subject-intro p\").text()\nd_r\n</js>",
+    "bookSourceGroup": "🎬聚合影视",
+    "bookSourceName": "🤖爱看bot",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://v.ikanbot.com",
+    "bookUrlPattern": ".*aikanbot.com/play/\\d+",
+    "customOrder": 37,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"🚫电影🚫\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"热门\",\"url\":\"/hot/index-movie-热门{{page==1?'':'-p-'+page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"最新\",\"url\":\"/hot/index-movie-最新{{page==1?'':'-p-'+page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"周榜\",\"url\":\"/billboard.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"经典\",\"url\":\"/hot/index-movie-经典{{page==1?'':'-p-'+page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"豆瓣高分\",\"url\":\"/hot/index-movie-豆瓣高分{{page==1?'':'-p-'+page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"冷门佳片\",\"url\":\"/hot/index-movie-冷门佳片{{page==1?'':'-p-'+page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"华语\",\"url\":\"/hot/index-movie-华语{{page==1?'':'-p-'+page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"欧美\",\"url\":\"/hot/index-movie-欧美{{page==1?'':'-p-'+page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"韩国\",\"url\":\"/hot/index-movie-韩国{{page==1?'':'-p-'+page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"日本\",\"url\":\"/hot/index-movie-日本{{page==1?'':'-p-'+page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"动作\",\"url\":\"/hot/index-movie-动作{{page==1?'':'-p-'+page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"喜剧\",\"url\":\"/hot/index-movie-喜剧{{page==1?'':'-p-'+page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"爱情\",\"url\":\"/hot/index-movie-爱情{{page==1?'':'-p-'+page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻\",\"url\":\"/hot/index-movie-科幻{{page==1?'':'-p-'+page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"悬疑\",\"url\":\"/hot/index-movie-悬疑{{page==1?'':'-p-'+page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"恐怖\",\"url\":\"/hot/index-movie-恐怖{{page==1?'':'-p-'+page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"成长\",\"url\":\"/hot/index-movie-成长{{page==1?'':'-p-'+page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"豆瓣top250\",\"url\":\"/hot/index-movie-豆瓣top250{{page==1?'':'-p-'+page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"🚫剧集🚫\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"热门\",\"url\":\"/hot/index-tv-热门{{page==1?'':'-p-'+page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"美剧\",\"url\":\"/hot/index-tv-美剧{{page==1?'':'-p-'+page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"英剧\",\"url\":\"/hot/index-tv-英剧{{page==1?'':'-p-'+page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"韩剧\",\"url\":\"/hot/index-tv-韩剧{{page==1?'':'-p-'+page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"日剧\",\"url\":\"/hot/index-tv-日剧{{page==1?'':'-p-'+page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"国产剧\",\"url\":\"/hot/index-tv-国产剧{{page==1?'':'-p-'+page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"港剧\",\"url\":\"/hot/index-tv-港剧{{page==1?'':'-p-'+page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"综艺\",\"url\":\"/hot/index-tv-综艺{{page==1?'':'-p-'+page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"纪录片\",\"url\":\"/hot/index-tv-纪录片{{page==1?'':'-p-'+page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"日本动画\",\"url\":\"/hot/index-tv-日本动画{{page==1?'':'-p-'+page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+    "header": "{\n\"User-Agent\":\"Mozilla/5.0 (Linux; Android 10; MI 8 Build/QKQ1.190828.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/100.0.4896.127 Mobile Safari/537.36\",\n\"accept\":\"image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8\",\n\"referer\":\"https://www.aikanbot.com\",\n\"x-requested-with\":\"com.UCMobile\"\n}",
+    "lastUpdateTime": 1756133172430,
+    "loginUrl": "",
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "author": "",
+      "init": "",
+      "intro": "",
+      "kind": "",
+      "name": "",
+      "tocUrl": "<js>\nbaseUrl+',{\"webView\":true}'\n</js>"
+    },
+    "ruleContent": {
+      "content": "@js:\n//https://jx.2s0.cn/player/?url=\n//https://op.洛阳it商城.com/pi.php?url=\n//可去广告\n//非凡、量子、优质、暴风、ikun\n\nplay='https://jx.2s0.cn/player/?url='\nresult=play+baseUrl\nif(book.durChapterIndex==chapter.index){\n\t\tjava.startBrowser(result,title)\n\t\tjava.toast('正在加载视频\\n视频加载较慢，请耐心等待')\n\t}\nresult",
+      "imageStyle": "FULL"
+    },
+    "ruleExplore": {
+      "author": ".celebrity@text",
+      "bookList": "a[class=\"item\"]||.item-root",
+      "bookUrl": "a.0@href",
+      "coverUrl": "img@data-src##^##https://imgp.aikanbot.com/proxy?url=",
+      "kind": ".year@title&&.country@title",
+      "name": "img@alt"
+    },
+    "ruleSearch": {
+      "author": "class.small.-1@text## {1}##,",
+      "bookList": "class.media",
+      "bookUrl": "a.0@href",
+      "checkKeyWord": "澳门往事",
+      "coverUrl": "img@data-src##^##https://imgp.aikanbot.com/proxy?url=",
+      "intro": "",
+      "kind": "class.label@text&&.small.0@text##\\[|\\]|可播放| .*",
+      "name": "class.title-text@text",
+      "wordCount": "{{\"🤖爱看bot\"}}"
+    },
+    "ruleToc": {
+      "chapterList": "class.line-res@div",
+      "chapterName": "text",
+      "chapterUrl": "udata",
+      "preUpdateJs": "",
+      "updateTime": "udata##https?:\\/\\/(.*\\..*)\\..*\\/.*##$1\n<js>\n  result=String(result).replace(/\\.com.*|\\.cn.*|\\.cc.*|\\.vip.*/,'').replace(/https?\\:\\/\\//,'')\nif(result.match(/lz.*cdn|cdnlz/)){result='🎬量子(⭐️无广告)'}else if(result.match(/ffzy/)){result='🎬非凡(⭐️无广告)'}else if(result.match(/qihu/)){result='🎬奇虎'}else  if(result.match(/dious/)){result='🎬天空'}else if(result.match(/mstop|daayee/)){result='🎬最大'}else if(result.match(/kuaikan/)){result='🎬快看'}else if(result.match(/jszy|jisubf|jisuzy/)){result='🎬极速'}else if(result.match(/ylbf|ylzy/)){result='🎬鱼乐'}else if(result.match(/xlzy|xluuss/)){result='🎬新浪'}else if(result.match(/suoni|qrssv/)){result='🎬索尼'}else if(result.match(/ijycnd/)){result='🎬金鹰'}else if(result.match(/jiguang/)){result='🎬极光'}else if(result.match(/bfzy|bfengbf|bbff|rrcdn/)){result='🎬暴风(⭐️无广告)'}else\nif(result.match(/uku/)){result='🎬U酷'}else if(result.match(/kczy|longshengtea/)){result='🎬快车'}else if(result.match(/bdzy/)){result='🎬百度'}else \nif(result.match(/1080pzy|tlkqc/)){result='🎬无尽'}else if(result.match(/ikzy/)){result='🎬爱酷'}else if(result.match(/fsvod/)){result='🎬飞速'}else if(result.match(/taopian/)){result='🎬淘片'}else if(result.match(/68zy/)){result='🎬68'}else if(result.match(/yzzy/)){result='🎬优质'}else if(result.match(/wolong|wls|wlcdn/)){result='🎬卧龙'}else if(result.match(/hnzy|bfvvs/)){result='🎬红牛'}else if(result.match(/gsu|gszy/)){result='🎬光速'}else if(result.match(/monidai/)){result='🎬八戒'}else if(result.match(/xmyy/)){result='🎬樱花'}else if(result.match(/1080tg/)){result='🎬闪电'} else if(result.match(/subo|sbzy/)){result='🎬速播'}else if(result.match(/dmzy/)){result='🎬弹幕'}else if(result.match(/vipzyk/)){result='🎬1080'}else if(result.match(/sd-play/)){result='🎬标清'}else if(result.match(/huyall/)){result='🎬虎牙'}else if(result.match(/49zy/)){result='🎬49'}else if(result.match(/high.*playback/)){result='🎬优质(⭐️无广告)'}else if(result.match(/hhuus/)){result='🎬豪华'}else if(result.match(/pe12369/)){result='🎬少年HD'}else if(result.match(/huicheng|healthcare/)){result='🎬360'}else if(result.match(/nikanba|m3u8hw8/)){result='🎬华为(⭐️暂无广告)'}else if(result.match(/bfikun/)){result='🎬爱坤(⭐️无广告)'}else if(result.match(/wgslsw/)){result='🎬樱花'}else if(result.match(/bxgbnet/)){result='🎬OK'}else if(result.match(/qdhdcate/)){result='🎬鸭鸭'}else if(result.match(/fentvoss/)){result='🎬闪电'}else if(result.match(/oiods/)){result='🎬豆瓣'}else if(result.match(/360zyx/)){result='🎬360'}else if(result.match(/xingchongwang/)){result='🎬星虫'}else if(result.match(/dytt/)){result='🎬天堂'}\n</js>"
+    },
+    "searchUrl": "/search?q={{key}}{{page==1?'':'&p='+page}}",
+    "weight": 0
+  }
+]
