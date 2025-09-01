@@ -1,0 +1,40 @@
+[
+  {
+    "bookSourceComment": "by.QQ用户：2234807128&194898187\n     源社区用户：未知&@聆听月与悦\n",
+    "bookSourceName": "🎵 QQ音乐",
+    "bookSourceType": 1,
+    "bookSourceUrl": "云智api",
+    "customOrder": 3,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": false,
+    "lastUpdateTime": 1756624044541,
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "author": "$.artist",
+      "coverUrl": "$.cover",
+      "init": "$.data",
+      "intro": "&nbsp;\n📕 专辑：{{$.album}}\n🕰️ 发布日期：{{$.release_date}}",
+      "kind": "$.duration",
+      "name": "$.title"
+    },
+    "ruleContent": {},
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "$.artist",
+      "bookList": "$..songs[*]",
+      "bookUrl": "{{baseUrl}}&n={{$.number}}",
+      "checkKeyWord": "周杰伦",
+      "intro": "&lrm;\n📕 专辑：{{$.album}}",
+      "name": "$.name"
+    },
+    "ruleToc": {
+      "chapterList": "$..formats[*]",
+      "chapterName": "音质：{{$.quality}}",
+      "chapterUrl": "$.url",
+      "updateTime": "{{$.size}} • {{$.bitrate}}"
+    },
+    "searchUrl": "https://api.jkyai.top/API/qqmusic.php?msg={{key}}",
+    "weight": 0
+  }
+]
