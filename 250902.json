@@ -1,0 +1,50 @@
+[
+  {
+    "bookSourceGroup": "",
+    "bookSourceName": "禁漫",
+    "bookSourceType": 2,
+    "bookSourceUrl": "https://xman7.org",
+    "customOrder": 3,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "exploreUrl": "[\n  {\n    \"title\": \"🔖时间排序🔖\",\n    \"url\": \"\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 1\n    }\n  },\n  {\n    \"title\": \"全部\",\n    \"url\": \"https://xman7.org/mcata/all/ob/time/st/all/page/{{page}}\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n  {\n    \"title\": \"完结\",\n    \"url\": \"https://xman7.org/mcata/all/ob/time/st/completed/page/{{page}}\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n {\n    \"title\": \"未完结\",\n    \"url\": \"https://xman7.org/mcata/all/ob/time/st/serialized/page/{{page}}\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n{\n    \"title\": \"🔖阅读量排序🔖\",\n    \"url\": \"\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 1\n    }\n  },\n {\n    \"title\": \"全部\",\n    \"url\": \"https://xman7.org/mcata/all/ob/hits/st/all/page/{{page}}\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n{\n    \"title\": \"完结\",\n    \"url\": \"https://xman7.org/mcata/all/ob/hits/st/completed/page/{{page}}\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n{\n    \"title\": \"未完结\",\n    \"url\": \"https://xman7.org/mcata/all/ob/hits/st/serialized/page/{{page}}\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n{\n    \"title\": \"🔖细分全部(时间)🔖\",\n    \"url\": \"\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 1\n    }\n  },\n{\n    \"title\": \"韩漫\",\n    \"url\": \"https://xman7.org/mcata/%E9%9F%A9%E6%BC%AB/ob/time/st/all/page/{{page}}\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n{\n    \"title\": \"日漫\",\n    \"url\": \"https://xman7.org/mcata/%E6%97%A5%E6%BC%AB/ob/time/st/all/page/{{page}}\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n{\n    \"title\": \"3D\",\n    \"url\": \"https://xman7.org/mcata/3D%E6%BC%AB%E7%94%BB/ob/time/st/all/page/{{page}}\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n{\n    \"title\": \"真人\",\n    \"url\": \"https://xman7.org/mcata/%E7%9C%9F%E4%BA%BA%E7%BE%8E%E5%A5%B3/ob/time/st/all/page/{{page}}\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n{\n    \"title\": \"单本\",\n    \"url\": \"https://xman7.org/mcata/%E5%8D%95%E6%9C%AC/ob/time/st/all/page/{{page}}\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n{\n    \"title\": \"🔖细分完结(时间)🔖\",\n    \"url\": \"\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 1\n    }\n  },\n{\n    \"title\": \"韩漫\",\n    \"url\": \"https://xman7.org/mcata/%E9%9F%A9%E6%BC%AB/ob/time/st/completed/page/{{page}}\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n{\n    \"title\": \"日漫\",\n    \"url\": \"https://xman7.org/mcata/%E6%97%A5%E6%BC%AB/ob/time/st/completed/page/{{page}}\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n{\n    \"title\": \"3D\",\n    \"url\": \"https://xman7.org/mcata/3D%E6%BC%AB%E7%94%BB/ob/time/st/completed/page/{{page}}\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n{\n    \"title\": \"真人\",\n    \"url\": \"https://xman7.org/mcata/%E7%9C%9F%E4%BA%BA%E7%BE%8E%E5%A5%B3/ob/time/st/completed/page/{{page}}\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n{\n    \"title\": \"单本\",\n    \"url\": \"https://xman7.org/mcata/%E5%8D%95%E6%9C%AC/ob/time/st/completed/page/{{page}}\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n{\n    \"title\": \"🔖细分未完(时间)🔖\",\n    \"url\": \"\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 1\n    }\n  },\n{\n    \"title\": \"韩漫\",\n    \"url\": \"https://xman7.org/mcata/%E9%9F%A9%E6%BC%AB/ob/time/st/serialized/page/{{page}}\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n{\n    \"title\": \"日漫\",\n    \"url\": \"https://xman7.org/mcata/%E6%97%A5%E6%BC%AB/ob/time/st/serialized/page/{{page}}\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n{\n    \"title\": \"3D\",\n    \"url\": \"https://xman7.org/mcata/3D%E6%BC%AB%E7%94%BB/ob/time/st/serialized/page/{{page}}\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n{\n    \"title\": \"真人\",\n    \"url\": \"https://xman7.org/mcata/%E7%9C%9F%E4%BA%BA%E7%BE%8E%E5%A5%B3/ob/time/st/serialized/page/{{page}}\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n{\n    \"title\": \"单本\",\n    \"url\": \"https://xman7.org/mcata/%E5%8D%95%E6%9C%AC/ob/time/st/serialized/page/{{page}}\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n]",
+    "lastUpdateTime": 1755937752281,
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "author": "//div[@class=\"content_detail content_min fl\"]//li[2]/span/a/text()",
+      "coverUrl": "//div[@class=\"content_thumb fl\"]/a/@data-original",
+      "kind": "//div[@class=\"content_detail content_min fl\"]//li[1]/a/span/text() | //div[@class=\"content_detail content_top fl\"]/div[3]/font/text()",
+      "lastChapter": "//ul[@class=\"content_playlist list_scroll clearfix\"]/li[last()]/a/text()",
+      "name": "@XPath:concat(//h1/text(),\"你妈的\")",
+      "tocUrl": ""
+    },
+    "ruleContent": {
+      "content": "//body/div[2]/center[3]/div/img",
+      "imageStyle": "FULL",
+      "title": ""
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "//ul[@class=\"vodlist vodlist_wi clearfix\"]/li",
+      "bookUrl": "//a[@class=\"vodlist_thumb lazyload\"]/@href",
+      "coverUrl": "//a/@data-original",
+      "lastChapter": "",
+      "name": "//a/@title"
+    },
+    "ruleSearch": {
+      "bookList": "//ul[@class=\"vodlist vodlist_wi clearfix\"]/li",
+      "bookUrl": "//center/a[1]/@href",
+      "checkKeyWord": "你的",
+      "coverUrl": "//a/@data-original",
+      "name": "//a/@title"
+    },
+    "ruleToc": {
+      "chapterList": "//ul[@class=\"content_playlist list_scroll clearfix\"]/li",
+      "chapterName": "//li/a/text()",
+      "chapterUrl": "//li/a/@href"
+    },
+    "searchUrl": "/cata.php?key={{key}}&submit=",
+    "weight": 0
+  }
+]
