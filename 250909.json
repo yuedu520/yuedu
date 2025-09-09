@@ -1,0 +1,59 @@
+[
+  {
+    "bookSourceGroup": "优质",
+    "bookSourceName": "🎧 有声听书",
+    "bookSourceType": 1,
+    "bookSourceUrl": "https://m.ysts.cc/##@遇知",
+    "customOrder": 2040,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "exploreUrl": "[\n{\"title\":\"🔖最新🍁有声小说🔖\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n\n{\"title\":\"玄幻有声\",\"url\":\"/api/ajax/list?sort=1&key=1&order=1&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"综艺娱乐\",\"url\":\"/api/ajax/list?sort=1&key=3&order=1&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市有声\",\"url\":\"/api/ajax/list?sort=1&key=5&order=1&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"军事有声\",\"url\":\"/api/ajax/list?sort=1&key=7&order=1&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"网游竞技\",\"url\":\"/api/ajax/list?sort=1&key=9&order=1&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"灵异有声\",\"url\":\"/api/ajax/list?sort=1&key=11&order=1&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"相声小品\",\"url\":\"/api/ajax/list?sort=1&key=2&order=1&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"长篇评书\",\"url\":\"/api/ajax/list?sort=1&key=4&order=1&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"百家讲坛\",\"url\":\"/api/ajax/list?sort=1&key=6&order=1&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"儿童故事\",\"url\":\"/api/ajax/list?sort=1&key=8&order=1&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"职场有声\",\"url\":\"/api/ajax/list?sort=1&key=12&order=1&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"其他有声\",\"url\":\"/api/ajax/list?sort=1&key=14&order=1&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n\n{\"title\":\"🔖最新🍁长篇评书🔖\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n\n{\"title\":\"单田芳\",\"url\":\"/api/ajax/list?sort=4&key=125&order=1&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"田连元\",\"url\":\"/api/ajax/list?sort=4&key=124&order=1&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"袁阔成\",\"url\":\"/api/ajax/list?sort=4&key=126&order=1&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"连丽如\",\"url\":\"/api/ajax/list?sort=4&key=103&order=1&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"张少佐\",\"url\":\"/api/ajax/list?sort=4&key=127&order=1&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"孙一\",\"url\":\"/api/ajax/list?sort=4&key=101&order=1&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"田战义\",\"url\":\"/api/ajax/list?sort=4&key=128&order=1&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"粤语评书\",\"url\":\"/api/ajax/list?sort=4&key=129&order=1&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"其他评书\",\"url\":\"/api/ajax/list?sort=4&key=130&order=1&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n\n{\"title\":\"🔖人气🍁有声小说🔖\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n\n{\"title\":\"玄幻有声\",\"url\":\"/api/ajax/list?sort=1&key=1&order=2&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"综艺娱乐\",\"url\":\"/api/ajax/list?sort=1&key=3&order=2&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市有声\",\"url\":\"/api/ajax/list?sort=1&key=5&order=2&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"军事有声\",\"url\":\"/api/ajax/list?sort=1&key=7&order=2&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"网游竞技\",\"url\":\"/api/ajax/list?sort=1&key=9&order=2&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"灵异有声\",\"url\":\"/api/ajax/list?sort=1&key=11&order=2&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"相声小品\",\"url\":\"/api/ajax/list?sort=1&key=2&order=2&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"长篇评书\",\"url\":\"/api/ajax/list?sort=1&key=4&order=2&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"百家讲坛\",\"url\":\"/api/ajax/list?sort=1&key=6&order=2&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"儿童故事\",\"url\":\"/api/ajax/list?sort=1&key=8&order=2&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"职场有声\",\"url\":\"/api/ajax/list?sort=1&key=12&order=2&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"其他有声\",\"url\":\"/api/ajax/list?sort=1&key=14&order=2&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n\n{\"title\":\"🔖人气🍁长篇评书🔖\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n\n{\"title\":\"单田芳\",\"url\":\"/api/ajax/list?sort=4&key=125&order=2&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"田连元\",\"url\":\"/api/ajax/list?sort=4&key=124&order=2&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"袁阔成\",\"url\":\"/api/ajax/list?sort=4&key=126&order=2&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"连丽如\",\"url\":\"/api/ajax/list?sort=4&key=103&order=2&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"张少佐\",\"url\":\"/api/ajax/list?sort=4&key=127&order=2&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"孙一\",\"url\":\"/api/ajax/list?sort=4&key=101&order=2&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"田战义\",\"url\":\"/api/ajax/list?sort=4&key=128&order=2&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"粤语评书\",\"url\":\"/api/ajax/list?sort=4&key=129&order=2&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"其他评书\",\"url\":\"/api/ajax/list?sort=4&key=130&order=2&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+    "header": "{\n    \"User-Agent\":\"Mozilla/5.0 (iPhone; CPU iPhone OS 15_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1\"\n\n}",
+    "lastUpdateTime": 1757283435021,
+    "respondTime": 6366,
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "intro": "🔔 更新时间：{{@@[property=\"og:novel:update_time\"]@content}}\n📯 {{@@.book-rand-a.3@text}}\n🏷 {{@@.book-rand-a.1@text}}\n📂 内容简介：{{@@[property=\"og:description\"]@content}}##(^|[。！？]+[”」）】]?)##$1<br>",
+      "kind": "[property~=category|status]@content",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+      "name": "[property=\"og:novel:book_name\"]@content",
+      "tocUrl": "text.全部章节@href##$##?page=1&sort=desc"
+    },
+    "ruleContent": {
+      "content": "<js>result</js>",
+      "sourceRegex": ".*\\.(mp3|m4a).*"
+    },
+    "ruleExplore": {
+      "author": "{{$.author}}  演播：{{$.boyin}}",
+      "bookList": "$..data[*]",
+      "bookUrl": "$.url",
+      "coverUrl": "$.pic",
+      "intro": "$.content",
+      "kind": "{{$.serialize_text}}\n{{$.hits}}℃",
+      "lastChapter": "$.chapter_title",
+      "name": "$.title"
+    },
+    "ruleSearch": {
+      "author": "{{$.author.name}}  演播：{{$.boyin.name}}",
+      "bookList": "$.[*]",
+      "bookUrl": "$..url",
+      "checkKeyWord": "诡秘之主",
+      "coverUrl": "$..cover",
+      "intro": "$..intro",
+      "kind": "{{$..isover}}\n{{$.data.allvisit}}℃",
+      "lastChapter": "$.last.name",
+      "name": "$..name##\\s.*"
+    },
+    "ruleToc": {
+      "chapterList": "#playlist@ul@li@a",
+      "chapterName": "textNodes",
+      "chapterUrl": "href##$##,{\"webView\": true}",
+      "nextTocUrl": ".chapter-list-block@li.-1@a@href##.*page=(\\d+).*##$1\n@js:\nres = JSON.parse(result)\nlist = [];\nfor (var i = 2; i <= res; i++) {\n\tlist.push(baseUrl.replace(/page=\\d+/,\"page=\" + i )); \n}\nlist;",
+      "updateTime": "span@text"
+    },
+    "searchUrl": "https://m.ysts.cc/api/ajax/solist?word={{key}}&type=name&page={{page}}&order=1",
+    "weight": 0
+  }
+]
