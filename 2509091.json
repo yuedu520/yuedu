@@ -1,0 +1,175 @@
+[
+  {
+    "bookSourceComment": "获取最新地址(网址无法使用是，获取电脑版最新的搜索地址)\n搜索理论上可以自动获取最新网址\nhttps://rentry.la/agefans\n/*legado&&coolapk by:\nxsw8093*/",
+    "bookSourceGroup": "-♥︎不删,-❆视频",
+    "bookSourceName": "动漫AGE（优）",
+    "bookSourceType": 2,
+    "bookSourceUrl": "https://www.agedm.org/search",
+    "customOrder": 106,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "exploreUrl": "",
+    "header": "",
+    "lastUpdateTime": 1719512981612,
+    "loginUi": "",
+    "loginUrl": "https://rentry.la/agefans",
+    "respondTime": 3486,
+    "ruleBookInfo": {
+      "init": "",
+      "intro": ".video_detail_desc@text\n@js:\nvar sz0=source.getVariable();\nif(sz0==null||sz0==\"\"){\n\tsz0=1\n}\nlet list = java.getStringList('.nav-pills .nav-item .nav-link@text')\nlet idList=java.getStringList('.nav-pills .nav-item .nav-link@data-bs-target')\nlet str=`     可以修改源变量查看不同线路，当前：${sz0}\\n`\nfor(let x=0;x<list.length;x++){\nlet txtArray0=java.getStringList(\"id.\"+idList[x].replace(\"#\",\"\")+\"@tag.ul@tag.li@tag.a@text\");\nstr =str+`源名称：${list[x]}，源变量：${x+1}，共：${txtArray0.length}集\\n`\n}\nstr+result",
+      "name": "",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "@js:\nvar playIurl=java.getString(\"id.iframeForVideo@src\")\nvar sz1=source.getVariable();\nif(sz1==null||sz1==\"\"){\n\tsz1=1\n}\nvar nametitle=title\nif(playIurl){\n\tif(book.durChapterIndex==chapter.index){\n       java.toast(`播放地址：${String(playIurl)}`)\n\t      java.startBrowser(playIurl,title)\r\t\t\n\t      java.toast(title+\":视频加载中，请等待…\")\r\r\n\t}\n}\nresult=`\\n<br>集数:【${nametitle}】\\n<br>温馨提示：\\n<br>【刷新正文】播放\\n<br>或者【点击章节链接】跳转到浏览器播放\\n<br>修改了源变量需要刷新正文\\n<br>当前播放线路：${java.getString('.nav-pills .nav-item .active@text')}\\n<br>当前播放源变量：${sz1}\\n<br>${java.getString(\".card-body@html\")}\\n<br>集数:【${nametitle}】\\n<br>温馨提示：\\n<br>【刷新正文】播放\\n<br>或者【点击章节链接】跳转到浏览器播放\\n<br>修改了源变量需要刷新正文\\n<br>当前播放线路：${java.getString('.nav-pills .nav-item .active@text')}\\n<br>当前播放源变量：${sz1}\\n<br>${java.getString(\".card-body@html\")}\\n<br>集数:【${nametitle}】\\n<br>温馨提示：\\n<br>【刷新正文】播放\\n<br>或者【点击章节链接】跳转到浏览器播放\\n<br>修改了源变量需要刷新正文\\n<br>当前播放线路：${java.getString('.nav-pills .nav-item .active@text')}\\n<br>当前播放源变量：${sz1}\\n<br>${java.getString(\".card-body@html\")}`\nresult;",
+      "sourceRegex": ""
+    },
+    "ruleExplore": {
+      "intro": ""
+    },
+    "ruleSearch": {
+      "author": ".card-body .video_detail_info.7@textNodes",
+      "bookList": ".cata_video_item",
+      "bookUrl": ".card-body .card-title a@href",
+      "coverUrl": ".video_cover .video_cover_wrapper a img@data-original",
+      "intro": ".card-body .desc@text",
+      "kind": ".video_cover .text-truncate@text&&.card-body .video_detail_info.4@textNodes&&.card-body .video_detail_info.6@textNodes",
+      "lastChapter": "",
+      "name": ".card-body .card-title a@text",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "@js:\nvar sz=source.getVariable();\nif(sz==null||sz==\"\"){\n\tsz=1\n}\nvar idName= java.getString('.nav-pills .nav-item:nth-child('+sz+') .nav-link@data-bs-target').replace(\"#\",\"\")\n\nlet array = []\nlet txtArray=java.getStringList(\"id.\"+idName+\"@tag.ul@tag.li@tag.a@text\");\n\tlet hrefTxt = java.getStringList(\"id.\"+idName+\"@tag.ul@tag.li@tag.a@href\");\n\t  for(let y=0;y<txtArray.length;y++){\r\n\t\tarray.push({\r\n\t\t name:txtArray[y],\r\n\t\t url:hrefTxt[y]\r\n\t\t})\r\n\t}\narray",
+      "chapterName": "name",
+      "chapterUrl": "url",
+      "isVip": "",
+      "isVolume": "",
+      "preUpdateJs": ""
+    },
+    "searchUrl": "@js:\nvar html = java.ajax(\"https://rentry.la/agefans\");\n\n/*获取最新地址*/\nvar soUrl = org.jsoup.Jsoup.parse(html).select('#nice').select('#nice').select(\"blockquote\")[0].select(\"p a\")[0].html()\n\nvar re = /^(?:http(s)?:\\/\\/)?[\\w.-]+(?:\\.[\\w\\.-]+)+[\\w\\-\\._~:/?#[\\]@!\\$&'\\(\\)\\*\\+,;=.]+$/\n\t\nvar su=source.getKey()\n\n/*判断请求地址*/\nvar postUrl= soUrl && soUrl!=\"\" && re.test(soUrl)?`${soUrl}/search`:su\n\n\npostUrl+\"?query={{key}}&page={{page}},\"+JSON.stringify({\n\"webview\":true\n})",
+    "weight": 0
+  },
+  {
+    "bookSourceGroup": "-♥︎不删,-❆视频",
+    "bookSourceName": "六六影视网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://66yy.net",
+    "customOrder": 114,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": false,
+    "header": "{\n\t\"User-Agent\":\"Mozilla/5.0 (Linux; Android 10; MI 8 Build/QKQ1.190828.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/100.0.4896.127 Mobile Safari/537.36\"\n\t}",
+    "lastUpdateTime": 1752198908007,
+    "respondTime": 752,
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "class.myui-player__video@script.0@all##.*url\":\"(.*)\",\"url_next\":.*from\":\"(.*)\",\"server.*##$1_$2\n@js:\nres=result.match(/(.*)_(.*)/)\nurl=res[1].replace(/\\\\/g,'')\nif(res[2]==\"wjm3u8\"){\nresult=\"https://jx.wujinkk.com/dplayer/?url=\"+url\n}else if(res[2]==\"bjm3u8\"){\nresult=\"https://zy.aoxtv.com/m3u8.php?url=\"+url\n}else if(res[2]==\"tkm3u8\"){\nresult=\"https://jx.huishij.com/yun/?url=\"+url\n}else{\nresult=\"https://jx.bozrc.com:4433/player/?url=\"+url\n}\nif(book.durChapterIndex==chapter.index){\n\t\tjava.startBrowser(result,title)\n\t\tjava.toast('正在加载视频\\n视频加载较慢，请耐心等待')\n\t}\n'<p>【刷新正文】播放\\n✅直链:\\n'+result"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.detail@p.1@ownText",
+      "bookList": "class.myui-vodlist__media@li",
+      "bookUrl": "a.0@href",
+      "coverUrl": "a@data-original",
+      "intro": "p.3@ownText",
+      "kind": "p.2@text##(分类|地区|年份)：##,",
+      "lastChapter": "class.pic-text@text",
+      "name": "class.title@text",
+      "wordCount": "class.pic-tag@text"
+    },
+    "ruleToc": {
+      "chapterList": "<js>\nall=\"\"\n\n//线路个数\nlen=java.getElements('class.nav-tabs[0]@li').length\n\nfor(i=1;i<=len;i++){\n\t\n\t//获取线路名称\nfrom=java.getElements('class.nav-tabs[0]@li')[i-1].text()\n\n//获取线路的播放列表\nres=java.getElements('class.myui-content__list')[i-1]\n\n//把线路名称插入列表里，在更新时间那里显示\nres=JSON.stringify(res).replace(/<\\/a>/g,'<p>'+'🎬'+from+'</p></a>')\n\nall+=JSON.parse(res)\n}\nall\n</js>\nclass.myui-content__list@li@a",
+      "chapterName": "ownText",
+      "chapterUrl": "href",
+      "updateTime": "p@text"
+    },
+    "searchUrl": "/vodsearch/-------------.html?wd={{key}}&submit=",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "永久地址：www.qdm.plus\n同资源：\nhttp://www.zkk.plus\nhttps://www.yhdm52.com",
+    "bookSourceGroup": "-♥︎不删,-❆视频",
+    "bookSourceName": "月趣动漫",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.qdm66.com",
+    "customOrder": 123,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "exploreUrl": "[{\"title\":\"Ⓜ️分类\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"时间(中)\",\"url\":\"/show/guoman--time------{{page}}---.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"人气(中)\",\"url\":\"/show/guoman--hits------{{page}}---.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"评分(中)\",\"url\":\"/show/guoman--score------{{page}}---.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"时间(日)\",\"url\":\"/show/riman--time------{{page}}---.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"人气(日)\",\"url\":\"/show/riman--hits------{{page}}---.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"评分(日)\",\"url\":\"/show/riman--score------{{page}}---.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+    "header": "{\n\"User-Agent\":\"Mozilla/5.0 (Linux; U; Android 10; zh-CN; MI 9 Build/QKQ1.190825.002) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 UCBrowser/13.0.0.1080 Mobile Safari/537.36\"\n}",
+    "lastUpdateTime": 1753722269553,
+    "loginUrl": "https://www.qdm66.com/",
+    "respondTime": 8769,
+    "ruleBookInfo": {
+      "intro": "class.text-collapse@class.data@text"
+    },
+    "ruleContent": {
+      "content": "class.myui-player__video@script.0@all||class.embed-responsive@script.0@all##.*url\":\"(.*)\",\"url_next\":.*##$1\n@js:\nresult=result.replace(/\\\\/g,'')\nresult=\"https://danmu.yhdmjx.com/m3u8.php?url=\"+result\nif(book.durChapterIndex==chapter.index){\n\t\tjava.startBrowser(result,title)\n\t\tjava.toast('正在加载视频\\n视频加载较慢，请耐心等待')\n\t}\n'【刷新正文】播放\\n✅直链:\\n'+result"
+    },
+    "ruleExplore": {
+      "bookList": "class.myui-vodlist__box",
+      "bookUrl": "a.0@href",
+      "coverUrl": "a@data-original",
+      "kind": "class.pic-tag@text",
+      "lastChapter": "class.pic-text@text",
+      "name": "a@title"
+    },
+    "ruleSearch": {
+      "author": "p.1@ownText",
+      "bookList": "class.myui-vodlist__media@li",
+      "bookUrl": "a.0@href",
+      "checkKeyWord": "斗破",
+      "coverUrl": "a@data-original",
+      "intro": "{{\"Ⓜ️趣动漫  \"}}{{@@class.text-collapse@class.data@text}}",
+      "kind": "p.2@text##(分类|地区|年份)：##,",
+      "lastChapter": "class.pic-text@text",
+      "name": "class.title@text",
+      "wordCount": "class.pic-tag@text"
+    },
+    "ruleToc": {
+      "chapterList": "<js>\nall=\"\"\n\n//线路个数\nlen=java.getElements('class.nav-tabs.0@li').length\n\nfor(i=1;i<=len;i++){\n\t\n\t//获取线路名称\nfrom=java.getElements('class.nav-tabs.0@li')[i-1].text()\njava.log(len+from)\n//获取线路的播放列表\nres=java.getElements('class.myui-content__list')[i-1]\n\n//把线路名称插入列表里，在更新时间那里显示\nres=JSON.stringify(res).replace(/<\\/a>/g,'<p>'+'🎬'+from+'</p></a>')\n\nall+=JSON.parse(res)\n}\nall\n</js>\nclass.myui-content__list@li@a",
+      "chapterName": "ownText",
+      "chapterUrl": "href##$##,{\"webView\":true}",
+      "updateTime": "p@text"
+    },
+    "searchUrl": "<js>\nif(page==1){\n`/search/-------------.html?wd=${key}&submit=`\n}else{\n\t`/search/${key}----------${page}---.html`\n}\n</js>",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "备用网址: 1080zyk1.com 至 1080zyk5.com \nM3U8视频解析：\nhttps://vip.zykbf.com/?url=",
+    "bookSourceGroup": "-♥︎不删,-❆视频",
+    "bookSourceName": "优质资源（优）",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.hdzyk.com",
+    "customOrder": 125,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "exploreUrl": "[{\"title\":\"❎电影\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"动作片\",\"url\":\"/inc/apijson.php?ac=detail&pg={{page}}&t=5\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"喜剧片\",\"url\":\"/inc/apijson.php?ac=detail&pg={{page}}&t=6\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"爱情片\",\"url\":\"/inc/apijson.php?ac=detail&pg={{page}}&t=7\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻片\",\"url\":\"/inc/apijson.php?ac=detail&pg={{page}}&t=8\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"恐怖片\",\"url\":\"/inc/apijson.php?ac=detail&pg={{page}}&t=9\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"剧情片\",\"url\":\"/inc/apijson.php?ac=detail&pg={{page}}&t=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"战争片\",\"url\":\"/inc/apijson.php?ac=detail&pg={{page}}&t=11\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"记录片\",\"url\":\"/inc/apijson.php?ac=detail&pg={{page}}&t=20\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"动画片\",\"url\":\"/inc/apijson.php?ac=detail&pg={{page}}&t=41\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"伦理片\",\"url\":\"/inc/apijson.php?ac=detail&pg={{page}}&t=61\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"❎电视剧\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"国产剧\",\"url\":\"/inc/apijson.php?ac=detail&pg={{page}}&t=12\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"台湾剧\",\"url\":\"/inc/apijson.php?ac=detail&pg={{page}}&t=13\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"韩国剧\",\"url\":\"/inc/apijson.php?ac=detail&pg={{page}}&t=14\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"欧美剧\",\"url\":\"/inc/apijson.php?ac=detail&pg={{page}}&t=15\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"香港剧\",\"url\":\"/inc/apijson.php?ac=detail&pg={{page}}&t=16\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"泰国剧\",\"url\":\"/inc/apijson.php?ac=detail&pg={{page}}&t=17\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"日本剧\",\"url\":\"/inc/apijson.php?ac=detail&pg={{page}}&t=18\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"海外剧\",\"url\":\"/inc/apijson.php?ac=detail&pg={{page}}&t=54\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"❎综艺\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"大陆综艺\",\"url\":\"/inc/apijson.php?ac=detail&pg={{page}}&t=62\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"港台综艺\",\"url\":\"/inc/apijson.php?ac=detail&pg={{page}}&t=63\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"日韩综艺\",\"url\":\"/inc/apijson.php?ac=detail&pg={{page}}&t=64\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"欧美综艺\",\"url\":\"/inc/apijson.php?ac=detail&pg={{page}}&t=65\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"❎动漫\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"国产动漫\",\"url\":\"/inc/apijson.php?ac=detail&pg={{page}}&t=66\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"日韩动漫\",\"url\":\"/inc/apijson.php?ac=detail&pg={{page}}&t=67\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"欧美动漫\",\"url\":\"/inc/apijson.php?ac=detail&pg={{page}}&t=68\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"港台动漫\",\"url\":\"/inc/apijson.php?ac=detail&pg={{page}}&t=69\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"❎福利\",\"url\":\"/inc/apijson.php?ac=detail&pg={{page}}&t=19\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}}\n]\n\n",
+    "lastUpdateTime": 1753675394558,
+    "respondTime": 2205,
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "@js:\nif(book.durChapterIndex==chapter.index){\n//baseUrl=\"https://vip.zykbf.com/?url=\"+baseUrl\njava.startBrowser(baseUrl,title)\n}\n'<p>【刷新正文】播放<br>或者【点击章节链接】跳转到浏览器播放</p>'"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "主演:{{$.vod_actor}}",
+      "bookList": "$..list[*]",
+      "bookUrl": "/inc/apijson.php?ac=detail&ids={{$.vod_id}}",
+      "coverUrl": "$.vod_pic",
+      "intro": "$.vod_content",
+      "kind": "导演:{{$.vod_director}}\n{{$.vod_year}}\n{{$.type_name}}\n{{$.vod_remarks}}",
+      "name": "$.vod_name"
+    },
+    "ruleToc": {
+      "chapterList": "@js:\nvar s=eval(\"'\"+result.match(/vod_play_url\":\"(.*?)\"/)[1]+\"'\").split(\"#\")\nvar txt=[]\nfor(i in s){\n\ttxt.push({text:s[i].replace(/\\$.*/,''),href:s[i].replace(/.*\\$/,'')})\n\t}\ntxt",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/inc/apijson.php?ac=detail&wd={{key}}&pg={{page}}",
+    "weight": 0
+  }
+]
