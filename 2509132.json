@@ -1,0 +1,814 @@
+[
+  {
+    "bookSourceGroup": "小书源🈲柳树",
+    "bookSourceName": "xo福利🈲🈲🔍",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://op-lake-rope.xoxiaoshuo-102.com",
+    "customOrder": -99977,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "exploreUrl": "  处女::https://op-lake-rope.xoxiaoshuo-102.com/arttype/1000/?wd=处女\n    【【【点我】】】::/arttype/1000-{{page}}/\r\n　　全部小说::\r\n　　【【【点我】】】::/arttype/1002-{{page}}/\r\n　　☜故事啊::\r\n　　【【【点我】】】::/arttype/1003-{{page}}/\r\n　　☜淫乱伦::\r\n　　【【【点我】】】::/arttype/5005-{{page}}/\r\n　　☜现代啊::\r\n　　【【【点我】】】::/arttype/1001-{{page}}/\r\n　　☜人妻女::\r\n　　【【【点我】】】::/arttype/1004-{{page}}/\r\n　　☜学生啊::\r\n　　【【【点我】】】::/arttype/1005-{{page}}/\r\n　　☜仙侠侠::\r\n　　【【【点我】】】::/arttype/2000-{{page}}/\r\n　　☜小说区::\r\n　　【【【点我】】】::/arttype/5031-{{page}}/\r\n　　☜爱情啊::\r\n　　【【【点我】】】::/arttype/5004-{{page}}/\r\n　　☜暴力犯::\r\n　　【【【点我】】】::/arttype/5003-{{page}}/\n\t        忘记了",
+    "lastUpdateTime": 1752534589001,
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "author": "",
+      "intro": "",
+      "name": "",
+      "tocUrl": ""
+    },
+    "ruleContent": {
+      "content": "class.novel-content-txt@p@html"
+    },
+    "ruleExplore": {
+      "bookList": "",
+      "bookUrl": "",
+      "intro": "",
+      "name": ""
+    },
+    "ruleReview": {},
+    "ruleSearch": {
+      "bookList": "class.novel-item",
+      "bookUrl": "a@href",
+      "checkKeyWord": "/",
+      "name": "class.novel-item-title@text##/| |　|阅读全文|作者.*|【|（|《|》.*"
+    },
+    "ruleToc": {
+      "chapterList": "class.col-3 video-item-col novel-section-item",
+      "chapterName": "a@text",
+      "chapterUrl": "a@href"
+    },
+    "searchUrl": "https://op-lake-rope.xoxiaoshuo-102.com/arttype/1000/?wd={{key}}",
+    "weight": 0
+  },
+  {
+    "bookSourceGroup": "小书源🈲柳树",
+    "bookSourceName": "榨汁机🈲",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://w9x0y1z2.zhazhijie61.buzz/topic/",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "exploreUrl": "不::https://w9x0y1z2.zhazhijie61.buzz/arttype/165-{{page}}.html\n161::/arttype/161-{{page}}.html\n162::/arttype/162-{{page}}.html\n163::/arttype/163-{{page}}.html\nhttps164::/arttype/164-{{page}}.html\nhttps166::/arttype/166-{{page}}.html\nhttp167::/arttype/167-{{page}}.html\n",
+    "lastUpdateTime": 1752533632596,
+    "respondTime": 180000,
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "class.details-content text-justify.p@html",
+      "title": ""
+    },
+    "ruleExplore": {
+      "bookList": "class.col-md-14 col-sm-16 col-xs-12 clearfix news-box",
+      "bookUrl": "a@href",
+      "name": "a@text##/| |　|阅读全文|作者.*|【|（|《|》.*|20.*"
+    },
+    "ruleReview": {},
+    "ruleSearch": {},
+    "ruleToc": {
+      "chapterList": "class.news_details",
+      "chapterName": "h1@text"
+    },
+    "searchUrl": "",
+    "weight": 0
+  },
+  {
+    "bookSourceGroup": "小书源🈲柳树",
+    "bookSourceName": "女子av🈲🈲",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://k7l8m9n0.nzzn5.sbs",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "exploreUrl": "都市::https://k7l8m9n0.nzzn5.sbs/arttype/204-{{page}}.html\n幻想::https://k7l8m9n0.nzzn5.sbs/arttype/207-{{page}}.html\n经验::https://k7l8m9n0.nzzn5.sbs/arttype/206-{{page}}.html\n不伦::https://k7l8m9n0.nzzn5.sbs/arttype/205-{{page}}.html\n明星::https://k7l8m9n0.nzzn5.sbs/arttype/203-{{page}}.html\n玄幻::https://k7l8m9n0.nzzn5.sbs/arttype/202-{{page}}.html\n校园::https://k7l8m9n0.nzzn5.sbs/arttype/201-{{page}}.html\n暴力::https://k7l8m9n0.nzzn5.sbs/arttype/200-{{page}}.html\n所有::https://k7l8m9n0.nzzn5.sbs/arttype/20-{{page}}.html",
+    "lastUpdateTime": 1752533670167,
+    "respondTime": 180000,
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "class.content@html"
+    },
+    "ruleExplore": {
+      "bookList": "class.vod",
+      "bookUrl": "div.vod-txt a@href",
+      "name": "div.vod-txt a@text##/| |　"
+    },
+    "ruleReview": {},
+    "ruleSearch": {
+      "bookList": "",
+      "checkKeyWord": "",
+      "name": ""
+    },
+    "ruleToc": {
+      "chapterList": "class.vodlist",
+      "chapterName": "h1@text"
+    },
+    "searchUrl": "",
+    "weight": 0
+  },
+  {
+    "bookSourceGroup": "小书源🈲柳树",
+    "bookSourceName": "极速🈲🔍",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://w9x0y1z2.jisub4.buzz",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "exploreUrl": "处女::https://w9x0y1z2.jisub4.buzz/arttype/20.html?wd=处女\n{}}{{}}{{}}{{}}{{}}{{}}全部{}}{{}}{{}}{{{{}}}}{{}}::https://w9x0y1z2.jisub4.buzz/arttype/20-{{page}}.html\n <a ::/arttype/200.html\n  暴力虐待::\n <a ::/arttype/201-{{page}}.html\n  学生校园::\n <a ::/arttype/202-{{page}}.html\n  玄幻仙侠:: \n <a ::/arttype/203-{{page}}.html\n  明星偶像::\n <a ::/arttype/204-{{page}}.html\n  生活都市::\n <a ::/arttype/205-{{page}}.html\n  不伦恋情::\n <a ::/arttype/206-{{page}}.html\n  经验故事::\n <a ::/arttype/207-{{page}}.html\n  科学幻想::",
+    "lastUpdateTime": 1752534637521,
+    "respondTime": 180000,
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "class.content.p@html"
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "class.vod-txt",
+      "bookUrl": "a@href",
+      "name": "a@text##/| |　"
+    },
+    "ruleReview": {},
+    "ruleSearch": {},
+    "ruleToc": {
+      "chapterList": "h1",
+      "chapterName": "h1@text"
+    },
+    "searchUrl": "https://w9x0y1z2.jisub4.buzz/arttype/20.html?wd={{key}}",
+    "weight": 0
+  },
+  {
+    "bookSourceGroup": "小书源🈲柳树",
+    "bookSourceName": "色文🈲🈲🔍",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://20250710.lfav24.cc",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "exploreUrl": "🧣• ·̫ •🧣全🧣 ·̫ 🧣部🧣• ·̫ •🧣::/index.php/art/type/id/64/page/{{page}}.html\n处女::https://20250710.lfav24.cc/index.php/art/type/id/64.html?wd=处女\n\nb::https://20250710.lfav24.cc/index.php/art/type/id/71/page/{{page}}.html",
+    "lastUpdateTime": 1752534681824,
+    "respondTime": 180000,
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "class.m1938ing@html"
+    },
+    "ruleExplore": {
+      "bookList": ""
+    },
+    "ruleReview": {},
+    "ruleSearch": {
+      "bookList": "ul@li",
+      "bookUrl": "a@href",
+      "checkKeyWord": "处女",
+      "name": "h3@text##/| |　"
+    },
+    "ruleToc": {
+      "chapterList": "class.ts-wrap",
+      "chapterName": "h5!0@text##猜你喜欢下面这些"
+    },
+    "searchUrl": "https://20250710.lfav24.cc/index.php/art/type/id/64.html?wd={{key}}",
+    "weight": 0
+  },
+  {
+    "bookSourceGroup": "小书源🈲柳树",
+    "bookSourceName": "有料🈲🔍",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://yp.ylwx71.xyz",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "exploreUrl": "处女::https://yp.ylwx71.xyz/artsearch/-------.html?wd=处女\n点我::/arttype/45-{{page}}.html\n☜现代::\n<点我::/arttype/46-{{page}}.html\n  ☜近亲::\n<点我::/arttype/47-{{page}}.html\n  ☜武侠::\n<点我::/arttype/48-{{page}}.html\n  ☜学生::\n<点我::/arttype/49-{{page}}.html\n  ☜古典::\n<点我::/arttype/50-{{page}}.html\n  ☜言情::\n  ",
+    "lastUpdateTime": 1752534704978,
+    "respondTime": 180000,
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "class.content@html"
+    },
+    "ruleExplore": {
+      "bookList": "class.item",
+      "bookUrl": "dt@a@href",
+      "name": "dt@a@text##作者.*|/| |　"
+    },
+    "ruleReview": {},
+    "ruleSearch": {
+      "bookList": "class.item",
+      "bookUrl": "a@href",
+      "checkKeyWord": "处女",
+      "name": "a!1@text##作者.*|/| |　"
+    },
+    "ruleToc": {
+      "chapterList": "class.section-list fix@li",
+      "chapterName": "a@text",
+      "chapterUrl": "a@href"
+    },
+    "searchUrl": "https://yp.ylwx71.xyz/artsearch/-------.html?wd={{key}}",
+    "weight": 0
+  },
+  {
+    "bookSourceGroup": "小书源🈲柳树",
+    "bookSourceName": "18进🈲🔍",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://a3b4c5d6.18jin44.cc",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "exploreUrl": "处女::https://a3b4c5d6.18jin44.cc/artsearch/处女------{{page}}-.html\n　♥点我♥::/arttype/30-{{page}}.html\n　　人妻\n　　♥点我♥::/arttype/20-{{page}}.html\n　　都市\n　　♥点我♥::/arttype/21-{{page}}.html\n　　校园\n　　♥点我♥::/arttype/22-{{page}}.html\n　　真实\n　　♥点我♥::/arttype/23-{{page}}.html\n　　武侠\n　　♥点我♥::/arttype/24-{{page}}.html\n　　乱伦\n　　♥点我♥::/arttype/25-{{page}}.html\n　　职场\n　　♥点我♥::/arttype/26-{{page}}.html\n　　经验\n　　♥点我♥::/arttype/27-{{page}}.html\n　　暴力\n　　♥点我♥::/arttype/28-{{page}}.html\n　　幻想\n　　♥点我♥::/arttype/29-{{page}}.html\n　　明星",
+    "lastUpdateTime": 1752563188190,
+    "respondTime": 180000,
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "class.Readarea ReadAjax_content@html"
+    },
+    "ruleExplore": {
+      "bookList": "class.item",
+      "bookUrl": "a@href",
+      "name": "a@text##/| |　|阅读全文|作者.*|【|（|）|】"
+    },
+    "ruleReview": {},
+    "ruleSearch": {},
+    "ruleToc": {
+      "chapterList": "class.Readpage",
+      "chapterName": "a@text"
+    },
+    "searchUrl": "https://a3b4c5d6.18jin44.cc/artsearch/{{key}}------{{page}}-.html",
+    "weight": 0
+  },
+  {
+    "bookSourceGroup": "小书源🈲柳树",
+    "bookSourceName": "淫淫小说🈲🔍可以漫画",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://cf10.xbooks.vip",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "exploreUrl": "        ♥点我♥::/arttype/22/page/{{page}}.html\n　　仙侠\n　　♥点我♥::/arttype/1/page/{{page}}.html\n　　科幻\n　　♥点我♥::/arttype/5/page/{{page}}.html\n　　不伦\n　　♥点我♥::/arttype/4/page/{{page}}.html\n　　都市\n　　♥点我♥::/arttype/20/page/{{page}}.html\n　　经验\n　　♥点我♥::/arttype/3/page/{{page}}.html\n　　校园\n　　♥点我♥::/arttype/24/page/{{page}}.html\n　　偶像\n　　\n　　岁的::/artsearch/岁的------{{page}}-/\n　　幼女::/artsearch/幼女------{{page}}-/\n　　成年::/artsearch/成年------{{page}}-/\n　　小女::/artsearch/小女------{{page}}-/\n　　少女::/artsearch/少女------{{page}}-/\n　　女学::/artsearch/女学------{{page}}-/\n　　女童::/artsearch/女童------{{page}}-/\n　　女孩::/artsearch/女孩------{{page}}-/\n　　处::/artsearch/处------{{page}}-/\n　　初夜::/artsearch/初夜------{{page}}-/\n　　破处::/artsearch/破处------{{page}}-/\n　　开苞::/artsearch/开苞------{{page}}-/\n　　第一次::/artsearch/第一次------{{page}}-/\n　　处女::/artsearch/处女------{{page}}-/\n　　亲::/artsearch/亲------{{page}}-/\n　　女儿::/artsearch/女儿------{{page}}-/\n　　母女::/artsearch/母女------{{page}}-/\n　　闺女::/artsearch/闺女------{{page}}-/\n　　父女::/artsearch/父女------{{page}}-/\n　　亲生::/artsearch/亲生------{{page}}-/\n　　催眠::/artsearch/催眠------{{page}}-/\n　　常识::/artsearch/常识------{{page}}-/\n　　修改::/artsearch/修改------{{page}}-/\n　　软件::/artsearch/软件------{{page}}-/\n　　暂停::/artsearch/暂停------{{page}}-/\n　　编辑::/artsearch/编辑------{{page}}-/\n　　玩具::/artsearch/玩具------{{page}}-/\n　　隐形::/artsearch/隐形------{{page}}-/\n　　姐::/artsearch/姐------{{page}}-/\n　　姐姐::/artsearch/姐姐------{{page}}-/\n　　姐弟::/artsearch/姐弟------{{page}}-/\n　　姐的::/artsearch/姐的------{{page}}-/\n　　的姐::/artsearch/的姐------{{page}}-/\n　　表姐::/artsearch/表姐------{{page}}-/\n　　和姐::/artsearch/和姐------{{page}}-/\n　　姐和::/artsearch/姐和------{{page}}-/\n　　亲姐::/artsearch/亲姐------{{page}}-/\n　　姐妹::/artsearch/姐妹------{{page}}-/\n　　妹::/artsearch/妹------{{page}}-/\n　　妹妹::/artsearch/妹妹------{{page}}-/\n　　兄妹::/artsearch/兄妹------{{page}}-/\n　　妹的::/artsearch/妹的------{{page}}-/\n　　的妹::/artsearch/的妹------{{page}}-/\n　　表妹::/artsearch/表妹------{{page}}-/\n　　和妹::/artsearch/和妹------{{page}}-/\n　　妹和::/artsearch/妹和------{{page}}-/\n　　亲妹::/artsearch/亲妹------{{page}}-/\n　　妈::/artsearch/妈------{{page}}-/\n　　　　妈妈::/artsearch/妈妈------{{page}}-/\n　　妈的::/artsearch/妈的------{{page}}-/\n　　的妈::/artsearch/的妈------{{page}}-/\n　　舅妈::/artsearch/舅妈------{{page}}-/\n　　姨妈::/artsearch/姨妈------{{page}}-/\n　　和妈::/artsearch/和妈------{{page}}-/\n　　妈和::/artsearch/妈和------{{page}}-/\n　　亲妈::/artsearch/亲妈------{{page}}-/\n　　母::/artsearch/母------{{page}}-/\n　　母亲::/artsearch/母亲------{{page}}-/\n　　母子::/artsearch/母子------{{page}}-/\n　　的母::/artsearch/的母------{{page}}-/\n　　肏::/artsearch/肏------{{page}}-/\n　　和母::/artsearch/和母------{{page}}-/\n　　屄::/artsearch/屄------{{page}}-/\n　　龟头::/artsearch/龟头------{{page}}-/\n　　屁眼::/artsearch/屁眼------{{page}}-/\n　　阴道::/artsearch/阴道------{{page}}-/\n　　阴唇::/artsearch/阴唇------{{page}}-/\n　　子宫::/artsearch/子宫------{{page}}-/\n　　射精::/artsearch/射精------{{page}}-/\n　　射进::/artsearch/射进------{{page}}-/\n　　内射::/artsearch/内射------{{page}}-/\n　　精液::/artsearch/精液------{{page}}-/\n　　巨乳::/artsearch/巨乳------{{page}}-/\n　　怀孕::/artsearch/怀孕------{{page}}-/\n　　生了::/artsearch/生了------{{page}}-/\n　　生下::/artsearch/生下------{{page}}-/\n　　生孩::/artsearch/生孩------{{page}}-/\n　　国中::/artsearch/国中------{{page}}-/\n　　初中::/artsearch/初中------{{page}}-/\n　　初一::/artsearch/初一------{{page}}-/\n　　初二::/artsearch/初二------{{page}}-/\n　　初三::/artsearch/初三------{{page}}-/\n　　高中::/artsearch/高中------{{page}}-/\n　　高一::/artsearch/高一------{{page}}-/\n　　高二::/artsearch/高二------{{page}}-/\n　　高三::/artsearch/高三------{{page}}-/\n　　短篇::/artsearch/短篇------{{page}}-/\n　　胞胎::/artsearch/胞胎------{{page}}-/\n　　杀::/artsearch/奸杀------{{page}}-/\n　　尸::/artsearch/奸尸------{{page}}-/\n\t      杀::/artsearch/姦杀------{{page}}-/\n　　尸::/artsearch/姦尸------{{page}}-/\n　　飞机::/artsearch/飞机------{{page}}-/\n　　屎::/artsearch/屎------{{page}}-/\n　　尿::/artsearch/尿------{{page}}-/\n　　妊娠::/artsearch/妊娠------{{page}}-/\n　　便器::/artsearch/肉便器------{{page}}-/\n　　丝袜::/artsearch/丝袜------{{page}}-/\n　　榨汁::/artsearch/榨汁------{{page}}-/\n　　榨精::/artsearch/榨精------{{page}}-/\n       合集::/artsearch/合集------{{page}}-/\n　　岁::/artsearch/岁------{{page}}-/",
+    "lastUpdateTime": 1752571786582,
+    "respondTime": 180000,
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "class.hl-article-box@html"
+    },
+    "ruleExplore": {},
+    "ruleReview": {},
+    "ruleSearch": {
+      "bookList": "class.hl-list-item hl-col-xs-12",
+      "bookUrl": "a@href",
+      "checkKeyWord": "破处",
+      "name": "class.hl-item-title@text##/| |　|阅读全文|作者.*|【|（|）|】|《|》|.*中国.*|.*P.*"
+    },
+    "ruleToc": {
+      "chapterList": "class.hl-article-head",
+      "chapterName": "h1@text"
+    },
+    "searchUrl": "https://cf10.xbooks.vip/artsearch/{{key}}------{{page}}-/",
+    "weight": 0
+  },
+  {
+    "bookSourceGroup": "小书源🈲柳树",
+    "bookSourceName": "第一站🈲",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.diyizhan.cc/",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "exploreUrl": "\n♥点我♥::https://www.diyizhan.cc/xuanhuan-{{page}}.html\n　　家庭乱伦\n　　♥点我♥::/xianxia-{{page}}.html\n　　人妻女友\n　　♥点我♥::/dushi-{{page}}.html\n　　古典玄幻\n　　♥点我♥::/junshi-{{page}}.html\n　　都市生活\n　　♥点我♥::/wangyou-{{page}}.html\n　　学生校园\n　　♥点我♥::/kehuan-{{page}}.html\n　　强暴性虐\n　　♥点我♥::/lingyi-{{page}}.html\n　　多人群交\n　　♥点我♥::/yanqing-{{page}}.html\n　　绿帽主题\n　　♥点我♥::/qita-{{page}}.html\n　　其他小说\n　　------{{}}{{}}{{}}{{}}{{}}{{}}{{}}{{}}{{}}{{}}\n　　♥点我♥::/allvisit-{{page}}.html\n　　总点击榜\n　　♥点我♥::/monthvisit-{{page}}.html\n　　月点击榜\n　　♥点我♥::/weekvisit-{{page}}.html\n　　周点击榜\n　　♥点我♥::/allvote-{{page}}.html\n　　总推荐榜\n　　♥点我♥::/monthvote-{{page}}.html\n        月推荐榜\n　　♥点我♥::/goodnum-{{page}}.html\n　　收藏排行\n　　♥点我♥::/lastupdate-{{page}}.html\n　　最近更新\n　　♥点我♥::/postdate-{{page}}.html\n　　新书上架\n　　♥点我♥::/size-{{page+2}}.html\n　　字数排行\n♐::https://www.diyizhan.cc/size-{{178-page}}.html\n　　\n　　",
+    "lastUpdateTime": 1752712141314,
+    "respondTime": 180000,
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "class.readcontent@html##本章未.*",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {
+      "bookList": "class.bookname",
+      "bookUrl": "a@href",
+      "name": "a@text##/| |　|阅读全文|作者.*|【|（|）|】|《|》|.*章.*|.*[\\u3040-\\u309F\\u30A0-\\u30FF].*"
+    },
+    "ruleReview": {},
+    "ruleSearch": {
+      "checkKeyWord": "",
+      "name": ""
+    },
+    "ruleToc": {
+      "chapterList": "dd",
+      "chapterName": "a@text##查看全部章节 ↓",
+      "chapterUrl": "a@href"
+    },
+    "searchUrl": "",
+    "weight": 0
+  },
+  {
+    "bookSourceGroup": "小书源🈲柳树",
+    "bookSourceName": "春风楼🈲",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://ms.chunfenglou.buzz",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "exploreUrl": "　　♥点我♥::/index.php/art/type/id/1/page/{{page}}.html\n　　现代激情\n　　♥点我♥::/index.php/art/type/id/2/page/{{page}}.html\n　　情色幽默\n　　♥点我♥::/index.php/art/type/id/3/page/{{page}}.html\n　　古典武侠\n　　♥点我♥::/index.php/art/type/id/4/page/{{page}}.html\n　　校园之恋\n　　♥点我♥::/index.php/art/type/id/5/page/{{page}}.html\n　　家庭伦乱\n　　♥点我♥::/index.php/art/type/id/20/page/{{page}}.html\n　　奇幻仙侠\n\n——————幼::/index.php/art/search/page/{{page}}/wd/幼.html\n　　幼女::/index.php/art/search/page/{{page}}/wd/幼女.html\n　　成年::/index.php/art/search/page/{{page}}/wd/成年.html\n　　小女::/index.php/art/search/page/{{page}}/wd/小女.html\n　　少女::/index.php/art/search/page/{{page}}/wd/少女.html\n　　女学::/index.php/art/search/page/{{page}}/wd/女学.html\n　　女童::/index.php/art/search/page/{{page}}/wd/女童.html\n　　女孩::/index.php/art/search/page/{{page}}/wd/女孩.html\n　　岁的::/index.php/art/search/page/{{page}}/wd/岁的.html\n——————处::/index.php/art/search/page/{{page}}/wd/处.html\n    初次::/index.php/art/search/page/{{page}}/wd/初次.html\n　　初夜::/index.php/art/search/page/{{page}}/wd/初夜.html\n　　破处::/index.php/art/search/page/{{page}}/wd/破处.html\n　　开苞::/index.php/art/search/page/{{page}}/wd/开苞.html\n　　第一::/index.php/art/search/page/{{page}}/wd/第一次.html\n　　处女::/index.php/art/search/page/{{page}}/wd/处女.html\n——————亲::/index.php/art/search/page/{{page}}/wd/亲.html\n　　女儿::/index.php/art/search/page/{{page}}/wd/女儿.html\n　　母女::/index.php/art/search/page/{{page}}/wd/母女.html\n　　闺女::/index.php/art/search/page/{{page}}/wd/闺女.html\n　　父女::/index.php/art/search/page/{{page}}/wd/父女.html\n　　亲生::/index.php/art/search/page/{{page}}/wd/亲生.html\n　　催眠::/index.php/art/search/page/%7B%7Bpage%7D%7D/wd/催眠.html\n　　常识::/index.php/art/search/page/{{page}}/wd/常识.html\n　　修改::/index.php/art/search/page/{{page}}/wd/修改.html\n　　软件::/index.php/art/search/page/{{page}}/wd/软件.html\n　　暂停::/index.php/art/search/page/{{page}}/wd/暂停.html\n　　编辑::/index.php/art/search/page/{{page}}/wd/编辑.html\n　　玩具::/index.php/art/search/page/{{page}}/wd/玩具.html\n　　隐形::/index.php/art/search/page/{{page}}/wd/隐形.html\n——————姐::/index.php/art/search/page/{{page}}/wd/姐.html\n　　姐姐::/index.php/art/search/page/{{page}}/wd/姐姐.html\n　　姐弟::/index.php/art/search/page/{{page}}/wd/姐弟.html\n　　姐的::/index.php/art/search/page/{{page}}/wd/姐的.html\n　　的姐::/index.php/art/search/page/{{page}}/wd/的姐.html\n　　表姐::/index.php/art/search/page/{{page}}/wd/表姐.html\n　　和姐::/index.php/art/search/page/{{page}}/wd/和姐.html\n　　姐和::/index.php/art/search/page/{{page}}/wd/姐和.html\n　　亲姐::/index.php/art/search/page/{{page}}/wd/亲姐.html\n　　姐妹::/index.php/art/search/page/{{page}}/wd/姐妹.html\n——————妹::/index.php/art/search/page/{{page}}/wd/妹.html\n　　妹妹::/index.php/art/search/page/{{page}}/wd/妹妹.html\n　　兄妹::/index.php/art/search/page/{{page}}/wd/兄妹.html\n　　妹的::/index.php/art/search/page/{{page}}/wd/妹的.html\n　　的妹::/index.php/art/search/page/{{page}}/wd/的妹.html\n　　表妹::/index.php/art/search/page/{{page}}/wd/表妹.html\n　　和妹::/index.php/art/search/page/{{page}}/wd/和妹.html\n　　妹和::/index.php/art/search/page/{{page}}/wd/妹和.html\n　　亲妹::/index.php/art/search/page/{{page}}/wd/亲妹.html\n——————妈::/index.php/art/search/page/{{page}}/wd/妈.html\n　　妈妈::/index.php/art/search/page/{{page}}/wd/妈妈.html\n　　妈的::/index.php/art/search/page/{{page}}/wd/妈的.html\n　　的妈::/index.php/art/search/page/{{page}}/wd/的妈.html\n　　舅妈::/index.php/art/search/page/{{page}}/wd/舅妈.html\n　　姨妈::/index.php/art/search/page/{{page}}/wd/姨妈.html\n　　和妈::/index.php/art/search/page/{{page}}/wd/和妈.html\n　　妈和::/index.php/art/search/page/{{page}}/wd/妈和.html\n　　亲妈::/index.php/art/search/page/{{page}}/wd/亲妈.html\n——————母::/index.php/art/search/page/{{page}}/wd/母.html\n　　母亲::/index.php/art/search/page/{{page}}/wd/母亲.html\n　　母子::/index.php/art/search/page/{{page}}/wd/母子.html\n　　的母::/index.php/art/search/page/{{page}}/wd/的母.html\n　　舅母::/index.php/art/search/page/{{page}}/wd/舅母.html\n　　和母::/index.php/art/search/page/{{page}}/wd/和母.html\n——————肏::/index.php/art/search/page/{{page}}/wd/肏.html\n　　  屄::/index.php/art/search/page/{{page}}/wd/屄.html\n    龟头::/index.php/art/search/page/{{page}}/wd/龟头.html\n　　屁眼::/index.php/art/search/page/{{page}}/wd/屁眼.html\n　　阴道::/index.php/art/search/page/{{page}}/wd/阴道.html\n　　阴唇::/index.php/art/search/page/{{page}}/wd/阴唇.html\n　　子宫::/index.php/art/search/page/{{page}}/wd/子宫.html\n　　射精::/index.php/art/search/page/{{page}}/wd/射精.html\n　　射进::/index.php/art/search/page/{{page}}/wd/射进.html\n　　内射::/index.php/art/search/page/{{page}}/wd/内射.html\n　　精液::/index.php/art/search/page/{{page}}/wd/精液.html\n　　巨乳::/index.php/art/search/page/{{page}}/wd/巨乳.html\n————怀孕::/index.php/art/search/page/{{page}}/wd/怀孕.html\n　　生了::/index.php/art/search/page/{{page}}/wd/生了.html\n　　生下::/index.php/art/search/page/{{page}}/wd/生下.html\n　　生孩::/index.php/art/search/page/{{page}}/wd/生孩.html\n　　国中::/index.php/art/search/page/{{page}}/wd/国中.html\n　　初中::/index.php/art/search/page/{{page}}/wd/初中.html\n　　初一::/index.php/art/search/page/{{page}}/wd/初一.html\n　　初二::/index.php/art/search/page/{{page}}/wd/初二.html\n　　初三::/index.php/art/search/page/{{page}}/wd/初三.html\n　　高中::/index.php/art/search/page/{{page}}/wd/高中.html\n　　高一::/index.php/art/search/page/{{page}}/wd/高一.html\n　　高二::/index.php/art/search/page/{{page}}/wd/高二.html\n　　高三::/index.php/art/search/page/{{page}}/wd/高三.html\n————短篇::/index.php/art/search/page/{{page}}/wd/短篇.html\n　　胞胎::/index.php/art/search/page/{{page}}/wd/胞胎.html\n　　杀了::/index.php/art/search/page/{{page}}/wd/杀了.html\n　　杀死::/index.php/art/search/page/{{page}}/wd/杀死.html\n　　死了::/index.php/art/search/page/{{page}}/wd/死了.html\n　　肩杀::/index.php/art/search/page/{{page}}/wd/奸杀.html\n　　肩尸::/index.php/art/search/page/{{page}}/wd/奸尸.html\n　飞机杯::/index.php/art/search/page/{{page}}/wd/飞机杯.html\n　　  屎::/index.php/art/search/page/{{page}}/wd/屎.html\n　　  尿::/index.php/art/search/page/{{page}}/wd/尿.html\n　　妊娠::/index.php/art/search/page/{{page}}/wd/妊娠.html\n　　便器::/index.php/art/search/page/{{page}}/wd/便器.html\n　　丝袜::/index.php/art/search/page/{{page}}/wd/丝袜.html\n　　榨汁::/index.php/art/search/page/{{page}}/wd/榨汁.html\n　　榨精::/index.php/art/search/page/{{page}}/wd/榨精.html\n　　乱伦::/index.php/art/search/page/{{page}}/wd/乱伦.html\n　　合集::/index.php/art/search/page/{{page}}/wd/合集.html",
+    "lastUpdateTime": 1752712149166,
+    "respondTime": 180000,
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "class.entry@html##除非注明.*"
+    },
+    "ruleExplore": {
+      "bookList": "class.title",
+      "bookUrl": "a@href",
+      "kind": "",
+      "name": "h2@text##/| |　|阅读全文|作者.*|【|（|《|.*章.*|.*[\\u3040-\\u309F\\u30A0-\\u30FF].*"
+    },
+    "ruleReview": {},
+    "ruleSearch": {
+      "checkKeyWord": ""
+    },
+    "ruleToc": {
+      "chapterList": "class.title",
+      "chapterName": "h2@text"
+    },
+    "searchUrl": "",
+    "weight": 0
+  },
+  {
+    "bookSourceGroup": "小书源🈲柳树",
+    "bookSourceName": "久插🈲重复",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m5n6o7p8.9cha38.cc",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "exploreUrl": "☜::https://m5n6o7p8.9cha38.cc/arttype/24.html\n人妻 人妻::/arttype/30.html\n　　都市 都市::/arttype/20.html\n　　校园 校园::/arttype/21.html\n　　真实 真实::/arttype/22.html\n　　武侠 武侠::/arttype/23.html\n　　乱伦 乱伦::/arttype/24.html\n　　职场 职场::/arttype/25.html\n　　经验 经验::/arttype/26.html\n　　暴力 暴力::/arttype/27.html\n　　幻想 幻想::/arttype/28.html\n　　明星 明星::/arttype/29.html",
+    "lastUpdateTime": 1752714477091,
+    "respondTime": 180000,
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "class.entry@html"
+    },
+    "ruleExplore": {
+      "bookList": "class.title",
+      "bookUrl": "a@href",
+      "name": "h2@text##[ |　\"()（）《》〈〉【】〖〗［］\\[\\]]|阅读全文|作者.*|.*章.*|.*P.*|.*[\\u3040-\\u309F\\u30A0-\\u30FF].*"
+    },
+    "ruleReview": {},
+    "ruleSearch": {},
+    "ruleToc": {
+      "chapterList": "class.title",
+      "chapterName": "h2@text"
+    },
+    "weight": 0
+  },
+  {
+    "bookSourceGroup": "小书源🈲柳树",
+    "bookSourceName": "撸撸文学🈲",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://a3b4c5d6.luluw012.cc",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "exploreUrl": "　　♥点我♥♥::/arttype/30-{{page}}.html\n　　☜人妻\n　　♥点我♥♥::/arttype/20-{{page}}.html\n　　☜都市\n　　♥点我♥♥::/arttype/21-{{page}}.html\n　　☜校园\n　　♥点我♥♥::/arttype/22-{{page}}.html\n　　☜真实\n　　♥点我♥♥::/arttype/23-{{page}}.html\n　　☜武侠\n　　♥点我♥♥::/arttype/24-{{page}}.html\n　　☜乱伦\n　　♥点我♥♥::/arttype/25-{{page}}.html\n　　☜职场\n　　♥点我♥♥::/arttype/26-{{page}}.html\n　　☜经验\n　　♥点我♥♥::/arttype/27-{{page}}.html\n　　☜暴力\n　　♥点我♥♥::/arttype/28-{{page}}.html\n　　☜幻想\n　　♥点我♥♥::/arttype/29-{{page}}.html\n　　☜明星",
+    "lastUpdateTime": 1752724702255,
+    "respondTime": 180000,
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "class.entry@html##除非注明.*|文章评价.*"
+    },
+    "ruleExplore": {
+      "bookList": "class.post",
+      "bookUrl": "a@href",
+      "name": "h2@text##[ |　\"()（）《》〈〉【】〖〗［］\\[\\]]|阅读全文|作者.*|.*章.*|.*P.*|.*[\\u3040-\\u309F\\u30A0-\\u30FF].*"
+    },
+    "ruleReview": {},
+    "ruleSearch": {},
+    "ruleToc": {
+      "chapterList": "class.title",
+      "chapterName": "h2@text"
+    },
+    "weight": 0
+  },
+  {
+    "bookSourceGroup": "小书源🈲柳树",
+    "bookSourceName": "色猫🈲",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m5n6o7p8.semao103.lol",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "exploreUrl": "　　人妻::/arttype/30-{{page}}.html\n　　都市::/arttype/20-{{page}}.html\n　　校园::/arttype/21-{{page}}.html\n　　真实::/arttype/22-{{page}}.html\n　　武侠::/arttype/23-{{page}}.html\n　　乱伦::/arttype/24-{{page}}.html\n　　职场::/arttype/25-{{page}}.html\n　　经验::/arttype/26-{{page}}.html\n　　暴力::/arttype/27-{{page}}.html\n　　幻想::/arttype/28-{{page}}.html\n　　明星::/arttype/29-{{page}}.html",
+    "lastUpdateTime": 1752762022881,
+    "respondTime": 180000,
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "class.articlebody@html"
+    },
+    "ruleExplore": {
+      "bookList": "h3",
+      "bookUrl": "a@href",
+      "name": "a@text##[ |　\"()（）《》〈〉【】〖〗［］\\[\\]]|阅读全文|作者.*|.*章.*|.*P.*|.*[\\u3040-\\u309F\\u30A0-\\u30FF].*|.*修改版.*|.*轮奸.*|.*黑人.*|.*肥胖.*|.*胖子*|.*绿帽.*|.*绿母.*|.*换妻.*|.*套图.*|.*写真.*"
+    },
+    "ruleReview": {},
+    "ruleSearch": {},
+    "ruleToc": {
+      "chapterList": "h1",
+      "chapterName": "h1@text"
+    },
+    "weight": 0
+  },
+  {
+    "bookSourceGroup": "小书源🈲柳树",
+    "bookSourceName": "风月🈲",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://ms.guochanship.icu/",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "exploreUrl": "        全部::https://ms.guochanship.icu/index.php/art/type/id/999/page/{{page}}.html\n        现代激情 现代激情::/index.php/art/type/id/1/page/{{page}}.html\n　　古典武侠 古典武侠::/index.php/art/type/id/2/page/{{page}}.html\n　　暴力强奸 暴力强奸::/index.php/art/type/id/3/page/{{page}}.html\n　　校园春色 校园春色::/index.php/art/type/id/4/page/{{page}}.html\n　　家庭乱伦 家庭乱伦::/index.php/art/type/id/5/page/{{page}}.html\n　　淫妻交换 淫妻交换::/index.php/art/type/id/20/page/{{page}}.html\n　　情色幽默 情色幽默::/index.php/art/type/id/21/page/{{page}}.html\n　　奇幻仙侠 奇幻仙侠::/index.php/art/type/id/22/page/{{page}}.html\n破处::/index.php/art/search/page/{{page}}/wd/破处.html",
+    "lastUpdateTime": 1752792319617,
+    "respondTime": 180000,
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "class.entry@html"
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "h2",
+      "bookUrl": "a@href",
+      "name": "h2@text##[ |　\"()（）《》〈〉【】〖〗［］\\[\\]]|阅读全文|作者.*|.*章.*|.*P.*|.*[\\u3040-\\u309F\\u30A0-\\u30FF].*"
+    },
+    "ruleReview": {},
+    "ruleSearch": {},
+    "ruleToc": {
+      "chapterList": "h2",
+      "chapterName": "h2@text"
+    },
+    "weight": 0
+  },
+  {
+    "bookSourceGroup": "小书源🈲柳树",
+    "bookSourceName": "夜色小说🈲🔍🌄",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://8wjcyazxw7.www.yeseshuge.xyz/",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "exploreUrl": "唯美写真 ::/index.php/art/type/id/29/page/{{page}}.html\n网友自拍 ::/index.php/art/type/id/30/page/{{page}}.html\n露出激情::/index.php/art/type/id/31/page/{{page}}.html\n街拍偷拍::/index.php/art/type/id/32/page/{{page}}.html\n丝袜美腿::/index.php/art/type/id/33/page/{{page}}.html\n卡通漫画  ::/index.php/art/type/id/34/page/{{page}}.html\n欧美风情html::/index.php/art/type/id/35/page/{{page}}.html\n上面☝️是🌇🌇🌇🌇🌇🌇🌇🌇🌇🌇🌇\n　都市激情 ::/index.php/art/type/id/21/page/{{page}}.html\n　校园情事   ::/index.php/art/type/id/22/page/{{page}}.html\n　　人妻纵情 ::/index.php/art/type/id/23/page/{{page}}.html\n　　风俗伦理::/index.php/art/type/id/24/page/{{page}}.html\n　　另类小说::/index.php/art/type/id/25/page/{{page}}.html\n武侠古典       ::/index.php/art/type/id/26/page/{{page}}.html\n　　长篇连载::/index.php/art/type/id/27/page/{{page}}.html\n——————幼::/index.php/art/search/page/{{page}}/wd/幼.html\n　　幼女::/index.php/art/search/page/{{page}}/wd/幼女.html\n　　成年::/index.php/art/search/page/{{page}}/wd/成年.html\n　　小女::/index.php/art/search/page/{{page}}/wd/小女.html\n　　少女::/index.php/art/search/page/{{page}}/wd/少女.html\n　　女学::/index.php/art/search/page/{{page}}/wd/女学.html\n　　女童::/index.php/art/search/page/{{page}}/wd/女童.html\n　　女孩::/index.php/art/search/page/{{page}}/wd/女孩.html\n　　岁的::/index.php/art/search/page/{{page}}/wd/岁的.html\n——————处::/index.php/art/search/page/{{page}}/wd/处.html\n    初次::/index.php/art/search/page/{{page}}/wd/初次.html\n　　初夜::/index.php/art/search/page/{{page}}/wd/初夜.html\n　　破处::/index.php/art/search/page/{{page}}/wd/破处.html\n　　开苞::/index.php/art/search/page/{{page}}/wd/开苞.html\n　　第一::/index.php/art/search/page/{{page}}/wd/第一次.html\n　　处女::/index.php/art/search/page/{{page}}/wd/处女.html\n——————亲::/index.php/art/search/page/{{page}}/wd/亲.html\n　　女儿::/index.php/art/search/page/{{page}}/wd/女儿.html\n　　母女::/index.php/art/search/page/{{page}}/wd/母女.html\n　　闺女::/index.php/art/search/page/{{page}}/wd/闺女.html\n　　父女::/index.php/art/search/page/{{page}}/wd/父女.html\n　　亲生::/index.php/art/search/page/{{page}}/wd/亲生.html\n　　催眠::/index.php/art/search/page/{{page}}/wd/催眠.html\n　　常识::/index.php/art/search/page/{{page}}/wd/常识.html\n　　修改::/index.php/art/search/page/{{page}}/wd/修改.html\n　　软件::/index.php/art/search/page/{{page}}/wd/软件.html\n　　暂停::/index.php/art/search/page/{{page}}/wd/暂停.html\n　　编辑::/index.php/art/search/page/{{page}}/wd/编辑.html\n　　玩具::/index.php/art/search/page/{{page}}/wd/玩具.html\n　　隐形::/index.php/art/search/page/{{page}}/wd/隐形.html\n——————姐::/index.php/art/search/page/{{page}}/wd/姐.html\n　　姐姐::/index.php/art/search/page/{{page}}/wd/姐姐.html\n　　姐弟::/index.php/art/search/page/{{page}}/wd/姐弟.html\n　　姐的::/index.php/art/search/page/{{page}}/wd/姐的.html\n　　的姐::/index.php/art/search/page/{{page}}/wd/的姐.html\n　　表姐::/index.php/art/search/page/{{page}}/wd/表姐.html\n　　和姐::/index.php/art/search/page/{{page}}/wd/和姐.html\n　　姐和::/index.php/art/search/page/{{page}}/wd/姐和.html\n　　亲姐::/index.php/art/search/page/{{page}}/wd/亲姐.html\n　　姐妹::/index.php/art/search/page/{{page}}/wd/姐妹.html\n——————妹::/index.php/art/search/page/{{page}}/wd/妹.html\n　　妹妹::/index.php/art/search/page/{{page}}/wd/妹妹.html\n　　兄妹::/index.php/art/search/page/{{page}}/wd/兄妹.html\n　　妹的::/index.php/art/search/page/{{page}}/wd/妹的.html\n　　的妹::/index.php/art/search/page/{{page}}/wd/的妹.html\n　　表妹::/index.php/art/search/page/{{page}}/wd/表妹.html\n　　和妹::/index.php/art/search/page/{{page}}/wd/和妹.html\n　　妹和::/index.php/art/search/page/{{page}}/wd/妹和.html\n　　亲妹::/index.php/art/search/page/{{page}}/wd/亲妹.html\n——————妈::/index.php/art/search/page/{{page}}/wd/妈.html\n　　妈妈::/index.php/art/search/page/{{page}}/wd/妈妈.html\n　　妈的::/index.php/art/search/page/{{page}}/wd/妈的.html\n　　的妈::/index.php/art/search/page/{{page}}/wd/的妈.html\n　　舅妈::/index.php/art/search/page/{{page}}/wd/舅妈.html\n　　姨妈::/index.php/art/search/page/{{page}}/wd/姨妈.html\n　　和妈::/index.php/art/search/page/{{page}}/wd/和妈.html\n　　妈和::/index.php/art/search/page/{{page}}/wd/妈和.html\n　　亲妈::/index.php/art/search/page/{{page}}/wd/亲妈.html\n——————母::/index.php/art/search/page/{{page}}/wd/母.html\n　　母亲::/index.php/art/search/page/{{page}}/wd/母亲.html\n　　母子::/index.php/art/search/page/{{page}}/wd/母子.html\n　　的母::/index.php/art/search/page/{{page}}/wd/的母.html\n　　舅母::/index.php/art/search/page/{{page}}/wd/舅母.html\n　　和母::/index.php/art/search/page/{{page}}/wd/和母.html\n——————肏::/index.php/art/search/page/{{page}}/wd/肏.html\n　　  屄::/index.php/art/search/page/{{page}}/wd/屄.html\n    龟头::/index.php/art/search/page/{{page}}/wd/龟头.html\n　　屁眼::/index.php/art/search/page/{{page}}/wd/屁眼.html\n　　阴道::/index.php/art/search/page/{{page}}/wd/阴道.html\n　　阴唇::/index.php/art/search/page/{{page}}/wd/阴唇.html\n　　子宫::/index.php/art/search/page/{{page}}/wd/子宫.html\n　　射精::/index.php/art/search/page/{{page}}/wd/射精.html\n　　射进::/index.php/art/search/page/{{page}}/wd/射进.html\n　　内射::/index.php/art/search/page/{{page}}/wd/内射.html\n　　精液::/index.php/art/search/page/{{page}}/wd/精液.html\n　　巨乳::/index.php/art/search/page/{{page}}/wd/巨乳.html\n————怀孕::/index.php/art/search/page/{{page}}/wd/怀孕.html\n　　生了::/index.php/art/search/page/{{page}}/wd/生了.html\n　　生下::/index.php/art/search/page/{{page}}/wd/生下.html\n　　生孩::/index.php/art/search/page/{{page}}/wd/生孩.html\n　　国中::/index.php/art/search/page/{{page}}/wd/国中.html\n　　初中::/index.php/art/search/page/{{page}}/wd/初中.html\n　　初一::/index.php/art/search/page/{{page}}/wd/初一.html\n　　初二::/index.php/art/search/page/{{page}}/wd/初二.html\n　　初三::/index.php/art/search/page/{{page}}/wd/初三.html\n　　高中::/index.php/art/search/page/{{page}}/wd/高中.html\n　　高一::/index.php/art/search/page/{{page}}/wd/高一.html\n　　高二::/index.php/art/search/page/{{page}}/wd/高二.html\n　　高三::/index.php/art/search/page/{{page}}/wd/高三.html\n————短篇::/index.php/art/search/page/{{page}}/wd/短篇.html\n　　胞胎::/index.php/art/search/page/{{page}}/wd/胞胎.html\n　　杀了::/index.php/art/search/page/{{page}}/wd/杀了.html\n　　杀死::/index.php/art/search/page/{{page}}/wd/杀死.html\n　　死了::/index.php/art/search/page/{{page}}/wd/死了.html\n　　肩杀::/index.php/art/search/page/{{page}}/wd/奸杀.html\n　　肩尸::/index.php/art/search/page/{{page}}/wd/奸尸.html\n　飞机杯::/index.php/art/search/page/{{page}}/wd/飞机杯.html\n　　  屎::/index.php/art/search/page/{{page}}/wd/屎.html\n　　  尿::/index.php/art/search/page/{{page}}/wd/尿.html\n　　妊娠::/index.php/art/search/page/{{page}}/wd/妊娠.html\n　　便器::/index.php/art/search/page/{{page}}/wd/便器.html\n　　丝袜::/index.php/art/search/page/{{page}}/wd/丝袜.html\n　　榨汁::/index.php/art/search/page/{{page}}/wd/榨汁.html\n　　榨精::/index.php/art/search/page/{{page}}/wd/榨精.html\n　　乱伦::/index.php/art/search/page/{{page}}/wd/乱伦.html\n　　合集::/index.php/art/search/page/{{page}}/wd/合集.html",
+    "lastUpdateTime": 1752916851064,
+    "respondTime": 180000,
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "class.artcontent@html"
+    },
+    "ruleExplore": {
+      "bookList": "class.novel-item",
+      "bookUrl": "a@href",
+      "name": "class.novel-title@text##[ |　\"()（）《》〈〉【】〖〗［］\\[\\]]|阅读全文|作者.*|.*章.*|.*P.*|.*[\\u3040-\\u309F\\u30A0-\\u30FF].*|.*修改版.*|.*轮奸.*|.*黑人.*|.*肥胖.*|.*胖子*|.*绿帽.*|.*绿母.*|.*换妻.*|.*套图.*|.*写真.*"
+    },
+    "ruleReview": {},
+    "ruleSearch": {
+      "bookList": "class.novel-item",
+      "bookUrl": "a@href",
+      "checkKeyWord": "处女",
+      "name": "class.novel-title@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.title-bar",
+      "chapterName": "class.title-bar@text"
+    },
+    "searchUrl": "http://8wjcyazxw7.www.yeseshuge.xyz/index.php/art/search/page/{{page}}/wd/{{key}}.html",
+    "weight": 0
+  },
+  {
+    "bookSourceGroup": "小书源🈲柳树",
+    "bookSourceName": "红尘黄色🈲🔍",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.hhss40.xyz",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "exploreUrl": "现代激情::/arttype/45-{{page}}.html\n古典武侠 ::/arttype/46-{{page}}.html\n暴力强奸 ::/arttype/47-{{page}}.html\n校园春色::/arttype/48-{{page}}.html\n家庭乱伦::/arttype/49-{{page}}.html\n长篇连载::/arttype/50-{{page}}.html\n情色幽默::/arttype/51-{{page}}.html\n淫妻交换::/arttype/52-{{page}}.html\n岁的::/artsearch/杀------{{page}}-.html\n岁的::/artsearch/死------{{page}}-.html\n\n————————————————幼::/artsearch/幼------{{page}}-.html\n　　幼女::/artsearch/幼女------{{page}}-.html\n　　成年::/artsearch/成年------{{page}}-.html\n　　小女::/artsearch/小女------{{page}}-.html\n　　小姨子::/artsearch/小姨------{{page}}-.html\n　　女学::/artsearch/女学------{{page}}-.html\n　　女童::/artsearch/艹------{{page}}-.html\n　　女孩::/artsearch/女孩------{{page}}-.html\n　　岁的::/artsearch/岁的------{{page}}-.html\n岁全家::/artsearch/一家------{{page}}-.html\n————————————————处::/artsearch/处------{{page}}-.html\n    初次::/artsearch/初次------{{page}}-.html\n　　初夜::/artsearch/初夜------{{page}}-.html\n　　破处::/artsearch/破处------{{page}}-.html\n　　开苞::/artsearch/开苞------{{page}}-.html\n　　第一::/artsearch/第一次------{{page}}-.html\n　　处女::/artsearch/处女------{{page}}-.html\n————————————————亲::/artsearch/亲------{{page}}-.html\n　　女儿::/artsearch/女儿------{{page}}-.html\n　　母女::/artsearch/母女------{{page}}-.html\n　　闺女::/artsearch/操------{{page}}-.html\n　　父女::/artsearch/父女------{{page}}-.html\n　　亲生::/artsearch/亲生------{{page}}-.html\n　　催眠::/artsearch/催眠------{{page}}-.html\n　　常识::/artsearch/逼------{{page}}-.html\n　　修改::/artsearch/修改------{{page}}-.html\n　　软件::/artsearch/软件------{{page}}-.html\n　　暂停::/artsearch/穴------{{page}}-.html\n　　编辑::/artsearch/编辑------{{page}}-.html\n　　玩具::/artsearch/玩具------{{page}}-.html\n　　隐形::/artsearch/隐形------{{page}}-.html\n　　娃娃::/artsearch/娃娃------{{page}}-.html\n————————————————姐::/artsearch/姐------{{page}}-.html\n　　姐姐::/artsearch/姐姐------{{page}}-.html\n　　姐弟::/artsearch/姐弟------{{page}}-.html\n　　姐的::/artsearch/姐的------{{page}}-.html\n　　的姐::/artsearch/的姐------{{page}}-.html\n　　表姐::/artsearch/表姐------{{page}}-.html\n　　和姐::/artsearch/和姐------{{page}}-.html\n　　姐和::/artsearch/姐和------{{page}}-.html\n　　亲姐::/artsearch/亲姐------{{page}}-.html\n　　姐妹::/artsearch/姐妹------{{page}}-.html\n————————————————妹::/artsearch/妹------{{page}}-.html\n　　妹妹::/artsearch/妹妹------{{page}}-.html\n　　兄妹::/artsearch/兄妹------{{page}}-.html\n　　妹的::/artsearch/妹的------{{page}}-.html\n　　的妹::/artsearch/的妹------{{page}}-.html\n　　表妹::/artsearch/表妹------{{page}}-.html\n　　和妹::/artsearch/和妹------{{page}}-.html\n　　妹和::/artsearch/妹和------{{page}}-.html\n　　亲妹::/artsearch/亲妹------{{page}}-.html\n————————————————妈::/artsearch/妈------{{page}}-.html\n　　妈妈::/artsearch/妈妈------{{page}}-.html\n　　妈的::/artsearch/妈的------{{page}}-.html\n　　的妈::/artsearch/的妈------{{page}}-.html\n　　舅妈::/artsearch/舅妈------{{page}}-.html\n　　姨妈::/artsearch/姨妈------{{page}}-.html\n　　和妈::/artsearch/和妈------{{page}}-.html\n　　妈和::/artsearch/妈和------{{page}}-.html\n　　亲妈::/artsearch/亲妈------{{page}}-.html\n————————————————母::/artsearch/母------{{page}}-.html\n　　母亲::/artsearch/母亲------{{page}}-.html\n　　母子::/artsearch/母子------{{page}}-.html\n　　的母::/artsearch/的母------{{page}}-.html\n　　舅母::/artsearch/舅母------{{page}}-.html\n　　和母::/artsearch/和母------{{page}}-.html\n————————————————肏::/artsearch/肏------{{page}}-.html\n　　  屄::/artsearch/屄------{{page}}-.html\n    龟头::/artsearch/龟头------{{page}}-.html\n　　屁眼::/artsearch/屁眼------{{page}}-.html\n　　阴道::/artsearch/阴道------{{page}}-.html\n　　阴唇::/artsearch/阴唇------{{page}}-.html\n　　子宫::/artsearch/子宫------{{page}}-.html\n　　射精::/artsearch/射精------{{page}}-.html\n　　射进::/artsearch/射进------{{page}}-.html\n　　内射::/artsearch/内射------{{page}}-.html\n　　精液::/artsearch/精液------{{page}}-.html\n　　巨乳::/artsearch/巨乳------{{page}}-.html\n————————————————怀孕::/artsearch/怀孕------{{page}}-.html\n　　生了::/artsearch/生了------{{page}}-.html\n　　生下::/artsearch/生下------{{page}}-.html\n　　生孩::/artsearch/生孩------{{page}}-.html\n　　国中::/artsearch/国中------{{page}}-.html\n　　初中::/artsearch/初中------{{page}}-.html\n　　初一::/artsearch/初一------{{page}}-.html\n　　初二::/artsearch/初二------{{page}}-.html\n　　初三::/artsearch/初三------{{page}}-.html\n　　高中::/artsearch/高中------{{page}}-.html\n　　高一::/artsearch/高一------{{page}}-.html\n　　高二::/artsearch/高二------{{page}}-.html\n　　高三::/artsearch/高三------{{page}}-.html\n————————————————短篇::/artsearch/短篇------{{page}}-.html\n　　胞胎::/artsearch/胞胎------{{page}}-.html\n　　杀了::/artsearch/杀了------{{page}}-.html\n　　杀死::/artsearch/杀死------{{page}}-.html\n　　死了::/artsearch/死了------{{page}}-.html\n　　肩杀::/artsearch/奸杀------{{page}}-.html\n　　肩尸::/artsearch/奸尸------{{page}}-.html\n　飞机杯::/artsearch/飞机杯------{{page}}-.html\n　　  屎::/artsearch/屎------{{page}}-.html\n　　  尿::/artsearch/尿------{{page}}-.html\n　　妊娠::/artsearch/妊娠------{{page}}-.html\n　　便器::/artsearch/便器------{{page}}-.html\n　　丝袜::/artsearch/丝袜------{{page}}-.html\n　　榨汁::/artsearch/榨汁------{{page}}-.html\n　　榨精::/artsearch/榨精------{{page}}-.html\n　　乱伦::/artsearch/乱伦------{{page}}-.html\n　　合集::/artsearch/合集------{{page}}-.html",
+    "lastUpdateTime": 1753016913301,
+    "respondTime": 180000,
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "class.article-content@html##【点击.*|护眼.*"
+    },
+    "ruleExplore": {
+      "bookList": "h2",
+      "bookUrl": "a@href",
+      "name": "h2@text##【完】|[ |　\"()（）《》〈〉【】〖〗［］/\\[\\]]|阅读全文|作者.*|.*章.*|.*P.*|.*[\\u3040-\\u309F\\u30A0-\\u30FF].*|.*修改版.*|.*轮奸.*|.*黑人.*|.*肥胖.*|.*胖子.*|.*绿帽.*|.*绿母.*|.*换妻.*|.*套图.*|.*写真.*"
+    },
+    "ruleReview": {},
+    "ruleSearch": {
+      "bookList": "h2",
+      "bookUrl": "a@href",
+      "checkKeyWord": "处女",
+      "name": "h2@text##【完】|[ |　\"()/（）《》〈〉【】〖〗［］\\[\\]]|阅读全文|作者.*|.*章.*|.*P.*|.*[\\u3040-\\u309F\\u30A0-\\u30FF].*|.*修改版.*|.*轮奸.*|.*黑人.*|.*肥胖.*|.*胖子.*|.*绿帽.*|.*绿母.*|.*换妻.*|.*套图.*|.*写真.*"
+    },
+    "ruleToc": {
+      "chapterList": "class.article-header",
+      "chapterName": "a@text"
+    },
+    "searchUrl": "https://www.hhss40.xyz/artsearch/{{key}}------{{page}}-.html",
+    "weight": 0
+  },
+  {
+    "bookSourceGroup": "小书源🈲柳树",
+    "bookSourceName": "淫色🈲🔍",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://c8ksx--e3w.yinse1xiaoshuo.com",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "exploreUrl": ">小说::/arttype/1000-{{page}}/\n>淫乱乱伦::/arttype/1003-{{page}}/\n>现代::/arttype/5005-{{page}}/\n>人妻熟女::/arttype/1001-{{page}}/\n>学生::/arttype/1004-{{page}}/\n>仙侠武侠::/arttype/1005-{{page}}/\n>暴力侵犯::/arttype/5004-{{page}}/\n>其它::/arttype/5003-{{page}}/",
+    "lastUpdateTime": 1753050464289,
+    "respondTime": 180000,
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "class.article@html"
+    },
+    "ruleExplore": {
+      "bookList": "h3",
+      "bookUrl": "a@href",
+      "name": "a@text##【完】|[ |　\"()/（）《》〈〉【】〖〗［］\\[\\]]|阅读全文|作者.*|.*章.*|.*P.*|.*[\\u3040-\\u309F\\u30A0-\\u30FF].*|.*修改版.*|.*轮奸.*|.*黑人.*|.*肥胖.*|.*胖子.*|.*绿帽.*|.*绿母.*|.*换妻.*|.*套图.*|.*写真.*"
+    },
+    "ruleReview": {},
+    "ruleSearch": {},
+    "ruleToc": {
+      "chapterList": "h1",
+      "chapterName": "h1@text"
+    },
+    "searchUrl": "https://c8ksx--e3w.yinse1xiaoshuo.com/artsearch/{{key}}------{{page}}-/",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "小书源🈲柳树",
+    "bookSourceName": "91文学网🈲🔍",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m2yearesci.www.91wwxx.cyou/",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "exploreUrl": "　    小说专区::/index.php/art/type/id/20/page/{{page}}.html\n　　暴力强奸::/index.php/art/type/id/37/page/{{page}}.html\n　　熟女乱伦::/index.php/art/type/id/36/page/{{page}}.html\n　　长篇连载::/index.php/art/type/id/27/page/{{page}}.html\n　　武侠古典::/index.php/art/type/id/26/page/{{page}}.html\n　　另类小说::/index.php/art/type/id/25/page/{{page}}.html\n　　风俗伦理::/index.php/art/type/id/24/page/{{page}}.html\n　　人妻纵情::/index.php/art/type/id/23/page/{{page}}.html\n　　校园情事::/index.php/art/type/id/22/page/{{page}}.html\n　　都市激情::/index.php/art/type/id/21/page/{{page}}.html\n——————幼::/index.php/art/search/page/{{page}}/wd/幼.html\n　　幼女::/index.php/art/search/page/{{page}}/wd/幼女.html\n　　成年::/index.php/art/search/page/{{page}}/wd/成年.html\n　　小女::/index.php/art/search/page/{{page}}/wd/小女.html\n　　少女::/index.php/art/search/page/{{page}}/wd/少女.html\n　　女学::/index.php/art/search/page/{{page}}/wd/女学.html\n　　女童::/index.php/art/search/page/{{page}}/wd/女童.html\n　　女孩::/index.php/art/search/page/{{page}}/wd/女孩.html\n　　岁的::/index.php/art/search/page/{{page}}/wd/岁的.html\n——————处::/index.php/art/search/page/{{page}}/wd/处.html\n    初次::/index.php/art/search/page/{{page}}/wd/初次.html\n　　初夜::/index.php/art/search/page/{{page}}/wd/初夜.html\n　　破处::/index.php/art/search/page/{{page}}/wd/破处.html\n　　开苞::/index.php/art/search/page/{{page}}/wd/开苞.html\n　　第一::/index.php/art/search/page/{{page}}/wd/第一次.html\n　　处女::/index.php/art/search/page/{{page}}/wd/处女.html\n——————亲::/index.php/art/search/page/{{page}}/wd/亲.html\n　　女儿::/index.php/art/search/page/{{page}}/wd/女儿.html\n　　母女::/index.php/art/search/page/{{page}}/wd/母女.html\n　　闺女::/index.php/art/search/page/{{page}}/wd/闺女.html\n　　父女::/index.php/art/search/page/{{page}}/wd/父女.html\n　　亲生::/index.php/art/search/page/{{page}}/wd/亲生.html\n　　催眠::/index.php/art/search/page/{{page}}/wd/催眠.html\n　　常识::/index.php/art/search/page/{{page}}/wd/常识.html\n　　修改::/index.php/art/search/page/{{page}}/wd/修改.html\n　　软件::/index.php/art/search/page/{{page}}/wd/软件.html\n　　暂停::/index.php/art/search/page/{{page}}/wd/暂停.html\n　　编辑::/index.php/art/search/page/{{page}}/wd/编辑.html\n　　玩具::/index.php/art/search/page/{{page}}/wd/玩具.html\n　　隐形::/index.php/art/search/page/{{page}}/wd/隐形.html\n——————姐::/index.php/art/search/page/{{page}}/wd/姐.html\n　　姐姐::/index.php/art/search/page/{{page}}/wd/姐姐.html\n　　姐弟::/index.php/art/search/page/{{page}}/wd/姐弟.html\n　　姐的::/index.php/art/search/page/{{page}}/wd/姐的.html\n　　的姐::/index.php/art/search/page/{{page}}/wd/的姐.html\n　　表姐::/index.php/art/search/page/{{page}}/wd/表姐.html\n　　和姐::/index.php/art/search/page/{{page}}/wd/和姐.html\n　　姐和::/index.php/art/search/page/{{page}}/wd/姐和.html\n　　亲姐::/index.php/art/search/page/{{page}}/wd/亲姐.html\n　　姐妹::/index.php/art/search/page/{{page}}/wd/姐妹.html\n——————妹::/index.php/art/search/page/{{page}}/wd/妹.html\n　　妹妹::/index.php/art/search/page/{{page}}/wd/妹妹.html\n　　兄妹::/index.php/art/search/page/{{page}}/wd/兄妹.html\n　　妹的::/index.php/art/search/page/{{page}}/wd/妹的.html\n　　的妹::/index.php/art/search/page/{{page}}/wd/的妹.html\n　　表妹::/index.php/art/search/page/{{page}}/wd/表妹.html\n　　和妹::/index.php/art/search/page/{{page}}/wd/和妹.html\n　　妹和::/index.php/art/search/page/{{page}}/wd/妹和.html\n　　亲妹::/index.php/art/search/page/{{page}}/wd/亲妹.html\n——————妈::/index.php/art/search/page/{{page}}/wd/妈.html\n　　妈妈::/index.php/art/search/page/{{page}}/wd/妈妈.html\n　　妈的::/index.php/art/search/page/{{page}}/wd/妈的.html\n　　的妈::/index.php/art/search/page/{{page}}/wd/的妈.html\n　　舅妈::/index.php/art/search/page/{{page}}/wd/舅妈.html\n　　姨妈::/index.php/art/search/page/{{page}}/wd/姨妈.html\n　　和妈::/index.php/art/search/page/{{page}}/wd/和妈.html\n　　妈和::/index.php/art/search/page/{{page}}/wd/妈和.html\n　　亲妈::/index.php/art/search/page/{{page}}/wd/亲妈.html\n——————母::/index.php/art/search/page/{{page}}/wd/母.html\n　　母亲::/index.php/art/search/page/{{page}}/wd/母亲.html\n　　母子::/index.php/art/search/page/{{page}}/wd/母子.html\n　　的母::/index.php/art/search/page/{{page}}/wd/的母.html\n　　舅母::/index.php/art/search/page/{{page}}/wd/舅母.html\n　　和母::/index.php/art/search/page/{{page}}/wd/和母.html\n——————肏::/index.php/art/search/page/{{page}}/wd/肏.html\n　　  屄::/index.php/art/search/page/{{page}}/wd/屄.html\n    龟头::/index.php/art/search/page/{{page}}/wd/龟头.html\n　　屁眼::/index.php/art/search/page/{{page}}/wd/屁眼.html\n　　阴道::/index.php/art/search/page/{{page}}/wd/阴道.html\n　　阴唇::/index.php/art/search/page/{{page}}/wd/阴唇.html\n　　子宫::/index.php/art/search/page/{{page}}/wd/子宫.html\n　　射精::/index.php/art/search/page/{{page}}/wd/射精.html\n　　射进::/index.php/art/search/page/{{page}}/wd/射进.html\n　　内射::/index.php/art/search/page/{{page}}/wd/内射.html\n　　精液::/index.php/art/search/page/{{page}}/wd/精液.html\n　　巨乳::/index.php/art/search/page/{{page}}/wd/巨乳.html\n————怀孕::/index.php/art/search/page/{{page}}/wd/怀孕.html\n　　生了::/index.php/art/search/page/{{page}}/wd/生了.html\n　　生下::/index.php/art/search/page/{{page}}/wd/生下.html\n　　生孩::/index.php/art/search/page/{{page}}/wd/生孩.html\n　　国中::/index.php/art/search/page/{{page}}/wd/国中.html\n　　初中::/index.php/art/search/page/{{page}}/wd/初中.html\n　　初一::/index.php/art/search/page/{{page}}/wd/初一.html\n　　初二::/index.php/art/search/page/{{page}}/wd/初二.html\n　　初三::/index.php/art/search/page/{{page}}/wd/初三.html\n　　高中::/index.php/art/search/page/{{page}}/wd/高中.html\n　　高一::/index.php/art/search/page/{{page}}/wd/高一.html\n　　高二::/index.php/art/search/page/{{page}}/wd/高二.html\n　　高三::/index.php/art/search/page/{{page}}/wd/高三.html\n————短篇::/index.php/art/search/page/{{page}}/wd/短篇.html\n　　胞胎::/index.php/art/search/page/{{page}}/wd/胞胎.html\n　　肩杀::/index.php/art/search/page/{{page}}/wd/奸杀.html\n　　肩尸::/index.php/art/search/page/{{page}}/wd/奸尸.html\n       杀了::/index.php/art/search/page/{{page}}/wd/杀了.html\n杀死       ::/index.php/art/search/page/{{page}}/wd/杀死.html\n肩       杀::/index.php/art/search/page/{{page}}/wd/死了.html\n　　飞机::/index.php/art/search/page/{{page}}/wd/飞机杯.html\n　　  屎::/index.php/art/search/page/{{page}}/wd/屎.html\n　　  尿::/index.php/art/search/page/{{page}}/wd/尿.html\n　　妊娠::/index.php/art/search/page/{{page}}/wd/妊娠.html\n　　便器::/index.php/art/search/page/{{page}}/wd/便器.html\n　　丝袜::/index.php/art/search/page/{{page}}/wd/丝袜.html\n　　榨汁::/index.php/art/search/page/{{page}}/wd/榨汁.html\n　　榨精::/index.php/art/search/page/{{page}}/wd/榨精.html\n　　乱伦::/index.php/art/search/page/{{page}}/wd/乱伦.html\n　　合集::/index.php/art/search/page/{{page}}/wd/合集.html",
+    "lastUpdateTime": 1753050500248,
+    "respondTime": 180000,
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "class.article@html"
+    },
+    "ruleExplore": {},
+    "ruleReview": {},
+    "ruleSearch": {
+      "author": "",
+      "bookList": "class.art-item-title",
+      "bookUrl": "a@href",
+      "checkKeyWord": "处女",
+      "name": "a@text##/| |　|阅读全文|作者.*|【|（|）|】|《|》|.*章.*|.*[\\u3040-\\u309F\\u30A0-\\u30FF].*"
+    },
+    "ruleToc": {
+      "chapterList": "class.article-head",
+      "chapterName": "h1@text"
+    },
+    "searchUrl": "http://m2yearesci.www.91wwxx.cyou/index.php/art/search/page/{{page}}/wd/{{key}}.html",
+    "weight": 0
+  },
+  {
+    "bookSourceGroup": "小书源🈲柳树",
+    "bookSourceName": "午夜言情🈲贪心鬼，直接搬空网站",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://gaoqingcn.cfd",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "exploreUrl": "去::https://gaoqingcn.cfd",
+    "lastUpdateTime": 1753085909715,
+    "respondTime": 180000,
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "class.main@html||class.articlebody@html"
+    },
+    "ruleExplore": {
+      "bookList": "class.nav@a",
+      "bookUrl": "a@href",
+      "name": "a@text"
+    },
+    "ruleReview": {},
+    "ruleSearch": {},
+    "ruleToc": {
+      "chapterList": "h3",
+      "chapterName": "h3@text##【完】|[ |　\"()/（）《》〈〉【】〖〗［］\\[\\]]|阅读全文|作者.*|玄幻|武侠|古典|都市",
+      "chapterUrl": "a@href",
+      "nextTocUrl": "//p[@class='page_next']/a[@rel='next']/@href"
+    },
+    "weight": 0
+  },
+  {
+    "bookSourceGroup": "小书源🈲柳树",
+    "bookSourceName": "妙笔生花🈲贪心鬼",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://69uzi.top",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "exploreUrl": "q::https://69uzi.top",
+    "lastUpdateTime": 1753258061128,
+    "respondTime": 180000,
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "class.details-content text-justify@html"
+    },
+    "ruleExplore": {
+      "bookList": "class.item",
+      "bookUrl": "a@href",
+      "name": "a@text"
+    },
+    "ruleReview": {},
+    "ruleSearch": {},
+    "ruleToc": {
+      "chapterList": "class.col-md-14 col-sm-16 col-xs-12 clearfix news-box",
+      "chapterName": "a@text##【完】|[ |　\"()/（）《》〈〉【】〖〗［］\\[\\]]|阅读全文|作者.*|.*[\\u3040-\\u309F\\u30A0-\\u30FF].*|20.*",
+      "chapterUrl": "a@href",
+      "isPay": "",
+      "nextTocUrl": "@js:\n// 从页面链接规律提取当前页码（假设URL格式固定为page/X）\nvar doc = org.jsoup.Jsoup.parse(result);\n// 尝试从下一页链接反推当前页码（如下一页是page/3，则当前是2）\nvar nextLinkElem = doc.select(\"div.mac_pages a[title='下一页']\").first();\nif (!nextLinkElem) {\n    \"\"; // 无下一页，停止\n}\nvar nextUrl = nextLinkElem.attr(\"href\");\nvar pageMatch = nextUrl.match(/page\\/(\\d+)/);\nif (!pageMatch) {\n    \"\"; // 未找到页码格式，停止\n}\nvar nextPage = parseInt(pageMatch[1], 10);\nvar currentPage = nextPage - 1; // 反推当前页码\n\n// 控制翻到page/10后停止（即下一页是page/11时停止）\nif (nextPage <= 50) {\n    nextUrl; // 下一页≤10，继续\n} else {\n    \"\"; // 下一页>10，停止\n}"
+    },
+    "weight": 0
+  },
+  {
+    "bookSourceGroup": "小书源🈲柳树",
+    "bookSourceName": "狼友🈲🔍",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://c1d2e3f4.langyou894.cc/label/index.html",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "exploreUrl": ">首页 ::/label/index.html\n>人妻::/arttype/30-{{page}}.html\n>都市::/arttype/20-{{page}}.html\n>校园::/arttype/21-{{page}}.html\n>武侠::/arttype/23-{{page}}.html\n>乱伦::/arttype/24-{{page}}.html\n>职场::/arttype/25-{{page}}.html\n>经验::/arttype/26-{{page}}.html\n>暴力::/arttype/27-{{page}}.html\n>幻想::/arttype/28-{{page}}.html\n>明星::/arttype/29-{{page}}.html\n—————————————————幼::/artsearch/幼------{{page}}-.html\n　　幼女::/artsearch/幼女------{{page}}-.html\n　　成年::/artsearch/成年------{{page}}-.html\n　　小女::/artsearch/小女------{{page}}-.html\n　　少女::/artsearch/少女------{{page}}-.html\n　　女学::/artsearch/女学------{{page}}-.html\n　　女童::/artsearch/女童------{{page}}-.html\n　　女孩::/artsearch/女孩------{{page}}-.html\n　　岁的::/artsearch/岁------{{page}}-.html\n—————————————————处::/artsearch/处------{{page}}-.html\n    初次::/artsearch/初次------{{page}}-.html\n　　初夜::/artsearch/初夜------{{page}}-.html\n　　破处::/artsearch/破处------{{page}}-.html\n　　开苞::/artsearch/开苞------{{page}}-.html\n　　第一::/artsearch/第一次------{{page}}-.html\n　　处女::/artsearch/处女------{{page}}-.html\n—————————————————亲::/artsearch/亲------{{page}}-.html\n　　女儿::/artsearch/女儿------{{page}}-.html\n　　母女::/artsearch/母女------{{page}}-.html\n　　闺女::/artsearch/闺女------{{page}}-.html\n　　父女::/artsearch/父女------{{page}}-.html\n　　亲生::/artsearch/亲生------{{page}}-.html\n　　催眠::/artsearch/催眠------{{page}}-.html\n　　常识::/artsearch/常识------{{page}}-.html\n　　修改::/artsearch/修改------{{page}}-.html\n　　软件::/artsearch/软件------{{page}}-.html\n　　暂停::/artsearch/暂停------{{page}}-.html\n　　编辑::/artsearch/编辑------{{page}}-.html\n　　玩具::/artsearch/玩具------{{page}}-.html\n　　隐形::/artsearch/隐形------{{page}}-.html\n　　娃娃::/artsearch/娃娃------{{page}}-.html\n—————————————————姐::/artsearch/姐------{{page}}-.html\n　　姐姐::/artsearch/姐姐------{{page}}-.html\n　　姐弟::/artsearch/姐弟------{{page}}-.html\n　　姐的::/artsearch/姐的------{{page}}-.html\n　　的姐::/artsearch/的姐------{{page}}-.html\n　　表姐::/artsearch/表姐------{{page}}-.html\n　　和姐::/artsearch/和姐------{{page}}-.html\n　　姐和::/artsearch/姐和------{{page}}-.html\n　　亲姐::/artsearch/亲姐------{{page}}-.html\n　　姐妹::/artsearch/姐妹------{{page}}-.html\n—————————————————妹::/artsearch/妹------{{page}}-.html\n　　妹妹::/artsearch/妹妹------{{page}}-.html\n　　兄妹::/artsearch/兄妹------{{page}}-.html\n　　妹的::/artsearch/妹的------{{page}}-.html\n　　的妹::/artsearch/的妹------{{page}}-.html\n　　表妹::/artsearch/表妹------{{page}}-.html\n　　和妹::/artsearch/和妹------{{page}}-.html\n　　妹和::/artsearch/妹和------{{page}}-.html\n　　亲妹::/artsearch/亲妹------{{page}}-.html\n—————————————————妈::/artsearch/妈------{{page}}-.html\n　　妈妈::/artsearch/妈妈------{{page}}-.html\n　　妈的::/artsearch/妈的------{{page}}-.html\n　　的妈::/artsearch/的妈------{{page}}-.html\n　　舅妈::/artsearch/舅妈------{{page}}-.html\n　　姨妈::/artsearch/姨妈------{{page}}-.html\n　　和妈::/artsearch/和妈------{{page}}-.html\n　　妈和::/artsearch/妈和------{{page}}-.html\n　　亲妈::/artsearch/亲妈------{{page}}-.html\n—————————————————母::/artsearch/母------{{page}}-.html\n　　母亲::/artsearch/母亲------{{page}}-.html\n　　母子::/artsearch/母子------{{page}}-.html\n　　的母::/artsearch/的母------{{page}}-.html\n　　舅母::/artsearch/舅母------{{page}}-.html\n　　和母::/artsearch/和母------{{page}}-.html\n　　  姨::/artsearch/姨------{{page}}-.html\n—————————————————肏::/artsearch/肏------{{page}}-.html\n      操::/artsearch/操------{{page}}-.html\n　　  屄::/artsearch/屄------{{page}}-.html\n　　  逼::/artsearch/逼------{{page}}-.html\n　　  穴::/artsearch/穴------{{page}}-.html\n    龟头::/artsearch/龟头------{{page}}-.html\n　　屁眼::/artsearch/屁眼------{{page}}-.html\n　　阴道::/artsearch/阴道------{{page}}-.html\n　　阴唇::/artsearch/阴唇------{{page}}-.html\n　　子宫::/artsearch/子宫------{{page}}-.html\n　　射精::/artsearch/射精------{{page}}-.html\n　　射进::/artsearch/射进------{{page}}-.html\n　　内射::/artsearch/内射------{{page}}-.html\n　　精液::/artsearch/精液------{{page}}-.html\n　　巨乳::/artsearch/巨乳------{{page}}-.html\n—————————————————怀孕::/artsearch/怀孕------{{page}}-.html\n　　生了::/artsearch/生了------{{page}}-.html\n　　生下::/artsearch/生下------{{page}}-.html\n　　生孩::/artsearch/生孩------{{page}}-.html\n　　国中::/artsearch/国中------{{page}}-.html\n　　初中::/artsearch/初中------{{page}}-.html\n　　初一::/artsearch/初一------{{page}}-.html\n　　初二::/artsearch/初二------{{page}}-.html\n　　初三::/artsearch/初三------{{page}}-.html\n　　高中::/artsearch/高中------{{page}}-.html\n　　高一::/artsearch/高一------{{page}}-.html\n　　高二::/artsearch/高二------{{page}}-.html\n　　高三::/artsearch/高三------{{page}}-.html\n—————————————————短篇::/artsearch/短篇------{{page}}-.html\n　　胞胎::/artsearch/胞胎------{{page}}-.html\n　　杀了::/artsearch/杀了------{{page}}-.html\n　　杀死::/artsearch/杀死------{{page}}-.html\n　　死了::/artsearch/死了------{{page}}-.html\n　　肩杀::/artsearch/奸杀------{{page}}-.html\n　　肩尸::/artsearch/奸尸------{{page}}-.html\n　飞机杯::/artsearch/飞机杯------{{page}}-.html\n　　  屎::/artsearch/屎------{{page}}-.html\n　　  尿::/artsearch/尿------{{page}}-.html\n　　妊娠::/artsearch/妊娠------{{page}}-.html\n　　便器::/artsearch/便器------{{page}}-.html\n　　丝袜::/artsearch/丝袜------{{page}}-.html\n　　榨汁::/artsearch/榨汁------{{page}}-.html\n　　榨精::/artsearch/榨精------{{page}}-.html\n　　乱伦::/artsearch/乱伦------{{page}}-.html\n　　合集::/artsearch/合集------{{page}}-.html",
+    "lastUpdateTime": 1753258134189,
+    "respondTime": 180000,
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "class.artcontent@html"
+    },
+    "ruleExplore": {
+      "bookList": "a[href^=\"/artdetail-\"]",
+      "bookUrl": "a@href",
+      "name": "a@text##【完】|[ |　\"()/（）《》〈〉【】〖〗［］\\[\\]]|阅读全文|作者.*|.*章.*|.*P.*|.*[\\u3040-\\u309F\\u30A0-\\u30FF].*|.*修改版.*|.*轮奸.*|.*黑人.*|.*肥胖.*|.*胖子.*|.*绿帽.*|.*绿母.*|.*换妻.*|.*套图.*|.*写真.*|..-.."
+    },
+    "ruleReview": {},
+    "ruleSearch": {},
+    "ruleToc": {
+      "chapterList": "ul > font[size=\"4\"]:first-of-type > div[style=\"text-align: center;\"]",
+      "chapterName": "ul > font[size=\"4\"]:first-of-type > div[style=\"text-align: center;\"]@text"
+    },
+    "searchUrl": "https://c1d2e3f4.langyou894.cc/artsearch/{{key}}------{{page}}-.html",
+    "weight": 0
+  },
+  {
+    "bookSourceGroup": "小书源🈲柳树",
+    "bookSourceName": "痴汉🈲",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://c1d2e3f4.chih1023.cc",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "exploreUrl": "人妻::/arttype/30-{{page}}.html\n都市::/arttype/20-{{page}}.html\n校园::/arttype/21-{{page}}.html\n真实::/arttype/22-{{page}}.html\n武侠::/arttype/23-{{page}}.html\n>乱伦::/arttype/24-{{page}}.html\n职场::/arttype/25-{{page}}.html\n经验::/arttype/26-{{page}}.html\n暴力::/arttype/27-{{page}}.html\n幻想::/arttype/28-{{page}}.html\n明星::/arttype/29-{{page}}.html",
+    "lastUpdateTime": 1753258166798,
+    "respondTime": 180000,
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "class.articlebody@html"
+    },
+    "ruleExplore": {
+      "bookList": "class.row",
+      "bookUrl": "a@href",
+      "name": "h3@text##【完】|[ |　\"()/（）《》〈〉【】〖〗［］\\[\\]]|阅读全文|作者.*|.*章.*|.*P.*|.*[\\u3040-\\u309F\\u30A0-\\u30FF].*|.*修改版.*|.*轮奸.*|.*黑人.*|.*肥胖.*|.*胖子.*|.*绿帽.*|.*绿母.*|.*换妻.*|.*套图.*|.*写真.*|20.*"
+    },
+    "ruleReview": {},
+    "ruleSearch": {},
+    "ruleToc": {
+      "chapterList": "h1",
+      "chapterName": "h1@text"
+    },
+    "weight": 0
+  },
+  {
+    "bookSourceGroup": "小书源🈲柳树",
+    "bookSourceName": "樱花🈲",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://yinghuaz.yingxx102.cc",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "exploreUrl": "人妻\" ::/arttype/30-{{page}}.html\n都市\" ::/arttype/20-{{page}}.html\n校园\" ::/arttype/21-{{page}}.html\n真实\" ::/arttype/22-{{page}}.html\n武侠\" ::/arttype/23-{{page}}.html\n乱伦\" ::/arttype/24-{{page}}.html\n职场\" ::/arttype/25-{{page}}.html\n经验\" ::/arttype/26-{{page}}.html\n暴力\" ::/arttype/27-{{page}}.html\n幻想\" ::/arttype/28-{{page}}.html\n明星\" ::/arttype/29-{{page}}.html",
+    "lastUpdateTime": 1753258289244,
+    "respondTime": 180000,
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "class.panel-body@p@textNodes"
+    },
+    "ruleExplore": {
+      "bookList": "class.list-group-item",
+      "bookUrl": "a@href",
+      "name": "a@text##【完】|[ |　\"()/（）《》〈〉【】〖〗［］\\[\\]]|阅读全文|作者.*|.*章.*|.*P.*|.*[\\u3040-\\u309F\\u30A0-\\u30FF].*|.*修改版.*|.*轮奸.*|.*黑人.*|.*肥胖.*|.*胖子.*|.*绿帽.*|.*绿母.*|.*换妻.*|.*套图.*|.*写真.*|0.-.."
+    },
+    "ruleReview": {},
+    "ruleSearch": {},
+    "ruleToc": {
+      "chapterList": "h4",
+      "chapterName": "h4@text"
+    },
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "// Error: timeout\n\n不能看完整就登录一下试试。\n备用https://alicesw.click/",
+    "bookSourceGroup": "小书源🈲柳树",
+    "bookSourceName": "爱丽丝书屋🈲一书搬空",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.alicesw.com/#🌹",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "exploreUrl": "---🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹—全部::/all/order/word+-desc.html",
+    "header": "{\n\t\"User-Agent\":\"Mozilla/5.0 (Linux; Android 14; PJH110 Build/SP1A.210812.016) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.6533.103 Mobile Safari/537.36\",\"Referer\":\"{{baseUrl}}\"\n\t}",
+    "lastUpdateTime": 1753407582261,
+    "loginUrl": "https://www.alicesw.com/user/user/login.html",
+    "respondTime": 180000,
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "class.fix@p.0@text||class.read-article@html",
+      "nextContentUrl": "class.opt@a.0@href"
+    },
+    "ruleExplore": {
+      "bookList": "class.m-nav@li.4",
+      "bookUrl": "a@href",
+      "name": "a@text"
+    },
+    "ruleReview": {},
+    "ruleSearch": {},
+    "ruleToc": {
+      "chapterList": "class.txt-list txt-list-row3@li",
+      "chapterName": ".s2@a@text",
+      "chapterUrl": "a@href",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "https://www.alicesw.com/search.html?q={{key}}&f=_all&sort=relevance&p={{page}}&serialize=",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "// Error: timeout\n\n不能看完整就登录一下试试。\n备用https://alicesw.click/",
+    "bookSourceGroup": "小书源🈲柳树",
+    "bookSourceName": "爱丽丝书屋🈲搬空",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.alicesw.com/",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "exploreUrl": "{{page}}::https://www.alicesw.com/",
+    "header": "{\n\t\"User-Agent\":\"Mozilla/5.0 (Linux; Android 14; PJH110 Build/SP1A.210812.016) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.6533.103 Mobile Safari/537.36\",\"Referer\":\"{{baseUrl}}\"\n\t}",
+    "lastUpdateTime": 1753407594696,
+    "loginUrl": "https://www.alicesw.com/user/user/login.html",
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "tocUrl": "class.newicon@a.2@href"
+    },
+    "ruleContent": {
+      "content": "class.fix@p.0@text||class.read-article@html",
+      "nextContentUrl": "class.opt@a.0@href",
+      "title": ""
+    },
+    "ruleExplore": {
+      "bookList": "class.fenlei_ds@ul@li",
+      "bookUrl": "a@href",
+      "name": "a@text## .*"
+    },
+    "ruleReview": {},
+    "ruleSearch": {},
+    "ruleToc": {
+      "chapterList": "class.txt-list txt-list-row3@li",
+      "chapterName": ".s2@a@text##\\[..\\]",
+      "chapterUrl": "a@href",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "https://www.alicesw.com/search.html?q={{key}}&f=_all&sort=relevance&p={{page}}&serialize=",
+    "weight": 0
+  }
+]
