@@ -1,0 +1,55 @@
+[
+  {
+    "bookSourceName": "爱丽丝书屋",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://xn--vcsx64d.alicesw2.sbs",
+    "customOrder": 240,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[\n  {\n    \"title\": \"校园\",\n    \"url\": \"{{bhost()}}/lists/61.html&page={{page}}\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n  {\n    \"title\": \"贤者小说\",\n    \"url\": \"{{bhost()}}/lists/79.html&page={{page}}\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n  {\n    \"title\": \"玄幻\",\n    \"url\": \"{{bhost()}}/lists/62.html&page={{page}}\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n  {\n    \"title\": \"奇幻\",\n    \"url\": \"{{bhost()}}/lists/75.html&page={{page}}\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n  {\n    \"title\": \"强奸\",\n    \"url\": \"{{bhost()}}/lists/74.htm&page={{page}}\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n  {\n    \"title\": \"同人\",\n    \"url\": \"{{bhost()}}/lists/73.html&page={{page}}\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n  {\n    \"title\": \"科幻\",\n    \"url\": \"{{bhost()}}/lists/71.html&page={{page}}\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n  {\n    \"title\": \"乡村\",\n    \"url\": \"{{bhost()}}/lists/63.html&page={{page}}\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n  {\n    \"title\": \"都市\",\n    \"url\": \"{{bhost()}}/lists/64.html&page={{page}}\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n  {\n    \"title\": \"系统\",\n    \"url\": \"{{bhost()}}/lists/69.html&page={{page}}\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n  {\n    \"title\": \"武侠\",\n    \"url\": \"{{bhost()}}/lists/68.html&page={{page}}\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n  {\n    \"title\": \"历史\",\n    \"url\": \"{{bhost()}}/lists/67.html&page={{page}}\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n  {\n    \"title\": \"明星\",\n    \"url\": \"{{bhost()}}/lists/72.html&page={{page}}\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n  {\n    \"title\": \"乱伦\",\n    \"url\": \"{{bhost()}}/lists/65.html&page={{page}}\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n  {\n    \"title\": \"穿越\",\n    \"url\": \"{{bhost()}}/lists/70.html&page={{page}}\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n  {\n    \"title\": \"凌辱\",\n    \"url\": \"{{bhost()}}/lists/46.html&page={{page}}\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n  {\n    \"title\": \"反差\",\n    \"url\": \"{{bhost()}}/lists/22.html&page={{page}}\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n  {\n    \"title\": \"堕落\",\n    \"url\": \"{{bhost()}}/lists/18.html&page={{page}}\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n  {\n    \"title\": \"纯爱\",\n    \"url\": \"{{bhost()}}/lists/19.html&page={{page}}\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n  {\n    \"title\": \"伪娘\",\n    \"url\": \"{{bhost()}}/lists/52.html&page={{page}}\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n  {\n    \"title\": \"性奴\",\n    \"url\": \"{{bhost()}}/lists/45.html&page={{page}}\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n  {\n    \"title\": \"萝莉\",\n    \"url\": \"{{bhost()}}/lists/48.html&page={{page}}\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n  {\n    \"title\": \"熟女\",\n    \"url\": \"{{bhost()}}/lists/56.html&page={{page}}\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n  {\n    \"title\": \"禁忌\",\n    \"url\": \"{{bhost()}}/lists/51.html&page={{page}}\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n  {\n    \"title\": \"NTR\",\n    \"url\": \"{{bhost()}}/lists/54.html&page={{page}}\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n  {\n    \"title\": \"媚黑\",\n    \"url\": \"{{bhost()}}/lists/53.html&page={{page}}\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n  {\n    \"title\": \"绿帽\",\n    \"url\": \"{{bhost()}}/lists/55.html&page={{page}}\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n  {\n    \"title\": \"调教\",\n    \"url\": \"{{bhost()}}/lists/58.html&page={{page}}\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n  {\n    \"title\": \"女主\",\n    \"url\": \"{{bhost()}}/lists/59.html&page={{page}}\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n  {\n    \"title\": \"正太\",\n    \"url\": \"{{bhost()}}/lists/50.html&page={{page}}\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n  {\n    \"title\": \"下克上\",\n    \"url\": \"{{bhost()}}/lists/43.html&page={{page}}\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n  {\n    \"title\": \"反转\",\n    \"url\": \"{{bhost()}}/lists/23.html&page={{page}}\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n  {\n    \"title\": \"羞耻\",\n    \"url\": \"{{bhost()}}/lists/34.html&page={{page}}\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n  {\n    \"title\": \"百合\",\n    \"url\": \"{{bhost()}}/lists/47.html&page={{page}}\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n  {\n    \"title\": \"重口\",\n    \"url\": \"{{bhost()}}/lists/21.html&page={{page}}\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n  {\n    \"title\": \"其他\",\n    \"url\": \"{{bhost()}}/lists/57.html&page={{page}}\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n  {\n    \"title\": \"人气榜\",\n    \"url\": \"{{bhost()}}/all/order/hits+desc.html&page={{page}}\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n  {\n    \"title\": \"字数榜\",\n    \"url\": \"{{bhost()}}/all/order/word+desc.html&page={{page}}\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n  {\n    \"title\": \"推荐榜\",\n    \"url\": \"{{bhost()}}/all/order/recommend+desc.html&page={{page}}\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  }\n]",
+    "header": "{\"User-Agent\":\"Mozilla/5.0 (Linux; U; Android 13; zh-Hans-CN; PFJM10 Build/TP1A.220905.001) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/135.0.4896.58 Mobile Safari/537.36\",\"Accept-Language\":\"zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7\",\"referer\":\"{{baseUrl}}\"}",
+    "jsLib": "function bhost() { \n  return \"https://xn--vcsx64d.alicesw2.buzz\";\n}\n",
+    "lastUpdateTime": 1758160815853,
+    "loginCheckJs": "cookie.removeCookie(source.getKey())\nresult",
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "coverUrl": ".imgbox@img@src",
+      "intro": "<br>{{@[property=\"og:description\"]@content}}",
+      "kind": "[property~=category|status|update_time]@content",
+      "lastChapter": "[property~=las?test_chapter_name]@content",
+      "name": "[property=\"og:novel:book_name\"]@content",
+      "tocUrl": "text.全部章节@href",
+      "wordCount": "text.字数@text##字数：?:?\\s?"
+    },
+    "ruleContent": {
+      "content": ".content_txt@p@html"
+    },
+    "ruleExplore": {
+      "author": "span.2@text",
+      "bookList": ".txt-list-row3@li",
+      "bookUrl": "a.0@href",
+      "coverUrl": "{{\"https://img.321cdn.com/img/01.png\"}}",
+      "kind": "span.1@text##\\[|\\]",
+      "name": "a.0@ownText"
+    },
+    "ruleSearch": {
+      "author": "a.1@text",
+      "bookList": ".list-group-item",
+      "bookUrl": "a.0@href",
+      "coverUrl": "{{\"https://img.321cdn.com/img/01.png\"}}",
+      "intro": "p.1@text",
+      "kind": "small@text&&p.3@text##.*更新时间：|\\[|\\]",
+      "name": "a.0@text##^\\d+\\.\\s",
+      "wordCount": "p.0@ownText##作者：|\\s字数：|　 .*"
+    },
+    "ruleToc": {
+      "chapterList": ".section-list@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href##$##,{\"webView\": true}"
+    },
+    "searchUrl": "{{bhost()}}/search.html?q={{key}}&f=_all&sort=relevance&p={{page}}&serialize=",
+    "weight": 0
+  }
+]
