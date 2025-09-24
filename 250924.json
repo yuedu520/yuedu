@@ -1,0 +1,57 @@
+[
+  {
+    "bookSourceGroup": "🎉 精选,七真",
+    "bookSourceName": "🎉 七真书院",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.zqb88.cn",
+    "customOrder": -99984,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻魔法::/sort/1/{{page}}/\n武侠修真::/sort/2/{{page}}/\n都市言情::/sort/3/{{page}}/\n历史军事::/sort/4/{{page}}/\n科幻灵异::/sort/5/{{page}}/\n游戏竞技::/sort/6/{{page}}/\n女生耽美::/sort/7/{{page}}/\n其他类型::/sort/8/{{page}}/",
+    "lastUpdateTime": 1751008649343,
+    "respondTime": 19237,
+    "ruleBookInfo": {
+      "author": ".p_author@a@text",
+      "coverUrl": "id.bookimg@img@src",
+      "intro": "id.bookintro@text##(^|[。！？]+[”」）】]?)##$1<br>",
+      "kind": "id.count@span.0:2:3@text",
+      "lastChapter": ".chaw@a.0@text##正文卷.|正文.|VIP卷.|默认卷.|卷_|VIP章节.|免费章节.|章节目录.|最新章节.|[\\(（【].*?[求更票谢乐发订合补加架字修Kk].*?[】）\\)]",
+      "name": ".d_title@h1@text",
+      "wordCount": "id.count@span.1@text"
+    },
+    "ruleContent": {
+      "content": "id.TextContent@html",
+      "nextContentUrl": "id.next_url@href"
+    },
+    "ruleExplore": {
+      "author": "a.0@href<js>java.ajax('http://www.zqb88.cn'+result)</js>.p_author@a@text",
+      "bookList": "id.sitebox@dl",
+      "bookUrl": "a.0@href",
+      "coverUrl": "img@data-original",
+      "intro": ".book_des@text",
+      "kind": ".book_other@span.0:1@text&&.uptime@text",
+      "lastChapter": ".book_other@a@text##正文卷.|正文.|VIP卷.|默认卷.|卷_|VIP章节.|免费章节.|章节目录.|最新章节.|[\\(（【].*?[求更票谢乐发订合补加架字修Kk].*?[】）\\)]",
+      "name": "h3@a@text",
+      "wordCount": ".book_other@span.2@text"
+    },
+    "ruleSearch": {
+      "author": ".book_other@span.0@text",
+      "bookList": "id.nr",
+      "bookUrl": "a.0@href",
+      "coverUrl": "img@data-original",
+      "intro": ".book_des@text",
+      "kind": ".book_other@span.1@text&&.uptime@text",
+      "lastChapter": ".book_other@a@text##正文卷.|正文.|VIP卷.|默认卷.|卷_|VIP章节.|免费章节.|章节目录.|最新章节.|[\\(（【].*?[求更票谢乐发订合补加架字修Kk].*?[】）\\)]",
+      "name": "h3@a@text",
+      "wordCount": ".book_other@span.2@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.chapterList@li@a",
+      "chapterName": "text##正文卷.|正文.|VIP卷.|默认卷.|卷_|VIP章节.|免费章节.|章节目录.|最新章节.|[\\(（【].*?[求更票谢乐发订合补加架字修Kk].*?[】）\\)]",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "{{cookie.removeCookie(source.getKey())}}\n/search/,{\n  \"method\": \"post\",\n  \"body\": \"searchkey={{key}}\"\n}",
+    "weight": 0
+  }
+]
