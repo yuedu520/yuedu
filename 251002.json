@@ -1,0 +1,129 @@
+[
+  {
+    "bookSourceComment": "免网页验证，可选国内专线：\nhttps://www.banzhu99999.com\nbanzhu22222.com\n发布页：\nhttp://diyibanzhu.app\nhttp://diyibanzhu.net\n \n本次处理多余无用规则，更换正文规则，原来沿用的是任尚仁大佬的正文规则，看不懂\n    js模板来自版主178或永远的神，用的版主444免验证专线，简化发现和大量规则",
+    "bookSourceGroup": "r",
+    "bookSourceName": "📪第一版主",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.banzhu22222.net/##",
+    "bookUrlPattern": "",
+    "concurrentRate": "",
+    "customOrder": 31,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"全部\",\"url\":\"/shuku/0-lastupdate-0-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"连载中\",\"url\":\"/shuku/0-lastupdate-1-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"已完本\",\"url\":\"/shuku/0-lastupdate-2-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"总人气\",\"url\":\"/shuku/0-allvisit-0-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"月人气\",\"url\":\"/shuku/0-monthvisit-0-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"字数\",\"url\":\"/shuku/0-size-0-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"新书\",\"url\":\"/shuku/0-postdate-0-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻奇幻\",\"url\":\"/shuku/1-lastupdate-0-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"武侠仙侠\",\"url\":\"/shuku/2-lastupdate-0-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市言情\",\"url\":\"/shuku/3-lastupdate-0-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"穿越历史\",\"url\":\"/shuku/4-lastupdate-0-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻灵异\",\"url\":\"/shuku/5-lastupdate-0-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"藏经阁\",\"url\":\"/shuku/6-lastupdate-0-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"其他类别\",\"url\":\"/shuku/7-lastupdate-0-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\" \",\"url\":\" \",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}]",
+    "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; U; Android 8.1.0; zh-CN; MI 8 Lite Build/OPM1.171019.019) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.108 UCBrowser/13.2.0.1100 Mobile Safari/537.36\"}",
+    "lastUpdateTime": 1746775838707,
+    "loginCheckJs": "",
+    "loginUi": "",
+    "loginUrl": "",
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "author": "",
+      "coverUrl": "",
+      "init": "",
+      "intro": ".bd.2@text",
+      "kind": "",
+      "lastChapter": "ul.list.0@li.0@text",
+      "name": "h1@text",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "<js>\nfunction x(a, b) {\n    result = String(result).replace(a, b);\n}\n//debug\nfunction d(debug) {\n    java.log(debug);\n    java.log(result);\n}\n\n//同时加载多章时，自动验证成功后有的页面加载失败时重新获取\nif(/<div\\s*class=\"title\"\\s*>.*1234/.test(src)){\n    //重新设置正文解析内容\n    java.setContent(java.ajax(baseUrl));\n}\n\n//获取正文内容\nresult = java.getString('.page-content@tag.p.0@html');\n\n//ci修改\nresultFirst = java.getString('.neirong@html');\n\n//大概第四页正文有切割，需要调接口获取这一页剩余正文\nif (/\\$.post\\('',{'j':'1'}/.test(src)) {\n    result += java.ajax(String(baseUrl + ',' + JSON.stringify({\n        \"method\": \"POST\",\n        \"body\": \"j=1\"\n    })))\n}\n\n//d(\"正文\"+baseUrl)\n\n//有问题修改下面正则 两个br标签换行显示\nx(/((\\s*)<br>\\n?){2}/g,\"<br><br>\");\n//d('1.0:')\nx(/<script.*<\\/script>/g,\"\");\n\ntry {\n    // Aes解密\n    secret = src.match(/=\\s*secret\\(\\s*['\"](.+?)['\"],[\\s]*['\"](.+?)['\"],[^);]*?/);\n    string = secret[1]\n    code = java.md5Encode(secret[2]);\n    iv = code.substring(0, 16);\n    key = code.substring(16);\n    //java.log(baseUrl + \" Aes解密ok：\" + code + \"\\n\" + iv + \"\\n\" + key)\n    result = java.createSymmetricCrypto(\"AES/CBC/PKCS7Padding\", key, iv).decryptStr(string);\n} catch (err) {\n    try {\n        // 乱序恢复\n        ns = java.base64Decode(src.match(/var ns='(.+?)';/)[1]).split(',');\n        //java.log(baseUrl + \"乱序恢复ok\")\n        paragraphArr = result.split('<br><br>');\n        result = \"\";\n        for (i = 1; i <= paragraphArr.length; i++) {\n            result += paragraphArr[ns[i] - ns[0]] + '<br><br>';\n        }\n    } catch (err) {\n        //java.log(baseUrl + \"乱序恢复Aes解密no\")\n    }\n}\n\n//初始化图片链接\nx(/(<img\\s+)data\\-cfsrc=\"[^\"]+\"/g,\"$1\");\nx(/[\\r\\n]?[\\t ]*< img .+?toimg\\/data\\/([^\\.]+)[^>]+>[\\t ]*[\\r\\n]?/g, \"#$1#\");\n\n//初始化字体格式的文字,匹配<i>&#xe800</i>\nx(/<i>(.*?)<\\/i>/g, function(str, p1) {\n    //java.log(p1.charCodeAt().toString(16));\n    //返回16进制，例：p1=&#xe800 返回格式#e800#\n    return '#' + p1.charCodeAt().toString(16) + '#'\n})\n//d('2.0:')\n\n//转换空格\nx(/&nbsp;/g, ' ');\n//初始化分段准备\nx(/[\\t  ]{2,2}/g, \"　\");\n\n//去掉标签里的属性\nx(/(\\<|&lt;)([^\\>]*?)(\\s|&nbsp;)[^\\>]*(\\>|&gt;)/g, \"<$2>\");\n//d('2.1:')\n//段落换行\nx(/\\s*(\\n|<br\\/?>)+\\s*(　{2,})?/gi, \"\\r\\n\");\n//d('3.0:')\n//去掉不需要的标签\nx(/([\\r\\n　]*\\<\\/?([A-Za-z]*)?\\>[\\r\\n　]*)/gi, \"\");\n\n//引号替换\nx(/‘/g, \"『\");\nx(/’/g, \"』\");\nx(/“/g, \"「\");\nx(/”/g, \"」\");\n\nif (/(Undefined|(^\\s*$))/.test(result)) {\n    //ci\n    if (/(Undefined|(^\\s*$))/.test(resultFirst)) {\n        result =\n            \"<br/>　　网站分页有时有问题不可用，速度慢的时候就会是现在这样了，网站速度快的时候就没事了。<br/>　　换个时间刷新试试！！！<br/>　　换个时间刷新试试！！！<br/>　　换个时间刷新试试！！！<br/>\" + result;\n    }else{\n        result = resultFirst\n    }\n}\n\n//d(\"正文\"+baseUrl)\n\"\" + result;\n</js>",
+      "imageStyle": "",
+      "nextContentUrl": "class.chapterPages.0@a[!0]@href",
+      "replaceRegex": ""
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": ".info.0@text##\\s+字数：.*",
+      "bookList": ".column-2 ",
+      "bookUrl": ".name@href",
+      "checkKeyWord": "",
+      "coverUrl": "@js:'http://m.diyibanzhu.quest/images/jipin-default.jpg'",
+      "intro": "",
+      "kind": "span.0@text&&p.info.1@text##更新：",
+      "lastChapter": ".update@a@text",
+      "name": ".name@text",
+      "wordCount": ".info@span@text##字数："
+    },
+    "ruleToc": {
+      "chapterList": ".chapter-list.1@li",
+      "chapterName": "a@text",
+      "chapterUrl": "a@href",
+      "nextTocUrl": "text.下页@href"
+    },
+    "searchUrl": "/s.php,{\n\"charset\": \"gbk\",\n\"method\":\"post\",\n\"body\":\"objectType=2&type=articlename&s={{key}}\"\n}",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "https://m.001banzhu.shop/\nhttps://m.03banzhu.store\n发布地址：http://www.quan--er.com/",
+    "bookSourceGroup": "👍 备用",
+    "bookSourceName": "一版主_m.03banzhu.store",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.03banzhu.store",
+    "bookUrlPattern": "",
+    "customOrder": 33,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "exploreUrl": "更新::/wap.php?action=shuku&uid=0&totalresult=10000&pageno={{page}}\n新书::/wap.php?action=shuku&order=3&uid=0&totalresult=10000&pageno={{page}}\n其他::/wap.php?action=shuku&tid=8&over=&order=2&uid=&totalresult=9377&pageno={{page}}",
+    "header": "@js:JSON.stringify(\n\t{\n/*\n\"User-Agent\": \"Mozilla/5.0 (Linux; Android 12)\",\n\"Accept-Encoding\":\"\",\n*/\n\"referer\": baseUrl,\n\"Accept-Language\":\"zh-CN,zh;q=0.9\"\n})",
+    "lastUpdateTime": 1721942630109,
+    "loginUrl": "",
+    "respondTime": 13752,
+    "ruleBookInfo": {
+      "author": "##作者.([^<]+)##$1###",
+      "coverUrl": "",
+      "init": "",
+      "intro": ".book-intro@html",
+      "kind": "{{@@##类型.([^<]+)##$1###}},{{@@.right span@text}}@js:result.replace(/小说|\\•/g,\"\")",
+      "lastChapter": "class.list.0@a.0@text",
+      "name": ".right h1@text",
+      "wordCount": "##字数.([^<]+)##$1###"
+    },
+    "ruleContent": {
+      "content": "id.nr1@html\n<js>\nm=[];n=[];\nfunction x(a,b){m.push(a);n.push(b)}\n\nresult=result.replace(/<em class=\"(.*?)\"><\\/em>/g,\"#$1#\")\n// 逐条添加：\nx(/#class属性#/gi,\"对应文本\");\nx(/#n_1#/gi,\"男\");\nx(/#n_2#/gi,\"人\");\nx(/#n_3#/gi,\"啊\");\nx(/#n_4#/gi,\"爱\");\nx(/#n_5#/gi,\"按\");\nx(/#n_6#/gi,\"暴\");\nx(/#n_7#/gi,\"臀\");\nx(/#n_8#/gi,\"逼\");\nx(/#n_9#/gi,\"擦\");\nx(/#n_10#/gi,\"潮\");\nx(/#n_11#/gi,\"操\");\nx(/#n_12#/gi,\"插\");\nx(/#n_13#/gi,\"吃\");\nx(/#n_14#/gi,\"抽\");\nx(/#n_15#/gi,\"处\");\nx(/#n_16#/gi,\"床\");\nx(/#n_17#/gi,\"春\");\nx(/#n_18#/gi,\"唇\");\nx(/#n_19#/gi,\"刺\");\nx(/#n_20#/gi,\"粗\");\nx(/#n_21#/gi,\"大\");\nx(/#n_22#/gi,\"洞\");\nx(/#n_23#/gi,\"逗\");\nx(/#n_24#/gi,\"硬\");\nx(/#n_25#/gi,\"儿\");\nx(/#n_26#/gi,\"反\");\nx(/#n_27#/gi,\"犯\");\nx(/#n_28#/gi,\"峰\");\nx(/#n_29#/gi,\"妇\");\nx(/#n_30#/gi,\"抚\");\nx(/#n_31#/gi,\"夫\");\nx(/#n_32#/gi,\"腹\");\nx(/#n_33#/gi,\"干\");\nx(/#n_34#/gi,\"搞\");\nx(/#n_35#/gi,\"根\");\nx(/#n_36#/gi,\"公\");\nx(/#n_37#/gi,\"宫\");\nx(/#n_38#/gi,\"勾\");\nx(/#n_39#/gi,\"股\");\nx(/#n_40#/gi,\"狠\");\nx(/#n_41#/gi,\"花\");\nx(/#n_42#/gi,\"滑\");\nx(/#n_43#/gi,\"坏\");\nx(/#n_44#/gi,\"魂\");\nx(/#n_45#/gi,\"鸡\");\nx(/#n_46#/gi,\"激\");\nx(/#n_47#/gi,\"夹\");\nx(/#n_48#/gi,\"奸\");\nx(/#n_49#/gi,\"交\");\nx(/#n_50#/gi,\"叫\");\nx(/#n_51#/gi,\"娇\");\nx(/#n_52#/gi,\"姐\");\nx(/#n_53#/gi,\"禁\");\nx(/#n_54#/gi,\"精\");\nx(/#n_55#/gi,\"进\");\nx(/#n_56#/gi,\"紧\");\nx(/#n_57#/gi,\"菊\");\nx(/#n_58#/gi,\"渴\");\nx(/#n_59#/gi,\"口\");\nx(/#n_60#/gi,\"裤\");\nx(/#n_61#/gi,\"胯\");\nx(/#n_62#/gi,\"快\");\nx(/#n_63#/gi,\"浪\");\nx(/#n_64#/gi,\"力\");\nx(/#n_65#/gi,\"搂\");\nx(/#n_66#/gi,\"乱\");\nx(/#n_67#/gi,\"裸\");\nx(/#n_68#/gi,\"妈\");\nx(/#n_69#/gi,\"毛\");\nx(/#n_70#/gi,\"迷\");\nx(/#n_71#/gi,\"靡\");\nx(/#n_72#/gi,\"妹\");\nx(/#n_73#/gi,\"摸\");\nx(/#n_74#/gi,\"嫩\");\nx(/#n_75#/gi,\"母\");\nx(/#n_76#/gi,\"娘\");\nx(/#n_77#/gi,\"尿\");\nx(/#n_78#/gi,\"咛\");\nx(/#n_79#/gi,\"女\");\nx(/#n_80#/gi,\"哦\");\nx(/#n_81#/gi,\"趴\");\nx(/#n_82#/gi,\"喷\");\nx(/#n_83#/gi,\"婆\");\nx(/#n_84#/gi,\"屁\");\nx(/#n_85#/gi,\"气\");\nx(/#n_86#/gi,\"枪\");\nx(/#n_87#/gi,\"窃\");\nx(/#n_88#/gi,\"骑\");\nx(/#n_89#/gi,\"妻\");\nx(/#n_90#/gi,\"情\");\nx(/#n_91#/gi,\"亲\");\nx(/#n_92#/gi,\"裙\");\nx(/#n_93#/gi,\"热\");\nx(/#n_94#/gi,\"日\");\nx(/#n_95#/gi,\"肉\");\nx(/#n_96#/gi,\"揉\");\nx(/#n_97#/gi,\"乳\");\nx(/#n_98#/gi,\"软\");\nx(/#n_99#/gi,\"润\");\nx(/#n_100#/gi,\"入\");\nx(/#n_101#/gi,\"塞\");\nx(/#n_102#/gi,\"骚\");\nx(/#n_103#/gi,\"色\");\nx(/#n_104#/gi,\"上\");\nx(/#n_105#/gi,\"舌\");\nx(/#n_106#/gi,\"射\");\nx(/#n_107#/gi,\"身\");\nx(/#n_108#/gi,\"深\");\nx(/#n_109#/gi,\"湿\");\nx(/#n_110#/gi,\"兽\");\nx(/#n_111#/gi,\"受\");\nx(/#n_112#/gi,\"舒\");\nx(/#n_113#/gi,\"爽\");\nx(/#n_114#/gi,\"水\");\nx(/#n_115#/gi,\"睡\");\nx(/#n_116#/gi,\"酥\");\nx(/#n_117#/gi,\"死\");\nx(/#n_118#/gi,\"烫\");\nx(/#n_119#/gi,\"痛\");\nx(/#n_120#/gi,\"舔\");\nx(/#n_121#/gi,\"天\");\nx(/#n_122#/gi,\"体\");\nx(/#n_123#/gi,\"挺\");\nx(/#n_124#/gi,\"头\");\nx(/#n_125#/gi,\"腿\");\nx(/#n_126#/gi,\"脱\");\nx(/#n_127#/gi,\"味\");\nx(/#n_128#/gi,\"慰\");\nx(/#n_129#/gi,\"吻\");\nx(/#n_130#/gi,\"握\");\nx(/#n_131#/gi,\"喔\");\nx(/#n_132#/gi,\"污\");\nx(/#n_133#/gi,\"下\");\nx(/#n_134#/gi,\"小\");\nx(/#n_135#/gi,\"性\");\nx(/#n_136#/gi,\"胸\");\nx(/#n_137#/gi,\"血\");\nx(/#n_138#/gi,\"穴\");\nx(/#n_139#/gi,\"阳\");\nx(/#n_140#/gi,\"痒\");\nx(/#n_141#/gi,\"药\");\nx(/#n_142#/gi,\"腰\");\nx(/#n_143#/gi,\"夜\");\nx(/#n_144#/gi,\"液\");\nx(/#n_145#/gi,\"野\");\nx(/#n_146#/gi,\"衣\");\nx(/#n_147#/gi,\"姨\");\nx(/#n_148#/gi,\"吟\");\nx(/#n_149#/gi,\"淫\");\nx(/#n_150#/gi,\"荫\");\nx(/#n_151#/gi,\"幽\");\nx(/#n_152#/gi,\"诱\");\nx(/#n_153#/gi,\"尤\");\nx(/#n_154#/gi,\"欲\");\nx(/#n_155#/gi,\"吁\");\nx(/#n_156#/gi,\"玉\");\nx(/#n_157#/gi,\"吮\");\nx(/#n_158#/gi,\"窄\");\nx(/#n_159#/gi,\"占\");\nx(/#n_160#/gi,\"征\");\nx(/#n_161#/gi,\"汁\");\nx(/#n_162#/gi,\"嘴\");\nx(/#n_163#/gi,\"，\");\nx(/#n_164#/gi,\"。\");\nx(/#n_165#/gi,\"…\");\nx(/#n_166#/gi,\"慾\");\nx(/#n_167#/gi,\"丢\");\nx(/#n_168#/gi,\"弄\");\n\nfor(i in n){result=result.replace(m[i],n[i])}\n\nresult+\"❎❎❎\"\n</js>",
+      "imageStyle": "",
+      "nextContentUrl": "//*[@class=\"curr\"]/following-sibling::a[1]/@href",
+      "replaceRegex": "##.*下载安卓APP.*|.本章未完.*|[\\(（]本章完[）\\)]|\\[ 本章完 \\]|(\\s*.*【1】.*)?\\s*❎❎❎\\s*|.未完待续.*",
+      "sourceRegex": ""
+    },
+    "ruleExplore": {
+      "author": "a.2@text",
+      "bookList": ".column-2",
+      "bookUrl": "a.0@href",
+      "kind": "span.0@text",
+      "lastChapter": "a.1@text",
+      "name": "a.0@text",
+      "wordCount": "span.1@text##字数."
+    },
+    "ruleSearch": {
+      "author": "##作者.([^<]+)##$1###",
+      "bookList": ".column-2",
+      "bookUrl": "a.0@href",
+      "kind": "span.0@text",
+      "lastChapter": "a.1@text",
+      "name": "a.0@text",
+      "wordCount": "span.1@text##字数."
+    },
+    "ruleToc": {
+      "chapterList": ".list!-1:-2@li a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "option@value"
+    },
+    "searchUrl": "/wap.php?action=search,{\n  \"body\": \"objectType=2&wd={{java.encodeURI(key,'gbk')}}\",\n  \"method\": \"POST\"\n}",
+    "weight": 0
+  }
+]
