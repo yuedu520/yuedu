@@ -1,0 +1,622 @@
+[
+  {
+    "bookSourceComment": "// Error: 搜索失效",
+    "bookSourceGroup": "音乐",
+    "bookSourceName": "音乐-一听",
+    "bookSourceType": 1,
+    "bookSourceUrl": "https://music.liuzhijin.cn-1ting",
+    "customOrder": 721,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "header": "",
+    "lastUpdateTime": 1732998446073,
+    "respondTime": 180303,
+    "ruleBookInfo": {},
+    "ruleContent": {},
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "$.author",
+      "bookList": "$.data[*]",
+      "bookUrl": "$.url",
+      "coverUrl": "$.pic",
+      "intro": "$.lrc",
+      "name": "$.title@put:{title:$.title,url:$.url}"
+    },
+    "ruleToc": {
+      "chapterList": "@js:\nresult=[{text:java.get('title'),href:java.get('url')}]",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://music.liuzhijin.cn,{\n\"method\": \"POST\",\n\"body\": \"input={{key}}&filter=name&type=1ting&page={{page}}\",\n\"headers\": {\"x-requested-with\": \"XMLHttpRequest\"}\n}",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "\n备用接口：http://zhuan.djduoduo.cn",
+    "bookSourceGroup": "音乐",
+    "bookSourceName": "轻音-潇社",
+    "bookSourceType": 1,
+    "bookSourceUrl": "http://fuciyuanbang.ciyuans.com",
+    "customOrder": 1753,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"推荐\",\"url\":\"/fuciyuanphp/getmusiclist.php?act=getmusichotlist&pagenum={{page}}&plat=ar&ver=1.5.7.0&did=&sid=&channel=vivo&app=FuCiYuan&source=kon&iscover=false&forb=0&newu=1&appt=9&loginuid=0\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"流行\",\"url\":\"/fuciyuanphp/getmusiclist.php?act=getmusictaglist&tag=liuxing&pagenum={{page}}&plat=ar&ver=1.5.7.0&did=&sid=&channel=vivo&app=FuCiYuan&source=kon&iscover=false&forb=0&newu=1&appt=9&loginuid=0\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"片段\",\"url\":\"/fuciyuanphp/getmusiclist.php?act=getmusictaglist&tag=pianduan&pagenum={{page}}&plat=ar&ver=1.5.7.0&did=&sid=&channel=vivo&app=FuCiYuan&source=kon&iscover=false&forb=0&newu=1&appt=9&loginuid=0\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"英文\",\"url\":\"/fuciyuanphp/getmusiclist.php?act=getmusictaglist&tag=yingwen&pagenum={{page}}&plat=ar&ver=1.5.7.0&did=&sid=&channel=vivo&app=FuCiYuan&source=kon&iscover=false&forb=0&newu=1&appt=9&loginuid=0\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"纯音\",\"url\":\"/fuciyuanphp/getmusiclist.php?act=getmusictaglist&tag=chunyinyue&pagenum={{page}}&plat=ar&ver=1.5.7.0&did=&sid=&channel=vivo&app=FuCiYuan&source=kon&iscover=false&forb=0&newu=1&appt=9&loginuid=0\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"广播剧\",\"url\":\"/fuciyuanphp/getmusiclist.php?act=getmusictaglist&tag=guangbo&pagenum={{page}}&plat=ar&ver=1.5.7.0&did=&sid=&channel=vivo&app=FuCiYuan&source=kon&iscover=false&forb=0&newu=1&appt=9&loginuid=0\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"古风\",\"url\":\"/fuciyuanphp/getmusiclist.php?act=getmusictaglist&tag=gufeng&pagenum={{page}}&plat=ar&ver=1.5.7.0&did=&sid=&channel=vivo&app=FuCiYuan&source=kon&iscover=false&forb=0&newu=1&appt=9&loginuid=0\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"最新\",\"url\":\"/fuciyuanphp/getmusiclist.php?act=getmusicrecentlistv&pagenum={{page}}&plat=ar&ver=1.5.7.0&did=&sid=&channel=vivo&app=FuCiYuan&source=kon&iscover=false&forb=0&newu=1&appt=9&loginuid=0\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"日系\",\"url\":\"/fuciyuanphp/getmusiclist.php?act=getmusictaglist&tag=rixi&pagenum={{page}}&plat=ar&ver=1.5.7.0&did=&sid=&channel=vivo&app=FuCiYuan&source=kon&iscover=false&forb=0&newu=1&appt=9&loginuid=0\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"电音\",\"url\":\"/fuciyuanphp/getmusiclist.php?act=getmusictaglist&tag=dianzi&pagenum={{page}}&plat=ar&ver=1.5.7.0&did=&sid=&channel=vivo&app=FuCiYuan&source=kon&iscover=false&forb=0&newu=1&appt=9&loginuid=0\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+    "lastUpdateTime": 1735033115876,
+    "respondTime": 1901,
+    "ruleBookInfo": {
+      "init": "result",
+      "intro": "@js:`<p>{{book.intro}}</p>\\n&lrm;<p>{{$.3||$.tag}}</p>`"
+    },
+    "ruleContent": {
+      "content": ""
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "uname",
+      "bookList": "result.list",
+      "bookUrl": "/fuciyuanphp/getmusiclist.php?act=getmusiclyric&musicid={{$.id}}&plat=ar&ver=1.5.7.0&did=&sid=&channel=vivo&app=FuCiYuan&source=kon&iscover=false&forb=0&newu=1&appt=0&loginuid=0",
+      "checkKeyWord": "",
+      "coverUrl": "thumb",
+      "intro": "des",
+      "kind": "pubtime",
+      "lastChapter": "@js:java.put('json',JSON.stringify(result));''",
+      "name": "title",
+      "wordCount": "♡ {{$.prefer}}"
+    },
+    "ruleToc": {
+      "chapterList": "@js:[java.get('json')]",
+      "chapterName": "title",
+      "chapterUrl": "url",
+      "updateTime": "artist"
+    },
+    "searchUrl": "/fuciyuanphp/search.php?act=search&type=music&key={{key}}&pagenum={{page}}&plat=ar&ver=1.5.7.0&did=&sid=&channel=vivo&app=FuCiYuan&source=kon&iscover=false&forb=0&newu=1&appt=0&loginuid=0",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "音乐",
+    "bookSourceName": "音乐-荔枝",
+    "bookSourceType": 1,
+    "bookSourceUrl": "https://m.lizhi.fm",
+    "customOrder": 2485,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1733778693329,
+    "loginUrl": "",
+    "respondTime": 1011,
+    "ruleBookInfo": {
+      "author": "$..userVoice.name",
+      "name": "$..voiceInfo.name"
+    },
+    "ruleContent": {
+      "content": "$..voicePlayProperty.trackUrl",
+      "imageStyle": "0"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "bookList": "$.data.*",
+      "bookUrl": "$.voiceInfo.voiceId@js:\"https://m.lizhi.fm/vodapi/voice/info/\"+result",
+      "coverUrl": "$.voiceInfo.imageUrl",
+      "intro": "$.voiceDetailProperty.text",
+      "kind": "$.voiceInfo.lableName",
+      "name": "$.voiceInfo.name"
+    },
+    "ruleToc": {
+      "chapterList": "$.data[*]",
+      "chapterName": "$..voiceInfo.name",
+      "chapterUrl": "-"
+    },
+    "searchUrl": "https://m.lizhi.fm/vodapi/search/voice?deviceId=h5-f93e74ac-0065-8207-4853-75dec8585db3&keywords={{key}}&page={{page}}&receiptData=CAASJ2g1LWY5M2U3NGFjLTAwNjUtODIwNy00ODUzLTc1ZGVjODU4NWRiMyj%2FhvGLxy0wDDgF",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "音乐",
+    "bookSourceName": "音乐-荔枝",
+    "bookSourceType": 1,
+    "bookSourceUrl": "https://music.liuzhijin.cn-lizhi",
+    "customOrder": 2548,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "header": "",
+    "lastUpdateTime": 1721195535251,
+    "respondTime": 10595,
+    "ruleBookInfo": {},
+    "ruleContent": {},
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "$.author",
+      "bookList": "$.data[*]",
+      "bookUrl": "$.url",
+      "coverUrl": "$.pic",
+      "intro": "$.lrc",
+      "name": "$.title@put:{title:$.title,url:$.url}"
+    },
+    "ruleToc": {
+      "chapterList": "@js:\nresult=[{text:java.get('title'),href:java.get('url')}]",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://music.liuzhijin.cn,{\n\"method\": \"POST\",\n\"body\": \"input={{key}}&filter=name&type=lizhi&page={{page}}\",\n\"headers\": {\"x-requested-with\": \"XMLHttpRequest\"}\n}",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "音乐",
+    "bookSourceName": "音乐-网易",
+    "bookSourceType": 1,
+    "bookSourceUrl": "http://music.163.com#芜恙",
+    "bookUrlPattern": "https://v1.alapi.cn/api/music/search?keyword=",
+    "customOrder": 2693,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "❀                                            语   种                                              ❀::\n华语::/discover/playlist/?order=hot&cat=华语\n欧美::/discover/playlist/?order=hot&cat=欧美\n日语::/discover/playlist/?order=hot&cat=日语\n韩语::/discover/playlist/?order=hot&cat=韩语\n粤语::/discover/playlist/?order=hot&cat=粤语\n小语种::/discover/playlist/?order=hot&cat=小语种\n\n❀                                            风   格                                              ❀::\n流行::/discover/playlist/?order=hot&cat=流行\n摇滚::/discover/playlist/?order=hot&cat=摇滚\n民谣::/discover/playlist/?order=hot&cat=民谣\n电子::/discover/playlist/?order=hot&cat=电子\n舞曲::/discover/playlist/?order=hot&cat=舞曲\n说唱::/discover/playlist/?order=hot&cat=说唱\n轻音乐::/discover/playlist/?order=hot&cat=轻音乐\n爵士::/discover/playlist/?order=hot&cat=爵士\n乡村::/discover/playlist/?order=hot&cat=乡村\nR&B/Soul::/discover/playlist/?order=hot&cat=R%26B%2FSoul\n古典::/discover/playlist/?order=hot&cat=古典\n民族::/discover/playlist/?order=hot&cat=民族\n英伦::/discover/playlist/?order=hot&cat=英伦\n金属::/discover/playlist/?order=hot&cat=金属\n朋克::/discover/playlist/?order=hot&cat=朋克\n蓝调::/discover/playlist/?order=hot&cat=蓝调\n雷鬼::/discover/playlist/?order=hot&cat=雷鬼\n世界音乐::/discover/playlist/?order=hot&cat=世界音乐\n拉丁::/discover/playlist/?order=hot&cat=拉丁\n另类/独立::/discover/playlist/?order=hot&cat=另类%2F独立\nNew Age::/discover/playlist/?order=hot&cat=New Age\n古风::/discover/playlist/?order=hot&cat=古风\n后摇::/discover/playlist/?order=hot&cat=后摇\nBossa Nova::/discover/playlist/?order=hot&cat=Bossa Nova\n\n❀                                            场   景                                              ❀::\n清晨::/discover/playlist/?order=hot&cat=清晨\n夜晚::/discover/playlist/?order=hot&cat=夜晚\n学习::/discover/playlist/?order=hot&cat=学习\n工作::/discover/playlist/?order=hot&cat=工作\n午休::/discover/playlist/?order=hot&cat=午休\n下午茶::/discover/playlist/?order=hot&cat=下午茶\n地铁::/discover/playlist/?order=hot&cat=地铁\n驾车::/discover/playlist/?order=hot&cat=驾车\n运动::/discover/playlist/?order=hot&cat=运动\n旅行::/discover/playlist/?order=hot&cat=旅行\n散步::/discover/playlist/?order=hot&cat=散步\n酒吧::/discover/playlist/?order=hot&cat=酒吧\n\n❀                                            情    感                                             ❀::\n怀旧::/discover/playlist/?order=hot&cat=怀旧\n清新::/discover/playlist/?order=hot&cat=清新\n浪漫::/discover/playlist/?order=hot&cat=浪漫\n性感::/discover/playlist/?order=hot&cat=性感\n伤感::/discover/playlist/?order=hot&cat=伤感\n治愈::/discover/playlist/?order=hot&cat=治愈\n放松::/discover/playlist/?order=hot&cat=放松\n孤独::/discover/playlist/?order=hot&cat=孤独\n感动::/discover/playlist/?order=hot&cat=感动\n兴奋::/discover/playlist/?order=hot&cat=兴奋\n快乐::/discover/playlist/?order=hot&cat=快乐\n安静::/discover/playlist/?order=hot&cat=安静\n思念::/discover/playlist/?order=hot&cat=思念\n\n❀                                            主   题                                              ❀::\n综艺::/discover/playlist/?order=hot&cat=综艺\n影视原声::/discover/playlist/?order=hot&cat=影视原声\nACG::/discover/playlist/?order=hot&cat=ACG\n儿童::/discover/playlist/?order=hot&cat=儿童\n校园::/discover/playlist/?order=hot&cat=校园\n游戏::/discover/playlist/?order=hot&cat=游戏\n70后::/discover/playlist/?order=hot&cat=70后\n80后::/discover/playlist/?order=hot&cat=80后\n90后::/discover/playlist/?order=hot&cat=90后\n网络歌曲::/discover/playlist/?order=hot&cat=网络歌曲\nKTV::/discover/playlist/?order=hot&cat=KTV\n经典::/discover/playlist/?order=hot&cat=经典\n翻唱::/discover/playlist/?order=hot&cat=翻唱\n吉他::/discover/playlist/?order=hot&cat=吉他\n钢琴::/discover/playlist/?order=hot&cat=钢琴\n器乐::/discover/playlist/?order=hot&cat=器乐\n榜单::/discover/playlist/?order=hot&cat=榜单\n00后::/discover/playlist/?order=hot&cat=00后",
+    "header": "",
+    "lastUpdateTime": 1735057762270,
+    "loginUrl": "",
+    "respondTime": 3995,
+    "ruleBookInfo": {
+      "author": "",
+      "coverUrl": "class.m-song-img@tag.img@src||class.u-cover@tag.img@data-src",
+      "init": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "tocUrl": ""
+    },
+    "ruleContent": {
+      "content": "@js:'http://music.163.com/song/media/outer/url?id='+baseUrl.match(/id=(\\d+)/)[1]+'.mp3'",
+      "nextContentUrl": "",
+      "sourceRegex": ""
+    },
+    "ruleExplore": {
+      "author": "@css:a[href^=\"/user\"]@text",
+      "bookList": "@css:#m-pl-container>li",
+      "bookUrl": "@css:p.dec>a@href||p.name>a@href",
+      "coverUrl": "@css:img@src@js:result.split(\"?\")[0]",
+      "kind": "@css:.tags>a@text",
+      "lastChapter": "",
+      "name": "@css:p.dec>a@text"
+    },
+    "ruleSearch": {
+      "author": "$.artists[*].name@js:java.put(\"author\",result);result",
+      "bookList": "$.result.songs",
+      "bookUrl": "https://music.163.com/song?id={{$.id}}",
+      "coverUrl": "",
+      "kind": "$.album.name",
+      "lastChapter": "",
+      "name": "$.name@js:java.put(\"name\",result);result"
+    },
+    "ruleToc": {
+      "chapterList": "id.song-list-pre-cache@class.f-hide@tag.a||class.tit",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": ""
+    },
+    "searchUrl": "http://music.163.com/api/search/get/web?csrf_token=&lpretag=&hlposttag=&s={{key}}&type=1&offset=0&total=true&limit=100",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "音乐",
+    "bookSourceName": "音乐-网易",
+    "bookSourceType": 1,
+    "bookSourceUrl": "http://music.163.com",
+    "bookUrlPattern": "https://v1.alapi.cn/api/music/search?keyword=",
+    "customOrder": 2915,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "❀                                            语   种                                              ❀::\n华语::/discover/playlist/?order=hot&cat=华语\n欧美::/discover/playlist/?order=hot&cat=欧美\n日语::/discover/playlist/?order=hot&cat=日语\n韩语::/discover/playlist/?order=hot&cat=韩语\n粤语::/discover/playlist/?order=hot&cat=粤语\n小语种::/discover/playlist/?order=hot&cat=小语种\n\n❀                                            风   格                                              ❀::\n流行::/discover/playlist/?order=hot&cat=流行\n摇滚::/discover/playlist/?order=hot&cat=摇滚\n民谣::/discover/playlist/?order=hot&cat=民谣\n电子::/discover/playlist/?order=hot&cat=电子\n舞曲::/discover/playlist/?order=hot&cat=舞曲\n说唱::/discover/playlist/?order=hot&cat=说唱\n轻音乐::/discover/playlist/?order=hot&cat=轻音乐\n爵士::/discover/playlist/?order=hot&cat=爵士\n乡村::/discover/playlist/?order=hot&cat=乡村\nR&B/Soul::/discover/playlist/?order=hot&cat=R%26B%2FSoul\n古典::/discover/playlist/?order=hot&cat=古典\n民族::/discover/playlist/?order=hot&cat=民族\n英伦::/discover/playlist/?order=hot&cat=英伦\n金属::/discover/playlist/?order=hot&cat=金属\n朋克::/discover/playlist/?order=hot&cat=朋克\n蓝调::/discover/playlist/?order=hot&cat=蓝调\n雷鬼::/discover/playlist/?order=hot&cat=雷鬼\n世界音乐::/discover/playlist/?order=hot&cat=世界音乐\n拉丁::/discover/playlist/?order=hot&cat=拉丁\n另类/独立::/discover/playlist/?order=hot&cat=另类%2F独立\nNew Age::/discover/playlist/?order=hot&cat=New Age\n古风::/discover/playlist/?order=hot&cat=古风\n后摇::/discover/playlist/?order=hot&cat=后摇\nBossa Nova::/discover/playlist/?order=hot&cat=Bossa Nova\n\n❀                                            场   景                                              ❀::\n清晨::/discover/playlist/?order=hot&cat=清晨\n夜晚::/discover/playlist/?order=hot&cat=夜晚\n学习::/discover/playlist/?order=hot&cat=学习\n工作::/discover/playlist/?order=hot&cat=工作\n午休::/discover/playlist/?order=hot&cat=午休\n下午茶::/discover/playlist/?order=hot&cat=下午茶\n地铁::/discover/playlist/?order=hot&cat=地铁\n驾车::/discover/playlist/?order=hot&cat=驾车\n运动::/discover/playlist/?order=hot&cat=运动\n旅行::/discover/playlist/?order=hot&cat=旅行\n散步::/discover/playlist/?order=hot&cat=散步\n酒吧::/discover/playlist/?order=hot&cat=酒吧\n\n❀                                            情    感                                             ❀::\n怀旧::/discover/playlist/?order=hot&cat=怀旧\n清新::/discover/playlist/?order=hot&cat=清新\n浪漫::/discover/playlist/?order=hot&cat=浪漫\n性感::/discover/playlist/?order=hot&cat=性感\n伤感::/discover/playlist/?order=hot&cat=伤感\n治愈::/discover/playlist/?order=hot&cat=治愈\n放松::/discover/playlist/?order=hot&cat=放松\n孤独::/discover/playlist/?order=hot&cat=孤独\n感动::/discover/playlist/?order=hot&cat=感动\n兴奋::/discover/playlist/?order=hot&cat=兴奋\n快乐::/discover/playlist/?order=hot&cat=快乐\n安静::/discover/playlist/?order=hot&cat=安静\n思念::/discover/playlist/?order=hot&cat=思念\n\n❀                                            主   题                                              ❀::\n综艺::/discover/playlist/?order=hot&cat=综艺\n影视原声::/discover/playlist/?order=hot&cat=影视原声\nACG::/discover/playlist/?order=hot&cat=ACG\n儿童::/discover/playlist/?order=hot&cat=儿童\n校园::/discover/playlist/?order=hot&cat=校园\n游戏::/discover/playlist/?order=hot&cat=游戏\n70后::/discover/playlist/?order=hot&cat=70后\n80后::/discover/playlist/?order=hot&cat=80后\n90后::/discover/playlist/?order=hot&cat=90后\n网络歌曲::/discover/playlist/?order=hot&cat=网络歌曲\nKTV::/discover/playlist/?order=hot&cat=KTV\n经典::/discover/playlist/?order=hot&cat=经典\n翻唱::/discover/playlist/?order=hot&cat=翻唱\n吉他::/discover/playlist/?order=hot&cat=吉他\n钢琴::/discover/playlist/?order=hot&cat=钢琴\n器乐::/discover/playlist/?order=hot&cat=器乐\n榜单::/discover/playlist/?order=hot&cat=榜单\n00后::/discover/playlist/?order=hot&cat=00后",
+    "header": "",
+    "lastUpdateTime": 1734635561588,
+    "loginUrl": "",
+    "respondTime": 3841,
+    "ruleBookInfo": {
+      "author": "",
+      "coverUrl": "class.m-song-img@tag.img@src||class.u-cover@tag.img@data-src",
+      "init": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "tocUrl": ""
+    },
+    "ruleContent": {
+      "content": "@js:'http://music.163.com/song/media/outer/url?id='+baseUrl.match(/id=(\\d+)/)[1]+'.mp3'",
+      "nextContentUrl": "",
+      "sourceRegex": ""
+    },
+    "ruleExplore": {
+      "author": "@css:a[href^=\"/user\"]@text",
+      "bookList": "@css:#m-pl-container>li",
+      "bookUrl": "@css:p.dec>a@href||p.name>a@href",
+      "coverUrl": "@css:img@src@js:result.split(\"?\")[0]",
+      "kind": "@css:.tags>a@text",
+      "lastChapter": "",
+      "name": "@css:p.dec>a@text"
+    },
+    "ruleSearch": {
+      "author": "$.artists[*].name@js:java.put(\"author\",result);result",
+      "bookList": "$.result.songs",
+      "bookUrl": "https://music.163.com/song?id={{$.id}}",
+      "coverUrl": "",
+      "kind": "$.album.name",
+      "lastChapter": "",
+      "name": "$.name@js:java.put(\"name\",result);result"
+    },
+    "ruleToc": {
+      "chapterList": "id.song-list-pre-cache@class.f-hide@tag.a||class.tit",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": ""
+    },
+    "searchUrl": "http://music.163.com/api/search/get/web?csrf_token=&lpretag=&hlposttag=&s={{key}}&type=1&offset=0&total=true&limit=100",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "音乐",
+    "bookSourceName": "音乐-网易",
+    "bookSourceType": 1,
+    "bookSourceUrl": "http://music.163.com/",
+    "bookUrlPattern": "api/music/search?keyword=",
+    "customOrder": 4010,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "❀                                            语   种                                              ❀::\n华语::discover/playlist/?order=hot&cat=华语\n欧美::discover/playlist/?order=hot&cat=欧美\n日语::discover/playlist/?order=hot&cat=日语\n韩语::discover/playlist/?order=hot&cat=韩语\n粤语::discover/playlist/?order=hot&cat=粤语\n小语种::discover/playlist/?order=hot&cat=小语种\n\n❀                                            风   格                                              ❀::\n流行::discover/playlist/?order=hot&cat=流行\n摇滚::discover/playlist/?order=hot&cat=摇滚\n民谣::discover/playlist/?order=hot&cat=民谣\n电子::discover/playlist/?order=hot&cat=电子\n舞曲::discover/playlist/?order=hot&cat=舞曲\n说唱::discover/playlist/?order=hot&cat=说唱\n轻音乐::discover/playlist/?order=hot&cat=轻音乐\n爵士::discover/playlist/?order=hot&cat=爵士\n乡村::discover/playlist/?order=hot&cat=乡村\nR&B/Soul::discover/playlist/?order=hot&cat=R%26B%2FSoul\n古典::discover/playlist/?order=hot&cat=古典\n民族::discover/playlist/?order=hot&cat=民族\n英伦::discover/playlist/?order=hot&cat=英伦\n金属::discover/playlist/?order=hot&cat=金属\n朋克::discover/playlist/?order=hot&cat=朋克\n蓝调::discover/playlist/?order=hot&cat=蓝调\n雷鬼::discover/playlist/?order=hot&cat=雷鬼\n世界音乐::discover/playlist/?order=hot&cat=世界音乐\n拉丁::discover/playlist/?order=hot&cat=拉丁\n另类/独立::discover/playlist/?order=hot&cat=另类%2F独立\nNew Age::discover/playlist/?order=hot&cat=New Age\n古风::discover/playlist/?order=hot&cat=古风\n后摇::discover/playlist/?order=hot&cat=后摇\nBossa Nova::discover/playlist/?order=hot&cat=Bossa Nova\n\n❀                                            场   景                                              ❀::\n清晨::discover/playlist/?order=hot&cat=清晨\n夜晚::discover/playlist/?order=hot&cat=夜晚\n学习::discover/playlist/?order=hot&cat=学习\n工作::discover/playlist/?order=hot&cat=工作\n午休::discover/playlist/?order=hot&cat=午休\n下午茶::discover/playlist/?order=hot&cat=下午茶\n地铁::discover/playlist/?order=hot&cat=地铁\n驾车::discover/playlist/?order=hot&cat=驾车\n运动::discover/playlist/?order=hot&cat=运动\n旅行::discover/playlist/?order=hot&cat=旅行\n散步::discover/playlist/?order=hot&cat=散步\n酒吧::discover/playlist/?order=hot&cat=酒吧\n\n❀                                            情    感                                             ❀::\n怀旧::discover/playlist/?order=hot&cat=怀旧\n清新::discover/playlist/?order=hot&cat=清新\n浪漫::discover/playlist/?order=hot&cat=浪漫\n性感::discover/playlist/?order=hot&cat=性感\n伤感::discover/playlist/?order=hot&cat=伤感\n治愈::discover/playlist/?order=hot&cat=治愈\n放松::discover/playlist/?order=hot&cat=放松\n孤独::discover/playlist/?order=hot&cat=孤独\n感动::discover/playlist/?order=hot&cat=感动\n兴奋::discover/playlist/?order=hot&cat=兴奋\n快乐::discover/playlist/?order=hot&cat=快乐\n安静::discover/playlist/?order=hot&cat=安静\n思念::discover/playlist/?order=hot&cat=思念\n\n❀                                            主   题                                              ❀::\n综艺::discover/playlist/?order=hot&cat=综艺\n影视原声::discover/playlist/?order=hot&cat=影视原声\nACG::discover/playlist/?order=hot&cat=ACG\n儿童::discover/playlist/?order=hot&cat=儿童\n校园::discover/playlist/?order=hot&cat=校园\n游戏::discover/playlist/?order=hot&cat=游戏\n70后::discover/playlist/?order=hot&cat=70后\n80后::discover/playlist/?order=hot&cat=80后\n90后::discover/playlist/?order=hot&cat=90后\n网络歌曲::discover/playlist/?order=hot&cat=网络歌曲\nKTV::discover/playlist/?order=hot&cat=KTV\n经典::discover/playlist/?order=hot&cat=经典\n翻唱::discover/playlist/?order=hot&cat=翻唱\n吉他::discover/playlist/?order=hot&cat=吉他\n钢琴::discover/playlist/?order=hot&cat=钢琴\n器乐::discover/playlist/?order=hot&cat=器乐\n榜单::discover/playlist/?order=hot&cat=榜单\n00后::discover/playlist/?order=hot&cat=00后",
+    "header": "",
+    "lastUpdateTime": 1734834034560,
+    "loginUrl": "",
+    "respondTime": 3997,
+    "ruleBookInfo": {
+      "author": "",
+      "coverUrl": "class.m-song-img@tag.img@src||class.u-cover@tag.img@data-src",
+      "init": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "tocUrl": ""
+    },
+    "ruleContent": {
+      "content": "@js:'http://music.163.com/song/media/outer/url?id='+baseUrl.match(/id=(\\d+)/)[1]+'.mp3'",
+      "nextContentUrl": "",
+      "sourceRegex": ""
+    },
+    "ruleExplore": {
+      "author": "@css:a[href^=\"/user\"]@text",
+      "bookList": "@css:#m-pl-container>li",
+      "bookUrl": "@css:p.dec>a@href||p.name>a@href",
+      "coverUrl": "@css:img@src@js:result.split(\"?\")[0]",
+      "kind": "@css:.tags>a@text",
+      "lastChapter": "",
+      "name": "@css:p.dec>a@text"
+    },
+    "ruleSearch": {
+      "author": "$.artists[*].name@js:java.put(\"author\",result);result",
+      "bookList": "$.result.songs",
+      "bookUrl": "https://music.163.com/song?id={{$.id}}",
+      "coverUrl": "",
+      "kind": "$.album.name",
+      "lastChapter": "",
+      "name": "$.name@js:java.put(\"name\",result);result"
+    },
+    "ruleToc": {
+      "chapterList": "id.song-list-pre-cache@class.f-hide@tag.a||class.tit",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": ""
+    },
+    "searchUrl": "http://music.163.com/api/search/get/web?csrf_token=&lpretag=&hlposttag=&s={{key}}&type=1&offset=0&total=true&limit=100",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "// Error: 搜索失效",
+    "bookSourceGroup": "音乐",
+    "bookSourceName": "音乐-一听",
+    "bookSourceType": 1,
+    "bookSourceUrl": "https://music.liuzhijin.cn-1ting/",
+    "customOrder": 4019,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "header": "",
+    "lastUpdateTime": 1732998720156,
+    "respondTime": 180295,
+    "ruleBookInfo": {},
+    "ruleContent": {},
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "$.author",
+      "bookList": "$.data[*]",
+      "bookUrl": "$.url",
+      "coverUrl": "$.pic",
+      "intro": "$.lrc",
+      "name": "$.title@put:{title:$.title,url:$.url}"
+    },
+    "ruleToc": {
+      "chapterList": "@js:\nresult=[{text:java.get('title'),href:java.get('url')}]",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://music.liuzhijin.cn,{\n\"method\": \"POST\",\n\"body\": \"input={{key}}&filter=name&type=1ting&page={{page}}\",\n\"headers\": {\"x-requested-with\": \"XMLHttpRequest\"}\n}",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "音乐",
+    "bookSourceName": "咪咕-音乐",
+    "bookSourceType": 1,
+    "bookSourceUrl": "https://m.music.migu.cn",
+    "bookUrlPattern": "",
+    "customOrder": 4021,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "@js:\nsort = [];\npush = (title, url, type) => sort.push({\n    title: title,\n    url: url,\n    style: {\n        layout_flexGrow: 1,\n        layout_flexBasisPercent: type\n    }\n});\n$$ = tagId => `https://m.music.migu.cn/migumusic/h5/playlist/list?columnId=15127272&tagId=${tagId}&pageNum={{page}\\}&pageSize=20`;\n\n\n\n\npush(\"༺ 推荐 ༻\",null,1);\npush(\"最新\",$$(\"\"),0.25);\npush(\"推荐\",\"https://m.music.migu.cn/migumusic/h5/home/songlist\",0.25);\npush(\"热门\",\"https://m.music.migu.cn/migumusic/h5/playlist/list?columnId=38199588&pageNum={{page}\\}&pageSize=12\",0.25);\n\n\nJSON.parse(java.ajax(\"https://m.music.migu.cn/migumusic/h5/playlist/allTag\")).data.tags.map($=>{\n\tpush(\"༺ \"+$.tagName+\" ༻\",null,1);\n\t$.tags.map($=>push($.tagName,$$($.tagId),0.25));\n});\n\n\nJSON.stringify(sort);",
+    "header": "{\n\"By\": \"3c0effb5be907dd7fc209a9001a18713\",\r\n\"Cookie\": \"SESSION=ZTIwODkyMDQtOTE1NS00MDhlLThhMWEtMjQ0N2Y2Mzk2OTAz\",\n\"Referer\": \"https://m.music.migu.cn/v4/\",\r\n\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36\"\n}",
+    "lastUpdateTime": 1732905199322,
+    "loginCheckJs": "",
+    "respondTime": 3007,
+    "ruleBookInfo": {
+      "author": "createUserName",
+      "coverUrl": "image",
+      "init": "data",
+      "intro": "<br>发布：{{$.createTime}}\n<br>更新：{{$.updateTime}}\n<br>简介：{{$.summary}}",
+      "kind": ".tagName",
+      "lastChapter": "{$.contentCount}首歌",
+      "name": "playListName",
+      "tocUrl": "https://m.music.migu.cn/migumusic/h5/playlist/songsInfo?palylistId={{$.playListId}}&pageNo=1&pageSize={{$.contentCount}}",
+      "wordCount": "{$.playNum}播放"
+    },
+    "ruleContent": {
+      "content": "https:{{$.data.playUrl}}"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "userName||createUserName",
+      "bookList": "data.items||data[0].items",
+      "bookUrl": "https://m.music.migu.cn/migumusic/h5/playlist/info?songListId={{$.id||$.playListId}}",
+      "checkKeyWord": "周杰伦",
+      "coverUrl": "img||image",
+      "intro": "intro",
+      "kind": "ts",
+      "lastChapter": "{$.musicNum}首歌",
+      "name": "name||title||playListName",
+      "wordCount": "{{$.playNum||$.playCount}}播放"
+    },
+    "ruleToc": {
+      "chapterList": "$.data.items[?(@.fullSong != null)]",
+      "chapterName": "$.name",
+      "chapterUrl": "https://m.music.migu.cn/migumusic/h5/play/auth/getSongPlayInfo?type=1&copyrightId={{$.copyrightId}}",
+      "isVolume": "",
+      "updateTime": "📼 {{$.duration}}　🎻 {{$.singers..name##\\n##&}}　📀 {{$.album.albumName}}"
+    },
+    "searchUrl": "https://m.music.migu.cn/migumusic/h5/search/songList?text={{key}}&pageNo={{page}}&pageSize=20",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "音乐",
+    "bookSourceName": "音乐-猫耳",
+    "bookSourceType": 1,
+    "bookSourceUrl": "https://www.missevan.com已校验",
+    "customOrder": 5538,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "百合分类::https://www.missevan.com/dramaapi/filter?filters=0_5_0_0_0&page={{page}}&order=1&page_size=20\n现代::https://www.missevan.com/dramaapi/filter?filters=0_5_0_1_0&page={{page}}&order=1&page_size=20\n古风::https://www.missevan.com/dramaapi/filter?filters=0_5_0_2_0&page={{page}}&order=1&page_size=20\n民国::https://www.missevan.com/dramaapi/filter?filters=0_5_0_3_0&page={{page}}&order=1&page_size=20",
+    "lastUpdateTime": 1734902915377,
+    "respondTime": 5705,
+    "ruleBookInfo": {
+      "intro": "class.intro-content@html||$.info.sound.intro",
+      "kind": "class.detail-count@text&&class.detail-newest@text&&class.detail-author@text&&class.detail-type@text&&class.detail-tags@text##类型：|标签：无|标签：",
+      "tocUrl": "@js:\nif(baseUrl.match(/dramaapi|mdrama/)){\nresult='https://www.missevan.com/dramaapi/getdrama?drama_id='+baseUrl.match(/(\\d+)/)[1]\n}"
+    },
+    "ruleContent": {
+      "content": "$.info.sound.soundurl_128||$.info.sound.soundurl"
+    },
+    "ruleExplore": {
+      "bookList": "$.info.Datas",
+      "bookUrl": "https://www.missevan.com/mdrama/drama/{{$.id}},{\"webView\":true}",
+      "coverUrl": "$.cover",
+      "kind": "$.type_name",
+      "lastChapter": "$.newest",
+      "name": "$.name"
+    },
+    "ruleSearch": {
+      "author": "$.username||$.author",
+      "bookList": "<js>\nkey=java.get('key');\npage=java.get('page');\n\n//创建两个空数组\njson=[];json2=[];\n\n//判定json里是否有列表\nif(JSON.parse(result).info.Datas){\njson=JSON.parse(result).info.Datas;}\n\n//加载单曲搜索页面并转为json\njson1=JSON.parse(java.ajax('https://www.missevan.com/sound/getsearch?s='+key+'&type=3&page_size=10&p='+page));\n\n//判定json里是否有列表\nif(json1.info.Datas){\njson2=json1.info.Datas\n}\n\n//剧集搜索列表与单曲搜索列表拼接\nlist=json.concat(json2);\n\nresult=JSON.stringify(list)\n</js>\n$.[*]",
+      "bookUrl": "<js>\nid=String(result).match(/id=(\\d+)/)[1];\nif(!String(result).match(/catalog_name/)){\nresult='https://www.missevan.com/sound/getsound?soundid='+id\n}else{result='https://www.missevan.com/dramaapi/getdrama?drama_id='+id}\n</js>",
+      "coverUrl": "$.front_cover||$.cover",
+      "intro": "$.abstract",
+      "kind": "{$.type_name},{$.catalog_name}##\\{.*?\\}",
+      "lastChapter": "$.newest",
+      "name": "$.soundstr||$.name"
+    },
+    "ruleToc": {
+      "chapterList": "<js>'['+result+']'</js>\n$..info.episodes.episode[*]||$..info.episodes.music[*]||$.[*]",
+      "chapterName": "$.name||$.info.sound.soundstr",
+      "chapterUrl": "https://www.missevan.com/sound/getsound?soundid={{$.sound_id||$.info.sound.id}}"
+    },
+    "searchUrl": "https://www.missevan.com/dramaapi/search?s={{key}}&page={{page}}\n@js:java.put('key',key);java.put('page',page);result",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "// Error: 搜索失效",
+    "bookSourceGroup": "音乐",
+    "bookSourceName": "音乐-千千",
+    "bookSourceType": 1,
+    "bookSourceUrl": "https://music.liuzhijin.cn#千千",
+    "customOrder": 5552,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "header": "",
+    "lastUpdateTime": 1721277994150,
+    "respondTime": 180520,
+    "ruleBookInfo": {},
+    "ruleContent": {},
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "$.author",
+      "bookList": "$.data[*]",
+      "bookUrl": "$.url",
+      "coverUrl": "$.pic",
+      "intro": "$.lrc",
+      "name": "$.title@put:{title:$.title,url:$.url}"
+    },
+    "ruleToc": {
+      "chapterList": "@js:\nresult=[{text:java.get('title'),href:java.get('url')}]",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://music.liuzhijin.cn,{\n\"method\": \"POST\",\n\"body\": \"input={{key}}&filter=name&type=baidu&page={{page}}\",\n\"headers\": {\"x-requested-with\": \"XMLHttpRequest\"}\n}",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "// Error: 搜索失效",
+    "bookSourceGroup": "音乐",
+    "bookSourceName": "百度-音乐",
+    "bookSourceType": 1,
+    "bookSourceUrl": "https://music.liuzhijin.cn-baidu",
+    "customOrder": 5556,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "header": "",
+    "lastUpdateTime": 1732532070934,
+    "respondTime": 180549,
+    "ruleBookInfo": {},
+    "ruleContent": {},
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "$.author",
+      "bookList": "$.data[*]",
+      "bookUrl": "$.url",
+      "coverUrl": "$.pic",
+      "intro": "$.lrc",
+      "name": "$.title@put:{title:$.title,url:$.url}"
+    },
+    "ruleToc": {
+      "chapterList": "@js:\nresult=[{text:java.get('title'),href:java.get('url')}]",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://music.liuzhijin.cn,{\n\"method\": \"POST\",\n\"body\": \"input={{key}}&filter=name&type=baidu&page={{page}}\",\n\"headers\": {\"x-requested-with\": \"XMLHttpRequest\"}\n}",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "音乐",
+    "bookSourceName": "音乐-荔枝",
+    "bookSourceType": 1,
+    "bookSourceUrl": "https://music.liuzhijin.cn-lizhi/",
+    "customOrder": 5559,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "header": "",
+    "lastUpdateTime": 1733852869371,
+    "respondTime": 10570,
+    "ruleBookInfo": {},
+    "ruleContent": {},
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "$.author",
+      "bookList": "$.data[*]",
+      "bookUrl": "$.url",
+      "coverUrl": "$.pic",
+      "intro": "$.lrc",
+      "name": "$.title@put:{title:$.title,url:$.url}"
+    },
+    "ruleToc": {
+      "chapterList": "@js:\nresult=[{text:java.get('title'),href:java.get('url')}]",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://music.liuzhijin.cn,{\n\"method\": \"POST\",\n\"body\": \"input={{key}}&filter=name&type=lizhi&page={{page}}\",\n\"headers\": {\"x-requested-with\": \"XMLHttpRequest\"}\n}",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "音乐",
+    "bookSourceName": "音乐-荔枝",
+    "bookSourceType": 1,
+    "bookSourceUrl": "https://music.liuzhijin.cn#荔枝",
+    "customOrder": 5563,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "header": "",
+    "lastUpdateTime": 1721195057057,
+    "respondTime": 10851,
+    "ruleBookInfo": {},
+    "ruleContent": {},
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "$.author",
+      "bookList": "$.data[*]",
+      "bookUrl": "$.url",
+      "coverUrl": "$.pic",
+      "intro": "$.lrc",
+      "name": "$.title@put:{title:$.title,url:$.url}"
+    },
+    "ruleToc": {
+      "chapterList": "@js:\nresult=[{text:java.get('title'),href:java.get('url')}]",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://music.liuzhijin.cn,{\n\"method\": \"POST\",\n\"body\": \"input={{key}}&filter=name&type=lizhi&page={{page}}\",\n\"headers\": {\"x-requested-with\": \"XMLHttpRequest\"}\n}",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "备用接口：http://zhuan.djduoduo.cn",
+    "bookSourceGroup": "音乐",
+    "bookSourceName": "音乐-潇社",
+    "bookSourceType": 1,
+    "bookSourceUrl": "http://fuciyuanbang.ciyuans.com/",
+    "customOrder": 5569,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"推荐\",\"url\":\"/fuciyuanphp/getmusiclist.php?act=getmusichotlist&pagenum={{page}}&plat=ar&ver=1.5.7.0&did=&sid=&channel=vivo&app=FuCiYuan&source=kon&iscover=false&forb=0&newu=1&appt=9&loginuid=0\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"流行\",\"url\":\"/fuciyuanphp/getmusiclist.php?act=getmusictaglist&tag=liuxing&pagenum={{page}}&plat=ar&ver=1.5.7.0&did=&sid=&channel=vivo&app=FuCiYuan&source=kon&iscover=false&forb=0&newu=1&appt=9&loginuid=0\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"片段\",\"url\":\"/fuciyuanphp/getmusiclist.php?act=getmusictaglist&tag=pianduan&pagenum={{page}}&plat=ar&ver=1.5.7.0&did=&sid=&channel=vivo&app=FuCiYuan&source=kon&iscover=false&forb=0&newu=1&appt=9&loginuid=0\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"英文\",\"url\":\"/fuciyuanphp/getmusiclist.php?act=getmusictaglist&tag=yingwen&pagenum={{page}}&plat=ar&ver=1.5.7.0&did=&sid=&channel=vivo&app=FuCiYuan&source=kon&iscover=false&forb=0&newu=1&appt=9&loginuid=0\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"纯音\",\"url\":\"/fuciyuanphp/getmusiclist.php?act=getmusictaglist&tag=chunyinyue&pagenum={{page}}&plat=ar&ver=1.5.7.0&did=&sid=&channel=vivo&app=FuCiYuan&source=kon&iscover=false&forb=0&newu=1&appt=9&loginuid=0\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"广播剧\",\"url\":\"/fuciyuanphp/getmusiclist.php?act=getmusictaglist&tag=guangbo&pagenum={{page}}&plat=ar&ver=1.5.7.0&did=&sid=&channel=vivo&app=FuCiYuan&source=kon&iscover=false&forb=0&newu=1&appt=9&loginuid=0\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"古风\",\"url\":\"/fuciyuanphp/getmusiclist.php?act=getmusictaglist&tag=gufeng&pagenum={{page}}&plat=ar&ver=1.5.7.0&did=&sid=&channel=vivo&app=FuCiYuan&source=kon&iscover=false&forb=0&newu=1&appt=9&loginuid=0\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"最新\",\"url\":\"/fuciyuanphp/getmusiclist.php?act=getmusicrecentlistv&pagenum={{page}}&plat=ar&ver=1.5.7.0&did=&sid=&channel=vivo&app=FuCiYuan&source=kon&iscover=false&forb=0&newu=1&appt=9&loginuid=0\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"日系\",\"url\":\"/fuciyuanphp/getmusiclist.php?act=getmusictaglist&tag=rixi&pagenum={{page}}&plat=ar&ver=1.5.7.0&did=&sid=&channel=vivo&app=FuCiYuan&source=kon&iscover=false&forb=0&newu=1&appt=9&loginuid=0\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"电音\",\"url\":\"/fuciyuanphp/getmusiclist.php?act=getmusictaglist&tag=dianzi&pagenum={{page}}&plat=ar&ver=1.5.7.0&did=&sid=&channel=vivo&app=FuCiYuan&source=kon&iscover=false&forb=0&newu=1&appt=9&loginuid=0\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+    "lastUpdateTime": 1721542673669,
+    "respondTime": 1651,
+    "ruleBookInfo": {
+      "init": "result",
+      "intro": "@js:`<p>{{book.intro}}</p>\\n&lrm;<p>{{$.3||$.tag}}</p>`"
+    },
+    "ruleContent": {
+      "content": ""
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "uname",
+      "bookList": "result.list",
+      "bookUrl": "/fuciyuanphp/getmusiclist.php?act=getmusiclyric&musicid={{$.id}}&plat=ar&ver=1.5.7.0&did=&sid=&channel=vivo&app=FuCiYuan&source=kon&iscover=false&forb=0&newu=1&appt=0&loginuid=0",
+      "checkKeyWord": "",
+      "coverUrl": "thumb",
+      "intro": "des",
+      "kind": "pubtime",
+      "lastChapter": "@js:java.put('json',JSON.stringify(result));''",
+      "name": "title",
+      "wordCount": "♡ {{$.prefer}}"
+    },
+    "ruleToc": {
+      "chapterList": "@js:[java.get('json')]",
+      "chapterName": "title",
+      "chapterUrl": "url",
+      "updateTime": "artist"
+    },
+    "searchUrl": "fuciyuanphp/search.php?act=search&type=music&key={{key}}&pagenum={{page}}&plat=ar&ver=1.5.7.0&did=&sid=&channel=vivo&app=FuCiYuan&source=kon&iscover=false&forb=0&newu=1&appt=0&loginuid=0",
+    "weight": 0
+  }
+]
