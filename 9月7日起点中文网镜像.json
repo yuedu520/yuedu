@@ -1,0 +1,47 @@
+[
+  {
+    "bookSourceComment": "//25.9.7 浅夏倒影",
+    "bookSourceName": "速读谷",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.sudugu.org",
+    "customOrder": 31971,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::/xuanhuan/{{page}}.html\n奇幻::/qihuan/{{page}}.html\n武侠::/wuxia/{{page}}.html\n仙侠::/xianxia/{{page}}.html\n都市::/dushi/{{page}}.html\n历史::/lishi/{{page}}.html\n军事::/junshi/{{page}}.html\n科幻::/kehuan/{{page}}.html\n游戏::/youxi/{{page}}.html\n体育::/tiyu/{{page}}.html\n悬疑::/xuanyi/{{page}}.html\n言情::/yanqing/{{page}}.html\n轻小说::/qing/{{page}}.html\n诸天无限::/zhutianwuxian/{{page}}.html",
+    "header": "{\n\"User-Agent\":\"Mozilla/5.0 (Linux; Android 13; V2148A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/128.0.6613.146 Mobile Safari/537.36\"\n}",
+    "lastUpdateTime": 1757175661478,
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "author": ".itemtxt@p.1@a@text",
+      "coverUrl": ".item@a.0@img@src",
+      "intro": "&nbsp;更新时间:{{@@.itemtxt@ul@li.0@i@text}}\n简介:{{@@.bb@p@text}}",
+      "kind": ".itemtxt@p.0@span@text",
+      "lastChapter": ".itemtxt@ul@li.0@a@text",
+      "name": ".itemtxt@a.0@text",
+      "wordCount": ".itemtxt@i.0@text"
+    },
+    "ruleContent": {
+      "content": ".con@p@text",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "p.1@a@text",
+      "bookList": ".item",
+      "bookUrl": "a.0@href",
+      "checkKeyWord": "我的",
+      "coverUrl": "a.0@img@src",
+      "kind": "p.0@span@text",
+      "lastChapter": "{{@@ul@li.0@a@text}}_{{@@ul@li.0@i@text}}",
+      "name": "h3@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "#list@ul@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.sudugu.org/i/sor.aspx?key={{key}}",
+    "weight": 0
+  }
+]
